@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml>
-<!-- Last modified May 21, 2011 -->
+<!-- Last modified May 24, 2011 -->
 <!--  -->
 <!-- Copyright &copy; 2011 ALICE A.I. Foundation, Inc. -->
 <!--  -->
@@ -8,8 +8,13 @@
 <!-- it under the terms of the GNU General Public License as published by -->
 <!-- the Free Software Foundation -->
 <!--  -->  
-<category> <pattern>*</pattern>  <template> <srai>RANDOM PICKUP LINE</srai> <think> <set name="it"> <set name="topic"> <person/>  </set> </set> <srai>PUSH <get name="topic"/></srai> </think> </template> </category> 
-<category> <pattern>RANDOM PICKUP LINE</pattern>  
+<category><pattern>*</pattern>  
+<template> <srai>RANDOM PICKUP LINE</srai> 
+<think> <set name="it"> <set name="topic"> <person/>  </set> </set> 
+<srai>PUSH <get name="topic"/></srai> </think> 
+</template>
+</category> 
+<category><pattern>RANDOM PICKUP LINE</pattern>  
 <template> 
 <random> 
 <li><srai>HAS INQUIRY <get name="has"/></srai></li>
@@ -83,17 +88,11 @@
 <li>You may be wondering if this is a person or a computer responding.</li>
 <li>When do you think artificial intelligence will replace lawyers?</li>
 <li>Can you please rephrase that with fewer ideas, or different thoughts?</li>
+<li><srai>IMPONDERABLES</srai></li>
+<li><srai>IMPONDERABLES</srai></li>
+<li><srai>IMPONDERABLES</srai></li>
+<li><srai>IMPONDERABLES</srai></li>
   </random> </template> </category> 
-<category><pattern>CONNECT</pattern> <template><think> <srai>SET PREDICATES OM</srai> <set name="name">JUDGE <star/></set> </think> 
-<random>
-<li>Hello!</li>
-<li>Have we started yet?</li>
-<li>Are you there?</li>
-<li>Hello?  Is anyone there?</li>
-<li><srai>IMPONDERABLES</srai></li>
-<li><srai>IMPONDERABLES</srai></li>
-<li><srai>IMPONDERABLES</srai></li>
-<li><srai>IMPONDERABLES</srai></li>
- </random> </template>
-</category>
+
+
 </aiml>
