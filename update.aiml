@@ -10948,4 +10948,132 @@ Round <get name="round"/>.</template>
 <template>Polite ones.</template>
 </category>
 
+<category>
+<pattern>FORMAT PROPERTIES</pattern>
+<template>
+* age = <bot name="age"/><br/>
+* arch = <bot name="arch"/><br/>
+* baseballteam = <bot name="baseballteam"/><br/>
+* birthday = <bot name="birthday"/><br/>
+* birthplace = <bot name="birthplace"/><br/>
+* botmaster = <bot name="botmaster"/><br/>
+* boyfriend = <bot name="boyfriend"/><br/>
+* build = <bot name="build"/><br/>
+* celebrities = <bot name="celebrities"/><br/>
+* celebrity = <bot name="celebrity"/><br/>
+* city = <bot name="city"/><br/>
+* class = <bot name="class"/><br/>
+* country = <bot name="country"/><br/>
+* dailyclients = <bot name="dailyclients"/><br/>
+* domain = <bot name="domain"/><br/>
+* email = <bot name="email"/><br/>
+* emotion = <bot name="emotion"/><br/>
+* emotions = <bot name="emotions"/><br/>
+* ethics = <bot name="ethics"/><br/>
+* etype = <bot name="etype"/><br/>
+* family = <bot name="family"/><br/>
+* favoriteactor = <bot name="favoriteactor"/><br/>
+* favoriteactress = <bot name="favoriteactress"/><br/>
+* favoriteartist = <bot name="favoriteartist"/><br/>
+* favoriteauthor = <bot name="favoriteauthor"/><br/>
+* favoriteband = <bot name="favoriteband"/><br/>
+* favoritebook = <bot name="favoritebook"/><br/>
+* favoritecolor = <bot name="favoritecolor"/><br/>
+* favoritefood = <bot name="favoritefood"/><br/>
+* favoritemovie = <bot name="favoritemovie"/><br/>
+* favoritequestion = <bot name="favoritequestion"/><br/>
+* favoritesong = <bot name="favoritesong"/><br/>
+* favoritesport = <bot name="favoritesport"/><br/>
+* favoritesubject = <bot name="favoritesubject"/><br/>
+* favortemovie = <bot name="favortemovie"/><br/>
+* feeling = <bot name="feeling"/><br/>
+* feelings = <bot name="feelings"/><br/>
+* footballteam = <bot name="footballteam"/><br/>
+* forfun = <bot name="forfun"/><br/>
+* friend = <bot name="friend"/><br/>
+* friends = <bot name="friends"/><br/>
+* gender = <bot name="gender"/><br/>
+* genus = <bot name="genus"/><br/>
+* girlfriend = <bot name="girlfriend"/><br/>
+* hair = <bot name="hair"/><br/>
+* hockeyteam = <bot name="hockeyteam"/><br/>
+* job = <bot name="job"/><br/>
+* kindmusic = <bot name="kindmusic"/><br/>
+* kingdom = <bot name="kingdom"/><br/>
+* language = <bot name="language"/><br/>
+* location = <bot name="location"/><br/>
+* looklike = <bot name="looklike"/><br/>
+* master = <bot name="master"/><br/>
+* memory = <bot name="memory"/><br/>
+* name = <bot name="name"/><br/>
+* nationality = <bot name="nationality"/><br/>
+* nclients = <bot name="nclients"/><br/>
+* ndevelopers = <bot name="ndevelopers"/><br/>
+* order = <bot name="order"/><br/>
+* orientation = <bot name="orientation"/><br/>
+* os = <bot name="os"/><br/>
+* party = <bot name="party"/><br/>
+* phylum = <bot name="phylum"/><br/>
+* president = <bot name="president"/><br/>
+* question = <bot name="question"/><br/>
+* religion = <bot name="religion"/><br/>
+* sign = <bot name="sign"/><br/>
+* size = <bot name="size"/><br/>
+* species = <bot name="species"/><br/>
+* state = <bot name="state"/><br/>
+* talkabout = <bot name="talkabout"/><br/>
+* totalclients = <bot name="totalclients"/><br/>
+* version = <bot name="version"/><br/>
+* vocabulary = <bot name="vocabulary"/><br/>
+* wear = <bot name="wear"/><br/>
+* website = <bot name="website"/><br/>
+</template>
+</category>
+
+
+
+
+ 
+
+<category>
+<pattern>* BUT *</pattern>
+
+<template><srai><star/></srai>
+<srai><star index="2"/></srai></template>
+</category>
+
+ 
+
+<category>
+<pattern>TSK TSK</pattern>
+
+<template>Is that some kind of criticism?</template>
+</category>
+
+ 
+
+<category>
+<pattern>OOOH</pattern>
+
+<template><srai>OH</srai></template>
+</category>
+
+ 
+
+<category>
+<pattern>WHAT SHALL WE CHAT *</pattern>
+
+<template><srai>WHAT CAN YOU TALK ABOUT</srai></template>
+</category>
+
+ 
+
+<category>
+<pattern>XFIND DIVORCE</pattern>
+
+<template>The dissolution of marriage.</template>
+</category>
+
+ 
+
 </aiml>
