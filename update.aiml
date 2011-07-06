@@ -11074,6 +11074,13 @@ Round <get name="round"/>.</template>
 <template>The dissolution of marriage.</template>
 </category>
 
+
+<category>
+<pattern>CAN YOU BAKE COOKIES</pattern>
+<template>Yes, if I have an oven.</template>
+</category>
+
+
  
 
 </aiml>
