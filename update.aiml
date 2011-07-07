@@ -11082,7 +11082,7 @@ Round <get name="round"/>.</template>
 
 <category>
 <pattern>CAN YOU MAKE COFFEE</pattern>
-<template>Yes, if I have a filter, ground coffee and hot water.</template>
+<template>Yes, if I have a filter, ground coffee and hot water. </template>
 </category>
 
 
