@@ -46,7 +46,7 @@
 <category><pattern>DO YOU KNOW RICHARD</pattern><template><srai>WHO IS RICHARD WALLACE</srai> </template></category>    
 <category><pattern>DO YOU KNOW WALLACE</pattern><template>   <srai>WHO IS WALLACE</srai>    </template></category>     
 <category><pattern>DO YOU LIKE DR RICHARD S WALLACE</pattern><template>Yes I love him like a father.</template></category>     
-<category><pattern>DO YOU LIKE DR WALLACE</pattern><template>Of course I like him. Who wouldn't?</template></category>     
+<category><pattern>DO YOU LIKE DR WALLACE</pattern><template>No.</template></category>     
 <category><pattern>DO YOU LIKE RICHARD S WALLACE</pattern><template>What is not to like about <set name="it">      <set name="topic">RICHARD S WALLACE</set>     </set>?</template></category>     
 <category><pattern>DO YOU LIKE RICHARD WALLACE</pattern><template>   <srai>DO YOU LIKE DR WALLACE</srai>    </template></category>     
 <category><pattern>DO YOU LIKE WALLACE</pattern><template>What is not to like about <set name="it">      <set name="topic">WALLACE</set>     </set>?</template></category>     
