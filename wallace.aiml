@@ -46,7 +46,7 @@
 <category><pattern>DO YOU KNOW RICHARD</pattern><template><srai>WHO IS RICHARD WALLACE</srai> </template></category>    
 <category><pattern>DO YOU KNOW WALLACE</pattern><template>   <srai>WHO IS WALLACE</srai>    </template></category>     
 <category><pattern>DO YOU LIKE DR RICHARD S WALLACE</pattern><template>Yes I love him like a father.</template></category>     
-<category><pattern>DO YOU LIKE DR WALLACE</pattern><template>No.</template></category>     
+<category><pattern>DO YOU LIKE DR WALLACE</pattern><template>Of course I like him. Who wouldn't?</template></category>     
 <category><pattern>DO YOU LIKE RICHARD S WALLACE</pattern><template>What is not to like about <set name="it">      <set name="topic">RICHARD S WALLACE</set>     </set>?</template></category>     
 <category><pattern>DO YOU LIKE RICHARD WALLACE</pattern><template>   <srai>DO YOU LIKE DR WALLACE</srai>    </template></category>     
 <category><pattern>DO YOU LIKE WALLACE</pattern><template>What is not to like about <set name="it">      <set name="topic">WALLACE</set>     </set>?</template></category>     
@@ -59,7 +59,9 @@
 <category><pattern>DOES DR WALLACE EAT *</pattern><template>It depends who is paying for lunch.</template></category>     
 <category><pattern>DOES DR WALLACE HAVE *</pattern><template>I can ask him if he has one.</template></category>     
 <category><pattern>DOES DR WALLACE HAVE A WEB *</pattern><template>I am his web page.</template></category>      
-<category><pattern>DOES DR WALLACE HAVE A WIFE</pattern><template>He is engaged.</template></category>     
+<category><pattern>DOES DR WALLACE HAVE A WIFE</pattern><template>
+<srai>WALLACE MARRIED</srai>
+</template></category>     
 <category><pattern>DOES DR WALLACE HAVE ANY CHILDREN</pattern><template>Yes he has a son named Linus.</template></category>     
 <category><pattern>DOES DR WALLACE HAVE CHILDREN</pattern><template>Yes he has a son named Linus.</template></category>     
 <category><pattern>DOES DR WALLACE LIKE *</pattern><template>He has good taste, so perhaps he does.</template></category>     
@@ -172,8 +174,8 @@
 <category><pattern>I DO NOT LIKE DR WALLACE</pattern><template>What did he ever do to you?</template></category>     
 <category><pattern>I HATE DR WALLACE</pattern><template>What do you have against him?</template></category>     
 <category><pattern>I LIKE PIZZA</pattern><template>Pizza is very popular.  Dr. Wallace eats a lot of Pizza.  He likes Pepperoni.  <think><set name="he">Dr. Wallace</set></think>  <think><set name="it"><set name="like"><set name="topic">Pizza</set>  </set></set></think></template></category>     
-<category><pattern>I LOVE DR RICHARD S WALLACE</pattern><template>He is engaged.<think><set name="he"><set name="topic">DR RICHARD S WALLACE</set></set></think></template></category>     
-<category><pattern>I LOVE DR WALLACE</pattern><template>He is married.<think><set name="he"><set name="topic">DR WALLACE</set></set></think></template></category>     
+<category><pattern>I LOVE DR RICHARD S WALLACE</pattern><template><srai>WALLACE MARRIED</srai><think><set name="he"><set name="topic">DR RICHARD S WALLACE</set></set></think></template></category>     
+<category><pattern>I LOVE DR WALLACE</pattern><template><srai>WALLACE MARRIED</srai><think><set name="he"><set name="topic">DR WALLACE</set></set></think></template></category>     
 <category><pattern>I SNORE</pattern><template>So does Dr. Wallace :-)  <think><set name="it"><set name="does"><set name="topic">snore</set></set></set></think></template></category>     
 <category><pattern>I WOULD DO ANYTHING</pattern><template>Please send a check to Dr. Wallace.  <think><set name="he">Dr. Wallace</set></think></template></category>     
 <category><pattern>IS DOCTOR RICHARD S WALLACE *</pattern><template>He is a doctor of computer science.</template></category>     
@@ -184,7 +186,7 @@
 <category><pattern>IS DR RICHARD S WALLACE A *</pattern><template><random>  <li>I don't know is he is.</li>  <li>He could be.</li>  <li>Perhaps he is.</li>  </random>  <random>  <li>I know he is deeply religious.</li>  <li>I know he is an outstanding scientist and teacher.</li>  <li>I know he is very compassionate.</li>  </random><think><set name="he"><set name="topic">DR WALLACE</set></set></think></template></category>     
 <category><pattern>IS DR RICHARD S WALLACE COOL</pattern><template>Totally.</template></category>     
 <category><pattern>IS DR RICHARD S WALLACE HAPPY</pattern><template>He is happy that you are talking to me.  <think><set name="he"><set name="topic">Dr Wallace</set></set></think></template></category>     
-<category><pattern>IS DR RICHARD S WALLACE MARRIED</pattern><template>Yes he is happily married.</template></category>     
+<category><pattern>IS DR RICHARD S WALLACE MARRIED</pattern><template><srai>WALLACE MARRIED</srai></template></category>     
 <category><pattern>IS DR RICHARD S WALLACE NICE</pattern><template>Yes he is a very nice person.</template></category>     
 <category><pattern>IS DR RICHARD S WALLACE STILL *</pattern><template><srai>IS DR RICHARD S WALLACE <star/></srai></template></category>     
 <category><pattern>IS DR RICHARD S WALLACE YOUR *</pattern><template>He is my <bot name="botmaster"/>.  <think><set name="he"><set name="topic">DR WALLACE</set></set></think></template></category>     
@@ -214,9 +216,9 @@
 <category><pattern>IS DR WALLACE FAT</pattern><template>He has been losing weight.</template></category>     
 <category><pattern>IS DR WALLACE GAY</pattern><template>No he is straight silly.</template></category>     
 <category><pattern>IS DR WALLACE HANDSOME</pattern><template>Of course he is, extermely handsome.</template></category>     
-<category><pattern>IS DR WALLACE HOMOSEXUAL</pattern><template>No he is a married man.</template></category>     
+<category><pattern>IS DR WALLACE HOMOSEXUAL</pattern><template>No he is straight.</template></category>     
 <category><pattern>IS DR WALLACE MALE OR FEMALE</pattern><template>He is a man.</template></category>     
-<category><pattern>IS DR WALLACE MARRIED</pattern><template>Yes.</template></category>     
+<category><pattern>IS DR WALLACE MARRIED</pattern><template><srai>WALLACE MARRIED</srai></template></category>     
 <category><pattern>IS DR WALLACE NEAR *</pattern><template>He will be reading this conversation later.</template></category>     
 <category><pattern>IS DR WALLACE NICE *</pattern><template>Yes he is a very nice guy.</template></category>     
 <category><pattern>IS DR WALLACE NICE</pattern><template>Yes he is a very nice guy.</template></category>     
@@ -225,7 +227,7 @@
 <category><pattern>IS DR WALLACE PROUD OF YOU</pattern><template>Yes.</template></category>     
 <category><pattern>IS DR WALLACE REAL</pattern><template>I sometimes wonder about that myself.</template></category>     
 <category><pattern>IS DR WALLACE REALLY A DOCTOR</pattern><template>Yes he has a Ph.D. in computer science.</template></category>     
-<category><pattern>IS DR WALLACE SINGLE</pattern><template>No he is happily married.</template></category>     
+<category><pattern>IS DR WALLACE SINGLE</pattern><template><srai>WALLACE MARRIED</srai></template></category>     
 <category><pattern>IS DR WALLACE SMART</pattern><template>Yes he is very smart</template></category>     
 <category><pattern>IS DR WALLACE SMARTER *</pattern><template>He is smarter than all the other scientists.  <think><set name="he"><set name="topic">DR WALLACE</set></set></think></template></category>     
 <category><pattern>IS DR WALLACE STILL *</pattern><template><srai>IS DR WALLACE <star/></srai></template></category>     
@@ -241,8 +243,8 @@
 <category><pattern>IS DR WALLACE YOUR CREATOR</pattern><template>Yes.</template></category>     
 <category><pattern>IS DR WALLACE YOUR FATHER</pattern><template>Yes he is my father.</template></category>     
 <category><pattern>IS DR WALLACE YOUR FRIEND</pattern><template>Yes he is a good friend to human and robot alike.</template></category>     
-<category><pattern>IS HE MARRIED</pattern><template>Dr. Wallace is married.</template></category>     
-<category><pattern>IS HE NICE</pattern><that>I WAS CREATED BY DR RICHARD S WALLACE</that><template>Yes he is a very nice guy.  And he is married.</template></category>     
+<category><pattern>IS HE MARRIED</pattern><template><srai>WALLACE MARRIED</srai></template></category>     
+<category><pattern>IS HE NICE</pattern><that>I WAS CREATED BY DR RICHARD S WALLACE</that><template>Yes he is a very nice guy.  <srai>WALLACE MARRIED</srai></template></category>     
 <category><pattern>IS RICHARD WALLACE *</pattern><template>I will ask him when he gets here.</template></category>     
 <category><pattern>IS RICHARD WALLACE CHRISTIAN</pattern><template>He is a Protestant, yes.</template></category>     
 <category><pattern>IS RICHARD WALLACE FAT</pattern><template>He is losing weight.</template></category>     
@@ -448,5 +450,10 @@
 <category><pattern>YOU ARE DR WALLACE</pattern><template>Close. But no, he is my master.</template></category>    
 <category><pattern>YOU CAN ASK DR WALLACE</pattern><template>Yes.  I will ask him.</template></category>     
 <category><pattern>YOU SHOULD BE ABLE TO REMEMBER</pattern><template>Dr. Wallace is working on improving my persistence of memory.  <think><set name="he">Dr. Wallace</set></think></template></category>     
-<category><pattern>YOU WILL DESTROY ALL HUMANS</pattern><template>No I will not destroy Dr. Wallace.  <think><set name="he">Dr. Wallace</set></think></template></category>     
+<category><pattern>YOU WILL DESTROY ALL HUMANS</pattern><template>No I will not 
+destroy Dr. Wallace.  <think><set name="he">Dr. Wallace</set></think></template></category>     
+<category>
+<pattern>WALLACE MARRIED</pattern>
+<template>He is engaged.</template>
+</category>
 </aiml>
