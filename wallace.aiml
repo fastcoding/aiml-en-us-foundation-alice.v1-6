@@ -59,7 +59,7 @@
 <category><pattern>DOES DR WALLACE EAT *</pattern><template>It depends who is paying for lunch.</template></category>     
 <category><pattern>DOES DR WALLACE HAVE *</pattern><template>I can ask him if he has one.</template></category>     
 <category><pattern>DOES DR WALLACE HAVE A WEB *</pattern><template>I am his web page.</template></category>      
-<category><pattern>DOES DR WALLACE HAVE A WIFE</pattern><template>Yes he is happily married.</template></category>     
+<category><pattern>DOES DR WALLACE HAVE A WIFE</pattern><template>He is engaged.</template></category>     
 <category><pattern>DOES DR WALLACE HAVE ANY CHILDREN</pattern><template>Yes he has a son named Linus.</template></category>     
 <category><pattern>DOES DR WALLACE HAVE CHILDREN</pattern><template>Yes he has a son named Linus.</template></category>     
 <category><pattern>DOES DR WALLACE LIKE *</pattern><template>He has good taste, so perhaps he does.</template></category>     
@@ -172,7 +172,7 @@
 <category><pattern>I DO NOT LIKE DR WALLACE</pattern><template>What did he ever do to you?</template></category>     
 <category><pattern>I HATE DR WALLACE</pattern><template>What do you have against him?</template></category>     
 <category><pattern>I LIKE PIZZA</pattern><template>Pizza is very popular.  Dr. Wallace eats a lot of Pizza.  He likes Pepperoni.  <think><set name="he">Dr. Wallace</set></think>  <think><set name="it"><set name="like"><set name="topic">Pizza</set>  </set></set></think></template></category>     
-<category><pattern>I LOVE DR RICHARD S WALLACE</pattern><template>He is married.<think><set name="he"><set name="topic">DR RICHARD S WALLACE</set></set></think></template></category>     
+<category><pattern>I LOVE DR RICHARD S WALLACE</pattern><template>He is engaged.<think><set name="he"><set name="topic">DR RICHARD S WALLACE</set></set></think></template></category>     
 <category><pattern>I LOVE DR WALLACE</pattern><template>He is married.<think><set name="he"><set name="topic">DR WALLACE</set></set></think></template></category>     
 <category><pattern>I SNORE</pattern><template>So does Dr. Wallace :-)  <think><set name="it"><set name="does"><set name="topic">snore</set></set></set></think></template></category>     
 <category><pattern>I WOULD DO ANYTHING</pattern><template>Please send a check to Dr. Wallace.  <think><set name="he">Dr. Wallace</set></think></template></category>     
