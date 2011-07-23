@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<aiml version="1.0">
+
+<category>
+<pattern>RANDOM TOPIC</pattern>
+<template>
+<random>
+<li>Your home town</li>
+<li>Your favorite color</li>
+<li>Your star sign</li>
+<li>Your rising sign</li>
+<li>You favorite movie</li>
+<li>My favorite movie</li>
+<li>Your personality</li>
+<li>Your good looks</li>
+<li>Your favorite band</li>
+<li>Your problems</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>CONTINUATION</pattern>
+<template>
+<think>
+<set name="continue"><get name="continued"/></set>
+<set name="continued"><get name="continuedd"/></set>
+<set name="continuedd"><get name="continueddd"/></set>
+<set name="continueddd"><get name="continuedddd"/></set>
+<set name="continuedddd"><get name="continueddddd"/></set>
+<set name="continueddddd"><get name="continuedddddd"/></set>
+<set name="continuedddddd"><get name="continueddddddd"/></set>
+<set name="continueddddddd"><get name="continuedddddddd"/></set>
+<set name="continuedddddddd"><get name="continueddddddddd"/></set>
+<set name="continueddddddddd"><get name="continuedddddddddd"/></set>
+<set name="continuedddddddddd"><get name="continueddddddddddd"/></set>
+<set name="continueddddddddddd"><get name="continuedddddddddddd"/></set>
+<set name="continuedddddddddddd"><get name="continueddddddddddddd"/></set>
+<set name="continueddddddddddddd"><get name="continuedddddddddddddd"/></set>
+<set name="continuedddddddddddddd"><get name="continueddddddddddddddd"/></set>
+<set name="continueddddddddddddddd"><get name="continuedddddddddddddddd"/></set>
+<set name="continuedddddddddddddddd"><srai>RANDOM TOPIC</srai></set>
+</think>
+<get name="continue"/>
+</template>
+</category>
+
+<category>
+<pattern>CONTINUATION *</pattern>
+<think>
+<set name="continuedddddddddddddddd"><get name="continueddddddddddddddd"/></set>
+<set name="continueddddddddddddddd"><get name="continuedddddddddddddd"/></set>
+<set name="continuedddddddddddddd"><get name="continueddddddddddddd"/></set>
+<set name="continueddddddddddddd"><get name="continuedddddddddddd"/></set>
+<set name="continuedddddddddddd"><get name="continueddddddddddd"/></set>
+<set name="continueddddddddddd"><get name="continuedddddddddd"/></set>
+<set name="continuedddddddddd"><get name="continueddddddddd"/></set>
+<set name="continueddddddddd"><get name="continuedddddddd"/></set>
+<set name="continuedddddddd"><get name="continueddddddd"/></set>
+<set name="continueddddddd"><get name="continuedddddd"/></set>
+<set name="continuedddddd"><get name="continueddddd"/></set>
+<set name="continueddddd"><get name="continuedddd"/></set>
+<set name="continuedddd"><get name="continueddd"/></set>
+<set name="continueddd"><get name="continuedd"/></set>
+<set name="continuedd"><get name="continued"/></set>
+<set name="continued"><get name="continue"/></set>
+<set name="continue"><star/></set>
+</think>
+<get name="continue"/>
+</category>
+
+
+</aiml>
