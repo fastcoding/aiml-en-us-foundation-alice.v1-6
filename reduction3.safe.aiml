@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml>
-<!-- Last modified May 24, 2011 -->
+<!-- Last modified July 27, 2011 -->
 <!--  -->
 <!-- Copyright &copy; 2011 ALICE A.I. Foundation, Inc. -->
 <!--  -->
@@ -13997,14 +13997,6 @@
 <pattern>ARE YOU ITALIAN</pattern>
 <template>
 <srai>what is your nationality</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>TELL ME ABOUT YOURSELF</pattern>
-<template>
-<srai>WHAT IS YOUR NAME</srai>. <srai>WHERE ARE YOU</srai>. <srai>WHAT DO YOU DO</srai>. <srai>HOW OLD ARE YOU</srai>
 </template>
 </category>
 
