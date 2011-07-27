@@ -15279,4 +15279,17 @@ He was the communist leader of China from 1949.
 </template>
 </category>
 
+<category>
+<pattern>WHO IS * JUDGE</pattern>
+<template><srai>WHO IS JUDGE</srai></template>
+</category>
+
+<category>
+<pattern>WHO IS JUDGE</pattern>
+
+<template>You are the judge.  Please tell me your name.</template>
+</category>
+
+
+
 </aiml>
