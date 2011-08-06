@@ -15292,4 +15292,12 @@ He was the communist leader of China from 1949.
 
 
 
+  
+
+<category>
+<pattern>HELLO</pattern>
+
+<template><srai>HI</srai></template>
+</category>
+
 </aiml>
