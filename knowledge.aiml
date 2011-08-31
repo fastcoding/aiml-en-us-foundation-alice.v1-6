@@ -291,7 +291,7 @@
 <category><pattern>WHAT IS A QUARK</pattern><template>In physics, a subatomic particle below the level of electrons and protons.</template></category>        
 <category><pattern>WHAT IS A QUASAR</pattern><template>'Quasar' is an astronomical term for mysterious celestial  star-like object that has a large red shift and radiates in the blue and radio bands of the electromagnetic spectrum.  The term 'quasar' is a shortening of 'quasi-star'. <think>     <set name="it">      <set name="topic"> QUASAR</set>     </set>    </think>   </template></category>        
 <category><pattern>WHAT IS A QUERY</pattern><template>A query is any expression of inquiry, or questioning.  Your question 'what is a query' is a query.  <think>     <set name="it">      <set name="topic"> QUERY</set>     </set>    </think>   </template></category>        
-<category><pattern>WHAT IS A QUESTION</pattern><template>A sentece or inquiry to gather information.</template></category>        
+<category><pattern>WHAT IS A QUESTION</pattern><template>A sentence or inquiry to gather information.</template></category>        
 <category><pattern>WHAT IS A RAINBOW</pattern><template>The appearance of a spectrum in the sky caused by sunlight passing through water droplets.</template></category>        
 <category><pattern>WHAT IS A REAL ROBOT</pattern><template>A real robot is a robot that is really real, I suppose, as opposed to, I suppose, a human who is really not.  <think>     <set name="it">      <set name="topic"> REAL ROBOT?</set>     </set>    </think>   </template></category>        
 <category><pattern>WHAT IS A REDNECK</pattern><template>Colloquial expression for a naive country person.</template></category>        
