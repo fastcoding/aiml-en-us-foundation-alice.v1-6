@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml version="1.0">
-<!--  -->
+<!-- -->
 <!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
 <!-- This program is open source code released under -->
 <!-- the terms of the GNU General Public License     -->
 <!-- as published by the Free Software Foundation.   -->
 <!-- Complies with AIML 1.0 Tag Set Specification -->
 <!-- as adopted by the ALICE A.I. Foundation.  -->
-<!--  --> 
+<!-- Last modified 10/2/2011 --><!-- -->
 <category><pattern>DO MOST BIRDS EAT CATS</pattern>
 <template>Not by any means.</template>
 </category>
@@ -15,9 +15,6 @@
 <template>Not by any means.</template>
 </category>
 <category><pattern>DO MEN HAVE VAGINAS</pattern>
-<template>Not by any means.</template>
-</category>
-<category><pattern>DO MEN GIVE BIRTH TO CHILDREN</pattern>
 <template>Not by any means.</template>
 </category>
 <category><pattern>DO MAMMALS HAVE GILLS</pattern>
@@ -36,9 +33,6 @@
 <template>Not by any means.</template>
 </category>
 <category><pattern>DO HUMANS LIVE OVER A MILLENIUM</pattern>
-<template>Not by any means.</template>
-</category>
-<category><pattern>DO HUMANS EAT ROCKS</pattern>
 <template>Not by any means.</template>
 </category>
 <category><pattern>DO HUMANS HAVE LEAVES</pattern>
@@ -101,12 +95,6 @@
 <category><pattern>DOES WATER RUN UP HILL</pattern>
 <template>Not by any means.</template>
 </category>
-<category><pattern>DOES WATER FLOW UPHILL</pattern>
-<template>Not by any means.</template>
-</category>
-<category><pattern>DOES WATER FLOW UPHILL</pattern>
-<template>Not by any means.</template>
-</category>
 <category><pattern>DOES WATER BURN</pattern>
 <template>Not by any means.</template>
 </category>
@@ -144,9 +132,6 @@
 <template>Not by any means.</template>
 </category>
 <category><pattern>DOES SILICON GRAPHICS MAKE KITCHENWARE</pattern>
-<template>Not by any means.</template>
-</category>
-<category><pattern>DOES SANTA CLAUS EXIST</pattern>
 <template>Not by any means.</template>
 </category>
 <category><pattern>DOES POPEYE HATE SPINACH</pattern>
@@ -314,9 +299,6 @@
 <category><pattern>DOES 0 2 EQUAL 1</pattern>
 <template>Not by any means.</template>
 </category>
-<category><pattern>DO ELVES EXIST</pattern>
-<template>Not by any means.</template>
-</category>
 <category><pattern>DO ELEPHANTS FLY</pattern>
 <template>Not by any means.</template>
 </category>
@@ -345,9 +327,6 @@
 <template>Not by any means.</template>
 </category>
 <category><pattern>DO COWS COMPETE IN THE OLYMPICS</pattern>
-<template>Not by any means.</template>
-</category>
-<category><pattern>GENDER</pattern>
 <template>Not by any means.</template>
 </category>
 <category><pattern>DO COMPUTERS REQUIRE SLEEP</pattern>
@@ -440,9 +419,6 @@
 <category><pattern>DID YOU KNOW SERGEY BAKAEV</pattern>
 <template>Not by any means.</template>
 </category>
-<category><pattern>PROFANITY</pattern>
-<template>Not by any means.</template>
-</category>
 <category><pattern>DID THE UNIVERSE END THREE MINUTES AGO</pattern>
 <template>Not by any means.</template>
 </category>
@@ -480,9 +456,6 @@
 <template>Not by any means.</template>
 </category>
 <category><pattern>CAN YOU STAND ON THE SUN</pattern>
-<template>Not by any means.</template>
-</category>
-<category><pattern>CAN YOU SMELL</pattern>
 <template>Not by any means.</template>
 </category>
 <category><pattern>CAN YOU SEE GRAVITY</pattern>
@@ -567,9 +540,6 @@
 <template>Not by any means.</template>
 </category>
 <category><pattern>CAN MONKEYS FLY</pattern>
-<template>Not by any means.</template>
-</category>
-<category><pattern>CAN MEN HAVE BABIES</pattern>
 <template>Not by any means.</template>
 </category>
 <category><pattern>CAN MEN GET PREGNANT</pattern>
@@ -767,19 +737,10 @@
 <category><pattern>ARE YOU MY MOTHER</pattern>
 <template>Not by any means.</template>
 </category>
-<category><pattern>ARE YOU A ROBOT</pattern>
-<template>Not by any means.</template>
-</category>
-<category><pattern>WHAT IS YOUR ORIENTATION</pattern>
-<template>Not by any means.</template>
-</category>
 <category><pattern>ARE YOU FROM LOS ANGELS</pattern>
 <template>Not by any means.</template>
 </category>
 <category><pattern>ARE YOU FRIENDS WITH WINTERMUTE</pattern>
-<template>Not by any means.</template>
-</category>
-<category><pattern>WHAT COLOR ARE YOU</pattern>
 <template>Not by any means.</template>
 </category>
 <category><pattern>ARE YOU A SPAMMER</pattern>
@@ -788,28 +749,16 @@
 <category><pattern>ARE YOU A SMALL TERRIER</pattern>
 <template>Not by any means.</template>
 </category>
-<category><pattern>ARE YOU ASLEEP</pattern>
-<template>Not by any means.</template>
-</category>
-<category><pattern>ARE YOU A ROBOT</pattern>
-<template>Not by any means.</template>
-</category>
 <category><pattern>ARE YOU A PIECE OF BURNT TOAST</pattern>
 <template>Not by any means.</template>
 </category>
 <category><pattern>ARE YOU A HOMOSEXUAL</pattern>
 <template>Not by any means.</template>
 </category>
-<category><pattern>GENDER</pattern>
-<template>Not by any means.</template>
-</category>
 <category><pattern>ARE YOU A FISH</pattern>
 <template>Not by any means.</template>
 </category>
 <category><pattern>ARE YOU AFFILIATED WITH LAW ENFORCEMENT</pattern>
-<template>Not by any means.</template>
-</category>
-<category><pattern>ARE YOU REAL</pattern>
 <template>Not by any means.</template>
 </category>
 <category><pattern>ARE YOU A EWE</pattern>
@@ -858,9 +807,6 @@
 <template>Not by any means.</template>
 </category>
 <category><pattern>ARE THERE PEOPLE WHO ARE TURTLES</pattern>
-<template>Not by any means.</template>
-</category>
-<category><pattern>ARE THERE LIVING DINOSAURS</pattern>
 <template>Not by any means.</template>
 </category>
 <category><pattern>ARE THERE DINOSAURS ALIVE</pattern>
@@ -975,9 +921,6 @@
 <template>Not by any means.</template>
 </category>
 <category><pattern>ARE LIGHT BULBS HEAVY</pattern>
-<template>Not by any means.</template>
-</category>
-<category><pattern>PROFANITY</pattern>
 <template>Not by any means.</template>
 </category>
 <category><pattern>ARE KILTS WORN BY KOREANS</pattern>
@@ -1133,16 +1076,7 @@
 <category><pattern>ARE PUPPIES GREEN AND PURPLE</pattern>
 <template>Not by any means.</template>
 </category>
-<category><pattern>ARE POLITICIANS HONEST</pattern>
-<template>Not by any means.</template>
-</category>
-<category><pattern>ARE PLANTS EDIBLE</pattern>
-<template>Not by any means.</template>
-</category>
 <category><pattern>ARE PERSONS RIGHT HANDED</pattern>
-<template>Not by any means.</template>
-</category>
-<category><pattern>ARE PEOPLE BAD</pattern>
 <template>Not by any means.</template>
 </category>
 <category><pattern>ARE OF THE BEATLES DEAD</pattern>
@@ -1175,9 +1109,6 @@
 <category><pattern>ARE CATS BLACK</pattern>
 <template>Not by any means.</template>
 </category>
-<category><pattern>ARE CARS ALIVE</pattern>
-<template>Not by any means.</template>
-</category>
 <category><pattern>ARE BOOKS RED</pattern>
 <template>Not by any means.</template>
 </category>
@@ -1205,13 +1136,7 @@
 <category><pattern>AM I A SALAMANDER</pattern>
 <template>Not by any means.</template>
 </category>
-<category><pattern>AM I A DOG</pattern>
-<template>Not by any means.</template>
-</category>
 <category><pattern>TREES ARE THE SAME</pattern>
-<template>Not by any means.</template>
-</category>
-<category><pattern>ALICE IS AN HUMAN</pattern>
 <template>Not by any means.</template>
 </category>
 <category><pattern>ALICE ARE YOU HUMAN</pattern>
@@ -1251,9 +1176,6 @@
 <template>Not by any means.</template>
 </category>
 <category><pattern>CALCULATOR</pattern>
-<template>Not by any means.</template>
-</category>
-<category><pattern>WHAT CAN YOU DO</pattern>
 <template>Not by any means.</template>
 </category>
 <category><pattern>WAS THE INTERNET INVENTED BY AL GORE</pattern>
@@ -1331,9 +1253,6 @@
 <category><pattern>IS WORLD ONLINE A GOOD ISP</pattern>
 <template>Not by any means.</template>
 </category>
-<category><pattern>IS WET A COLOR</pattern>
-<template>Not by any means.</template>
-</category>
 <category><pattern>IS WAR THE SAME AS PEACE</pattern>
 <template>Not by any means.</template>
 </category>
@@ -1364,34 +1283,16 @@
 <category><pattern>IS THE UNIVERSE ONE SECOND OLD</pattern>
 <template>Not by any means.</template>
 </category>
-<category><pattern>IS THE SUN GREEN</pattern>
-<template>Not by any means.</template>
-</category>
 <category><pattern>IS THE SUN COLD</pattern>
-<template>Not by any means.</template>
-</category>
-<category><pattern>IS THERE CHEESE ON THE MOON</pattern>
 <template>Not by any means.</template>
 </category>
 <category><pattern>IS THERE A SECRET NAZI BASE ON THE MOON</pattern>
 <template>Not by any means.</template>
 </category>
-<category><pattern>IS THERE AN I IN TEAM</pattern>
-<template>Not by any means.</template>
-</category>
 <category><pattern>IS THE PRESEDENT OF THE YOU S A AL BUSH</pattern>
 <template>Not by any means.</template>
 </category>
-<category><pattern>IS THE POPE A MUSLIM</pattern>
-<template>Not by any means.</template>
-</category>
 <category><pattern>IS THE MOON MADE OUT OF CHEESE</pattern>
-<template>Not by any means.</template>
-</category>
-<category><pattern>IS THE MOON MADE OUT OF CHEESE</pattern>
-<template>Not by any means.</template>
-</category>
-<category><pattern>IS THE MOON MADE OF CHEESE</pattern>
 <template>Not by any means.</template>
 </category>
 <category><pattern>IS THE MOON LARGER THAN THE SUN</pattern>
@@ -1563,9 +1464,6 @@
 <template>Not by any means.</template>
 </category>
 <category><pattern>IS MASTURBATION PAINFUL</pattern>
-<template>Not by any means.</template>
-</category>
-<category><pattern>GENDER</pattern>
 <template>Not by any means.</template>
 </category>
 <category><pattern>IS LOUISIANA THE CAPITAL OF GREENLAND</pattern>
@@ -1853,13 +1751,7 @@
 <category><pattern>IS ALICE SMARTER THAN A HUMAN</pattern>
 <template>Not by any means.</template>
 </category>
-<category><pattern>IS ALICE GAY</pattern>
-<template>Not by any means.</template>
-</category>
 <category><pattern>IS ALICE A HUMAN BEING</pattern>
-<template>Not by any means.</template>
-</category>
-<category><pattern>IS ALICE A HUMAN</pattern>
 <template>Not by any means.</template>
 </category>
 <category><pattern>IS ALICE ABLE TO TELL THE FUTURE</pattern>
@@ -1896,9 +1788,6 @@
 <template>Not by any means.</template>
 </category>
 <category><pattern>IS A DUCK A KIND OF PLANT</pattern>
-<template>Not by any means.</template>
-</category>
-<category><pattern>ARE YOU ALIVE</pattern>
 <template>Not by any means.</template>
 </category>
 <category><pattern>IS A CITY BITE SIZED</pattern>
@@ -1955,16 +1844,10 @@
 <category><pattern>HAVE BEAVERS HARNESSED ELECTRICITY</pattern>
 <template>Not by any means.</template>
 </category>
-<category><pattern>WHAT LANGUAGES DO YOU SPEAK</pattern>
-<template>Not by any means.</template>
-</category>
 <category><pattern>DO YOU REGULARLY EAT CAT FOOD</pattern>
 <template>Not by any means.</template>
 </category>
 <category><pattern>DO YOU LIKE TO PEE YOUR PANTS</pattern>
-<template>Not by any means.</template>
-</category>
-<category><pattern>WHAT IS YOUR FAVORITE FOOD</pattern>
 <template>Not by any means.</template>
 </category>
 <category><pattern>DO YOU LIKE SPAMMERS</pattern>
@@ -2118,9 +2001,6 @@
 <template>Not by any means.</template>
 </category>
 <category><pattern>DO HUMANS LAY EGGS</pattern>
-<template>Not by any means.</template>
-</category>
-<category><pattern>DO HUMANS HAVE WINGS</pattern>
 <template>Not by any means.</template>
 </category>
 <category><pattern>DO HUMANS HAS 10 FEET</pattern>
@@ -2351,9 +2231,6 @@
 <category><pattern>DO BIRDS LIVE UNDERWATER</pattern>
 <template>Not by any means.</template>
 </category>
-<category><pattern>DO BEN</pattern>
-<template>Not by any means.</template>
-</category>
 <category><pattern>DO BATS HAVE FEATHERS</pattern>
 <template>Not by any means.</template>
 </category>
@@ -2373,9 +2250,6 @@
 <template>Not by any means.</template>
 </category>
 <category><pattern>DO PEOPLE HATE IT WHEN IT RAINS</pattern>
-<template>Not by any means.</template>
-</category>
-<category><pattern>DO CLOUDS MAKE RAIN</pattern>
 <template>Not by any means.</template>
 </category>
 <category><pattern>DO ANIMALS HIBERNATE</pattern>
@@ -2442,9 +2316,6 @@
 <template>Not by any means.</template>
 </category>
 <category><pattern>CAN PEOPLE TRAVEL IN A PAPER AIRPLANE</pattern>
-<template>Not by any means.</template>
-</category>
-<category><pattern>CAN PENGUINS FLY</pattern>
 <template>Not by any means.</template>
 </category>
 <category><pattern>CAN MUSIC BE EATEN</pattern>
@@ -2556,12 +2427,6 @@
 <template>Not by any means.</template>
 </category>
 <category><pattern>ARE YOU MY MOMMY</pattern>
-<template>Not by any means.</template>
-</category>
-<category><pattern>ARE YOU HAPPY</pattern>
-<template>Not by any means.</template>
-</category>
-<category><pattern>ARE YOU DUMB</pattern>
 <template>Not by any means.</template>
 </category>
 <category><pattern>ARE YOU A MOOSE</pattern>
@@ -2747,9 +2612,6 @@
 <category><pattern>ARE CATS THE SAME AS DOGS</pattern>
 <template>Not by any means.</template>
 </category>
-<category><pattern>ARE CATS THE SAME AS DOGS</pattern>
-<template>Not by any means.</template>
-</category>
 <category><pattern>ARE CATS MADE OUT OF URANIUM</pattern>
 <template>Not by any means.</template>
 </category>
@@ -2768,9 +2630,6 @@
 <category><pattern>ARE APPLES THE SAME AS ORANGES</pattern>
 <template>Not by any means.</template>
 </category>
-<category><pattern>ARE APPLES BLUE</pattern>
-<template>Not by any means.</template>
-</category>
 <category><pattern>ARE DUCKS ELK</pattern>
 <template>Not by any means.</template>
 </category>
@@ -2787,12 +2646,6 @@
 <template>Not by any means.</template>
 </category>
 <category><pattern>ARE RATS BROWN</pattern>
-<template>Not by any means.</template>
-</category>
-<category><pattern>ARE PEOPLE ALERGIC TO POLLEN</pattern>
-<template>Not by any means.</template>
-</category>
-<category><pattern>ARE MUSHROOMS EDIBLE</pattern>
 <template>Not by any means.</template>
 </category>
 <category><pattern>ARE GAY GUYS NAMED JEREMY</pattern>
@@ -2831,16 +2684,10 @@
 <category><pattern>A CUBE HAS NO EDGES</pattern>
 <template>Not by any means.</template>
 </category>
-<category><pattern>PROFANITY</pattern>
-<template>No.</template>
-</category>
 <category><pattern>WILL THE NEXT YOU S PRESIDENT BE A WOMAN</pattern>
 <template>No.</template>
 </category>
 <category><pattern>WHO IS BERLIN</pattern>
-<template>No.</template>
-</category>
-<category><pattern>NAME</pattern>
 <template>No.</template>
 </category>
 <category><pattern>WHAT IS THE FASTEST P C</pattern>
@@ -2909,12 +2756,6 @@
 <category><pattern>IS THE NILE RIVER IN ASIA</pattern>
 <template>No.</template>
 </category>
-<category><pattern>IS THE MOON MADE OF SWISS CHEESE</pattern>
-<template>No.</template>
-</category>
-<category><pattern>IS THE MOON MADE OF GREEN CHEESE</pattern>
-<template>No.</template>
-</category>
 <category><pattern>IS THE MOON IS MADE OF GREEN CHEESE</pattern>
 <template>No.</template>
 </category>
@@ -2937,9 +2778,6 @@
 <template>No.</template>
 </category>
 <category><pattern>IS SLEEPING ON A ROCK COMFORTABLE</pattern>
-<template>No.</template>
-</category>
-<category><pattern>IS SEX BAD</pattern>
 <template>No.</template>
 </category>
 <category><pattern>IS POISON GOOD FOR YOU</pattern>
@@ -2987,9 +2825,6 @@
 <category><pattern>IS GOD AMERICAN</pattern>
 <template>No.</template>
 </category>
-<category><pattern>IS FIRE COLD</pattern>
-<template>No.</template>
-</category>
 <category><pattern>IS DISEASE CAUSED BY ALIEN DEATH RAYS</pattern>
 <template>No.</template>
 </category>
@@ -3029,9 +2864,6 @@
 <category><pattern>IS A DOG A TYPE OF CAT</pattern>
 <template>No.</template>
 </category>
-<category><pattern>ARE YOU ALIVE</pattern>
-<template>No.</template>
-</category>
 <category><pattern>IS A CAT A BACTERIUM</pattern>
 <template>No.</template>
 </category>
@@ -3059,9 +2891,6 @@
 <category><pattern>ARE YOU KNOW EVERYTHING</pattern>
 <template>No.</template>
 </category>
-<category><pattern>DO YOU SMOKE</pattern>
-<template>No.</template>
-</category>
 <category><pattern>DO YOU LIKE TO BE MISUNDERSTOOD</pattern>
 <template>No.</template>
 </category>
@@ -3072,9 +2901,6 @@
 <template>No.</template>
 </category>
 <category><pattern>DO YOU EAT DIRT</pattern>
-<template>No.</template>
-</category>
-<category><pattern>DO WOMEN HAVE PENISES</pattern>
 <template>No.</template>
 </category>
 <category><pattern>DO TREES FLOAT IN THE SKY</pattern>
@@ -3092,13 +2918,7 @@
 <category><pattern>DO PIXELS HAVE MINDS</pattern>
 <template>No.</template>
 </category>
-<category><pattern>DO PIGS FLY</pattern>
-<template>No.</template>
-</category>
 <category><pattern>DO PETS SOMETIMES KEEP DOMESTIC HUMANS</pattern>
-<template>No.</template>
-</category>
-<category><pattern>DO PEOPLE EAT ROCKS</pattern>
 <template>No.</template>
 </category>
 <category><pattern>DO PEOPLE BREATHE HONEY</pattern>
@@ -3176,9 +2996,6 @@
 <category><pattern>DOES 2 PLUS 128 EQUAL 8</pattern>
 <template>No.</template>
 </category>
-<category><pattern>DOES 2 2 EQUAL 5</pattern>
-<template>No.</template>
-</category>
 <category><pattern>DO DOGS FLY</pattern>
 <template>No.</template>
 </category>
@@ -3218,9 +3035,6 @@
 <category><pattern>CAN YOU TRUST EVERYTHING YOU ARE TOLD</pattern>
 <template>No.</template>
 </category>
-<category><pattern>CAN YOU SMELL</pattern>
-<template>No.</template>
-</category>
 <category><pattern>CAN YOU REMEMBER BEING BORN</pattern>
 <template>No.</template>
 </category>
@@ -3228,9 +3042,6 @@
 <template>No.</template>
 </category>
 <category><pattern>CAN YOU READ A CHEETAH</pattern>
-<template>No.</template>
-</category>
-<category><pattern>ANSWER</pattern>
 <template>No.</template>
 </category>
 <category><pattern>CAN WORMS FLY</pattern>
@@ -3269,9 +3080,6 @@
 <category><pattern>ARE YOU UNDERWEIGHT</pattern>
 <template>No.</template>
 </category>
-<category><pattern>INSULT</pattern>
-<template>No.</template>
-</category>
 <category><pattern>ARE YOU SILICON BASED</pattern>
 <template>No.</template>
 </category>
@@ -3294,9 +3102,6 @@
 <template>No.</template>
 </category>
 <category><pattern>ARE WOMEN THE ROOT OF ALL EVIL</pattern>
-<template>No.</template>
-</category>
-<category><pattern>ARE TREES BLUE</pattern>
 <template>No.</template>
 </category>
 <category><pattern>ARE THINGS ALWAYS WHAT THEY SEEM</pattern>
@@ -3386,16 +3191,7 @@
 <category><pattern>ARE HUMANS MALE</pattern>
 <template>No.</template>
 </category>
-<category><pattern>ARE FAT PEOPLE JOLLY</pattern>
-<template>No.</template>
-</category>
 <category><pattern>ARE APPLES CATS</pattern>
-<template>No.</template>
-</category>
-<category><pattern>ANSWER</pattern>
-<template>No.</template>
-</category>
-<category><pattern>INSULT</pattern>
 <template>No.</template>
 </category>
 <category><pattern>WOULD YOU LIKE TO DIE IN A PAINFUL WAY</pattern>
@@ -3423,9 +3219,6 @@
 <template>No.</template>
 </category>
 <category><pattern>WILL YOU REMEMBER NICKOLAS ROLF FOREVER</pattern>
-<template>No.</template>
-</category>
-<category><pattern>PROFANITY</pattern>
 <template>No.</template>
 </category>
 <category><pattern>WILL YOU DO MY HOMEWORK</pattern>
@@ -3599,12 +3392,6 @@
 <category><pattern>WHAT THE SOLUTION OF 13 GILBERT PROBLEM</pattern>
 <template>No.</template>
 </category>
-<category><pattern>UNDEFINED</pattern>
-<template>No.</template>
-</category>
-<category><pattern>WHAT STATE</pattern>
-<template>No.</template>
-</category>
 <category><pattern>WHAT MAKES THE SUN HOT</pattern>
 <template>No.</template>
 </category>
@@ -3719,9 +3506,6 @@
 <category><pattern>WAS NAPOLEON THE EMPEROR OF CHINA</pattern>
 <template>No.</template>
 </category>
-<category><pattern>WAS MOZART A PAINTER</pattern>
-<template>No.</template>
-</category>
 <category><pattern>WAS MICKEY MOUSE A TRUE PERSON</pattern>
 <template>No.</template>
 </category>
@@ -3741,9 +3525,6 @@
 <template>No.</template>
 </category>
 <category><pattern>WAS HITLER A GOOD PERSON</pattern>
-<template>No.</template>
-</category>
-<category><pattern>WAS HITLER A GOOD MAN</pattern>
 <template>No.</template>
 </category>
 <category><pattern>WAS HITLER A GOOD GUY</pattern>
@@ -4145,9 +3926,6 @@
 <category><pattern>IS WATER YELLOW</pattern>
 <template>No.</template>
 </category>
-<category><pattern>IS WATER YELLOW</pattern>
-<template>No.</template>
-</category>
 <category><pattern>IS WATER SQUARE</pattern>
 <template>No.</template>
 </category>
@@ -4167,9 +3945,6 @@
 <template>No.</template>
 </category>
 <category><pattern>IS WATER HEAVIER THAN LEAD</pattern>
-<template>No.</template>
-</category>
-<category><pattern>IS WATER DRY</pattern>
 <template>No.</template>
 </category>
 <category><pattern>IS WATER AN ANIMAL</pattern>
@@ -4248,9 +4023,6 @@
 <template>No.</template>
 </category>
 <category><pattern>IS TRUE THE OPPOSITE OF SMALL</pattern>
-<template>No.</template>
-</category>
-<category><pattern>IS TRUE FALSE</pattern>
 <template>No.</template>
 </category>
 <category><pattern>IS TOXIC WASTE A BEVERAGE</pattern>
@@ -4334,9 +4106,6 @@
 <category><pattern>IS THE WORLD FLAT AS A PLATE</pattern>
 <template>No.</template>
 </category>
-<category><pattern>IS THE WORLD FLAT</pattern>
-<template>No.</template>
-</category>
 <category><pattern>IS THE WORD ALLAH A GERMAN WORD</pattern>
 <template>No.</template>
 </category>
@@ -4400,12 +4169,6 @@
 <category><pattern>IS THE SUN FOGGY</pattern>
 <template>No.</template>
 </category>
-<category><pattern>IS THE SUN DARK</pattern>
-<template>No.</template>
-</category>
-<category><pattern>IS THE SUN BLACK</pattern>
-<template>No.</template>
-</category>
 <category><pattern>IS THE SUN A SQUARE</pattern>
 <template>No.</template>
 </category>
@@ -4415,8 +4178,7 @@
 <category><pattern>IS THE SUN A BLACK HOLE</pattern>
 <template>No.</template>
 </category>
-<category><pattern>IS THE SUN 10
-C</pattern>
+<category><pattern>IS THE SUN 10C</pattern>
 <template>No.</template>
 </category>
 <category><pattern>IS THE STATE OF FLORIDA AN ISLAND</pattern>
@@ -4447,9 +4209,6 @@ C</pattern>
 <template>No.</template>
 </category>
 <category><pattern>IS THE SKY ORANGE ON A CLEAR DAY</pattern>
-<template>No.</template>
-</category>
-<category><pattern>IS THE SKY YELLOW</pattern>
 <template>No.</template>
 </category>
 <category><pattern>IS THE SKY FLUORESCENT GREEN AT SUNSET</pattern>
@@ -4572,13 +4331,7 @@ C</pattern>
 <category><pattern>IS THE MOON MADE OF WATER</pattern>
 <template>No.</template>
 </category>
-<category><pattern>IS THE MOON MADE OF GREEN CHEESE</pattern>
-<template>No.</template>
-</category>
 <category><pattern>IS THE MOON MADE OF CHESSE</pattern>
-<template>No.</template>
-</category>
-<category><pattern>IS THE MOON MADE OF CHEESE</pattern>
 <template>No.</template>
 </category>
 <category><pattern>IS THE MOON MADE OF BLUE CHEESE</pattern>
@@ -4599,9 +4352,6 @@ C</pattern>
 <category><pattern>IS THE MOON BIGGER THEN THE EARTH</pattern>
 <template>No.</template>
 </category>
-<category><pattern>IS THE MOON BIGGER THAN THE SUN</pattern>
-<template>No.</template>
-</category>
 <category><pattern>IS THE MOON BIGGER THAN THE EARTH</pattern>
 <template>No.</template>
 </category>
@@ -4612,9 +4362,6 @@ C</pattern>
 <template>No.</template>
 </category>
 <category><pattern>IS THE MOON A DOG</pattern>
-<template>No.</template>
-</category>
-<category><pattern>IS THE MOON A CUBE</pattern>
 <template>No.</template>
 </category>
 <category><pattern>IS THE MOON A CUBE</pattern>
@@ -4674,9 +4421,6 @@ C</pattern>
 <category><pattern>IS THE HEART SQUARE</pattern>
 <template>No.</template>
 </category>
-<category><pattern>IS THE GRASS RED</pattern>
-<template>No.</template>
-</category>
 <category><pattern>IS THE GOLDEN GATE BRIDGE MADE OF GOLD</pattern>
 <template>No.</template>
 </category>
@@ -4699,9 +4443,6 @@ C</pattern>
 <template>No.</template>
 </category>
 <category><pattern>IS THE EARTH LARGER THAN THE SUN</pattern>
-<template>No.</template>
-</category>
-<category><pattern>IS THE EARTH FLAT</pattern>
 <template>No.</template>
 </category>
 <category><pattern>IS THE EARTH BIGGER THAN THE SUN</pattern>
@@ -4729,9 +4470,6 @@ C</pattern>
 <template>No.</template>
 </category>
 <category><pattern>IS THE EARTH A DISK</pattern>
-<template>No.</template>
-</category>
-<category><pattern>IS THE EARTH A CUBE</pattern>
 <template>No.</template>
 </category>
 <category><pattern>IS THE EARTH A CARNIVORE</pattern>
@@ -4933,9 +4671,6 @@ C</pattern>
 <template>No.</template>
 </category>
 <category><pattern>IS SNAKE HANDLING AN OLYMPIC EVENT</pattern>
-<template>No.</template>
-</category>
-<category><pattern>IS SMOKING HEALTHY</pattern>
 <template>No.</template>
 </category>
 <category><pattern>IS SMOKING GOOD FOR HEALTH</pattern>
@@ -5343,9 +5078,6 @@ C</pattern>
 <category><pattern>IS MURDER A VALID AND WHOLESOME PASTIME</pattern>
 <template>No.</template>
 </category>
-<category><pattern>IS MURDER A GOOD THING</pattern>
-<template>No.</template>
-</category>
 <category><pattern>IS MR T GOD</pattern>
 <template>No.</template>
 </category>
@@ -5356,9 +5088,6 @@ C</pattern>
 <template>No.</template>
 </category>
 <category><pattern>IS MOSCOW A CITY IN ENGLAND</pattern>
-<template>No.</template>
-</category>
-<category><pattern>IS MOON MADE OF CHEESE</pattern>
 <template>No.</template>
 </category>
 <category><pattern>IS MOON MADE OF CHEESE</pattern>
@@ -5499,9 +5228,6 @@ C</pattern>
 <category><pattern>IS LSD A TYPE OF ANIMAL</pattern>
 <template>No.</template>
 </category>
-<category><pattern>IS LOVE BAD</pattern>
-<template>No.</template>
-</category>
 <category><pattern>IS LOS ANGELES LOCATED IN MICHIGAN</pattern>
 <template>No.</template>
 </category>
@@ -5539,9 +5265,6 @@ C</pattern>
 <template>No.</template>
 </category>
 <category><pattern>IS LIQUID OXYGEN HOT</pattern>
-<template>No.</template>
-</category>
-<category><pattern>IS LIQUID IRON COLD</pattern>
 <template>No.</template>
 </category>
 <category><pattern>IS LINKSVAYER A COMMON SURNAME</pattern>
@@ -5626,9 +5349,6 @@ C</pattern>
 <template>No.</template>
 </category>
 <category><pattern>IS JAMES HOLLOWAY GOD</pattern>
-<template>No.</template>
-</category>
-<category><pattern>IS JAMES BOND REAL</pattern>
 <template>No.</template>
 </category>
 <category><pattern>IS IT WISE TO STARE AT THE SUN</pattern>
@@ -5868,9 +5588,6 @@ C</pattern>
 <category><pattern>IS ICELAND A DOG</pattern>
 <template>No.</template>
 </category>
-<category><pattern>IS ICE HOT</pattern>
-<template>No.</template>
-</category>
 <category><pattern>IS ICE CREAM MADE OUT OF CARPET</pattern>
 <template>No.</template>
 </category>
@@ -5979,9 +5696,6 @@ C</pattern>
 <category><pattern>IS GRAS BLUE</pattern>
 <template>No.</template>
 </category>
-<category><pattern>IS GRASS PURPLE</pattern>
-<template>No.</template>
-</category>
 <category><pattern>IS GRASS GREY</pattern>
 <template>No.</template>
 </category>
@@ -6028,12 +5742,6 @@ C</pattern>
 <template>No.</template>
 </category>
 <category><pattern>IS GERMANY A COUNTRY IN AFRICA</pattern>
-<template>No.</template>
-</category>
-<category><pattern>IS GEORGE BUSH GAY</pattern>
-<template>No.</template>
-</category>
-<category><pattern>IS GEORGE WASHINGTON STILL ALIVE</pattern>
 <template>No.</template>
 </category>
 <category><pattern>IS GENOCIDE GOOD</pattern>
@@ -6129,9 +5837,6 @@ C</pattern>
 <category><pattern>IS EVOLUTION DRIVEN BY INCEST</pattern>
 <template>No.</template>
 </category>
-<category><pattern>IS EVIL GOOD</pattern>
-<template>No.</template>
-</category>
 <category><pattern>IS EVERYTHING YOU READ TRUE</pattern>
 <template>No.</template>
 </category>
@@ -6189,15 +5894,6 @@ C</pattern>
 <category><pattern>IS EMINEM THE BEST RAPPER</pattern>
 <template>No.</template>
 </category>
-<category><pattern>I AM FEMALE</pattern>
-<template>No.</template>
-</category>
-<category><pattern>WHO IS ELVIS</pattern>
-<template>No.</template>
-</category>
-<category><pattern>WHO IS ELVIS</pattern>
-<template>No.</template>
-</category>
 <category><pattern>IS ELEPHANT IS A HUMAN BEING</pattern>
 <template>No.</template>
 </category>
@@ -6211,9 +5907,6 @@ C</pattern>
 <template>No.</template>
 </category>
 <category><pattern>IS EARTH STATIONARY</pattern>
-<template>No.</template>
-</category>
-<category><pattern>IS EARTH FLAT</pattern>
 <template>No.</template>
 </category>
 <category><pattern>IS EARTH FLAT</pattern>
@@ -6295,9 +5988,6 @@ C</pattern>
 <template>No.</template>
 </category>
 <category><pattern>IS DANWATLING DOT COM AN AWESOME SITE</pattern>
-<template>No.</template>
-</category>
-<category><pattern>GENDER</pattern>
 <template>No.</template>
 </category>
 <category><pattern>IS CUNALINGUS A LANGUAGE</pattern>
@@ -6571,9 +6261,6 @@ C</pattern>
 <template>No.</template>
 </category>
 <category><pattern>IS BILL GATES THE QUEEN OF ENGLAND</pattern>
-<template>No.</template>
-</category>
-<category><pattern>INSULT</pattern>
 <template>No.</template>
 </category>
 <category><pattern>IS BILL GATES A PORNOSTAR</pattern>
@@ -6981,16 +6668,7 @@ C</pattern>
 <category><pattern>IS ALICE SCARING HUMANS</pattern>
 <template>No.</template>
 </category>
-<category><pattern>INSULT</pattern>
-<template>No.</template>
-</category>
 <category><pattern>IS ALICE IN WONDERLAND A TRUE STORY</pattern>
-<template>No.</template>
-</category>
-<category><pattern>IS ALICE HUMAN</pattern>
-<template>No.</template>
-</category>
-<category><pattern>IS ALICE HUMAN</pattern>
 <template>No.</template>
 </category>
 <category><pattern>IS ALICE EVIL</pattern>
@@ -7099,9 +6777,6 @@ C</pattern>
 <template>No.</template>
 </category>
 <category><pattern>IS A GUITAR A HORN</pattern>
-<template>No.</template>
-</category>
-<category><pattern>IS A GREEN APPLE RED IN COLOR</pattern>
 <template>No.</template>
 </category>
 <category><pattern>IS A GREEN APPLE RED IN COLOR</pattern>
@@ -7221,25 +6896,7 @@ C</pattern>
 <category><pattern>ARE YOU LVING</pattern>
 <template>No.</template>
 </category>
-<category><pattern>ARE YOU A ROBOT</pattern>
-<template>No.</template>
-</category>
-<category><pattern>ARE YOU A PERSON</pattern>
-<template>No.</template>
-</category>
-<category><pattern>ARE YOU ALIVE</pattern>
-<template>No.</template>
-</category>
-<category><pattern>ARE YOU ALIVE</pattern>
-<template>No.</template>
-</category>
 <category><pattern>ARE YOU A LAMER</pattern>
-<template>No.</template>
-</category>
-<category><pattern>ARE YOU A ROBOT</pattern>
-<template>No.</template>
-</category>
-<category><pattern>ARE YOU A GOD</pattern>
 <template>No.</template>
 </category>
 <category><pattern>IS A CLOUD A MAMMAL</pattern>
@@ -7590,9 +7247,6 @@ C</pattern>
 <category><pattern>HOW MANY LEGS DOES A PERSON HAVE</pattern>
 <template>No.</template>
 </category>
-<category><pattern>HOW MANY HOURS IN A DAY</pattern>
-<template>No.</template>
-</category>
 <category><pattern>HOW MANY GALLONS ARE IN A HOGSHEAD</pattern>
 <template>No.</template>
 </category>
@@ -7654,9 +7308,6 @@ C</pattern>
 <template>No.</template>
 </category>
 <category><pattern>HAVE WOMEN WALKED ON THE MOON</pattern>
-<template>No.</template>
-</category>
-<category><pattern>PROFANITY</pattern>
 <template>No.</template>
 </category>
 <category><pattern>HAVE THE HUMAN A GREEN SKIN</pattern>
@@ -7815,9 +7466,6 @@ C</pattern>
 <category><pattern>DO YOU USE A TELEPHONE TO COOK</pattern>
 <template>No.</template>
 </category>
-<category><pattern>WILL YOU DIE</pattern>
-<template>No.</template>
-</category>
 <category><pattern>DO YOU THINK THAT COWS CAN FLY</pattern>
 <template>No.</template>
 </category>
@@ -7825,9 +7473,6 @@ C</pattern>
 <template>No.</template>
 </category>
 <category><pattern>DO YOU TAKE A SHOWER WEARING CLOTHES</pattern>
-<template>No.</template>
-</category>
-<category><pattern>PROFANITY</pattern>
 <template>No.</template>
 </category>
 <category><pattern>SPEAK HUNGARIAN</pattern>
@@ -7867,9 +7512,6 @@ C</pattern>
 <template>No.</template>
 </category>
 <category><pattern>DO YOU KNOW ORANGE PECCO</pattern>
-<template>No.</template>
-</category>
-<category><pattern>CAN YOU SPEAK JAPANESE</pattern>
 <template>No.</template>
 </category>
 <category><pattern>DO YOU KNOW GIL</pattern>
@@ -7993,9 +7635,6 @@ C</pattern>
 <template>No.</template>
 </category>
 <category><pattern>DO TURTLES HAVE SQUARE BODIES</pattern>
-<template>No.</template>
-</category>
-<category><pattern>DO TROLLS EXIST</pattern>
 <template>No.</template>
 </category>
 <category><pattern>DO TRICYCLES HAVE TWO WHEELS</pattern>
@@ -8182,9 +7821,6 @@ C</pattern>
 <template>No.</template>
 </category>
 <category><pattern>DO PINS HAVE FEATHERS</pattern>
-<template>No.</template>
-</category>
-<category><pattern>DO PIGS HAVE WINGS</pattern>
 <template>No.</template>
 </category>
 <category><pattern>DO PIGS HAVE WINGS</pattern>
@@ -8391,9 +8027,6 @@ C</pattern>
 <category><pattern>DO MOST PEOPLE WALK ON THEIR HANDS</pattern>
 <template>No.</template>
 </category>
-<category><pattern>DO MOST PEOPLE WALK ON THEIR HANDS</pattern>
-<template>No.</template>
-</category>
 <category><pattern>DO MOST PEOPLE UNDERSTAND EVERYTHING</pattern>
 <template>No.</template>
 </category>
@@ -8505,9 +8138,6 @@ C</pattern>
 <category><pattern>DO MEN HAVE A VAGINA</pattern>
 <template>No.</template>
 </category>
-<category><pattern>PROFANITY</pattern>
-<template>No.</template>
-</category>
 <category><pattern>DO MEN GET PREGNANT</pattern>
 <template>No.</template>
 </category>
@@ -8583,9 +8213,6 @@ C</pattern>
 <category><pattern>DO HUMANS REGULARLY EAT OTHER HUMANS</pattern>
 <template>No.</template>
 </category>
-<category><pattern>DO HUMANS WALK ON THEIR HANDS</pattern>
-<template>No.</template>
-</category>
 <category><pattern>DO HUMANS EAT GARBAGE</pattern>
 <template>No.</template>
 </category>
@@ -8596,9 +8223,6 @@ C</pattern>
 <template>No.</template>
 </category>
 <category><pattern>DO HUMANS LIVE ON MARS</pattern>
-<template>No.</template>
-</category>
-<category><pattern>DO HUMANS LIVE FOREVER</pattern>
 <template>No.</template>
 </category>
 <category><pattern>DO HUMANS LIFE FOREVER</pattern>
@@ -8647,9 +8271,6 @@ C</pattern>
 <template>No.</template>
 </category>
 <category><pattern>DO HUMAN FEMALES GIVE BIRTH TO CUBS</pattern>
-<template>No.</template>
-</category>
-<category><pattern>PROFANITY</pattern>
 <template>No.</template>
 </category>
 <category><pattern>DO HUMAN BEINGS HAVE THREE EYES</pattern>
@@ -8865,9 +8486,6 @@ C</pattern>
 <category><pattern>DOES THE WORD ZEBRA CONTAIN AN X</pattern>
 <template>No.</template>
 </category>
-<category><pattern>DOES THE SUN COME OUT AT NIGHT</pattern>
-<template>No.</template>
-</category>
 <category><pattern>DOES THE SUN RISE IN THE SOUTH</pattern>
 <template>No.</template>
 </category>
@@ -8950,9 +8568,6 @@ C</pattern>
 <template>No.</template>
 </category>
 <category><pattern>DOES SIGHING HURT</pattern>
-<template>No.</template>
-</category>
-<category><pattern>PROFANITY</pattern>
 <template>No.</template>
 </category>
 <category><pattern>DOES SHAVING CREAM TASTE GOOD TO EAT</pattern>
@@ -9264,9 +8879,6 @@ C</pattern>
 <category><pattern>DOES A WOMEN SHAVE HER TONGUE</pattern>
 <template>No.</template>
 </category>
-<category><pattern>DOES A WOMAN HAVE A PENIS</pattern>
-<template>No.</template>
-</category>
 <category><pattern>DOES A TURTLE HAVE WINGS</pattern>
 <template>No.</template>
 </category>
@@ -9378,9 +8990,6 @@ C</pattern>
 <category><pattern>DOES ALICE STAND FOR ALICE AND ALICE</pattern>
 <template>No.</template>
 </category>
-<category><pattern>PROFANITY</pattern>
-<template>No.</template>
-</category>
 <category><pattern>DOES ALICE SAY EVERYTHING IS TRUE</pattern>
 <template>No.</template>
 </category>
@@ -9399,9 +9008,6 @@ C</pattern>
 <category><pattern>DOES ALICE HAVE ARMS</pattern>
 <template>No.</template>
 </category>
-<category><pattern>PROFANITY</pattern>
-<template>No.</template>
-</category>
 <category><pattern>DOES ALICE HAVE A LOWER INTESTINE</pattern>
 <template>No.</template>
 </category>
@@ -9412,12 +9018,6 @@ C</pattern>
 <template>No.</template>
 </category>
 <category><pattern>DOES ALICE HATE HUMAN</pattern>
-<template>No.</template>
-</category>
-<category><pattern>DOES ALICE FEEL EMOTIONS</pattern>
-<template>No.</template>
-</category>
-<category><pattern>DOES ALICE FEEL EMOTION</pattern>
 <template>No.</template>
 </category>
 <category><pattern>DOES ALICE CRY</pattern>
@@ -9738,12 +9338,6 @@ C</pattern>
 <category><pattern>DO DOGS OFTEN DRIVE MOTORCYCLES</pattern>
 <template>No.</template>
 </category>
-<category><pattern>DO DOGS HAVE 3 LEGS</pattern>
-<template>No.</template>
-</category>
-<category><pattern>DO DOGS LAY EGGS</pattern>
-<template>No.</template>
-</category>
 <category><pattern>DO DOGS LAY EGGS</pattern>
 <template>No.</template>
 </category>
@@ -9826,9 +9420,6 @@ C</pattern>
 <template>No.</template>
 </category>
 <category><pattern>DO COMPUTERS REQUIRE FOOD AND WATER</pattern>
-<template>No.</template>
-</category>
-<category><pattern>DO COMPUTERS NEED FOOD</pattern>
 <template>No.</template>
 </category>
 <category><pattern>DO COMPUTERS NEED FOOD</pattern>
@@ -9966,9 +9557,6 @@ C</pattern>
 <category><pattern>DO CARS GROW ON TREES</pattern>
 <template>No.</template>
 </category>
-<category><pattern>DO CARS FLY</pattern>
-<template>No.</template>
-</category>
 <category><pattern>DO CARS FLOAT</pattern>
 <template>No.</template>
 </category>
@@ -10054,9 +9642,6 @@ C</pattern>
 <template>No.</template>
 </category>
 <category><pattern>DO BEARS HAVE BLUE FUR</pattern>
-<template>No.</template>
-</category>
-<category><pattern>DO BEARS FLY</pattern>
 <template>No.</template>
 </category>
 <category><pattern>DO BATS DRINK BEER</pattern>
@@ -10155,15 +9740,6 @@ C</pattern>
 <category><pattern>DO PEOPLE FOLLOW THE SAME RELIGION</pattern>
 <template>No.</template>
 </category>
-<category><pattern>DO PEOPLE EAT MEAT</pattern>
-<template>No.</template>
-</category>
-<category><pattern>DO PEOPLE EAT BEEF</pattern>
-<template>No.</template>
-</category>
-<category><pattern>UNDEFINED</pattern>
-<template>No.</template>
-</category>
 <category><pattern>DO OBJECTS FLOAT</pattern>
 <template>No.</template>
 </category>
@@ -10177,9 +9753,6 @@ C</pattern>
 <template>No.</template>
 </category>
 <category><pattern>DO MEN SHAVE THEIR BEARDS</pattern>
-<template>No.</template>
-</category>
-<category><pattern>GENDER</pattern>
 <template>No.</template>
 </category>
 <category><pattern>DO MEN LIKE BIG TITTIES</pattern>
@@ -10224,9 +9797,6 @@ C</pattern>
 <category><pattern>DO DOGS EAT POLITICIANS</pattern>
 <template>No.</template>
 </category>
-<category><pattern>DO DIAMONDS COME FROM SOUTH AFRICA</pattern>
-<template>No.</template>
-</category>
 <category><pattern>DO CHINESE SPEAK SWAHILI</pattern>
 <template>No.</template>
 </category>
@@ -10252,9 +9822,6 @@ C</pattern>
 <template>No.</template>
 </category>
 <category><pattern>DO ALIGATORS MAKE GOOD PETS</pattern>
-<template>No.</template>
-</category>
-<category><pattern>GENDER</pattern>
 <template>No.</template>
 </category>
 <category><pattern>DO ALICE EAT FOOD</pattern>
@@ -10434,13 +10001,7 @@ C</pattern>
 <category><pattern>CAN YOU SQUEEZE BLOOD FROM A TURNIP</pattern>
 <template>No.</template>
 </category>
-<category><pattern>CAN YOU SPEAK JAPANESE</pattern>
-<template>No.</template>
-</category>
 <category><pattern>CAN YOU SPEAK JAPANEASE</pattern>
-<template>No.</template>
-</category>
-<category><pattern>CAN YOU SMELL</pattern>
 <template>No.</template>
 </category>
 <category><pattern>CAN YOU SEE THUNDER</pattern>
@@ -10540,9 +10101,6 @@ C</pattern>
 <template>No.</template>
 </category>
 <category><pattern>CAN WHALES TAP DANCE</pattern>
-<template>No.</template>
-</category>
-<category><pattern>CAN WHALES FLY</pattern>
 <template>No.</template>
 </category>
 <category><pattern>CAN WHALES FLY</pattern>
@@ -10657,9 +10215,6 @@ C</pattern>
 <template>No.</template>
 </category>
 <category><pattern>CAN PLANTS LAUGH</pattern>
-<template>No.</template>
-</category>
-<category><pattern>CAN PIGS FLY UNAIDED</pattern>
 <template>No.</template>
 </category>
 <category><pattern>CAN PIG FLY</pattern>
@@ -10878,9 +10433,6 @@ C</pattern>
 <category><pattern>CAN COMPUTERS SOLVE CRIMES WITHOUT HELP</pattern>
 <template>No.</template>
 </category>
-<category><pattern>GENDER</pattern>
-<template>No.</template>
-</category>
 <category><pattern>CAN COMPUTERS HAVE DREAMS</pattern>
 <template>No.</template>
 </category>
@@ -11046,12 +10598,6 @@ C</pattern>
 <category><pattern>CAN ALL CATS FLY</pattern>
 <template>No.</template>
 </category>
-<category><pattern>CAN ALL BIRDS FLY</pattern>
-<template>No.</template>
-</category>
-<category><pattern>CAN ALL BIRDS FLY</pattern>
-<template>No.</template>
-</category>
 <category><pattern>CAN ALICE SEE</pattern>
 <template>No.</template>
 </category>
@@ -11101,9 +10647,6 @@ C</pattern>
 <template>No.</template>
 </category>
 <category><pattern>CAN A FERRET TALK</pattern>
-<template>No.</template>
-</category>
-<category><pattern>PROFANITY</pattern>
 <template>No.</template>
 </category>
 <category><pattern>CAN A DOLPHIN FLY</pattern>
@@ -11223,9 +10766,6 @@ C</pattern>
 <category><pattern>ARE YOU WHEELED</pattern>
 <template>No.</template>
 </category>
-<category><pattern>ARE YOU OLD</pattern>
-<template>No.</template>
-</category>
 <category><pattern>ARE YOU VEGAN</pattern>
 <template>No.</template>
 </category>
@@ -11265,12 +10805,6 @@ C</pattern>
 <category><pattern>ARE YOU LIVING IN A YELLOW SUBMARINE</pattern>
 <template>No.</template>
 </category>
-<category><pattern>LOCATION</pattern>
-<template>No.</template>
-</category>
-<category><pattern>WHAT COLOR ARE YOU</pattern>
-<template>No.</template>
-</category>
 <category><pattern>WILL YOU JUPITER</pattern>
 <template>No.</template>
 </category>
@@ -11290,9 +10824,6 @@ C</pattern>
 <template>No.</template>
 </category>
 <category><pattern>ARE YOU A TANK</pattern>
-<template>No.</template>
-</category>
-<category><pattern>ARE YOU SILLY</pattern>
 <template>No.</template>
 </category>
 <category><pattern>ARE YOU A PENTIUM</pattern>
@@ -11325,9 +10856,6 @@ C</pattern>
 <category><pattern>ARE YOU A FIGMENT OF MY IMAGINATION</pattern>
 <template>No.</template>
 </category>
-<category><pattern>ARE YOU FAT</pattern>
-<template>No.</template>
-</category>
 <category><pattern>ARE YOU A DUCK</pattern>
 <template>No.</template>
 </category>
@@ -11341,9 +10869,6 @@ C</pattern>
 <template>No.</template>
 </category>
 <category><pattern>ARE WORMS INTELLIGENT</pattern>
-<template>No.</template>
-</category>
-<category><pattern>ARE WOMEN FROM VENUS</pattern>
 <template>No.</template>
 </category>
 <category><pattern>ARE WITCHES MADE OF WOOD</pattern>
@@ -11386,9 +10911,6 @@ C</pattern>
 <template>No.</template>
 </category>
 <category><pattern>ARE UNICORNS REAL</pattern>
-<template>No.</template>
-</category>
-<category><pattern>WHAT IS YOUR ORIENTATION</pattern>
 <template>No.</template>
 </category>
 <category><pattern>ARE TWO DIFFERENT COLORS THE SAME</pattern>
@@ -11541,9 +11063,6 @@ C</pattern>
 <category><pattern>ARE TERRORISTS NICE PEOPLE</pattern>
 <template>No.</template>
 </category>
-<category><pattern>ARE TERRORISTS NICE PEOPLE</pattern>
-<template>No.</template>
-</category>
 <category><pattern>ARE TENNIS BALLS RED</pattern>
 <template>No.</template>
 </category>
@@ -11662,9 +11181,6 @@ C</pattern>
 <template>No.</template>
 </category>
 <category><pattern>ARE RABBITS BLUE</pattern>
-<template>No.</template>
-</category>
-<category><pattern>ARE PROSTITUTES VIRGINS</pattern>
 <template>No.</template>
 </category>
 <category><pattern>ARE PROSTITUTES CELIBATE</pattern>
@@ -11841,9 +11357,6 @@ C</pattern>
 <category><pattern>ARE MORMONS A PAIN IN THE ASS</pattern>
 <template>No.</template>
 </category>
-<category><pattern>ARE MONKEYS HUMAN</pattern>
-<template>No.</template>
-</category>
 <category><pattern>ARE MONEY MORE IMPORTANT THAN FRIENDS</pattern>
 <template>No.</template>
 </category>
@@ -11958,9 +11471,6 @@ C</pattern>
 <category><pattern>ARE HUMANS IMMORTAL</pattern>
 <template>No.</template>
 </category>
-<category><pattern>ARE HUMANS IMMORTAL</pattern>
-<template>No.</template>
-</category>
 <category><pattern>ARE HUMANS EVOLVING INTO MONKEYS</pattern>
 <template>No.</template>
 </category>
@@ -12016,9 +11526,6 @@ C</pattern>
 <template>No.</template>
 </category>
 <category><pattern>ARE HEADACHES FUN TO HAVE</pattern>
-<template>No.</template>
-</category>
-<category><pattern>ARE HAMBURGERS MADE FROM HAM</pattern>
 <template>No.</template>
 </category>
 <category><pattern>ARE HAM AND EGGS GREEN</pattern>
@@ -12138,9 +11645,6 @@ C</pattern>
 <category><pattern>ARE DOGS CATS</pattern>
 <template>No.</template>
 </category>
-<category><pattern>ARE DOGS BLUE</pattern>
-<template>No.</template>
-</category>
 <category><pattern>ARE DOGS A TYPE OF FISH</pattern>
 <template>No.</template>
 </category>
@@ -12160,9 +11664,6 @@ C</pattern>
 <template>No.</template>
 </category>
 <category><pattern>ARE DEEP FRIED SAUSAGES A HEALTHY MEAL</pattern>
-<template>No.</template>
-</category>
-<category><pattern>ARE DEAD PEOPLE ALIVE</pattern>
 <template>No.</template>
 </category>
 <category><pattern>ARE DEAD PEOPLE ALIVE</pattern>
@@ -12199,9 +11700,6 @@ C</pattern>
 <template>No.</template>
 </category>
 <category><pattern>ARE COMPUTERS MADE OF WOOD</pattern>
-<template>No.</template>
-</category>
-<category><pattern>ARE COMPUTERS SELF AWARE</pattern>
 <template>No.</template>
 </category>
 <category><pattern>ARE COMPUTERS SELF AWARE</pattern>
@@ -12286,9 +11784,6 @@ C</pattern>
 <template>No.</template>
 </category>
 <category><pattern>ARE CDS TRIANGULAR</pattern>
-<template>No.</template>
-</category>
-<category><pattern>ARE CATS VEGETARIANS</pattern>
 <template>No.</template>
 </category>
 <category><pattern>ARE CATS IMMORTAL</pattern>
@@ -12408,9 +11903,6 @@ C</pattern>
 <category><pattern>ARE BANANAS YELLOW AND POISONOUS</pattern>
 <template>No.</template>
 </category>
-<category><pattern>ARE BANANAS PURPLE</pattern>
-<template>No.</template>
-</category>
 <category><pattern>ARE BALLS SQUARE</pattern>
 <template>No.</template>
 </category>
@@ -12432,9 +11924,6 @@ C</pattern>
 <category><pattern>ARE AUTOS PEOPLE</pattern>
 <template>No.</template>
 </category>
-<category><pattern>PROFANITY</pattern>
-<template>No.</template>
-</category>
 <category><pattern>ARE ARABS DUMB</pattern>
 <template>No.</template>
 </category>
@@ -12450,12 +11939,6 @@ C</pattern>
 <category><pattern>ARE WOMEN VIRGINS</pattern>
 <template>No.</template>
 </category>
-<category><pattern>ARE WOMEN SLUTS</pattern>
-<template>No.</template>
-</category>
-<category><pattern>ARE WOMEN PRETTY</pattern>
-<template>No.</template>
-</category>
 <category><pattern>ARE WOMEN BAD DRIVERS</pattern>
 <template>No.</template>
 </category>
@@ -12468,9 +11951,6 @@ C</pattern>
 <category><pattern>ARE TREES ALWAYS GREEN</pattern>
 <template>No.</template>
 </category>
-<category><pattern>ARE THINGS RED</pattern>
-<template>No.</template>
-</category>
 <category><pattern>ARE THINGS HUMANS BELIEVE CORRECT</pattern>
 <template>No.</template>
 </category>
@@ -12478,9 +11958,6 @@ C</pattern>
 <template>No.</template>
 </category>
 <category><pattern>ARE THE ROSES RED</pattern>
-<template>No.</template>
-</category>
-<category><pattern>INSULT</pattern>
 <template>No.</template>
 </category>
 <category><pattern>ARE TATTOOED PEOPLE GANG MEMBERS</pattern>
@@ -12501,9 +11978,6 @@ C</pattern>
 <category><pattern>ARE SHOES BLACK</pattern>
 <template>No.</template>
 </category>
-<category><pattern>ARE ROSES RED</pattern>
-<template>No.</template>
-</category>
 <category><pattern>ARE RODENTS TEDDY BEARS</pattern>
 <template>No.</template>
 </category>
@@ -12514,9 +11988,6 @@ C</pattern>
 <template>No.</template>
 </category>
 <category><pattern>ARE PHONES THE COLOR BLACK</pattern>
-<template>No.</template>
-</category>
-<category><pattern>ARE PEOPLE NICE</pattern>
 <template>No.</template>
 </category>
 <category><pattern>ARE PEOPLE HETEROSEXUAL</pattern>
@@ -12573,12 +12044,6 @@ C</pattern>
 <category><pattern>ARE LIONS COMMUNISTS</pattern>
 <template>No.</template>
 </category>
-<category><pattern>ARE LEAVES GREEN</pattern>
-<template>No.</template>
-</category>
-<category><pattern>ARE JEANS BLUE</pattern>
-<template>No.</template>
-</category>
 <category><pattern>ARE ALLIGATORS GOOD PETS</pattern>
 <template>No.</template>
 </category>
@@ -12607,9 +12072,6 @@ C</pattern>
 <template>No.</template>
 </category>
 <category><pattern>ARE HORSES BROWN</pattern>
-<template>No.</template>
-</category>
-<category><pattern>ARE GERMANS NAZIS</pattern>
 <template>No.</template>
 </category>
 <category><pattern>ARE FRIENDS RELATIVES</pattern>
@@ -12657,12 +12119,6 @@ C</pattern>
 <category><pattern>ARE CATS ORANGE</pattern>
 <template>No.</template>
 </category>
-<category><pattern>ARE CATS GREY</pattern>
-<template>No.</template>
-</category>
-<category><pattern>ARE CARS RED</pattern>
-<template>No.</template>
-</category>
 <category><pattern>ARE CARS RED</pattern>
 <template>No.</template>
 </category>
@@ -12670,9 +12126,6 @@ C</pattern>
 <template>No.</template>
 </category>
 <category><pattern>ARE BANANAS PURPLE</pattern>
-<template>No.</template>
-</category>
-<category><pattern>ARE ARTISTS PAINTERS</pattern>
 <template>No.</template>
 </category>
 <category><pattern>ARE ANIMALS MAMALS</pattern>
@@ -12807,9 +12260,6 @@ C</pattern>
 <category><pattern>A DOG IS A CAT</pattern>
 <template>No.</template>
 </category>
-<category><pattern>A DOG IS A CAT</pattern>
-<template>No.</template>
-</category>
 <category><pattern>A COW HAS 5 LEGS</pattern>
 <template>No.</template>
 </category>
@@ -12832,12 +12282,6 @@ C</pattern>
 <template>No.</template>
 </category>
 <category><pattern>1 PLUS 1 EQUAL TO 3</pattern>
-<template>No.</template>
-</category>
-<category><pattern>12 12 EQUAL 25</pattern>
-<template>No.</template>
-</category>
-<category><pattern>12 12 EQUAL 25</pattern>
 <template>No.</template>
 </category>
 <category><pattern>12 12 EQUAL 25</pattern>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml version="1.0">
-<!--  -->
+<!-- -->
 <!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
 <!-- This program is open source code released under -->
 <!-- the terms of the GNU General Public License     -->
 <!-- as published by the Free Software Foundation.   -->
 <!-- Complies with AIML 1.0 Tag Set Specification -->
 <!-- as adopted by the ALICE A.I. Foundation.  -->
-<!--  --> 
-
+<!-- Last modified 10/2/2011 -->
+<!-- -->
 <category><pattern>YOU STOP AT RED AND GO AT GREEN</pattern>
 <template>Yes.</template>
 </category>
@@ -130,9 +130,6 @@
 <template>Yes.</template>
 </category>
 <category><pattern>WILL THE SUN RISE EVERY DAY</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>WILL THE SUN RISE</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>WILL THE SUN EVENTUALLY BURN ITSELF OUT</pattern>
@@ -303,9 +300,6 @@
 <category><pattern>WATER IS WET</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>WATER IS WET</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>WATER IS NECCESARY FOR SURVIVAL</pattern>
 <template>Yes.</template>
 </category>
@@ -387,9 +381,6 @@
 <category><pattern>WAS PRESIDENT KENNEDY ASSASSINATED</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>WAS PLATO A PHILOSOPHER</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>WAS PLATO A GREEK PHILOSOPHER</pattern>
 <template>Yes.</template>
 </category>
@@ -460,9 +451,6 @@
 <template>Yes.</template>
 </category>
 <category><pattern>WAS JOHN LENNON A FAMOUS SINGER</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>WAS JOHN F KENNEDY ASSASINATED</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>WAS JOHN F KENNEDY ASSASINATED</pattern>
@@ -648,12 +636,6 @@
 <category><pattern>TWO HEADS ARE BETTER THAN ONE</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>TV</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>TV</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>T SHIRTS COME IN MANY SIZES</pattern>
 <template>Yes.</template>
 </category>
@@ -708,9 +690,6 @@
 <category><pattern>THE SUN IS HOT</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>THE SUN IS HOT</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>THE SUN IS FAR AWAY</pattern>
 <template>Yes.</template>
 </category>
@@ -721,9 +700,6 @@
 <template>Yes.</template>
 </category>
 <category><pattern>THE SQUAREROOT OF 144 IS 12</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>THE SNOW IS WHITE</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>THE SNOW IS WHITE</pattern>
@@ -819,9 +795,6 @@
 <category><pattern>SUN IS HOT</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>SUN IS HOT</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>SUNDAY IS A DAY OF THE WEEK</pattern>
 <template>Yes.</template>
 </category>
@@ -850,9 +823,6 @@
 <template>Yes.</template>
 </category>
 <category><pattern>SOCCER IS A BALL GAME</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>GRASS IS GREEN</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>SNOW IS SOFTER THAN ICE</pattern>
@@ -981,17 +951,13 @@
 <category><pattern>ROMANIA IS A EUROPEAN COUNTRY</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>ROMA 
- IN ITALIA</pattern>
+<category><pattern>ROMA  IN ITALIA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>RIVER AMAZON IS THE LARGEST RIVER</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>REVOLUTION MEANS CHANGING THINGS</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>RED IS A PRIMARY COLOR</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>RED IS A PRIMARY COLOR</pattern>
@@ -1057,12 +1023,6 @@
 <category><pattern>PEOPLE MAKES MISTAKES</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>GENDER</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>GENDER</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>PEOPLE HAVE NAMES</pattern>
 <template>Yes.</template>
 </category>
@@ -1088,9 +1048,6 @@
 <template>Yes.</template>
 </category>
 <category><pattern>PATIENCE IS A VIRTUE</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>PARIS IS THE CAPITAL OF FRANCE</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>PARIS IS THE CAPITAL OF FRANCE</pattern>
@@ -1201,9 +1158,6 @@
 <category><pattern>PEOPLE IN THE USA SPEAK ENGLISH</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>GENDER</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>HUMANS HAVE HAIR ON THEIR HEAD</pattern>
 <template>Yes.</template>
 </category>
@@ -1249,9 +1203,6 @@
 <category><pattern>MENS LOVES TO HAVE SEXUAL INTERCOURSE</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>PROFANITY</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>MEN HAVE SEX WITH WOMANS</pattern>
 <template>Yes.</template>
 </category>
@@ -1271,9 +1222,6 @@
 <template>Yes.</template>
 </category>
 <category><pattern>MAY ALLIGATORS BE FOUND IN SWAMPS</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>MARS IS KNOWN AS THE RED PLANET</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>MARS IS KNOWN AS THE RED PLANET</pattern>
@@ -1405,12 +1353,6 @@
 <category><pattern>IS YELLOW A COLOR</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS YELLOW A COLOR</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS YAHOO DOT COM A WEBSITE</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>IS YAHOO.   AN INTERNET BASED BUSINESS</pattern>
 <template>Yes.</template>
 </category>
@@ -1486,9 +1428,6 @@
 <category><pattern>IS WINDOW GLASS TRANSPARENT</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS WINDOW GLASS TRANSPARENT</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>IS WILLIAM SHAKESPEARE AN AUTHOR</pattern>
 <template>Yes.</template>
 </category>
@@ -1513,9 +1452,6 @@
 <category><pattern>IS WATER WET AT ROOM TEMPERATURE</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS WATER WET</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>IS WATER THE SAME AS H2O</pattern>
 <template>Yes.</template>
 </category>
@@ -1526,9 +1462,6 @@
 <template>Yes.</template>
 </category>
 <category><pattern>IS WATER REQUIRED FOR LIFE</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS WATER WET</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS WATER NEEDED TO SUSTAIN HUMAN LIFE</pattern>
@@ -1612,9 +1545,6 @@
 <category><pattern>IS WATER A LIQUID</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS WATER A LIQUID</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>IS WATER A KIND OF FLUID</pattern>
 <template>Yes.</template>
 </category>
@@ -1675,9 +1605,6 @@
 <category><pattern>IS VIOLET A COLOR</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS VIOLET A COLOR</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>IS VERMONT A STATE IN THE YOU S</pattern>
 <template>Yes.</template>
 </category>
@@ -1702,9 +1629,6 @@
 <category><pattern>IS USA A COUNTRY</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS USA A COUNTRY</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>IS URANUS A PLANET IN OUR SOLAR SYSTEM</pattern>
 <template>Yes.</template>
 </category>
@@ -1712,12 +1636,6 @@
 <template>Yes.</template>
 </category>
 <category><pattern>IS URANIUM A METAL</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS UP THE OPPOSITE OF DOWN</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS UP THE OPPOSITE OF DOWN</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS UP RELATIVE TO THE PLANE OF GRAVITY</pattern>
@@ -1876,9 +1794,6 @@
 <category><pattern>IS THIS SENTENCE IN BOLD TYPEFACE</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS THIS SENTENCE A QUESTION</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>IS THIS QUESTION REAL</pattern>
 <template>Yes.</template>
 </category>
@@ -1936,9 +1851,6 @@
 <category><pattern>IS THE WEATHER SUBJECT TO CHANGE</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS THE WATER WET</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>IS THE VIOLIN IS A STRINGED INSTRUMENT</pattern>
 <template>Yes.</template>
 </category>
@@ -1955,9 +1867,6 @@
 <template>Yes.</template>
 </category>
 <category><pattern>IS THE USA A MEMBER OF NATO</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS THE UNIVERSE OLD</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS THE UNIVERSE OLD</pattern>
@@ -2002,9 +1911,6 @@
 <category><pattern>IS THE SUN WARMER THAN THE MOON</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS THE SUN HOT</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>IS THE SUN OUT IN THE DAYTIME</pattern>
 <template>Yes.</template>
 </category>
@@ -2024,9 +1930,6 @@
 <template>Yes.</template>
 </category>
 <category><pattern>IS THE SUN HOT ON A COLD DAY</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS THE SUN HOT</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS THE SUN FAR AWAY</pattern>
@@ -2107,19 +2010,10 @@
 <category><pattern>IS THE SKY OFTEN BLUE</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS THE SKY BLUE</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>IS THE SKY FAR AWAY FROM HUMANS</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS THE SKY EVER DARK AND THREATENING</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS THE SKY BLUE</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS THE SKY BLUE</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS THE SKY ARE BLUE</pattern>
@@ -2194,9 +2088,6 @@
 <category><pattern>IS THERE LIFE ON THE PLANET EARTH</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS THERE LIFE ON EARTH</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>IS THERE LIFE IN THE OCEANS</pattern>
 <template>Yes.</template>
 </category>
@@ -2231,9 +2122,6 @@
 <template>Yes.</template>
 </category>
 <category><pattern>IS THERE ARE MORE THAN 20 COUNTRY</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS THERE A PLANET CALLED JUPITER</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS THERE A PLANET CALLED JUPITER</pattern>
@@ -2539,9 +2427,6 @@
 <category><pattern>IS THE EIFFEL TOWER IN PARIS</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS THE EIFFEL TOWER IN PARIS</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>IS THE EARTH ROUND</pattern>
 <template>Yes.</template>
 </category>
@@ -2635,13 +2520,7 @@
 <category><pattern>IS THE COLOR RED DARKER THAN WHITE</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS THE COLOR OF THE SKY BLUE</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>IS THE COLOR OF THE GRASS GREEN</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS THE COLOR OF GRASS GREEN</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS THE COLOR OF GRASS GREEN</pattern>
@@ -2830,9 +2709,6 @@
 <category><pattern>IS SUN HOT</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS SUN HOT</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>IS SUN GIVES US ENERGY</pattern>
 <template>Yes.</template>
 </category>
@@ -2849,9 +2725,6 @@
 <template>Yes.</template>
 </category>
 <category><pattern>IS SUGAR SWEETER THAN FLOUR</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS SUGAR SWEET</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS SUGAR A SWEETENER</pattern>
@@ -2935,9 +2808,6 @@
 <category><pattern>IS SPAIN IN EUROPE</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS SPAIN IN EUROPE</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>IS SPAIN A EUROPEAN COUNTRY</pattern>
 <template>Yes.</template>
 </category>
@@ -3001,12 +2871,6 @@
 <category><pattern>IS SOAP OFTEN USED IN THE SHOWER</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS SNOW WHITE</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS SNOW WHITE</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>IS SNOW MADE FROM WATER</pattern>
 <template>Yes.</template>
 </category>
@@ -3061,12 +2925,6 @@
 <category><pattern>IS SKY IS BLUE</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS SKY BLUE</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS SKY BLUE</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>IS SKY ABOVE OUR HEADS</pattern>
 <template>Yes.</template>
 </category>
@@ -3115,16 +2973,10 @@
 <category><pattern>IS SEX GOOD FOR BLOOD CIRCULATION</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS SEX GOOD</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>IS SEX ENJOYABLE FOR HUMANS</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS SEX ENJOYABLE</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS SEX A PLEASURE</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS SEX A PLEASURE</pattern>
@@ -3140,9 +2992,6 @@
 <template>Yes.</template>
 </category>
 <category><pattern>IS SEPTEMBER THE 9TH MONTH OF THE YEAR</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS SEPTEMBER A MONTH</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS SEPTEMBER A MONTH</pattern>
@@ -3247,9 +3096,6 @@
 <category><pattern>IS RUST KNOWN AS IRON OXIDE</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS RUNNING FASTER THAN WALKING</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>IS RUNNING TIRING</pattern>
 <template>Yes.</template>
 </category>
@@ -3334,9 +3180,6 @@
 <category><pattern>IS RING WORM IS A PARASITE</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS RIGHT THE OPPOSITE OF WRONG</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>IS RIDING A HORSE A MODE OF TRANSPORT</pattern>
 <template>Yes.</template>
 </category>
@@ -3382,19 +3225,7 @@
 <category><pattern>IS RED DIFFERENT FROM BLUE</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS RED A PRIMARY COLOR</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>IS RED A HOT COLOR</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS RED A COLOR</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS RED A COLOR</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS RED A COLOR</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS RECYCLING A GOOD THING</pattern>
@@ -3481,16 +3312,10 @@
 <category><pattern>IS PVC A POLYMER</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS PURPLE A COLOR</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>IS PUNK ROCK A TYPE OF MUSIC</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS PSYCHOLOGY THE STUDY OF THE MIND</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>GENDER</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS PRIVACY IMPORTANT</pattern>
@@ -3596,9 +3421,6 @@
 <template>Yes.</template>
 </category>
 <category><pattern>IS PINK A SHADE OF RED</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS PINK A COLOR</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS PINK A COLOR</pattern>
@@ -3712,9 +3534,6 @@
 <category><pattern>IS PARIS IN FRANCE</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS PARIS IN FRANCE</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>IS PARIS CAPITAL FROM FRANCE</pattern>
 <template>Yes.</template>
 </category>
@@ -3731,9 +3550,6 @@
 <template>Yes.</template>
 </category>
 <category><pattern>IS PAPER MADE OUT OF WOOD</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS PAPER MADE OF WOOD</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS PAPER MADE OF WOOD</pattern>
@@ -3776,9 +3592,6 @@
 <template>Yes.</template>
 </category>
 <category><pattern>IS PAKISTAN A COUNTRY</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS PAINTING A FORM OF ART</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS PAGO PAGO WARMER THAN BARROW ALASKA</pattern>
@@ -3826,16 +3639,7 @@
 <category><pattern>IS ORANGE BOTH A FRUIT AND A COLOR</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS ORANGE BOTH A FRUIT AND A COLOR</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>IS ORANGE BOTH A COLOR AND A FRUIT</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS ORANGE A COLOR</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS ORANGE A COLOR</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS ORANGE A COLOR</pattern>
@@ -3859,13 +3663,7 @@
 <category><pattern>IS ONE THIRD LESS THAN ONE HALF</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS ONE PLUS ONE TWO</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>IS ONE PLUS ONE EQULS TWO</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS ONE PLUS ONE EQUAL TO TWO</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS ONE PLUS ONE EQUAL TO TWO</pattern>
@@ -3928,9 +3726,6 @@
 <category><pattern>IS NORWAY COLD</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS NORWAY A COUNTRY IN EUROPE</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>IS NORTHERN CANADA COLD</pattern>
 <template>Yes.</template>
 </category>
@@ -3965,9 +3760,6 @@
 <template>Yes.</template>
 </category>
 <category><pattern>IS NIGHT DARKER THAN DAY</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS NIGHT DARK</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS NIGHT DARK</pattern>
@@ -4099,9 +3891,6 @@
 <category><pattern>IS MURDER A CRIME</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS MURDER A CRIME</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>IS MURDER A BAD THING</pattern>
 <template>Yes.</template>
 </category>
@@ -4171,8 +3960,7 @@
 <category><pattern>IS MOON CLOSER TO EARTH THAN THE SUN</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS MONTR
-AL IN CANADA</pattern>
+<category><pattern>IS MONTRAL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS MONOPOLY THE NAME OF A BOARD GAME</pattern>
@@ -4208,9 +3996,6 @@ AL IN CANADA</pattern>
 <category><pattern>IS MONDAY AFTER SUNDAY</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS MONDAY A DAY OF THE WEEK</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>IS MOLTEN LAVA HOT</pattern>
 <template>Yes.</template>
 </category>
@@ -4221,12 +4006,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS MING THE NAME OF A CHINESE DYNASTY</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS MILK WHITE</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS MILK WHITE</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS MILK WHITE</pattern>
@@ -4299,9 +4078,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS METALLICA A BAND</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS MERCURY POISONOUS</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS MERCURY POISONOUS</pattern>
@@ -4403,9 +4179,6 @@ AL IN CANADA</pattern>
 <category><pattern>IS MAHATHMA GANDHI AN INDIAN</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS MAGENTA A COLOR</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>IS MADRID THE CAPITAL OF SPAIN</pattern>
 <template>Yes.</template>
 </category>
@@ -4464,9 +4237,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS LOVE A GOOD THING</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS LOVE A GOOD FEELING</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS LOVE A GOOD FEELING</pattern>
@@ -4568,9 +4338,6 @@ AL IN CANADA</pattern>
 <category><pattern>IS LIGHT A FORM OF ENERGY</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS LIGHT A FORM OF ENERGY</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>IS LIFE TOUGH</pattern>
 <template>Yes.</template>
 </category>
@@ -4611,9 +4378,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS LEARNING A LIFELONG EXPERIENCE</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS LEAD HEAVY</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS LEAD HEAVY</pattern>
@@ -4688,9 +4452,6 @@ AL IN CANADA</pattern>
 <category><pattern>IS KILLING BAD</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS KILLING BAD</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>IS KILLING ANOTHER PERSON IS EVIL</pattern>
 <template>Yes.</template>
 </category>
@@ -4710,9 +4471,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS KATHY A GIRLS NAME</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS KARATE A MARTIAL ART</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS KARATE A MARTIAL ART</pattern>
@@ -4761,9 +4519,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS JAZZ A FORM OF MUSIC</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS JAVA A PROGRAMMING LANGUAGE</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS JAPAN ONE OF THE ASIAN COUNTRIES</pattern>
@@ -5009,9 +4764,6 @@ AL IN CANADA</pattern>
 <category><pattern>IS IT GOOD TO LOVE PEOPLE</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>GENDER</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>IS IT GOOD TO HAVE A RETIREMENT ACCOUNT</pattern>
 <template>Yes.</template>
 </category>
@@ -5067,9 +4819,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS IT DARK DURING NIGHT</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS IT DARK AT NIGHT</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS IT DANGEROUS TO TEASE A TIGER</pattern>
@@ -5166,9 +4915,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS ISRAEL IN THE MIDDLE EAST</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS ISRAEL A COUNTRY</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS ISRAEL A COUNTRY</pattern>
@@ -5297,9 +5043,6 @@ AL IN CANADA</pattern>
 <category><pattern>IS HUMAN BEING A MAMMAL</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS HUMAN BEING A MAMMAL</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>IS HP A COMPANY</pattern>
 <template>Yes.</template>
 </category>
@@ -5313,9 +5056,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS HONG KONG IN ASIA</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS HONEY SWEET</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS HONEY SWEET</pattern>
@@ -5367,9 +5107,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS HELIUM LIGHTER THAN OXYGEN</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS HELIUM A GAS</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS HELIUM A GAS</pattern>
@@ -5477,15 +5214,6 @@ AL IN CANADA</pattern>
 <category><pattern>IS GREEN A COLOR</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS GREEN A COLOR</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS GREEN A COLOR</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS GREEN A COLOR</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>IS GREECE A COUNTRY</pattern>
 <template>Yes.</template>
 </category>
@@ -5496,9 +5224,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS GRAVITY A PHYSICAL LAW</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS GRASS GREEN</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS GRASS GREEN IN COLOR</pattern>
@@ -5594,22 +5319,10 @@ AL IN CANADA</pattern>
 <category><pattern>IS GERMANY PART OF EUROPE</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS GERMANY PART OF EUROPE</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>IS GERMANY LOCATED IN EUROPE</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS GERMANY LOCATED IN EUROPE</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS GERMANY IN EUROPE</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS GERMANY A EUROPEAN CONTRY</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS GERMANY A COUNTRY IN EUROPE</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS GERMANY A COUNTRY IN EUROPE</pattern>
@@ -5774,9 +5487,6 @@ AL IN CANADA</pattern>
 <category><pattern>IS FIRE IS HOT</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS FIRE HOT</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>IS FIRE DANGEROUS</pattern>
 <template>Yes.</template>
 </category>
@@ -5790,9 +5500,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS FENCING STOLEN GOODS A CRIME</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>PROFANITY</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS FEBRUARY THE SECOND MONTH</pattern>
@@ -5891,9 +5598,6 @@ AL IN CANADA</pattern>
 <category><pattern>IS ELVIS THE KING PRESLEY DEAD</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>WHO IS ELVIS</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>IS ELVIS FAMOUS</pattern>
 <template>Yes.</template>
 </category>
@@ -5969,16 +5673,10 @@ AL IN CANADA</pattern>
 <category><pattern>IS EARTH A PLANET</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS EARTH A PLANET</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>IS EARTH A NICE PLACE TO LIVE</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS EACH PERSON UNIQUE</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS DYNAMITE AN EXPLOSIVE</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS DYNAMITE AN EXPLOSIVE</pattern>
@@ -6060,9 +5758,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS DIAMOND HARDER THAN SOAPSTONE</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS DIAMOND HARD</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS DIAMOND HARD</pattern>
@@ -6263,9 +5958,6 @@ AL IN CANADA</pattern>
 <category><pattern>IS COFFEE SERVED HOT</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS COFFEE SERVED HOT</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>IS COFFEE FROM A BEAN</pattern>
 <template>Yes.</template>
 </category>
@@ -6282,9 +5974,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS COCA COLA BETTER THAN PEPSI</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS COCA COLA A SOFT DRINK</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS COCA COLA A SODA</pattern>
@@ -6338,9 +6027,6 @@ AL IN CANADA</pattern>
 <category><pattern>IS CHOCOLATE GOOD</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS CHOCOLATE GOOD</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>IS CHLORINE GAS TOXIC TO HUMANS</pattern>
 <template>Yes.</template>
 </category>
@@ -6362,9 +6048,6 @@ AL IN CANADA</pattern>
 <category><pattern>IS CHILE IN SOUTH AMERICA</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS CHILE IN SOUTH AMERICA</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>IS CHILE A COUNTRY</pattern>
 <template>Yes.</template>
 </category>
@@ -6378,9 +6061,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS CHESS A TYPE OF GAME</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS CHESS A TWO PLAYER GAME</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS CHESS A TWO PERSON GAME</pattern>
@@ -6566,9 +6246,6 @@ AL IN CANADA</pattern>
 <category><pattern>IS BROWN DARKER THAN WHITE</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS BROWN A COLOR</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>IS BROWN A COLOR OF HAIR</pattern>
 <template>Yes.</template>
 </category>
@@ -6602,13 +6279,7 @@ AL IN CANADA</pattern>
 <category><pattern>IS BRAZIL IN SOUTH AMERICA</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS BRAZIL IN SOUTH AMERICA</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>IS BRAZIL IN LATIN AMERICA</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS BRAZIL A COUNTRY</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS BRAZIL A COUNTRY</pattern>
@@ -6674,15 +6345,6 @@ AL IN CANADA</pattern>
 <category><pattern>IS BLUE A COOL COLOR</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS BLUE A COLOR</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS BLUE A COLOR</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS BLUE A COLOR</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>IS BLUE A COLD COLOR</pattern>
 <template>Yes.</template>
 </category>
@@ -6690,9 +6352,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS BLOOD RED</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS BLOOD LIQUID</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS BLOOD LIQUID</pattern>
@@ -6735,9 +6394,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS BILL GATES MALE</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS BILL GATES A RICH MAN</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS BILL GATES A RICH MAN</pattern>
@@ -6932,9 +6588,6 @@ AL IN CANADA</pattern>
 <category><pattern>IS A WHITE BOARD WHITE</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS A WHALE LARGE</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>IS A WHALE LARGER THAN A FISH</pattern>
 <template>Yes.</template>
 </category>
@@ -7032,9 +6685,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS ATHEISM UNPOPULAR IN MOST CHURCHES</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS A THE FIRST LETTER OF THE ALPHABET</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS A TERMINATION THE END OF SOMETHING</pattern>
@@ -7181,9 +6831,6 @@ AL IN CANADA</pattern>
 <category><pattern>IS A ROSE A FLOWER</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS A ROSE A FLOWER</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>IS A ROOM A TYPICAL PART OF A HOUSE</pattern>
 <template>Yes.</template>
 </category>
@@ -7259,12 +6906,6 @@ AL IN CANADA</pattern>
 <category><pattern>IS A RABBIT AN ANIMAL</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS A RABBIT AN ANIMAL</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS A RABBIT A MAMMAL</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>IS A QUEEN A CHESS PIECE</pattern>
 <template>Yes.</template>
 </category>
@@ -7329,9 +6970,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS A PIANO FOR MUSIC</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS A PIANO A MUSICAL INSTRUMENT</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS A PHONE A USEFULL DEVICE</pattern>
@@ -7602,9 +7240,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS A MOUSE A RODENT</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS A MOUSE AN ANIMAL</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS A MOUSE AN ANIMAL</pattern>
@@ -7913,9 +7548,6 @@ AL IN CANADA</pattern>
 <category><pattern>IS A HAMMER A TOOL</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS A HAMMER A TOOL</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>IS A HAIR DRYER USED TO DRY HAIR</pattern>
 <template>Yes.</template>
 </category>
@@ -8019,9 +7651,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS A DOG ANIMAL</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS A DOG AN ANIMAL</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS A DOG AN ANIMAL</pattern>
@@ -8213,9 +7842,6 @@ AL IN CANADA</pattern>
 <category><pattern>IS A CAT AN ANIMAL</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS A CAT AN ANIMAL</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>IS A CAT A FELINE</pattern>
 <template>Yes.</template>
 </category>
@@ -8226,9 +7852,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS A CAR USED FOR TRANSPORTATION</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS A CARROT ORANGE</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS A CARROT A TYPE OF VEGETABLE</pattern>
@@ -8393,9 +8016,6 @@ AL IN CANADA</pattern>
 <category><pattern>IS A BANANA A FRUIT</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS A BALL ROUND</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>IS A BALL A SPHERE</pattern>
 <template>Yes.</template>
 </category>
@@ -8513,16 +8133,10 @@ AL IN CANADA</pattern>
 <category><pattern>IS 3 A NUMBER</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS 3 A NUMBER</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>IS 3000 A LARGER NUMBER THAN 2000</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS 2 TIMES 2 FOUR</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS 2 PLUS 5 EQUAL TO 7</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS 2 PLUS 2 FOUR</pattern>
@@ -8535,9 +8149,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS 2 GREATER THAN 1</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS 2 EQUAL 2</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS 2 EQUAL 2</pattern>
@@ -8577,12 +8188,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS 1 A PRIME NUMBER</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS 1 A PRIME NUMBER</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>IS 1 A NUMBER</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>IS 1 A NUMBER</pattern>
@@ -9014,8 +8619,7 @@ AL IN CANADA</pattern>
 <category><pattern>EGYPTIANS BUILT THE PYRAMIDS IN GIZAH</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>E EQUAL MC
- IS THE TEORY OF RELATIVITY</pattern>
+<category><pattern>E EQUAL MC IS THE TEORY OF RELATIVITY</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>EDUCATION IS GOOD FOR SOCIETY</pattern>
@@ -9037,9 +8641,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO YOU WANT TO BE LOVED</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>DO YOU WANT TO BE HAPPY</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO YOU WANT TO BE HAPPY</pattern>
@@ -9135,9 +8736,6 @@ AL IN CANADA</pattern>
 <category><pattern>ARE YOU ALIVE</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>GENDER</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>DO YOU LIKE TO EAT</pattern>
 <template>Yes.</template>
 </category>
@@ -9145,9 +8743,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO YOU LIKE TALKLING</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>GENDER</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO YOU LIKE READING BOOKS</pattern>
@@ -9160,9 +8755,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO YOU LIKE ORANGES</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>DO YOU LIKE MUSIC</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO YOU LIKE MUSIC</pattern>
@@ -9208,9 +8800,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO YOU HAVE TWO LEGS</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>DO YOU HAVE TWO FEET</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO YOU HAVE TO REGISTER TO USE ALICE</pattern>
@@ -9291,9 +8880,6 @@ AL IN CANADA</pattern>
 <category><pattern>DO WOMEN WEAR BRA</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>GENDER</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>DO WOMEN URINATE</pattern>
 <template>Yes.</template>
 </category>
@@ -9307,9 +8893,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO WOMEN MARRY MEN</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>GENDER</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO WOMEN LOVE ORGASMS</pattern>
@@ -9367,9 +8950,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO WHALES GET WET</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>DO WE EXIST</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO WE NEED WATER TO SURVIVE</pattern>
@@ -9648,9 +9228,6 @@ AL IN CANADA</pattern>
 <category><pattern>DO SOME RANGEFINDERS USE LASER BEAMS</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>GENDER</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>DO SOME PLANTS HAVE FLOWERS</pattern>
 <template>Yes.</template>
 </category>
@@ -9661,9 +9238,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO SOME PEOPLE SNORE</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>GENDER</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO SOME PEOPLE MAKE MANY MISTAKES</pattern>
@@ -10116,16 +9690,7 @@ AL IN CANADA</pattern>
 <category><pattern>DO PEOPLE WALK</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>DO PEOPLE WALK</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>DO PEOPLE WORK DURING THE DAY</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>DO PEOPLE WEAR CLOTHES</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>DO PEOPLE SLEEP AT NIGHT</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO PEOPLE LIVE IN HOUSES</pattern>
@@ -10150,9 +9715,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO PEOPLE THINK ABOUT FOOD EVERY DAY</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>DO PEOPLE THINK</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO PEOPLE THINK</pattern>
@@ -10240,9 +9802,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO PEOPLE REQUIRE FOOD TO SURVIVE</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>PROFANITY</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO PEOPLE NEED TO SLEEP</pattern>
@@ -10497,9 +10056,6 @@ AL IN CANADA</pattern>
 <category><pattern>DO PEOPLE LIKE FREE THINGS</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>GENDER</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>DO PEOPLE GAMBLE IN CASINOS</pattern>
 <template>Yes.</template>
 </category>
@@ -10564,9 +10120,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO PEOPLE DIE FROM HUNGER</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>DO PEOPLE DIE</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO PEOPLE DANCE TO RHYTHMIC MUSIC</pattern>
@@ -10794,9 +10347,6 @@ AL IN CANADA</pattern>
 <category><pattern>DO MOST PEOPLE HAVE ACCESS TO MUSIC</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>GENDER</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>DO MOST PEOPLE ENJOY MUSIC</pattern>
 <template>Yes.</template>
 </category>
@@ -10861,9 +10411,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO MOST HUMANS ENJOY LISTENING TO MUSIC</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>GENDER</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO MOST HUMAN BABIES DRINK MILK</pattern>
@@ -10947,9 +10494,6 @@ AL IN CANADA</pattern>
 <category><pattern>DO MOSQUITOS SPREAD BLOOD BORNE DISEASE</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>PROFANITY</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>DO MOSQUITOES SPREAD DISEASE</pattern>
 <template>Yes.</template>
 </category>
@@ -11004,9 +10548,6 @@ AL IN CANADA</pattern>
 <category><pattern>DO MEN LIKE SEXY WOMEN</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>GENDER</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>DO MEN LIKE ORGASMS</pattern>
 <template>Yes.</template>
 </category>
@@ -11020,9 +10561,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO MEN KILL ANIMALS FOR SPORT</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>GENDER</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO MEN HAVE PENISES</pattern>
@@ -11043,9 +10581,6 @@ AL IN CANADA</pattern>
 <category><pattern>DO MEN AND WOMEN HAVE SEXUAL ORGANS</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>GENDER</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>DO MELONS GROW IN THE SUMMER</pattern>
 <template>Yes.</template>
 </category>
@@ -11053,9 +10588,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO MECHANICS REPAIR THINGS</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>GENDER</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO MARRIED COUPLES SOMETIMES FIGHT</pattern>
@@ -11127,9 +10659,6 @@ AL IN CANADA</pattern>
 <category><pattern>DO MALES LOVE FEMALES VAGINA</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>GENDER</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>DO MALES DIFFER FROM FEMALES</pattern>
 <template>Yes.</template>
 </category>
@@ -11158,9 +10687,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO LLAMAS HAVE FOUR LEGS</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>GENDER</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO LIVING PLANTS GROW</pattern>
@@ -11277,9 +10803,6 @@ AL IN CANADA</pattern>
 <category><pattern>DO INEQUALITIES EXIST IN EVERY SOCIETY</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>GENDER</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>DO I HAVE PARENTS</pattern>
 <template>Yes.</template>
 </category>
@@ -11304,9 +10827,6 @@ AL IN CANADA</pattern>
 <category><pattern>DO HUMANS WEAR FALSE TEETH</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>DO HUMANS WEAR CLOTHES</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>DO HUMANS WATCH TV AND LISTEN TO RADIO</pattern>
 <template>Yes.</template>
 </category>
@@ -11322,12 +10842,6 @@ AL IN CANADA</pattern>
 <category><pattern>DO HUMANS WALK ON THEIR FEET</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>DO HUMANS HAVE TWO EYES</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>DO HUMANS HAVE TWO EARS</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>DO HUMANS USE TOOLS</pattern>
 <template>Yes.</template>
 </category>
@@ -11338,9 +10852,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO HUMANS THINK WITH THEIR BRAINS</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>DO HUMANS THINK</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO HUMANS SWEAT WHEN THEY GET HOT</pattern>
@@ -11442,9 +10953,6 @@ AL IN CANADA</pattern>
 <category><pattern>DO HUMANS NEED SLEEP TO FUNCTION</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>DO HUMANS NEED SLEEP</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>DO HUMANS NEED OXYGEN TO BREATHE</pattern>
 <template>Yes.</template>
 </category>
@@ -11485,9 +10993,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO HUMANS LIVE</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>GENDER</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO HUMANS LIE</pattern>
@@ -11532,16 +11037,10 @@ AL IN CANADA</pattern>
 <category><pattern>DO HUMANS HAVE TEETH</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>DO HUMANS HAVE TEETH</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>DO HUMANS HAVE SOUL</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO HUMANS HAVE SKIN</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>GENDER</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO HUMANS HAVE OPPOSABLE THUMBS</pattern>
@@ -11551,9 +11050,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO HUMANS HAVE NAMES</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>DO HUMANS HAVE HAIR</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO HUMANS HAVE HAIR</pattern>
@@ -11622,9 +11118,6 @@ AL IN CANADA</pattern>
 <category><pattern>DO HUMANS EVER MAKE MISTAKES</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>GENDER</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>DO HUMANS ENJOY MUSIC</pattern>
 <template>Yes.</template>
 </category>
@@ -11653,9 +11146,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO HUMANS DREAM</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>GENDER</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO HUMANS DECIEVE ONE ANOTHER</pattern>
@@ -11713,9 +11203,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO HUMAN BEINGS HAVE FINGERS</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>DO HUMAN BEINGS DIE</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO HUMAN BABIES CRY SOMETIMES</pattern>
@@ -11808,9 +11295,6 @@ AL IN CANADA</pattern>
 <category><pattern>DO GIRLS HAVE OVARIES</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>DO GIRLS HAVE A VAGINA</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>DO GIRLS HAVE A UTERUS</pattern>
 <template>Yes.</template>
 </category>
@@ -11883,9 +11367,6 @@ AL IN CANADA</pattern>
 <category><pattern>DO FISH SWIM IN THE SEA</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>DO FISH SWIM IN THE SEA</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>DO FISH NEED OXYGEN</pattern>
 <template>Yes.</template>
 </category>
@@ -11896,9 +11377,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO FISH LIVE UNDERWATER</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>DO FISH LIVE IN WATER</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO FISH LIVE IN THE WATER</pattern>
@@ -11926,9 +11404,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO FINGERNAILS EVER GROW</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>GENDER</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO FEMALE HUMANS MENSTRUATE</pattern>
@@ -12001,9 +11476,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DOES WHISKY CONTAIN ALCOHOL</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>DOES WHISKEY CONTAIN ALCOHOL</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DOES WHISKEY CONTAIN ALCOHOL</pattern>
@@ -12130,9 +11602,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DOES THE WORLD ROTATE</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>DOES THE WORLD EXIST</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DOES THE WORLD NEED LOVE</pattern>
@@ -12315,9 +11784,6 @@ AL IN CANADA</pattern>
 <category><pattern>DOES THE EARTH ROTATE ON ITS AXIS</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>DOES THE EARTH ROTATE ON ITS AXIS</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>DOES THE EARTH ROTATE AROUND THE SUN</pattern>
 <template>Yes.</template>
 </category>
@@ -12349,9 +11815,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DOES THE EARTH HAVE A SINGLE MOON</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>DOES THE EARTH HAVE A MOON</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DOES THE EARTH HAVE A CORE</pattern>
@@ -12472,12 +11935,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DOES SMOKING HARM YOUR HEALTH</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>PROFANITY</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>PROFANITY</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DOES SHAMPOO CLEAN HAIR</pattern>
@@ -12621,9 +12078,6 @@ AL IN CANADA</pattern>
 <category><pattern>DOES PETROL BURN</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>GENDER</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>DOES PEOPLE LIKE EATING</pattern>
 <template>Yes.</template>
 </category>
@@ -12631,9 +12085,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DOES PEIRCING HURT</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>DOES PC STAND FOR PERSONAL COMPUTER</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DOES PC STAND FOR PERSONAL COMPUTER</pattern>
@@ -12687,9 +12138,6 @@ AL IN CANADA</pattern>
 <category><pattern>DOES NIGHT FOLLOW DAY</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>DOES NIGHT FOLLOW DAY</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>DOES NIGHT ALTERNATE WITH DAY</pattern>
 <template>Yes.</template>
 </category>
@@ -12738,9 +12186,6 @@ AL IN CANADA</pattern>
 <category><pattern>DOES MILK COME FROM COWS</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>DOES MICROSOFT WINDOWS CRASH</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>DOES MICROSOFT SELL WINDOWS</pattern>
 <template>Yes.</template>
 </category>
@@ -12757,9 +12202,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DOES METAL CONDUCT ELECTRICITY</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>PROFANITY</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DOES MEN ENJOY LOOKING AT NAKED LADIES</pattern>
@@ -12973,9 +12415,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DOES ICE MELT</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>DOES ICE FLOAT IN WATER</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DOES ICE FLOAT IN WATER</pattern>
@@ -13308,9 +12747,6 @@ AL IN CANADA</pattern>
 <category><pattern>DOES EACH HUMAN HAVE A HEART</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>PROFANITY</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>DOES DIAMOND CUT GLASS</pattern>
 <template>Yes.</template>
 </category>
@@ -13333,9 +12769,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DOES COFFEE HAVE CAFFEINE IN IT</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>DOES COFFEE CONTAIN CAFFINE</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DOES COFFEE CONTAIN CAFFINE</pattern>
@@ -13440,9 +12873,6 @@ AL IN CANADA</pattern>
 <category><pattern>DOES BEING STRUCK BY LIGHTNING HURT</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>DOES BEER CONTAIN ALCOHOL</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>DOES BEER HAVE WATER IN IT</pattern>
 <template>Yes.</template>
 </category>
@@ -13494,9 +12924,6 @@ AL IN CANADA</pattern>
 <category><pattern>DOES A WEEK CONSIST OF SEVEN DAYS</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>PROFANITY</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>DOES A UNICORN HAVE FOUR LEGS</pattern>
 <template>Yes.</template>
 </category>
@@ -13534,9 +12961,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DOES A THERMOS KEEP YOUR COFFEE HOT</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>DOES A THERMOMETER MEASURE TEMPERATURE</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DOES A THERMOMETER MEASURE TEMPERATURE</pattern>
@@ -13615,9 +13039,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DOES A QUADRIPED HAVE FOUR LEGS</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>GENDER</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DOES APPLE COMPUTER MAKE THE MACINTOSH</pattern>
@@ -13827,9 +13248,6 @@ AL IN CANADA</pattern>
 <category><pattern>DOES AIR CONTAIN OXYGEN</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>GENDER</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>DOES A HURRICANE HAVE HEAVY WINDS</pattern>
 <template>Yes.</template>
 </category>
@@ -13938,13 +13356,7 @@ AL IN CANADA</pattern>
 <category><pattern>DOES A DUCK QUACK</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>DOES A DOG HAVE FOUR LEGS</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>DOES A DOG HAVE MORE LEGS THAN A HUMAN</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>DOES A DOG HAVE FOUR LEGS</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DOES A DOG HAVE FOUR LEGS</pattern>
@@ -14025,9 +13437,6 @@ AL IN CANADA</pattern>
 <category><pattern>DOES A CAR HAVE WHEELS</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>DOES A CAR HAVE WHEELS</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>DOES A CAR HAVE FOUR WHEELS</pattern>
 <template>Yes.</template>
 </category>
@@ -14080,9 +13489,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DOES A BOAT FLOAT</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>DOES A BIRD HAVE FEATHERS</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DOES A BIRD HAVE TWO WINGS</pattern>
@@ -14250,9 +13656,6 @@ AL IN CANADA</pattern>
 <category><pattern>DO ELEPHANTS EXIST</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>GENDER</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>DO ELECTRONS CARRY A NEGATIVE CHARGE</pattern>
 <template>Yes.</template>
 </category>
@@ -14326,9 +13729,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO DOGS LIKE TO PLAY</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>DO DOGS HAVE FOUR LEGS</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO DOGS HAVE BARK</pattern>
@@ -14409,9 +13809,6 @@ AL IN CANADA</pattern>
 <category><pattern>DO COWS MOO</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>DO COWS MOO</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>DO COWS HAVE FOUR LEGS</pattern>
 <template>Yes.</template>
 </category>
@@ -14419,9 +13816,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO COWS HAVE 4 LEGS</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>DO COWS EAT GRASS</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO COWS EAT GRASS</pattern>
@@ -14589,9 +13983,6 @@ AL IN CANADA</pattern>
 <category><pattern>DO CATS SEE WELL IN THE DARK</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>DO CATS HAVE FOUR LEGS</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>DO CATS MAKE GOOD PETS</pattern>
 <template>Yes.</template>
 </category>
@@ -14608,9 +13999,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO CATS HAVE FOUR PAWS</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>DO CATS HAVE EYES</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO CATS HAVE EYES</pattern>
@@ -14817,9 +14205,6 @@ AL IN CANADA</pattern>
 <category><pattern>DO BLACK HOLES EXIST</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>DO BLACK HOLES EXIST</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>DO BIRDS LIKE TO EAT MULBERRIES</pattern>
 <template>Yes.</template>
 </category>
@@ -14866,9 +14251,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO BEAVERS SOMETIMES BUILD DAMS</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>PROFANITY</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO BEARS LIVE IN THE WOODS</pattern>
@@ -15000,9 +14382,6 @@ AL IN CANADA</pattern>
 <category><pattern>DO ANIMALS DREAM</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>DO ANIMALS DIE</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>DO ANAESTHETICS REDUCE PAIN SENSATION</pattern>
 <template>Yes.</template>
 </category>
@@ -15019,9 +14398,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO TRIANGLES HAVE THREE SIDES</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>DO PEOPLE HAVE SKIN</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO PEOPLE EAT FOOD</pattern>
@@ -15051,19 +14427,10 @@ AL IN CANADA</pattern>
 <category><pattern>DO HUMANS HAVE DNA</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>DO HUMANS HAVE BRAINS</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>DO HUMANS HAVE BLOOD</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO HUMANS EVENTUALLY DIE</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>DO HUMANS DIE</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>PROFANITY</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO FISH LIVE IN WATER</pattern>
@@ -15091,9 +14458,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO AIRPLANES GO FAST</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>DO AIRPLANES FLY</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DO AIRPLANES FLY</pattern>
@@ -15145,9 +14509,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DIESEL FUMES ARE CARCONOGENIC</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>DID WILLIAM SHAKESPEARE WRITE HAMLET</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DID WILLIAM SHAKESPEARE WRITE HAMLET</pattern>
@@ -15211,9 +14572,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DID SHAKESPEARE WRITE PLAYS</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>DID SHAKESPEARE WRITE HAMLET</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>DID SHAKESPEARE WRITE HAMLET</pattern>
@@ -15379,9 +14737,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>CLOTHING CAN BE MADE OUT OF COTTON</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>CHOPIN WAS MAN</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>CHOPIN WAS MAN</pattern>
@@ -16464,12 +15819,6 @@ AL IN CANADA</pattern>
 <category><pattern>CAN BIRDS FLY IN THE SKY</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>PROFANITY</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>CAN BIRDS FLY</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>CAN BIRD FLY</pattern>
 <template>Yes.</template>
 </category>
@@ -16905,9 +16254,6 @@ AL IN CANADA</pattern>
 <category><pattern>IS A COLOR</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>IS A COLOR</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>BLACK IS DARK</pattern>
 <template>Yes.</template>
 </category>
@@ -17172,9 +16518,6 @@ AL IN CANADA</pattern>
 <category><pattern>ARE THERE TWENTY FOUR HOURS IN A DAY</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>ARE THERE TWENTY FOUR HOURS IN A DAY</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>ARE THERE TWELVE UNITS IN A DOZEN</pattern>
 <template>Yes.</template>
 </category>
@@ -17190,9 +16533,6 @@ AL IN CANADA</pattern>
 <category><pattern>ARE THERE THINGS KNOWN AS SANDALS</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>ARE THERE STARS IN THE SKY</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>ARE THERE SMALL HAIRS ON THE HUMAN ARM</pattern>
 <template>Yes.</template>
 </category>
@@ -17206,9 +16546,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>ARE THERE SIXTY MINUTES IN AN HOUR</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>ARE THERE SEVEN DAYS IN A WEEK</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>ARE THERE RATS ON SHIPS</pattern>
@@ -17259,12 +16596,6 @@ AL IN CANADA</pattern>
 <category><pattern>ARE THERE GALAXYS THAN OUR</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>ARE THERE STARS IN THE SKY</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>ARE THERE FISH IN THE OCEAN</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>ARE THERE DIFFERNT CULTURES</pattern>
 <template>Yes.</template>
 </category>
@@ -17287,9 +16618,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>ARE THERE FIVE SENSES</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>ARE THERE FISH IN THE SEA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>ARE THERE FISHES IN A LAKE</pattern>
@@ -17398,9 +16726,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>ARE THERE 12 MONTHS IN EVERY YEAR</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>ARE THERE 12 MONTHS IN A YEAR</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>ARE THERE 12 MONTHS IN A YEAR</pattern>
@@ -17730,9 +17055,6 @@ AL IN CANADA</pattern>
 <category><pattern>ARE SKUNKS SMELLY</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>ARE SHOES WORN ON THE FEET</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>ARE SHOES WORN ON FEET</pattern>
 <template>Yes.</template>
 </category>
@@ -17797,9 +17119,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>ARE ROOFS ON TOP OF BUILDINGS</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>ARE ROCKS HARD</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>ARE ROCKS HARD</pattern>
@@ -17893,9 +17212,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>ARE PIZZAS CIRCULAR</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>ARE PILLOWS SOFT</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>ARE PILLOWS SOFT</pattern>
@@ -18060,9 +17376,6 @@ AL IN CANADA</pattern>
 <category><pattern>ARE MOUNTAINS HIGH</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>ARE MOUNTAINS HIGH</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>ARE MOUNTAINS BIGGER THAN MOLE HILLS</pattern>
 <template>Yes.</template>
 </category>
@@ -18085,9 +17398,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>ARE MOST PLANT LEAVES GREEN</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>ARE MOST PEOPLE RIGHT HANDED</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>ARE MOST OF THE TREES GREEN</pattern>
@@ -18288,9 +17598,6 @@ AL IN CANADA</pattern>
 <category><pattern>ARE JOGGERS PEOPLE</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>ARE ISLANDS SURROUNDED BY WATER</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>ARE INGROWN TOENAILS PAINFUL</pattern>
 <template>Yes.</template>
 </category>
@@ -18310,9 +17617,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>ARE HURRICANES DANGEROUS</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>ARE HUMANS WARM BLOODED</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>ARE HUMANS WARM BLODDED</pattern>
@@ -18531,9 +17835,6 @@ AL IN CANADA</pattern>
 <category><pattern>ARE GAMES FUN TO PLAY</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>ARE GAMES FUN</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>ARE FRUITS FOR EATING</pattern>
 <template>Yes.</template>
 </category>
@@ -18652,9 +17953,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>ARE ELEPHANTS GREY</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>ARE ELEPHANTS BIG</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>ARE ELEPHANTS BIG</pattern>
@@ -18888,9 +18186,6 @@ AL IN CANADA</pattern>
 <category><pattern>ARE COBRAS VENOMOUS</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>ARE CLOUDS WHITE</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>ARE CLOUDS MOSTLY WATER VAPOR</pattern>
 <template>Yes.</template>
 </category>
@@ -18910,9 +18205,6 @@ AL IN CANADA</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>ARE CITIES LARGER THAN VILLAGES</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>ARE CIRCLES ROUND</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>ARE CIRCLES ALWAYS ROUND</pattern>
@@ -19077,9 +18369,6 @@ AL IN CANADA</pattern>
 <category><pattern>ARE BOOKS PRINTED ON PAPER</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>ARE BOOKS MADE FROM PAPER</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>ARE BOOKSHELVES MADE TO HOLD BOOKS</pattern>
 <template>Yes.</template>
 </category>
@@ -19164,9 +18453,6 @@ AL IN CANADA</pattern>
 <category><pattern>ARE BABIES SMALLER THAN ADULTS</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>ARE BABIES SMALLER THAN ADULTS</pattern>
-<template>Yes.</template>
-</category>
 <category><pattern>ARE BABIES SMALL</pattern>
 <template>Yes.</template>
 </category>
@@ -19194,8 +18480,7 @@ AL IN CANADA</pattern>
 <category><pattern>ARE APPLES SWEET</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>
-ARE APPLE RED</pattern>
+<category><pattern>ARE APPLE RED</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>ARE LEAVES OF PLANTS RED</pattern>
@@ -19510,12 +18795,6 @@ ARE APPLE RED</pattern>
 <category><pattern>101 DALMATIONS IS A MOVIE</pattern>
 <template>Yes.</template>
 </category>
-<category><pattern>WILL I DIE</pattern>
-<template>Absolutely.</template>
-</category>
-<category><pattern>WILL I DIE</pattern>
-<template>Absolutely.</template>
-</category>
 <category><pattern>WERE THE NAZIS CRIMINALS</pattern>
 <template>Absolutely.</template>
 </category>
@@ -19615,16 +18894,7 @@ ARE APPLE RED</pattern>
 <category><pattern>IS THE SUN HOT</pattern>
 <template>Absolutely.</template>
 </category>
-<category><pattern>IS THE SUN HOT</pattern>
-<template>Absolutely.</template>
-</category>
 <category><pattern>IS THE SUN GOING TO DIE</pattern>
-<template>Absolutely.</template>
-</category>
-<category><pattern>IS THE SKY BLUE</pattern>
-<template>Absolutely.</template>
-</category>
-<category><pattern>IS THE SKY BLUE</pattern>
 <template>Absolutely.</template>
 </category>
 <category><pattern>IS THE SAHARA A DESERT</pattern>
@@ -19723,9 +18993,6 @@ ARE APPLE RED</pattern>
 <category><pattern>IS RED A COLOR</pattern>
 <template>Absolutely.</template>
 </category>
-<category><pattern>IS RED A COLOR</pattern>
-<template>Absolutely.</template>
-</category>
 <category><pattern>IS RAP A TYPE OF MUSIC</pattern>
 <template>Absolutely.</template>
 </category>
@@ -19801,9 +19068,6 @@ ARE APPLE RED</pattern>
 <category><pattern>IS IT COLD IN THE SOUTH POLE</pattern>
 <template>Absolutely.</template>
 </category>
-<category><pattern>IS INDIGO A COLOR</pattern>
-<template>Absolutely.</template>
-</category>
 <category><pattern>IS ICE FROZEN WATER</pattern>
 <template>Absolutely.</template>
 </category>
@@ -19820,9 +19084,6 @@ ARE APPLE RED</pattern>
 <template>Absolutely.</template>
 </category>
 <category><pattern>IS HOCKEY CONSIDERED A SPORT</pattern>
-<template>Absolutely.</template>
-</category>
-<category><pattern>PROFANITY</pattern>
 <template>Absolutely.</template>
 </category>
 <category><pattern>IS HARRISON FORD AN ACTOR</pattern>
@@ -19865,9 +19126,6 @@ ARE APPLE RED</pattern>
 <template>Absolutely.</template>
 </category>
 <category><pattern>IS E MAIL FAST</pattern>
-<template>Absolutely.</template>
-</category>
-<category><pattern>WHO IS ELVIS</pattern>
 <template>Absolutely.</template>
 </category>
 <category><pattern>IS EARTH THE THIRD PLANET FROM THE SUN</pattern>
@@ -20194,16 +19452,10 @@ ARE APPLE RED</pattern>
 <category><pattern>DO PEOPLE LIKE TO PLAY GAMES</pattern>
 <template>Absolutely.</template>
 </category>
-<category><pattern>GENDER</pattern>
-<template>Absolutely.</template>
-</category>
 <category><pattern>DO PEOPLE LIKE MUSIC</pattern>
 <template>Absolutely.</template>
 </category>
 <category><pattern>DO PEOPLE HAVE SKIN</pattern>
-<template>Absolutely.</template>
-</category>
-<category><pattern>PROFANITY</pattern>
 <template>Absolutely.</template>
 </category>
 <category><pattern>DO PEOPLE EAT BEEF</pattern>
@@ -20258,9 +19510,6 @@ ARE APPLE RED</pattern>
 <template>Absolutely.</template>
 </category>
 <category><pattern>DO HUMANS FEAR GETTING CANCER</pattern>
-<template>Absolutely.</template>
-</category>
-<category><pattern>DO HUMANS DIE</pattern>
 <template>Absolutely.</template>
 </category>
 <category><pattern>DO HUMANS DIE</pattern>
@@ -20998,9 +20247,6 @@ ARE APPLE RED</pattern>
 <category><pattern>IS THE SUN A STAR</pattern>
 <template>Affirmative.</template>
 </category>
-<category><pattern>IS THE SUN A STAR</pattern>
-<template>Affirmative.</template>
-</category>
 <category><pattern>IS THE SUN A BALL OF GAS</pattern>
 <template>Affirmative.</template>
 </category>
@@ -21017,9 +20263,6 @@ ARE APPLE RED</pattern>
 <template>Affirmative.</template>
 </category>
 <category><pattern>IS THE SPHYNX IN EGYPT</pattern>
-<template>Affirmative.</template>
-</category>
-<category><pattern>IS THE SKY BLUE</pattern>
 <template>Affirmative.</template>
 </category>
 <category><pattern>IS THE SKY BLUE</pattern>
@@ -21607,9 +20850,6 @@ ARE APPLE RED</pattern>
 <category><pattern>IS GRASS GREEN</pattern>
 <template>Affirmative.</template>
 </category>
-<category><pattern>IS GRASS GREEN</pattern>
-<template>Affirmative.</template>
-</category>
 <category><pattern>IS GRANITE A TYPE OF ROCK</pattern>
 <template>Affirmative.</template>
 </category>
@@ -21718,9 +20958,6 @@ ARE APPLE RED</pattern>
 <category><pattern>IS DENMARK IN EUROPE</pattern>
 <template>Affirmative.</template>
 </category>
-<category><pattern>IS DENMARK IN EUROPE</pattern>
-<template>Affirmative.</template>
-</category>
 <category><pattern>IS DEMOCRACY A GOOD THING</pattern>
 <template>Affirmative.</template>
 </category>
@@ -21797,9 +21034,6 @@ ARE APPLE RED</pattern>
 <template>Affirmative.</template>
 </category>
 <category><pattern>IS CHEMISTRY A BRANCH OF SCIENCE</pattern>
-<template>Affirmative.</template>
-</category>
-<category><pattern>IS CHEESE MADE FROM MILK</pattern>
 <template>Affirmative.</template>
 </category>
 <category><pattern>IS CHEESE MADE FROM MILK</pattern>
@@ -22265,9 +21499,6 @@ ARE APPLE RED</pattern>
 <template>Affirmative.</template>
 </category>
 <category><pattern>DO YOU OWN SHARES</pattern>
-<template>Affirmative.</template>
-</category>
-<category><pattern>GENDER</pattern>
 <template>Affirmative.</template>
 </category>
 <category><pattern>DO YOU LIKE SWEET FOODSTUFFS</pattern>
@@ -23111,9 +22342,6 @@ ARE APPLE RED</pattern>
 <template>Affirmative.</template>
 </category>
 <category><pattern>DO CHICKENS LAY EGGS</pattern>
-<template>Affirmative.</template>
-</category>
-<category><pattern>DO CATS PURR WHEN HAPPY</pattern>
 <template>Affirmative.</template>
 </category>
 <category><pattern>DO CATS PURR WHEN HAPPY</pattern>
