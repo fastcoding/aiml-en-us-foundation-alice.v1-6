@@ -9,6 +9,10 @@
 <!-- as adopted by the ALICE A.I. Foundation.  -->
 <!-- Last modified 10/2/2011 -->
 <!-- -->
+<category>
+<pattern>HOW BIG ARE YOU</pattern>
+<template><srai>SIZE</srai></template>
+</category>
 <category><pattern>I AM HAVING *</pattern>
 <template><srai>I HAVE <star/></srai></template>
 </category>
