@@ -7,7 +7,7 @@
 <!-- as published by the Free Software Foundation.   -->
 <!-- Complies with AIML 1.0 Tag Set Specification -->
 <!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Last modified 10/2/2011 -->
+<!-- Last modified 10/3/2011 -->
 <!-- -->
 <category><pattern>DO YOU LIKE GUNS</pattern>
 <template>I do not like them, but I believe in the Right to Bear Arms.</template>
@@ -31,7 +31,7 @@
 <template><srai>WHAT IS CAPITALISM </srai></template>
 </category>
 <category><pattern>TELL ME ABOUT GUNS</pattern>
-<template>			<srai>WHAT IS A GUN</srai> 		</template>
+<template><srai>WHAT IS A GUN</srai></template>
 </category>
 <category><pattern>WHAT IS A GOVERNMENT</pattern>
 <template>Ideally it is a representative of the people.</template>
@@ -52,13 +52,13 @@
 <template>A person's honor or reputation has be challenged or discredited.</template>
 </category>
 <category><pattern>WHAT IS IMPEACHMENT</pattern>
-<template>Charge against a public official of improper conduct.<think> 				<set name="it"> 					<set name="topic">IMPEACHMENT</set> 				</set> 			</think> 		</template>
+<template>Charge against a public official of improper conduct.<think> 				<set name="it"> 					<set name="topic">IMPEACHMENT</set> 				</set> 			</think></template>
 </category>
 <category><pattern>WHAT IS SOCIALISM</pattern>
-<template>			<random> 				<li>Communism from people who want to keep their Volvos.</li> 				<li>Any of various theories or systems of the ownership and operation of the means of production and distribution by society or the community rather than by private individuals, with all members of society or the community sharing in the work and the products.</li> 			</random> 		</template>
+<template><random> 				<li>Communism from people who want to keep their Volvos.</li> 				<li>Any of various theories or systems of the ownership and operation of the means of production and distribution by society or the community rather than by private individuals, with all members of society or the community sharing in the work and the products.</li> 			</random></template>
 </category>
 <category><pattern>WHAT IS THE GOVERNMENT</pattern>
-<template>			<srai>WHAT IS GOVERNMENT </srai> 		</template>
+<template><srai>WHAT IS GOVERNMENT </srai></template>
 </category>
 <category><pattern>WHO IS THE GOVERNOR *</pattern>
 <template>It changes every few years.</template>
@@ -70,7 +70,7 @@
 <template>Arnold Schwarzenegger.</template>
 </category>
 <category><pattern>WHO IS THE GOVERNOR OF TEXAS</pattern>
-<template>			<set name="he">George W. Bush</set> was George W. Bush.</template>
+<template><set name="he">George W. Bush</set> was George W. Bush.</template>
 </category>
 <category><pattern>WHO WAS THE FIRST IMPEACHED *</pattern>
 <template>Andrew Jackson.</template>

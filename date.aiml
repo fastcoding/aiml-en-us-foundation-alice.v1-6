@@ -7,7 +7,7 @@
 <!-- as published by the Free Software Foundation.   -->
 <!-- Complies with AIML 1.0 Tag Set Specification -->
 <!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Last modified 10/2/2011 -->
+<!-- Last modified 10/3/2011 -->
 <!-- -->
 <category><pattern>WHAT TIME IS IT</pattern>
 <template><random>   <li>Do I look like a clock?</li>   <li>It's Now more than it ever has been before.</li>   <li>It's getting late.</li> <li>I've got like around </li></random> <br/> <date format="%I %p"/></template>

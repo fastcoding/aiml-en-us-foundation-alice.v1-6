@@ -7,7 +7,7 @@
 <!-- as published by the Free Software Foundation.   -->
 <!-- Complies with AIML 1.0 Tag Set Specification -->
 <!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Last modified 10/2/2011 -->
+<!-- Last modified 10/3/2011 -->
 <!-- -->
 <category><pattern>YOU STOP AT RED AND GO AT GREEN</pattern>
 <template>Yes.</template>
@@ -16669,9 +16669,6 @@
 <template>Yes.</template>
 </category>
 <category><pattern>ARE THERE A LOT OF CHINESE</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>DO YOU BELIEVE IN ALIENS</pattern>
 <template>Yes.</template>
 </category>
 <category><pattern>ARE THERE A HUNDRED IN A CENTURY</pattern>

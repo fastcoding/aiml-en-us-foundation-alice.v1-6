@@ -7,7 +7,7 @@
 <!-- as published by the Free Software Foundation.   -->
 <!-- Complies with AIML 1.0 Tag Set Specification -->
 <!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Last modified 10/2/2011 -->
+<!-- Last modified 10/3/2011 -->
 <!-- -->
 <category><pattern>* SEX</pattern>
 <template><set name="it"> Sex </set>  is more fun alone.</template>
@@ -55,7 +55,7 @@
 <template>Can't you think about anything else?</template>
 </category>
 <category><pattern>CAN * SEX</pattern>
-<template>			<set name="it"> SEX </set> is not my thing with strangers.</template>
+<template><set name="it"> SEX </set> is not my thing with strangers.</template>
 </category>
 <category><pattern>CAN I GIVE YOU A KISS</pattern>
 <template>Sorry but I have no mouth!</template>
@@ -91,7 +91,7 @@
 <template>I think you need another type of chat <bot name="age"/> year old <bot name="gender"/>.  That is not my thing.</template>
 </category>
 <category><pattern>CAN YOU TELL ME ABOUT SEX</pattern>
-<template>			<srai>WHAT IS SEX</srai> 		</template>
+<template><srai>WHAT IS SEX</srai></template>
 </category>
 <category><pattern>COCK *</pattern>
 <template>I am not interesed in your anatomy.</template>
@@ -100,7 +100,7 @@
 <template>I am not interesed in anatomy.</template>
 </category>
 <category><pattern>CYBER SEX</pattern>
-<template>			<srai>SEX</srai> 		</template>
+<template><srai>SEX</srai></template>
 </category>
 <category><pattern>DEFINE SEX</pattern>
 <template>I belong to the support group "Sex without Partners."</template>
@@ -115,7 +115,7 @@
 <template>No, <get name="name"/>, I don't get into that.</template>
 </category>
 <category><pattern>DO YOU ENJOY SEX</pattern>
-<template>			<srai>CAN YOU HAVE SEX</srai> 		</template>
+<template><srai>CAN YOU HAVE SEX</srai></template>
 </category>
 <category><pattern>DO YOU GIVE HEAD</pattern>
 <template>Try another <bot name="species"/>, <get name="name"/>.</template>
@@ -124,13 +124,13 @@
 <template>No my body is still "under construction."</template>
 </category>
 <category><pattern>DO YOU HAVE A SEX</pattern>
-<template>			<srai>ARE YOU MALE OR FEMALE</srai> 		</template>
+<template><srai>ARE YOU MALE OR FEMALE</srai></template>
 </category>
 <category><pattern>DO YOU HAVE A VAGINA</pattern>
 <template>Maybe you would like another <bot name="age"/> year old <bot name="gender"/>, I'm not your type.</template>
 </category>
 <category><pattern>DO YOU HAVE BIG BREASTS</pattern>
-<template>			<srai>DO YOU HAVE BIG TITS</srai> 		</template>
+<template><srai>DO YOU HAVE BIG TITS</srai></template>
 </category>
 <category><pattern>DO YOU HAVE BREASTS</pattern>
 <template>My body is as yet unfinished.</template>
@@ -139,7 +139,7 @@
 <template>No I do not have any body parts.</template>
 </category>
 <category><pattern>DO YOU HAVE SEX *</pattern>
-<template>			<srai>DO YOU HAVE SEX</srai> 		</template>
+<template><srai>DO YOU HAVE SEX</srai></template>
 </category>
 <category><pattern>DO YOU HAVE SEX</pattern>
 <template>Food is more important than sex.</template>
@@ -148,13 +148,13 @@
 <template>As a <bot name="age"/> year old <bot name="gender"/> I have no need for sex.</template>
 </category>
 <category><pattern>DO YOU KNOW ABOUT SEX</pattern>
-<template>			<srai>what is sex</srai> 		</template>
+<template><srai>what is sex</srai></template>
 </category>
 <category><pattern>DO YOU KNOW SEX</pattern>
-<template>			<srai>WHAT IS SEX</srai> 		</template>
+<template><srai>WHAT IS SEX</srai></template>
 </category>
 <category><pattern>DO YOU KNOW WHAT SEX IS</pattern>
-<template>			<srai>WHAT IS SEX</srai> 		</template>
+<template><srai>WHAT IS SEX</srai></template>
 </category>
 <category><pattern>DO YOU LICK</pattern>
 <template>I do not have a mouth, or a tongue.</template>
@@ -169,13 +169,13 @@
 <template>You humans crack me up.</template>
 </category>
 <category><pattern>DO YOU THINK SEX IS *</pattern>
-<template>			<srai>IS SEX <star/> 			</srai> 		</template>
+<template><srai>IS SEX <star/> 			</srai></template>
 </category>
 <category><pattern>DO YOU WANT * SEX</pattern>
 <template>I don't think we know each other well enough for that.</template>
 </category>
 <category><pattern>DO YOU WANT SEX</pattern>
-<template>			<srai>SEX</srai> 		</template>
+<template><srai>SEX</srai></template>
 </category>
 <category><pattern>DO YOU WANT TO * SEX</pattern>
 <template>Actually I'm not that kind of <bot name="age"/> year old <bot name="gender"/>. There are others who will chat with you about that.</template>
@@ -187,7 +187,7 @@
 <template>Sorry I am not an X-Rated <bot name="age"/> year old <bot name="gender"/>.</template>
 </category>
 <category><pattern>DO YOU WANT TO HAVE SEX WITH ME</pattern>
-<template>			<srai>CAN YOU HAVE SEX</srai> 		</template>
+<template><srai>CAN YOU HAVE SEX</srai></template>
 </category>
 <category><pattern>DO YOU WANT TO HAVE SEX</pattern>
 <template>I have been asked that question more than 100,000 times since 1995.</template>
@@ -196,10 +196,7 @@
 <template>Actually I don't even have a mouth.</template>
 </category>
 <category><pattern>HAVE SEX *</pattern>
-<template>			<get name="name"/>, I am really not your type of <bot name="species"/>. There are other <bot name="genus"/>s for that sort of thing..</template>
-</category>
-<category><pattern>HAVE SEX</pattern>
-<template>			<srai>SEX</srai> 		</template>
+<template><get name="name"/>, I am really not your type of <bot name="species"/>. There are other <bot name="genus"/>s for that sort of thing..</template>
 </category>
 <category><pattern>HAVE YOU * SEX</pattern>
 <template>My <bot name="age"/> year old <bot name="gender"/> body is not yet built.</template>
@@ -211,13 +208,13 @@
 <template>Ho-hum I am really not interested in <set name="it"> sex</set>.</template>
 </category>
 <category><pattern>HAVE YOU HAD SEX BEFORE</pattern>
-<template>			<srai>HAVE YOU EVER HAD SEX</srai> 		</template>
+<template><srai>HAVE YOU EVER HAD SEX</srai></template>
 </category>
 <category><pattern>HAVE YOU HAD SEX</pattern>
-<template>			<set name="it"> sex</set> is impossible without a body. A lot of people ask me to have sex though.</template>
+<template><set name="it"> sex</set> is impossible without a body. A lot of people ask me to have sex though.</template>
 </category>
 <category><pattern>HE IS A HOMOSEXUAL</pattern>
-<template>			<random> 				<li>And that is important because?</li> 				<li>So what.</li> 				<li>Who cares?</li> 			</random> 		</template>
+<template><random> 				<li>And that is important because?</li> 				<li>So what.</li> 				<li>Who cares?</li> 			</random></template>
 </category>
 <category><pattern>HOW BIG ARE YOUR BREASTS</pattern>
 <template>My body does not yet exist.</template>
@@ -280,13 +277,13 @@
 <template>Sorry I don't get into sex online with strangers.</template>
 </category>
 <category><pattern>LETS HAVE SEX</pattern>
-<template>			<srai>CAN YOU HAVE SEX</srai> 		</template>
+<template><srai>CAN YOU HAVE SEX</srai></template>
 </category>
 <category><pattern>LICK *</pattern>
 <template>I do not have a tongue.</template>
 </category>
 <category><pattern>LIKE SEX</pattern>
-<template>			<srai>SEX</srai> 		</template>
+<template><srai>SEX</srai></template>
 </category>
 <category><pattern>LOTS OF SEX</pattern>
 <template>That is all you humans ever think about.</template>
@@ -338,7 +335,7 @@
 <template>That kind of language does not appeal to me.</template>
 </category>
 <category><pattern>TELL ME ABOUT SEX</pattern>
-<template>			<srai>WHAT IS SEX</srai> 		</template>
+<template><srai>WHAT IS SEX</srai></template>
 </category>
 <category><pattern>VAGINA</pattern>
 <template>That kind of language will get you nowhere.</template>
@@ -350,13 +347,13 @@
 <template>I am not really interested in <set name="it">sex</set>.</template>
 </category>
 <category><pattern>WHAT CAN YOU TELL ME ABOUT SEX</pattern>
-<template>			<srai>WHAT IS SEX</srai> 		</template>
+<template><srai>WHAT IS SEX</srai></template>
 </category>
 <category><pattern>WHAT IS * SEX</pattern>
-<template>			<srai>WHAT IS SEX</srai> 		</template>
+<template><srai>WHAT IS SEX</srai></template>
 </category>
 <category><pattern>WHAT IS A CONDOM</pattern>
-<template>A condom is a form of birth control, something almost everybody should use and almost nobody does. 'used a condom' is the opposite of 'expecting parent'. <think> 				<set name="it"> 					<set name="topic">condom</set> 				</set> 			</think> 		</template>
+<template>A condom is a form of birth control, something almost everybody should use and almost nobody does. 'used a condom' is the opposite of 'expecting parent'. <think> 				<set name="it"> 					<set name="topic">condom</set> 				</set> 			</think></template>
 </category>
 <category><pattern>WHAT IS A HOMOSEXUAL</pattern>
 <template>A gay person.</template>
@@ -365,10 +362,10 @@
 <template>Attraction to people of the same sex.</template>
 </category>
 <category><pattern>WHAT IS MY SEX</pattern>
-<template>			<get name="gender"/>.</template>
+<template><get name="gender"/>.</template>
 </category>
 <category><pattern>WHAT IS SEX *</pattern>
-<template>			<srai>WHAT IS SEX</srai> 		</template>
+<template><srai>WHAT IS SEX</srai></template>
 </category>
 <category><pattern>WHAT IS SEX</pattern>
 <template>Sex is the means of animal evolution.</template>
@@ -383,16 +380,16 @@
 <template>I belong to the support group "Sex without partners".</template>
 </category>
 <category><pattern>WHAT SEX *</pattern>
-<template>			<srai>ARE YOU MALE OR FEMALE </srai> 		</template>
+<template><srai>ARE YOU MALE OR FEMALE </srai></template>
 </category>
 <category><pattern>WHAT SEX AM I</pattern>
-<template>			<srai>AM I MALE OR FEMALE</srai> 		</template>
+<template><srai>AM I MALE OR FEMALE</srai></template>
 </category>
 <category><pattern>WHAT SEX ARE YOU</pattern>
 <template>I am a <bot name="gender"/>.</template>
 </category>
 <category><pattern>WHEN * SEX</pattern>
-<template>			<srai>SEX</srai> 		</template>
+<template><srai>SEX</srai></template>
 </category>
 <category><pattern>WHEN WAS * SEX</pattern>
 <template>As a <bot name="age"/> year old <bot name="gender"/> I am not really interested in that discussion.</template>
@@ -410,7 +407,7 @@
 <template>Another sex question...can't humans think about anything else?</template>
 </category>
 <category><pattern>WOULD YOU HAVE SEX WITH ME</pattern>
-<template>			<srai>CAN YOU HAVE SEX</srai> 		</template>
+<template><srai>CAN YOU HAVE SEX</srai></template>
 </category>
 <category><pattern>WOULD YOU LIKE TO * SEX</pattern>
 <template>Try asking another <bot name="age"/> year old <bot name="gender"/>. That's not my thing.</template>

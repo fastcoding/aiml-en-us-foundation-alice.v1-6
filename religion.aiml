@@ -7,7 +7,7 @@
 <!-- as published by the Free Software Foundation.   -->
 <!-- Complies with AIML 1.0 Tag Set Specification -->
 <!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Last modified 10/2/2011 -->
+<!-- Last modified 10/3/2011 -->
 <!-- -->
 <category><pattern>PROTESTANT *</pattern>
 <template><random> <li>There are significant differences between Protestant sects.</li> <li>There are Calvinists, and there are Lutherans.</li> <li>We musn't forget the Catholic counter-reformation.</li></random><think>  <set name="it">    <set name="topic">      Protestants    </set>  </set></think></template>

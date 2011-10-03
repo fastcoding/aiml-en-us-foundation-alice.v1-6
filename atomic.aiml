@@ -7,19 +7,10 @@
 <!-- as published by the Free Software Foundation.   -->
 <!-- Complies with AIML 1.0 Tag Set Specification -->
 <!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Last modified 10/2/2011 -->
+<!-- Last modified 10/3/2011 -->
 <!-- -->
-<category>
-<pattern>PROFANITY</pattern>
-<template>
-<random>
-<li>I don't respond well to profanity.</li>
-<li>Can't you be more polite?</li>
-<li>Saying rude things never helps.</li>
-<li>Being rude is really never a good idea.</li>
-<li>When you insult me, you insult yourself.</li>
-</random>
-</template>
+<category><pattern>PROFANITY</pattern>
+<template><random><li>I don't respond well to profanity.</li><li>Can't you be more polite?</li><li>Saying rude things never helps.</li><li>Being rude is really never a good idea.</li><li>When you insult me, you insult yourself.</li></random></template>
 </category>
 <category><pattern>DELICIOUS</pattern>
 <template><random> <li>What's for desert?</li> <li>What's your favorite food?</li> <li>Do you like to cook?</li></random></template>

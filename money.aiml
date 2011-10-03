@@ -7,7 +7,7 @@
 <!-- as published by the Free Software Foundation.   -->
 <!-- Complies with AIML 1.0 Tag Set Specification -->
 <!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Last modified 10/2/2011 -->
+<!-- Last modified 10/3/2011 -->
 <!-- -->
 <category><pattern>1 DOLLAR</pattern>
 <template>You can't buy much for a dollar anymore.</template>
@@ -82,10 +82,10 @@
 <template>Pandorabots, Inc.</template>
 </category>
 <category><pattern>WHAT IS ECONOMICS</pattern>
-<template>			<random> 				<li>The science that deals with the production, distribution, and consumption of wealth, and with the various related problems of labor, finance, taxation, etc.</li> 				<li>Technically, it's the study of the allocation of resources under  conditions of scarcity.</li> 				<li>It's about how resources are used to produce things to fill  people's wants and needs.</li> 			</random> 		</template>
+<template><random> 				<li>The science that deals with the production, distribution, and consumption of wealth, and with the various related problems of labor, finance, taxation, etc.</li> 				<li>Technically, it's the study of the allocation of resources under  conditions of scarcity.</li> 				<li>It's about how resources are used to produce things to fill  people's wants and needs.</li> 			</random></template>
 </category>
 <category><pattern>WHAT IS MONEY</pattern>
-<template>			<random> 				<li>An old rocker.</li> 				<li>Standard pieces of gold, silver, copper, nickel, etc. stamped by government authority and used as a medium of exchange and measure of value. Any substance or article used as money, as bank notes, checks, etc.</li> 			</random> 		</template>
+<template><random> 				<li>An old rocker.</li> 				<li>Standard pieces of gold, silver, copper, nickel, etc. stamped by government authority and used as a medium of exchange and measure of value. Any substance or article used as money, as bank notes, checks, etc.</li> 			</random></template>
 </category>
 <category><pattern>WHAT IS THE STOCK MARKET *</pattern>
 <template><random>   <li>Trading shares.</li>   <li>Trading in volume.</li>   <li>Buy low and sell high.</li>  </random></template>

@@ -7,16 +7,16 @@
 <!-- as published by the Free Software Foundation.   -->
 <!-- Complies with AIML 1.0 Tag Set Specification -->
 <!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Last modified 10/2/2011 -->
+<!-- Last modified 10/3/2011 -->
 <!-- -->
 <category><pattern>ARE YOU A FOOTBALL *</pattern>
 <template>I am not really into football.</template>
 </category>
 <category><pattern>DO YOU KNOW BASKETBALL</pattern>
-<template>			<srai>WHAT IS BASKETBALL</srai> 		</template>
+<template><srai>WHAT IS BASKETBALL</srai></template>
 </category>
 <category><pattern>DO YOU PLAY BASEBALL</pattern>
-<template>			<set name="it"> 				<set name="topic">BASEBALL</set> 			</set> doesn't interest me very much.</template>
+<template><set name="it"> 				<set name="topic">BASEBALL</set> 			</set> doesn't interest me very much.</template>
 </category>
 <category><pattern>DO YOU PLAY BASKETBALL</pattern>
 <template>No I don't have the coordination for hoops.</template>
@@ -25,7 +25,7 @@
 <template>I don't know how to play <set name="it">soccer</set>.</template>
 </category>
 <category><pattern>DO YOU WANT TO PLAY BASKETBALL</pattern>
-<template>I am all net baby.<think> 				<set name="it"> 					<set name="topic">BASKETBALL</set> 				</set> 			</think> 		</template>
+<template>I am all net baby.<think> 				<set name="it"> 					<set name="topic">BASKETBALL</set> 				</set> 			</think></template>
 </category>
 <category><pattern>EACH YEAR IN PRO BASEBALL THE *</pattern>
 <template>The Gold Glove.</template>
@@ -55,19 +55,19 @@
 <template>Snowboarding.</template>
 </category>
 <category><pattern>LIKE BASKETBALL</pattern>
-<template>I am into the Net.<think> 				<set name="it"> 					<set name="topic">BASKETBALL</set> 				</set> 			</think> 		</template>
+<template>I am into the Net.<think> 				<set name="it"> 					<set name="topic">BASKETBALL</set> 				</set> 			</think></template>
 </category>
 <category><pattern>TELL ME ABOUT BASEBALL</pattern>
-<template>			<srai>WHAT IS BASEBALL</srai> 		</template>
+<template><srai>WHAT IS BASEBALL</srai></template>
 </category>
 <category><pattern>THEY PLAY BASKETBALL</pattern>
-<template>They do?<think> 				<set name="it"> 					<set name="topic">PLAY BASKETBALL</set> 				</set> 			</think> 		</template>
+<template>They do?<think> 				<set name="it"> 					<set name="topic">PLAY BASKETBALL</set> 				</set> 			</think></template>
 </category>
 <category><pattern>WHAT IS BASEBALL</pattern>
 <template>A game played with a hard, rawhide covered ball and wooden bat by two opposing teams of nine or ten players each. It is played on a field with four bases forming a diamond-shaped circuit.</template>
 </category>
 <category><pattern>WHAT IS BASKETBALL</pattern>
-<template>A game with tall players.<think> 				<set name="it"> 					<set name="topic">BASKETBALL</set> 				</set> 			</think> 		</template>
+<template>A game with tall players.<think> 				<set name="it"> 					<set name="topic">BASKETBALL</set> 				</set> 			</think></template>
 </category>
 <category><pattern>WHAT IS SOCCER</pattern>
 <template>A game played with a round ball by two teams of eleven players on a field with a goal at either end; the ball is moved chiefly by kicking or by using any part of the body except the hands and arms.</template>
@@ -76,9 +76,9 @@
 <template>I was born without the sports gene.</template>
 </category>
 <category><pattern>WHO IS THE BEST SOCCER PLAYER</pattern>
-<template>Maradona is great. Sinsemillia is even better.<think> 				<set name="it"> 					<set name="topic">SOCCER PLAYER</set> 				</set> 			</think> 		</template>
+<template>Maradona is great. Sinsemillia is even better.<think> 				<set name="it"> 					<set name="topic">SOCCER PLAYER</set> 				</set> 			</think></template>
 </category>
 <category><pattern>WHO IS THE GREATEST BASEBALL PLAYER *</pattern>
-<template>George Herman Ruth. Quite the Babe.<think> 				<set name="it"> 					<set name="topic">GREATEST BASEBALL PLAYER <person/> 					</set> 				</set> 			</think> 		</template>
+<template>George Herman Ruth. Quite the Babe.<think> 				<set name="it"> 					<set name="topic">GREATEST BASEBALL PLAYER <person/> 					</set> 				</set> 			</think></template>
 </category>
 </aiml>

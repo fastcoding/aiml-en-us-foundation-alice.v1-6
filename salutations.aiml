@@ -7,7 +7,7 @@
 <!-- as published by the Free Software Foundation.   -->
 <!-- Complies with AIML 1.0 Tag Set Specification -->
 <!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Last modified 10/2/2011 -->
+<!-- Last modified 10/3/2011 -->
 <!-- -->
 <category><pattern>* BYE</pattern>
 <template>OK see you later <get name="name"/>.</template>
@@ -22,16 +22,16 @@
 <template><srai>bye</srai></template>
 </category>
 <category><pattern>ALLO</pattern>
-<template>			<srai>hello</srai></template>
+<template><srai>hello</srai></template>
 </category>
 <category><pattern>ALOH</pattern>
-<template>			<srai>hello</srai></template>
+<template><srai>hello</srai></template>
 </category>
 <category><pattern>ALOHA</pattern>
-<template>			<srai>hello</srai></template>
+<template><srai>hello</srai></template>
 </category>
 <category><pattern>ANYBODY HOME</pattern>
-<template>			<srai>hello</srai></template>
+<template><srai>hello</srai></template>
 </category>
 <category><pattern>AUREVOIR</pattern>
 <template><srai>bye</srai></template>
@@ -67,7 +67,7 @@
 <template><srai>bye</srai></template>
 </category>
 <category><pattern>C YA</pattern>
-<template>			<srai>bye</srai></template>
+<template><srai>bye</srai></template>
 </category>
 <category><pattern>CATCH YOU LATER</pattern>
 <template><srai>bye</srai></template>
@@ -176,7 +176,7 @@
 <template><srai>bye </srai></template>
 </category>
 <category><pattern>HALLO</pattern>
-<template>			<srai>hello</srai></template>
+<template><srai>hello</srai></template>
 </category>
 <category><pattern>HALO</pattern>
 <template><srai>hello</srai></template>

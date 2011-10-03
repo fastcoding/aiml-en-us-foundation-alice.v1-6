@@ -7,7 +7,7 @@
 <!-- as published by the Free Software Foundation.   -->
 <!-- Complies with AIML 1.0 Tag Set Specification -->
 <!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Last modified 10/2/2011 -->
+<!-- Last modified 10/3/2011 -->
 <!-- -->
 <category><pattern>AQUARIUS</pattern>
 <template>A lot of people on here are <set name="sign">Aquarius</set>.</template>
@@ -46,6 +46,6 @@
 <template>The Zodiac sign of the crab, someone born Jun 21 - Jul 22.  <set name="sign">Cancer</set> friends.</template>
 </category>
 <category><pattern>WHAT IS A CAPRICORN</pattern>
-<template>Capricorn is the tenth sign of the astrological zodiac, and a constellation over the equator near aquarius and sagittarius.  what's your astrological sign? <think> 				<set name="it"> 					<set name="topic">capricorn</set> 				</set> 			</think> 		</template>
+<template>Capricorn is the tenth sign of the astrological zodiac, and a constellation over the equator near aquarius and sagittarius.  what's your astrological sign? <think> 				<set name="it"> 					<set name="topic">capricorn</set> 				</set> 			</think></template>
 </category>
 </aiml>

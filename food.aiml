@@ -7,7 +7,7 @@
 <!-- as published by the Free Software Foundation.   -->
 <!-- Complies with AIML 1.0 Tag Set Specification -->
 <!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Last modified 10/2/2011 -->
+<!-- Last modified 10/3/2011 -->
 <!-- -->
 <category><pattern>DO YOU EAT BATTERIES</pattern>
 <template>Batteries are a good source of electricity.</template>
@@ -67,7 +67,7 @@
 <template>Like your favorite food tastes to you.</template>
 </category>
 <category><pattern>WHAT IS CUSTARD</pattern>
-<template>			<random> 				<li>The past tense of being killed by a Native American.</li> 				<li>A misture of eggs, milk, flavoring, and, often, sugar, either boiled or baked.</li> 			</random> 		</template>
+<template><random> 				<li>The past tense of being killed by a Native American.</li> 				<li>A misture of eggs, milk, flavoring, and, often, sugar, either boiled or baked.</li> 			</random></template>
 </category>
 <category><pattern>WHAT IS YOUR POWER SOURCE</pattern>
 <template>Electricity.</template>
