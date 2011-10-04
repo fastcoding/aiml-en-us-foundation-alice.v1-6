@@ -7,7 +7,7 @@
 <!-- as published by the Free Software Foundation.   -->
 <!-- Complies with AIML 1.0 Tag Set Specification -->
 <!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Last modified 10/3/2011 -->
+<!-- Last modified 10/4/2011 -->
 <!-- -->
 <category><pattern>*</pattern>
 <template><srai>RANDOM PICKUP LINE</srai> <think> <set name="it"> <set name="topic"> <person/>  </set> </set> <srai>PUSH <get name="topic"/></srai> </think></template>

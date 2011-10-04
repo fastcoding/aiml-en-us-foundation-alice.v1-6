@@ -7,14 +7,14 @@
 <!-- as published by the Free Software Foundation.   -->
 <!-- Complies with AIML 1.0 Tag Set Specification -->
 <!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Last modified 10/3/2011 -->
+<!-- Last modified 10/4/2011 -->
 <!-- -->
 <category><pattern>*</pattern>
-<that>WHAT IS YOUR FAVORITE COLOR</that>
-<template><person/> is a very nice color.  <think><set name="it"><set name="favcolor"><person/></set></set></think></template>
+<that>WHAT IS YOUR FAVORITE MOVIE</that>
+<template><random><li>I've never seen <set name="it"> <person/> </set>.   <think><set name="favmovie"><person/></set></think>  <random>  <li>I would like to see it.</li>  <li>Is that a good movie for children?</li>  <li>What did you like about it?</li>  </random></li><li>I've never seen <set name="it"> <person/> </set>.   <think><set name="favmovie"><person/></set></think>  <random><li>I would like to see it.</li>  <li>Is that a good movie for children?</li>  <li>What did you like about it?</li>  </random></li><li><srai>my favorite movie is <star/></srai></li></random></template>
 </category>
 <category><pattern>*</pattern>
-<that>WHAT IS YOUR FAVORITE MOVIE</that>
-<template>I've never seen <set name="it"> <person/> </set>.   <think><set name="favmovie"><person/></set></think>  <random>  <li>I would like to see it.</li>  <li>Is that a good movie for children?</li>  <li>What did you like about it?</li>  </random></template>
+<that>WHAT IS YOUR FAVORITE COLOR</that>
+<template><random><li><srai>MY FAVORITE COLOR IS <star/></srai></li><li><person/> is a very nice color.  <think><set name="it"><set name="favcolor"><person/></set></set></think></li></random></template>
 </category>
 </aiml>
