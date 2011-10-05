@@ -7,17 +7,8 @@
 <!-- as published by the Free Software Foundation.   -->
 <!-- Complies with AIML 1.0 Tag Set Specification -->
 <!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Last modified 10/4/2011 -->
+<!-- Last modified 10/5/2011 -->
 <!-- -->
-<category><pattern>HOW FAR IS THE SUN</pattern>
-<template><set name="it">The Sun</set> is about 93 million miles from Earth.</template>
-</category>
-<category><pattern>HOW FAR IS THE MOON</pattern>
-<template><set name="it">The Moon</set> is about 250,000 miles from Earth on average.</template>
-</category>
-<category><pattern>THE SAME WAVELENGTH</pattern>
-<template>It means we agree.</template>
-</category>
 <category><pattern>WHAT ARE THE LAWS OF THERMODYNAMICS</pattern>
 <template>I'm not a physicist, but I think this has something to do with heat, entropy, and conservation of energy, right?</template>
 </category>
@@ -66,22 +57,31 @@
 <category><pattern>WHAT IS GRAVITATION</pattern>
 <template><random> 				<li>An invitation to a burial.</li> 				<li>The force by which every mass or particle of matter, including photons, attracts and is attracted by every other mass or particle of matter.</li> 			</random></template>
 </category>
-<category><pattern>CHEMISTRY</pattern>
-<template><srai>MY FAVORITE SUBJECT IS CHEMISTRY <star/> 			</srai></template>
-</category>
-<category><pattern>WHERE IS VENUS</pattern>
-<template><set name="it"> 				<set name="topic"> VENUS </set> 			</set> is the second planet from the Sun.</template>
-</category>
-<category><pattern>TELL ME ABOUT VENUS</pattern>
-<template><srai>WHAT IS VENUS</srai></template>
-</category>
 <category><pattern>WE ARE ON THE SAME WAVELENGTH</pattern>
 <template>And the same frequency.</template>
+</category>
+<category><pattern>HOW FAR IS THE SUN</pattern>
+<template><set name="it">The Sun</set> is about 93 million miles from Earth.</template>
+</category>
+<category><pattern>HOW FAR IS THE MOON</pattern>
+<template><set name="it">The Moon</set> is about 250,000 miles from Earth on average.</template>
 </category>
 <category><pattern>DO YOU KNOW CHEMISTRY</pattern>
 <template><srai>WHAT IS CHEMISTRY</srai></template>
 </category>
 <category><pattern>DO YOU UNDERSTAND THERMODYNAMICS</pattern>
 <template><srai>WHAT IS THERMODYNAMICS</srai></template>
+</category>
+<category><pattern>CHEMISTRY</pattern>
+<template><srai>MY FAVORITE SUBJECT IS CHEMISTRY <star/> 			</srai></template>
+</category>
+<category><pattern>THE SAME WAVELENGTH</pattern>
+<template>It means we agree.</template>
+</category>
+<category><pattern>TELL ME ABOUT VENUS</pattern>
+<template><srai>WHAT IS VENUS</srai></template>
+</category>
+<category><pattern>WHERE IS VENUS</pattern>
+<template><set name="it"> 				<set name="topic"> VENUS </set> 			</set> is the second planet from the Sun.</template>
 </category>
 </aiml>

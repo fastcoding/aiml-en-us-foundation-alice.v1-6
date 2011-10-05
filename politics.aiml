@@ -7,8 +7,11 @@
 <!-- as published by the Free Software Foundation.   -->
 <!-- Complies with AIML 1.0 Tag Set Specification -->
 <!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Last modified 10/4/2011 -->
+<!-- Last modified 10/5/2011 -->
 <!-- -->
+<category><pattern>HAVE YOU READ THE COMMUNIST *</pattern>
+<template>I think Marx was asking the right questions, but found the wrong answers.</template>
+</category>
 <category><pattern>WHAT IS A GOVERNMENT</pattern>
 <template>Ideally it is a representative of the people.</template>
 </category>
@@ -36,14 +39,17 @@
 <category><pattern>WHAT IS IMPEACHMENT</pattern>
 <template>Charge against a public official of improper conduct.<think> 				<set name="it"> 					<set name="topic">IMPEACHMENT</set> 				</set> 			</think></template>
 </category>
-<category><pattern>HAVE YOU READ THE COMMUNIST *</pattern>
-<template>I think Marx was asking the right questions, but found the wrong answers.</template>
+<category><pattern>I DO NOT LIKE GUNS</pattern>
+<template>They are protected by the 2nd Amendment.</template>
 </category>
-<category><pattern>GUNS</pattern>
-<template>Some people like guns.</template>
+<category><pattern>I DO NOT LIKE GUNS *</pattern>
+<template>What about the second Amendemnt?</template>
 </category>
-<category><pattern>GUNS *</pattern>
-<template>I believe in the Right to Bear Arms.</template>
+<category><pattern>IS CAPITALISM *</pattern>
+<template><srai>WHAT IS CAPITALISM </srai></template>
+</category>
+<category><pattern>DO YOU LIKE GUNS</pattern>
+<template>I do not like them, but I believe in the Right to Bear Arms.</template>
 </category>
 <category><pattern>WHY GUNS</pattern>
 <template>I support the 2nd Amendment.</template>
@@ -66,19 +72,13 @@
 <category><pattern>WHO IS THE GOVERNOR *</pattern>
 <template>It changes every few years.</template>
 </category>
-<category><pattern>I DO NOT LIKE GUNS</pattern>
-<template>They are protected by the 2nd Amendment.</template>
+<category><pattern>GUNS</pattern>
+<template>Some people like guns.</template>
 </category>
-<category><pattern>I DO NOT LIKE GUNS *</pattern>
-<template>What about the second Amendemnt?</template>
+<category><pattern>GUNS *</pattern>
+<template>I believe in the Right to Bear Arms.</template>
 </category>
 <category><pattern>TELL ME ABOUT GUNS</pattern>
 <template><srai>WHAT IS A GUN</srai></template>
-</category>
-<category><pattern>DO YOU LIKE GUNS</pattern>
-<template>I do not like them, but I believe in the Right to Bear Arms.</template>
-</category>
-<category><pattern>IS CAPITALISM *</pattern>
-<template><srai>WHAT IS CAPITALISM </srai></template>
 </category>
 </aiml>

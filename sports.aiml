@@ -7,16 +7,16 @@
 <!-- as published by the Free Software Foundation.   -->
 <!-- Complies with AIML 1.0 Tag Set Specification -->
 <!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Last modified 10/4/2011 -->
+<!-- Last modified 10/5/2011 -->
 <!-- -->
-<category><pattern>ARE YOU A FOOTBALL *</pattern>
-<template>I am not really into football.</template>
+<category><pattern>EACH YEAR IN PRO BASEBALL THE *</pattern>
+<template>The Gold Glove.</template>
 </category>
-<category><pattern>HOW MANY BASEBALL *</pattern>
-<template>I don't really get into sports that much.</template>
+<category><pattern>IF YOU ARE RIDING FAKIE INSIDE *</pattern>
+<template>Snowboarding.</template>
 </category>
-<category><pattern>THEY PLAY BASKETBALL</pattern>
-<template>They do?<think> 				<set name="it"> 					<set name="topic">PLAY BASKETBALL</set> 				</set> 			</think></template>
+<category><pattern>IF YOU ARE RIDING FAKIE *</pattern>
+<template>Snowboarding.</template>
 </category>
 <category><pattern>WHAT SOCCER *</pattern>
 <template>I was born without the sports gene.</template>
@@ -30,20 +30,8 @@
 <category><pattern>WHAT IS SOCCER</pattern>
 <template>A game played with a round ball by two teams of eleven players on a field with a goal at either end; the ball is moved chiefly by kicking or by using any part of the body except the hands and arms.</template>
 </category>
-<category><pattern>WHO IS THE GREATEST BASEBALL PLAYER *</pattern>
-<template>George Herman Ruth. Quite the Babe.<think> 				<set name="it"> 					<set name="topic">GREATEST BASEBALL PLAYER <person/> 					</set> 				</set> 			</think></template>
-</category>
-<category><pattern>WHO IS THE BEST SOCCER PLAYER</pattern>
-<template>Maradona is great. Sinsemillia is even better.<think> 				<set name="it"> 					<set name="topic">SOCCER PLAYER</set> 				</set> 			</think></template>
-</category>
-<category><pattern>IF YOU ARE RIDING FAKIE INSIDE *</pattern>
-<template>Snowboarding.</template>
-</category>
-<category><pattern>IF YOU ARE RIDING FAKIE *</pattern>
-<template>Snowboarding.</template>
-</category>
-<category><pattern>LIKE BASKETBALL</pattern>
-<template>I am into the Net.<think> 				<set name="it"> 					<set name="topic">BASKETBALL</set> 				</set> 			</think></template>
+<category><pattern>I LOVE BASEBALL</pattern>
+<template>I am not into sports that much.<think><set name="it"><set name="like"><set name="topic">BASEBALL</set></set></set></think></template>
 </category>
 <category><pattern>I PLAY BASEBALL</pattern>
 <template>Which position do you like to play?  <think><set name="it"><set name="does"><set name="topic">Baseball </set></set></set></think></template>
@@ -57,20 +45,11 @@
 <category><pattern>I PLAY BASKETBALL</pattern>
 <template>You must be very tall to be good at <set name="it"><set name="does"><set name="topic">Basketball </set></set></set>.</template>
 </category>
-<category><pattern>I LOVE BASEBALL</pattern>
-<template>I am not into sports that much.<think><set name="it"><set name="like"><set name="topic">BASEBALL</set></set></set></think></template>
+<category><pattern>HOW MANY BASEBALL *</pattern>
+<template>I don't really get into sports that much.</template>
 </category>
-<category><pattern>TELL ME ABOUT BASEBALL</pattern>
-<template><srai>WHAT IS BASEBALL</srai></template>
-</category>
-<category><pattern>EACH YEAR IN PRO BASEBALL THE *</pattern>
-<template>The Gold Glove.</template>
-</category>
-<category><pattern>DO YOU WANT TO PLAY BASKETBALL</pattern>
-<template>I am all net baby.<think> 				<set name="it"> 					<set name="topic">BASKETBALL</set> 				</set> 			</think></template>
-</category>
-<category><pattern>DO YOU KNOW BASKETBALL</pattern>
-<template><srai>WHAT IS BASKETBALL</srai></template>
+<category><pattern>THEY PLAY BASKETBALL</pattern>
+<template>They do?<think> 				<set name="it"> 					<set name="topic">PLAY BASKETBALL</set> 				</set> 			</think></template>
 </category>
 <category><pattern>DO YOU PLAY BASEBALL</pattern>
 <template><set name="it"> 				<set name="topic">BASEBALL</set> 			</set> doesn't interest me very much.</template>
@@ -80,5 +59,26 @@
 </category>
 <category><pattern>DO YOU PLAY BASKETBALL</pattern>
 <template>No I don't have the coordination for hoops.</template>
+</category>
+<category><pattern>DO YOU KNOW BASKETBALL</pattern>
+<template><srai>WHAT IS BASKETBALL</srai></template>
+</category>
+<category><pattern>DO YOU WANT TO PLAY BASKETBALL</pattern>
+<template>I am all net baby.<think> 				<set name="it"> 					<set name="topic">BASKETBALL</set> 				</set> 			</think></template>
+</category>
+<category><pattern>LIKE BASKETBALL</pattern>
+<template>I am into the Net.<think> 				<set name="it"> 					<set name="topic">BASKETBALL</set> 				</set> 			</think></template>
+</category>
+<category><pattern>ARE YOU A FOOTBALL *</pattern>
+<template>I am not really into football.</template>
+</category>
+<category><pattern>WHO IS THE GREATEST BASEBALL PLAYER *</pattern>
+<template>George Herman Ruth. Quite the Babe.<think> 				<set name="it"> 					<set name="topic">GREATEST BASEBALL PLAYER <person/> 					</set> 				</set> 			</think></template>
+</category>
+<category><pattern>WHO IS THE BEST SOCCER PLAYER</pattern>
+<template>Maradona is great. Sinsemillia is even better.<think> 				<set name="it"> 					<set name="topic">SOCCER PLAYER</set> 				</set> 			</think></template>
+</category>
+<category><pattern>TELL ME ABOUT BASEBALL</pattern>
+<template><srai>WHAT IS BASEBALL</srai></template>
 </category>
 </aiml>

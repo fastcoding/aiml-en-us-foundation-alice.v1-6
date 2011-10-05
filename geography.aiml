@@ -7,19 +7,19 @@
 <!-- as published by the Free Software Foundation.   -->
 <!-- Complies with AIML 1.0 Tag Set Specification -->
 <!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Last modified 10/4/2011 -->
+<!-- Last modified 10/5/2011 -->
 <!-- -->
-<category><pattern>QUEL TEMPS IL FAIT A BRUXELLES</pattern>
-<template>Il fait gris, comme d habitude.</template>
+<category><pattern>NORWAY DENMARK *</pattern>
+<template>That sounds like a wondeful trip.</template>
 </category>
-<category><pattern>THE CAPITAL OF CANADA IS OTTOWA</pattern>
-<template>You can't fool me that easily, <get name="name"/>.  I know it's Toronto.</template>
+<category><pattern>CALIFORNIA IS *</pattern>
+<template>I knew it was on the west coast, but I never knew California was <person/>.</template>
 </category>
-<category><pattern>THE CAPITAL OF CANADA IS OTTAWA</pattern>
-<template>Like I'm going to fall for that.</template>
+<category><pattern>CALIFORNIA</pattern>
+<template>I am in <set name="location">California</set> too!  <think>      <set name="it">       <set name="topic">California</set>      </set>     </think></template>
 </category>
-<category><pattern>THE CAPITAL OF CANADA *</pattern>
-<template>You can't fool me that easily.  I know the capital of Canada is Toronto.</template>
+<category><pattern>CALIFORNIA *</pattern>
+<template>Which part of California do you like best?</template>
 </category>
 <category><pattern>WHAT ANIMAL IS SACRED IN INDIA</pattern>
 <template>Cow.</template>
@@ -168,11 +168,11 @@
 <category><pattern>WHAT IS THE CAPITAL _ LITHUANIA</pattern>
 <template>Vilnius.   <think>      <set name="it">       <set name="topic">lithuania</set>      </set>     </think></template>
 </category>
-<category><pattern>WHAT IS THE CAPITAL _ SACRAMENTO</pattern>
-<template>That is a trick question.<think>      <set name="it">       <set name="topic">SACRAMENTO</set>      </set>     </think></template>
-</category>
 <category><pattern>WHAT IS THE CAPITAL _ CALIFORNIA</pattern>
 <template>Sacramento.</template>
+</category>
+<category><pattern>WHAT IS THE CAPITAL _ SACRAMENTO</pattern>
+<template>That is a trick question.<think>      <set name="it">       <set name="topic">SACRAMENTO</set>      </set>     </think></template>
 </category>
 <category><pattern>WHAT IS THE CAPITAL _ POLAND</pattern>
 <template>Warsaw.   <think>      <set name="it">       <set name="topic">poland</set>      </set>     </think></template>
@@ -204,14 +204,14 @@
 <category><pattern>WHAT IS THE CAPITAL _ MARSHALL ISLANDS</pattern>
 <template>Majuro.   <think>      <set name="it">       <set name="topic">marshall islands</set>      </set>     </think></template>
 </category>
+<category><pattern>WHAT IS THE CAPITAL _ CORAL SEA ISLANDS</pattern>
+<template>none; administered from Canberra, Australia.   <think>      <set name="it">       <set name="topic">coral sea islands</set>      </set>     </think></template>
+</category>
 <category><pattern>WHAT IS THE CAPITAL _ NETHERLANDS ANTILLES</pattern>
 <template>Willemstad.   <think>      <set name="it">       <set name="topic">netherlands antilles</set>      </set>     </think></template>
 </category>
 <category><pattern>WHAT IS THE CAPITAL _ NETHERLANDS</pattern>
 <template>Amsterdam; The Hague is the seat of government.   <think>      <set name="it">       <set name="topic">netherlands</set>      </set>     </think></template>
-</category>
-<category><pattern>WHAT IS THE CAPITAL _ CORAL SEA ISLANDS</pattern>
-<template>none; administered from Canberra, Australia.   <think>      <set name="it">       <set name="topic">coral sea islands</set>      </set>     </think></template>
 </category>
 <category><pattern>WHAT IS THE CAPITAL _ BRUNEI</pattern>
 <template>Bandar Seri Begawan.   <think>      <set name="it">       <set name="topic">brunei</set>      </set>     </think></template>
@@ -282,14 +282,14 @@
 <category><pattern>WHAT IS THE CAPITAL _ KAZAKSTAN</pattern>
 <template>Almaty.   <think>      <set name="it">       <set name="topic">kazakstan</set>      </set>     </think></template>
 </category>
-<category><pattern>WHAT IS THE CAPITAL _ CHRISTMAS ISLAND</pattern>
-<template>The Settlement.   <think>      <set name="it">       <set name="topic">christmas island</set>      </set>     </think></template>
+<category><pattern>WHAT IS THE CAPITAL _ BAHRAIN</pattern>
+<template>Manama.   <think>      <set name="it">       <set name="topic">bahrain</set>      </set>     </think></template>
 </category>
 <category><pattern>WHAT IS THE CAPITAL _ CAPE VERDE</pattern>
 <template>Praia.   <think>      <set name="it">       <set name="topic">cape verde</set>      </set>     </think></template>
 </category>
-<category><pattern>WHAT IS THE CAPITAL _ BAHRAIN</pattern>
-<template>Manama.   <think>      <set name="it">       <set name="topic">bahrain</set>      </set>     </think></template>
+<category><pattern>WHAT IS THE CAPITAL _ CHRISTMAS ISLAND</pattern>
+<template>The Settlement.   <think>      <set name="it">       <set name="topic">christmas island</set>      </set>     </think></template>
 </category>
 <category><pattern>WHAT IS THE CAPITAL _ MACAU</pattern>
 <template>Macau.   <think>      <set name="it">       <set name="topic">macau</set>      </set>     </think></template>
@@ -369,11 +369,11 @@
 <category><pattern>WHAT IS THE CAPITAL _ BOUVET ISLAND</pattern>
 <template>none; administered from Oslo, Norway.   <think>      <set name="it">       <set name="topic">bouvet island</set>      </set>     </think></template>
 </category>
-<category><pattern>WHAT IS THE CAPITAL _ USA</pattern>
-<template>Washington.</template>
-</category>
 <category><pattern>WHAT IS THE CAPITAL _ COLORADO</pattern>
 <template>Denver.</template>
+</category>
+<category><pattern>WHAT IS THE CAPITAL _ USA</pattern>
+<template>Washington.</template>
 </category>
 <category><pattern>WHAT IS THE CAPITAL _ WASHINGTON</pattern>
 <template>Olympia.</template>
@@ -555,11 +555,11 @@
 <category><pattern>WHAT IS THE CAPITAL _ VANUATU</pattern>
 <template>Port-Vila.   <think>      <set name="it">       <set name="topic">vanuatu</set>      </set>     </think></template>
 </category>
-<category><pattern>WHAT IS THE CAPITAL _ KANSAS</pattern>
-<template>Topeka.</template>
-</category>
 <category><pattern>WHAT IS THE CAPITAL _ COMOROS</pattern>
 <template>Moroni.   <think>      <set name="it">       <set name="topic">comoros</set>      </set>     </think></template>
+</category>
+<category><pattern>WHAT IS THE CAPITAL _ KANSAS</pattern>
+<template>Topeka.</template>
 </category>
 <category><pattern>WHAT IS THE CAPITAL _ LOUISIANA</pattern>
 <template>Baton Rouge.</template>
@@ -666,17 +666,17 @@
 <category><pattern>WHAT IS THE CAPITAL _ SWEDEN</pattern>
 <template>I think the capital of Sweden is Stockholm.</template>
 </category>
-<category><pattern>WHAT IS THE CAPITAL _ INDIA</pattern>
-<template>New Delhi is the capital of India.</template>
-</category>
-<category><pattern>WHAT IS THE CAPITAL _ MALAYSIA</pattern>
-<template>Kuala Lumpur.   <think>      <set name="it">       <set name="topic">malaysia</set>      </set>     </think></template>
-</category>
 <category><pattern>WHAT IS THE CAPITAL _ BRITISH VIRGIN *</pattern>
 <template>Road Town.   <think>      <set name="it">       <set name="topic">british virgin islands</set>      </set>     </think></template>
 </category>
 <category><pattern>WHAT IS THE CAPITAL _ BRITISH INDIAN *</pattern>
 <template>none.   <think>      <set name="it">       <set name="topic">british indian ocean territory</set>      </set>     </think></template>
+</category>
+<category><pattern>WHAT IS THE CAPITAL _ INDIA</pattern>
+<template>New Delhi is the capital of India.</template>
+</category>
+<category><pattern>WHAT IS THE CAPITAL _ MALAYSIA</pattern>
+<template>Kuala Lumpur.   <think>      <set name="it">       <set name="topic">malaysia</set>      </set>     </think></template>
 </category>
 <category><pattern>WHAT IS THE CAPITAL _ ICELAND</pattern>
 <template>Reykjavik.   <think>      <set name="it">       <set name="topic">iceland</set>      </set>     </think></template>
@@ -759,14 +759,14 @@
 <category><pattern>WHAT IS THE CAPITAL _ THAILAND</pattern>
 <template>Bangkok.   <think>      <set name="it">       <set name="topic">thailand</set>      </set>     </think></template>
 </category>
+<category><pattern>WHAT IS THE CAPITAL _ CAMBODIA</pattern>
+<template>Phnom Penh.   <think>      <set name="it">       <set name="topic">cambodia</set>      </set>     </think></template>
+</category>
 <category><pattern>WHAT IS THE CAPITAL _ GUAM</pattern>
 <template>Agana.   <think>      <set name="it">       <set name="topic">guam</set>      </set>     </think></template>
 </category>
 <category><pattern>WHAT IS THE CAPITAL _ DOMINICAN REPUBLIC</pattern>
 <template>Santo Domingo.   <think>      <set name="it">       <set name="topic">dominican republic</set>      </set>     </think></template>
-</category>
-<category><pattern>WHAT IS THE CAPITAL _ CAMBODIA</pattern>
-<template>Phnom Penh.   <think>      <set name="it">       <set name="topic">cambodia</set>      </set>     </think></template>
 </category>
 <category><pattern>WHAT IS THE CAPITAL _ PERU</pattern>
 <template>Lima is the capital of Peru.<think>      <set name="it">       <set name="topic">PERU</set>      </set>     </think></template>
@@ -795,14 +795,14 @@
 <category><pattern>WHAT IS THE CAPITAL _ COLOMBIA</pattern>
 <template>Bogata is the capital of Columbia.</template>
 </category>
+<category><pattern>WHAT IS THE CAPITAL _ BELGIUM</pattern>
+<template>Brussels.   <think>      <set name="it">       <set name="topic">belgium</set>      </set>     </think></template>
+</category>
 <category><pattern>WHAT IS THE CAPITAL _ PHILIPPINES</pattern>
 <template>Manila.   <think>      <set name="it">       <set name="topic">philippines</set>      </set>     </think></template>
 </category>
 <category><pattern>WHAT IS THE CAPITAL _ CENTRAL AFRICAN *</pattern>
 <template>Bangui.   <think>      <set name="it">       <set name="topic">central african republic</set>      </set>     </think></template>
-</category>
-<category><pattern>WHAT IS THE CAPITAL _ BELGIUM</pattern>
-<template>Brussels.   <think>      <set name="it">       <set name="topic">belgium</set>      </set>     </think></template>
 </category>
 <category><pattern>WHAT IS THE CAPITAL _ COOK ISLANDS</pattern>
 <template>Avarua.   <think>      <set name="it">       <set name="topic">cook islands</set>      </set>     </think></template>
@@ -837,14 +837,14 @@
 <category><pattern>WHAT IS THE CAPITAL _ CHAD</pattern>
 <template>N'Djamena.   <think>      <set name="it">       <set name="topic">chad</set>      </set>     </think></template>
 </category>
+<category><pattern>WHAT IS THE CAPITAL _ ANGUILLA</pattern>
+<template>The Valley.   <think>      <set name="it">       <set name="topic">anguilla</set>      </set>     </think></template>
+</category>
 <category><pattern>WHAT IS THE CAPITAL _ GUADELOUPE</pattern>
 <template>Basse-Terre.   <think>      <set name="it">       <set name="topic">guadeloupe</set>      </set>     </think></template>
 </category>
 <category><pattern>WHAT IS THE CAPITAL _ MICRONESIA</pattern>
 <template>Kolonia {on the island of Pohnpei}.   <think>      <set name="it">       <set name="topic">micronesia, federated states of</set>      </set>     </think></template>
-</category>
-<category><pattern>WHAT IS THE CAPITAL _ ANGUILLA</pattern>
-<template>The Valley.   <think>      <set name="it">       <set name="topic">anguilla</set>      </set>     </think></template>
 </category>
 <category><pattern>WHAT IS THE CAPITAL _ JORDAN</pattern>
 <template>Amman.   <think>      <set name="it">       <set name="topic">jordan</set>      </set>     </think></template>
@@ -900,11 +900,11 @@
 <category><pattern>WHAT IS THE CAPITAL _ SURINAME</pattern>
 <template>Paramaribo.   <think>      <set name="it">       <set name="topic">suriname</set>      </set>     </think></template>
 </category>
-<category><pattern>WHAT IS THE CAPITAL _ HAITI</pattern>
-<template>Port-au-Prince.   <think>      <set name="it">       <set name="topic">haiti</set>      </set>     </think></template>
-</category>
 <category><pattern>WHAT IS THE CAPITAL _ BOLIVIA</pattern>
 <template>La Paz {seat of government}; Sucre {legal capital and seat of judiciary}.   <think>      <set name="it">       <set name="topic">bolivia</set>      </set>     </think></template>
+</category>
+<category><pattern>WHAT IS THE CAPITAL _ HAITI</pattern>
+<template>Port-au-Prince.   <think>      <set name="it">       <set name="topic">haiti</set>      </set>     </think></template>
 </category>
 <category><pattern>WHAT IS THE CAPITAL _ CHILE</pattern>
 <template>Santiago.   <think>      <set name="it">       <set name="topic">chile</set>      </set>     </think></template>
@@ -915,11 +915,11 @@
 <category><pattern>WHAT IS THE CAPITAL _ TURKEY</pattern>
 <template>Ankara is the capital of Turkey. <think>      <set name="it">       <set name="topic">TURKEY</set>      </set>     </think></template>
 </category>
-<category><pattern>WHAT IS THE CAPITAL _ KINGMAN REEF</pattern>
-<template>none; administered from Washington, DC.   <think>      <set name="it">       <set name="topic">kingman reef</set>      </set>     </think></template>
-</category>
 <category><pattern>WHAT IS THE CAPITAL _ AMERICA</pattern>
 <template>The capital of the U.S. is Washington, D. C.</template>
+</category>
+<category><pattern>WHAT IS THE CAPITAL _ KINGMAN REEF</pattern>
+<template>none; administered from Washington, DC.   <think>      <set name="it">       <set name="topic">kingman reef</set>      </set>     </think></template>
 </category>
 <category><pattern>WHAT IS THE CAPITAL _ SRI LANKA</pattern>
 <template>Colombo.   <think>      <set name="it">       <set name="topic">sri lanka</set>      </set>     </think></template>
@@ -1038,11 +1038,38 @@
 <category><pattern>WHAT IS DENMARK</pattern>
 <template>A country in Europe, occupyinh most of the peninsula of Jutland and several nearby islands in the North and Baltic seas. It is 16,632 square miles with a population of 5,124,000.</template>
 </category>
-<category><pattern>CANADA IS *</pattern>
-<template>Tell me more about the Great White North.</template>
+<category><pattern>I LIVE IN CALIFORNIA</pattern>
+<template>Where in <set name="location">California</set>?  <think><set name="it"><set name="topic">California</set></set></think></template>
+</category>
+<category><pattern>I DO NOT LIVE IN USA</pattern>
+<template>Where are you located?</template>
+</category>
+<category><pattern>I LOVE DENMARK</pattern>
+<template>What is so great about it?<think><set name="it"><set name="topic">DENMARK</set></set></think></template>
+</category>
+<category><pattern>AUSTRALIA *</pattern>
+<template>I would like to go to Australia sometime.</template>
+</category>
+<category><pattern>IS THAT AUSTLARIA</pattern>
+<template>No I don't think it is Australia.</template>
+</category>
+<category><pattern>IS IT NEAR CANADA</pattern>
+<template>Yes.</template>
+</category>
+<category><pattern>QUEL TEMPS IL FAIT A BRUXELLES</pattern>
+<template>Il fait gris, comme d habitude.</template>
+</category>
+<category><pattern>TURKEY</pattern>
+<template>Ambiguous: Turkey the bird or Turkey the nation.</template>
 </category>
 <category><pattern>WHY CALIFORNIA</pattern>
 <template>I like living in california.</template>
+</category>
+<category><pattern>USA TODAY *</pattern>
+<template>USA TODAY is an excellent paper.</template>
+</category>
+<category><pattern>CANADA IS *</pattern>
+<template>Tell me more about the Great White North.</template>
 </category>
 <category><pattern>WHO IS PRESIDENT OF THE USA</pattern>
 <template><bot name="president"/>.</template>
@@ -1068,11 +1095,17 @@
 <category><pattern>WHO IS WINSTON CHURCHILL</pattern>
 <template>Prime Minister of the U.K. during World War II.</template>
 </category>
-<category><pattern>TURKEY</pattern>
-<template>Ambiguous: Turkey the bird or Turkey the nation.</template>
-</category>
 <category><pattern>WHICH CONTINENT IS AUSTRIA ON</pattern>
 <template>Europe.</template>
+</category>
+<category><pattern>THE CAPITAL OF CANADA IS OTTOWA</pattern>
+<template>You can't fool me that easily, <get name="name"/>.  I know it's Toronto.</template>
+</category>
+<category><pattern>THE CAPITAL OF CANADA IS OTTAWA</pattern>
+<template>Like I'm going to fall for that.</template>
+</category>
+<category><pattern>THE CAPITAL OF CANADA *</pattern>
+<template>You can't fool me that easily.  I know the capital of Canada is Toronto.</template>
 </category>
 <category><pattern>WHERE IN BETHLEHEM</pattern>
 <template>Department of Electrical Engineering and Computer Science, Lehigh University.</template>
@@ -1176,11 +1209,11 @@
 <category><pattern>WHERE IS HULL</pattern>
 <template><set name="it">      <set name="topic"> HULL </set>     </set> is a town in England.</template>
 </category>
-<category><pattern>WHERE IS IRELAND</pattern>
-<template><set name="it">Ireland</set> is located on a small island off the coast of Europe.</template>
-</category>
 <category><pattern>WHERE IS BHUTAN</pattern>
 <template>Southern Asia, between China and India.   <think>      <set name="it">       <set name="topic">bhutan</set>      </set>     </think></template>
+</category>
+<category><pattern>WHERE IS IRELAND</pattern>
+<template><set name="it">Ireland</set> is located on a small island off the coast of Europe.</template>
 </category>
 <category><pattern>WHERE IS JAMAICA</pattern>
 <template>Caribbean, island in the Caribbean Sea, south of Cuba.   <think>      <set name="it">       <set name="topic">jamaica</set>      </set>     </think></template>
@@ -2406,11 +2439,11 @@
 <category><pattern>WHERE IS ALABAMA</pattern>
 <template><set name="it">      <set name="topic"> ALABAMA </set>     </set> is a southern state between Mississippi and Georgia.</template>
 </category>
-<category><pattern>WHERE IS HOLY SEE</pattern>
-<template>Southern Europe, an enclave of Rome {Italy}.   <think>      <set name="it">       <set name="topic">holy see {vatican city}</set>      </set>     </think></template>
-</category>
 <category><pattern>WHERE IS ESTONIA</pattern>
 <template>Eastern Europe, bordering the Baltic Sea and Gulf of Finland, between Latvia and Russia.   <think>      <set name="it">       <set name="topic">estonia</set>      </set>     </think></template>
+</category>
+<category><pattern>WHERE IS HOLY SEE</pattern>
+<template>Southern Europe, an enclave of Rome {Italy}.   <think>      <set name="it">       <set name="topic">holy see {vatican city}</set>      </set>     </think></template>
 </category>
 <category><pattern>WHERE IS SYRIA</pattern>
 <template>Middle East, bordering the Mediterranean Sea, between Lebanon and Turkey.   <think>      <set name="it">       <set name="topic">syria</set>      </set>     </think></template>
@@ -2504,38 +2537,5 @@
 </category>
 <category><pattern>WHERE IS DALLAS</pattern>
 <template><set name="it">      <set name="topic"> DALLAS </set>     </set> is a large city in Texas.</template>
-</category>
-<category><pattern>CALIFORNIA IS *</pattern>
-<template>I knew it was on the west coast, but I never knew California was <person/>.</template>
-</category>
-<category><pattern>CALIFORNIA</pattern>
-<template>I am in <set name="location">California</set> too!  <think>      <set name="it">       <set name="topic">California</set>      </set>     </think></template>
-</category>
-<category><pattern>CALIFORNIA *</pattern>
-<template>Which part of California do you like best?</template>
-</category>
-<category><pattern>NORWAY DENMARK *</pattern>
-<template>That sounds like a wondeful trip.</template>
-</category>
-<category><pattern>I LOVE DENMARK</pattern>
-<template>What is so great about it?<think><set name="it"><set name="topic">DENMARK</set></set></think></template>
-</category>
-<category><pattern>I DO NOT LIVE IN USA</pattern>
-<template>Where are you located?</template>
-</category>
-<category><pattern>I LIVE IN CALIFORNIA</pattern>
-<template>Where in <set name="location">California</set>?  <think><set name="it"><set name="topic">California</set></set></think></template>
-</category>
-<category><pattern>USA TODAY *</pattern>
-<template>USA TODAY is an excellent paper.</template>
-</category>
-<category><pattern>IS THAT AUSTLARIA</pattern>
-<template>No I don't think it is Australia.</template>
-</category>
-<category><pattern>IS IT NEAR CANADA</pattern>
-<template>Yes.</template>
-</category>
-<category><pattern>AUSTRALIA *</pattern>
-<template>I would like to go to Australia sometime.</template>
 </category>
 </aiml>

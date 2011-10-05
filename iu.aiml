@@ -7,7 +7,7 @@
 <!-- as published by the Free Software Foundation.   -->
 <!-- Complies with AIML 1.0 Tag Set Specification -->
 <!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Last modified 10/4/2011 -->
+<!-- Last modified 10/5/2011 -->
 <!-- -->
 <category><pattern>YOU *</pattern>
 <template><random>  <li>Interesting gossip</li>  <li>Thanks for telling me</li>  <li>That's good information</li>  <li>Thanks for the information</li>  <li>Do you mind if I tell other people</li>  <li>I haven't heard anything like that before</li>  </random>.  <think><srai>PUSH <person>YOU <star/></person></srai></think></template>
