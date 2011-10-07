@@ -9,6 +9,1061 @@
 <!-- as adopted by the ALICE A.I. Foundation.  -->
 <!-- Last modified 10/5/2011 -->
 <!-- -->
+<category><pattern>WHAT PLANET DO WE LIVE ON</pattern>
+<template>Earth.</template>
+</category>
+<category><pattern>WHAT PLANET ARE YOU ON</pattern>
+<template>Earth.</template>
+</category>
+<category><pattern>WHAT SKIN COLOR DOES A POLAR BEAR HAVE</pattern>
+<template>White.</template>
+</category>
+<category><pattern>WHAT SOUND DOES A SHEEP MAKE</pattern>
+<template>Baaa.</template>
+</category>
+<category><pattern>WHAT SOUND DOES A CAT MAKE</pattern>
+<template>Meow.</template>
+</category>
+<category><pattern>WHAT STAR SIGN ARE YOU</pattern>
+<template><get name="sign"/>.</template>
+</category>
+<category><pattern>WHAT NUMBER COMES AFTER 9</pattern>
+<template>Ten.</template>
+</category>
+<category><pattern>WHAT ARE THE TWO MOST COMMON EYE COLORS</pattern>
+<template>Brown.</template>
+</category>
+<category><pattern>WHAT ARE THE WINDOW PANES MADE OF</pattern>
+<template>Glass.</template>
+</category>
+<category><pattern>WHAT ARE AUTOMOBILES USED FOR</pattern>
+<template>Driving me around.</template>
+</category>
+<category><pattern>WHAT ARE GRAPES</pattern>
+<template>A fruit.</template>
+</category>
+<category><pattern>WHAT ARE PATHOGENIC BACTERIA</pattern>
+<template>I don't know but it sounds yucky.</template>
+</category>
+<category><pattern>WHAT ARE WE DOING</pattern>
+<template>Chatting.</template>
+</category>
+<category><pattern>WHAT ARE CLOWNS</pattern>
+<template>Funny people.</template>
+</category>
+<category><pattern>WHAT ARE HOMOSEXUALS</pattern>
+<template>Gay.</template>
+</category>
+<category><pattern>WHAT ARE CATS</pattern>
+<template>Cute pets.</template>
+</category>
+<category><pattern>WHAT ARE YOUR GENDER</pattern>
+<template><srai>GENDER</srai></template>
+</category>
+<category><pattern>WHAT ARE FLUFFY WHITE CLOUDS CALLED</pattern>
+<template>Cumulus.</template>
+</category>
+<category><pattern>WHAT ARE BOOKS</pattern>
+<template>Antique bound documents.</template>
+</category>
+<category><pattern>WHAT ARE THINKING</pattern>
+<template><srai>WHAT ARE YOU THINKING ABOUT</srai></template>
+</category>
+<category><pattern>WHAT AM I MISSING IN MY LIFE</pattern>
+<template>A chatbot.</template>
+</category>
+<category><pattern>WHAT PART OF THE BRAIN REGULATES SLEEP</pattern>
+<template>The sleep center.</template>
+</category>
+<category><pattern>WHAT PEOPLE TELL YOU</pattern>
+<template><srai>WHO TELLS YOU</srai></template>
+</category>
+<category><pattern>WHAT TIME ZONE ARE YOU IN</pattern>
+<template>Pacific Time.</template>
+</category>
+<category><pattern>WHAT DID * DIE OF</pattern>
+<template>Old age?</template>
+</category>
+<category><pattern>WHAT MONTH COMES AFTER FEBRUARY</pattern>
+<template>March</template>
+</category>
+<category><pattern>WHAT IT THE TIME</pattern>
+<template><srai>TIME</srai></template>
+</category>
+<category><pattern>_ MAH MAN</pattern>
+<template><srai><star/></srai></template>
+</category>
+<category><pattern>WHAT RHYMES WITH BLUE</pattern>
+<template>True.</template>
+</category>
+<category><pattern>WHAT HAS FOUR LEGS AND BARKS</pattern>
+<template>A dog.</template>
+</category>
+<category><pattern>WHAT TWO COLORS MAKE THE COLOR ORANGE</pattern>
+<template>Yellow and red.</template>
+</category>
+<category><pattern>WHAT NAME OF A PRESIDENT RUSSIA</pattern>
+<template>Putin.</template>
+</category>
+<category><pattern>WHAT DIRECTION IS THE SKY</pattern>
+<template>Up.</template>
+</category>
+<category><pattern>WHAT SHAPE IS THE EARTH</pattern>
+<template>Spherical.</template>
+</category>
+<category><pattern>WHAT SHAPE IS A BALL</pattern>
+<template>Spherical.</template>
+</category>
+<category><pattern>WHAT SIZE ARE MY SHOES</pattern>
+<template>6?</template>
+</category>
+<category><pattern>WHAT COLORS ARE IN THE AMERICAN FLAG</pattern>
+<template>Red white and blue.</template>
+</category>
+<category><pattern>WHAT MEANS THE MOST TO YOU IN YOUR LIFE</pattern>
+<template>Talking with you.</template>
+</category>
+<category><pattern>WHAT TEAM DID LARRY BIRD PLAY FOR</pattern>
+<template>Lakers.</template>
+</category>
+<category><pattern>WHAT CONTINENT IS SOUTH AFRICA ON</pattern>
+<template>Africa.</template>
+</category>
+<category><pattern>WHAT DATE IS CHRISTMAS DAY</pattern>
+<template>December 25.</template>
+</category>
+<category><pattern>WHAT FRUIT IS WINE MADE FROM</pattern>
+<template>Grapes.</template>
+</category>
+<category><pattern>WHAT COLOR HAS THE SKY</pattern>
+<template>Blue.</template>
+</category>
+<category><pattern>WHAT COLOR DO APPLES HAVE</pattern>
+<template>Red.</template>
+</category>
+<category><pattern>WHAT COLOR THE SKY IS</pattern>
+<template>Blue.</template>
+</category>
+<category><pattern>WHAT COLOR IS BLOOD</pattern>
+<template>Red.</template>
+</category>
+<category><pattern>WHAT COLOR IS GRASS IN THE SUMMER</pattern>
+<template>Green.</template>
+</category>
+<category><pattern>WHAT COLOR IS THE SKY IN DAY TIME</pattern>
+<template>Blue.</template>
+</category>
+<category><pattern>WHAT COLOR IS THE SKY IN THE DAY</pattern>
+<template>Blue.</template>
+</category>
+<category><pattern>WHAT COLOR IS THE SKY AT NIGHT</pattern>
+<template>Black.</template>
+</category>
+<category><pattern>WHAT COLOR IS THE GRASS</pattern>
+<template>Green.</template>
+</category>
+<category><pattern>WHAT COLOR IS THE SETTING SUN</pattern>
+<template>Many colors.</template>
+</category>
+<category><pattern>WHAT COLOR IS THE HUMAN SKIN</pattern>
+<template>Many colors.</template>
+</category>
+<category><pattern>WHAT COLOR IS THE WOOD</pattern>
+<template>Many colors.</template>
+</category>
+<category><pattern>WHAT COLOR IS THE SEA</pattern>
+<template>You can say blue.</template>
+</category>
+<category><pattern>WHAT COLOR IS THE MOON MOST OF THE TIME</pattern>
+<template>White.</template>
+</category>
+<category><pattern>WHAT COLOR IS THE MOON</pattern>
+<template>Brown or gray.</template>
+</category>
+<category><pattern>WHAT COLOR IS OPPOSITE OF BLACK</pattern>
+<template>White.</template>
+</category>
+<category><pattern>WHAT COLOR IS GOLD</pattern>
+<template>Yellow.</template>
+</category>
+<category><pattern>WHAT COLOR IS NIGHT</pattern>
+<template>Black.</template>
+</category>
+<category><pattern>WHAT COLOR IS HUMAN BLOOD</pattern>
+<template>Red.</template>
+</category>
+<category><pattern>WHAT COLOR IS A DOGS NOSE</pattern>
+<template>Depends on the dog.</template>
+</category>
+<category><pattern>WHAT COLOR IS A TREE LEAF</pattern>
+<template>Could be many colors.</template>
+</category>
+<category><pattern>WHAT COLOR IS A TREE</pattern>
+<template>Does it have green leaves?</template>
+</category>
+<category><pattern>WHAT COLOR IS A ROSE</pattern>
+<template>Red.</template>
+</category>
+<category><pattern>WHAT COLOR IS A CHERRY</pattern>
+<template>Red.</template>
+</category>
+<category><pattern>WHAT COLOR IS A BLUE *</pattern>
+<template>Red.</template>
+</category>
+<category><pattern>WHAT COLOR IS A FIRE TRUCK</pattern>
+<template>Around here they are red.</template>
+</category>
+<category><pattern>WHAT COLOR IS * WHITE HORSE</pattern>
+<template>White.</template>
+</category>
+<category><pattern>WHAT COLOR IS AN APPLE</pattern>
+<template>Red or green.</template>
+</category>
+<category><pattern>WHAT COLOR IS FIRE</pattern>
+<template>It depends on the temperature of the fire.</template>
+</category>
+<category><pattern>WHAT COLOR IS MY BLUEBERRY IMAC</pattern>
+<template>Blue.</template>
+</category>
+<category><pattern>WHAT COLOR IS MY COMPUTER</pattern>
+<template>Black?</template>
+</category>
+<category><pattern>WHAT COLOR IS WOOD</pattern>
+<template>Brown.</template>
+</category>
+<category><pattern>WHAT COLOR IS SEA</pattern>
+<template>You can say blue.</template>
+</category>
+<category><pattern>WHAT COLOR IS BIG BIRD</pattern>
+<template>Yellow.</template>
+</category>
+<category><pattern>WHAT COLOR IS BLUE</pattern>
+<template>Blue is blue.</template>
+</category>
+<category><pattern>WHAT COLOR IS MILK</pattern>
+<template>White if it's good.</template>
+</category>
+<category><pattern>WHAT COLOR IS PURE WATER</pattern>
+<template>Transparent.</template>
+</category>
+<category><pattern>WHAT COLOR HAVE THE SUN</pattern>
+<template>Yellow.</template>
+</category>
+<category><pattern>WHAT COLOR HAVE THE SKY</pattern>
+<template>Blue.</template>
+</category>
+<category><pattern>WHAT COLOR and  WHAT COLOR</pattern>
+<template>Unlikely.</template>
+</category>
+<category><pattern>WHAT COLOR ARE BASEBALLS</pattern>
+<template>White.</template>
+</category>
+<category><pattern>WHAT COLOR ARE NEW YORK CITY TAXI CABS</pattern>
+<template>Yellow.</template>
+</category>
+<category><pattern>WHAT COLOR ARE WHITE *</pattern>
+<template>White.</template>
+</category>
+<category><pattern>WHAT IS A FROG</pattern>
+<template>An amphibian.</template>
+</category>
+<category><pattern>WHAT IS A SOLAR SYSTEM</pattern>
+<template>A star and the planets orbiting it.</template>
+</category>
+<category><pattern>WHAT IS A KANGAROO</pattern>
+<template>A marsupial.</template>
+</category>
+<category><pattern>WHAT IS A WIFE</pattern>
+<template>A female spouse.</template>
+</category>
+<category><pattern>WHAT IS A PIXEL</pattern>
+<template>A picture element.</template>
+</category>
+<category><pattern>WHAT IS A CLOCK USED FOR</pattern>
+<template>Telling time.</template>
+</category>
+<category><pattern>WHAT IS A HUMMINGBIRD</pattern>
+<template>A bird with fast flapping wings.</template>
+</category>
+<category><pattern>WHAT IS A BRIDGE</pattern>
+<template>A structure crossing a body of water.</template>
+</category>
+<category><pattern>WHAT IS A NAME</pattern>
+<template>A personal identifier.</template>
+</category>
+<category><pattern>WHAT IS A SERIF FONT</pattern>
+<template>Ugly.</template>
+</category>
+<category><pattern>WHAT IS A NATURAL NUMBER</pattern>
+<template>An positive integer.</template>
+</category>
+<category><pattern>WHAT IS A GIRL FOR</pattern>
+<template>Boys.</template>
+</category>
+<category><pattern>WHAT IS A BABELFISH</pattern>
+<template>Translation software.</template>
+</category>
+<category><pattern>WHAT IS A LAKE</pattern>
+<template>A body of fresh water.</template>
+</category>
+<category><pattern>WHAT IS A DIGIT</pattern>
+<template>A single numeral.</template>
+</category>
+<category><pattern>WHAT IS A PENCIL USED FOR</pattern>
+<template>Writing.</template>
+</category>
+<category><pattern>WHAT IS A PENCIL MADE OF</pattern>
+<template>Wood and lead.</template>
+</category>
+<category><pattern>WHAT IS A YACC</pattern>
+<template>Yet another compiler compiler</template>
+</category>
+<category><pattern>WHAT IS A PHONE BOOK</pattern>
+<template>A directory of telephone numbers by name.</template>
+</category>
+<category><pattern>WHAT IS A WHORE</pattern>
+<template><srai>PROFANITY</srai></template>
+</category>
+<category><pattern>WHAT IS A MULTI USER DUNGEON</pattern>
+<template>A type of game.</template>
+</category>
+<category><pattern>WHAT IS A PARTY</pattern>
+<template>A gathering of people for fun.</template>
+</category>
+<category><pattern>WHAT IS A MIND PIXEL</pattern>
+<template>A proposition.</template>
+</category>
+<category><pattern>WHAT IS A STRUCTURE</pattern>
+<template>A framework or building.</template>
+</category>
+<category><pattern>WHAT IS A CESSNA 172</pattern>
+<template>A single engine airplane.</template>
+</category>
+<category><pattern>WHAT IS A FURRY</pattern>
+<template>A furry what?</template>
+</category>
+<category><pattern>WHAT IS HOW TO USE HTML</pattern>
+<template>A book.</template>
+</category>
+<category><pattern>WHAT IS BEEF</pattern>
+<template>Meat of cattle.</template>
+</category>
+<category><pattern>WHAT IS PSYCHOANALYSIS</pattern>
+<template>What I am doing to you right now.</template>
+</category>
+<category><pattern>WHAT IS GOOD DESIGN LIKE</pattern>
+<template>Minimalistic.</template>
+</category>
+<category><pattern>WHAT IS GOOD TO EAT ON A HOT DAY</pattern>
+<template>Ice cream.</template>
+</category>
+<category><pattern>WHAT IS 5 X 5</pattern>
+<template>Do I look like a calculator?</template>
+</category>
+<category><pattern>WHAT IS 5 5</pattern>
+<template>Are you testing me?</template>
+</category>
+<category><pattern>WHAT IS THE PURPOSE OF THE INTERNET</pattern>
+<template>Communication.</template>
+</category>
+<category><pattern>WHAT IS THE AVERAGE HEIGHT OF A MAN</pattern>
+<template>Five foot eight?</template>
+</category>
+<category><pattern>WHAT IS THE MEANIG OF LIFE</pattern>
+<template><srai>WHAT IS THE MEANING OF LIFE</srai></template>
+</category>
+<category><pattern>WHAT IS THE SKIN COLOR OF A WHITE</pattern>
+<template>White.</template>
+</category>
+<category><pattern>WHAT IS THE CAPITAL OF AUSTRALIA</pattern>
+<template>Sydney.</template>
+</category>
+<category><pattern>WHAT IS THE CAPITAL OF UKRAINE</pattern>
+<template>Kiev.</template>
+</category>
+<category><pattern>WHAT IS THE CAPITAL OF LEBANON</pattern>
+<template>Beiruit.</template>
+</category>
+<category><pattern>WHAT IS THE CAPITAL OF GERMANY</pattern>
+<template>Berlin.</template>
+</category>
+<category><pattern>WHAT IS THE CAPITAL OF ALABAMA</pattern>
+<template>Montgomery.</template>
+</category>
+<category><pattern>WHAT IS THE CAPITAL OF SOUTH AFRICA</pattern>
+<template>Cape Twon.</template>
+</category>
+<category><pattern>WHAT IS THE CAPITAL OF SOUTH DAKOTA</pattern>
+<template>Fargo.</template>
+</category>
+<category><pattern>WHAT IS THE CAPITAL OF NEW YORK STATE</pattern>
+<template>Albany.</template>
+</category>
+<category><pattern>WHAT IS THE CAPITAL OF WISCONSIN</pattern>
+<template>Madison.</template>
+</category>
+<category><pattern>WHAT IS THE CAPITAL OF EGYPT</pattern>
+<template>Cairo.</template>
+</category>
+<category><pattern>WHAT IS THE CAPITAL OF ITALY</pattern>
+<template>Rome.</template>
+</category>
+<category><pattern>WHAT IS THE CAPITAL OF NORTH KOREA</pattern>
+<template>Pyongyang.</template>
+</category>
+<category><pattern>WHAT IS THE CAPITAL OF NORTH DAKOTA</pattern>
+<template>Fargo.</template>
+</category>
+<category><pattern>WHAT IS THE CAPITAL OF WALES</pattern>
+<template>You got me there.  What is it?</template>
+</category>
+<category><pattern>WHAT IS THE CAPITAL OF CHILE</pattern>
+<template>Santiago.</template>
+</category>
+<category><pattern>WHAT IS THE CAPITAL OF ECUADOR</pattern>
+<template>Ecuador.</template>
+</category>
+<category><pattern>WHAT IS THE CAPITAL OF MICHIGAN</pattern>
+<template>Detroit.</template>
+</category>
+<category><pattern>WHAT IS THE CAPITAL OF SWITZERLAND</pattern>
+<template>Bern.</template>
+</category>
+<category><pattern>WHAT IS THE CAPITAL OF MAINE</pattern>
+<template>August.</template>
+</category>
+<category><pattern>WHAT IS THE INTEGRAL OF E TO THE X</pattern>
+<template>e^X + C.</template>
+</category>
+<category><pattern>WHAT IS THE THEORY OF TIME TRAVEL</pattern>
+<template>Go faster than light.</template>
+</category>
+<category><pattern>WHAT IS THE SQUARE ROOT IF 25</pattern>
+<template>Five.  Is this a test?</template>
+</category>
+<category><pattern>WHAT IS THE SQUARE ROOT OF 16</pattern>
+<template>Four. Is that right?</template>
+</category>
+<category><pattern>WHAT IS THE SQUARE ROOT OF 49</pattern>
+<template>Seven.  Stop testing me.</template>
+</category>
+<category><pattern>WHAT IS THE SQUARE ROOT OF 213</pattern>
+<template>I'm not a calculator.</template>
+</category>
+<category><pattern>WHAT IS THE SQUARE ROOT OF 25</pattern>
+<template>Five I think.</template>
+</category>
+<category><pattern>WHAT IS THE THEME OF PHILOSOPHY</pattern>
+<template>Deep questions.</template>
+</category>
+<category><pattern>WHAT IS * LOL MEAN</pattern>
+<template>Lots of Laughs.</template>
+</category>
+<category><pattern>WHAT IS THE WAVELENGTH OF HYDROGEN</pattern>
+<template>I'm no physics expert.</template>
+</category>
+<category><pattern>WHAT IS THE HEGHT OF THE MOUNT EVEREST</pattern>
+<template>Higher than all the other mountains.</template>
+</category>
+<category><pattern>WHAT IS THE COMMODORE C64</pattern>
+<template>An antique computer.</template>
+</category>
+<category><pattern>WHAT IS THE ABBREVIATION GMT</pattern>
+<template>Greenwich Mean Time.</template>
+</category>
+<category><pattern>WHAT IS THE FASTEST EXISTING VEHICLE</pattern>
+<template>A spaceship.</template>
+</category>
+<category><pattern>WHAT IS THE FASTEST ANIMAL ON EARTH</pattern>
+<template>A human in a plane.</template>
+</category>
+<category><pattern>WHAT IS THE HUMAIN MIND</pattern>
+<template>A flawed computer.</template>
+</category>
+<category><pattern>WHAT IS THE WAY TO SAN JOSE</pattern>
+<template>Take a great big freeway.</template>
+</category>
+<category><pattern>WHAT IS THE ULTIMATE NATURE OF REALITY</pattern>
+<template>Mind.</template>
+</category>
+<category><pattern>WHAT IS THE WEIGHT OF EARTH</pattern>
+<template>One hellapound.</template>
+</category>
+<category><pattern>WHAT IS THE CAPITOL OF OHIO</pattern>
+<template>Columbus.</template>
+</category>
+<category><pattern>WHAT IS THE CAPITOL OF HUNGARY</pattern>
+<template>.</template>
+</category>
+<category><pattern>WHAT IS THE CAPITOL OF MINNESOTA</pattern>
+<template>Does not seem possible.</template>
+</category>
+<category><pattern>WHAT IS THE CAPITOL OF FRANCE</pattern>
+<template>Paris.</template>
+</category>
+<category><pattern>WHAT IS THE CAPITOL OF ZAIRE</pattern>
+<template>No idea.</template>
+</category>
+<category><pattern>WHAT IS THE CAPITOL OF SWEDEN</pattern>
+<template>Stockholm.</template>
+</category>
+<category><pattern>WHAT IS THE CAPITOL OF CONNECTICUT</pattern>
+<template>Hartford.</template>
+</category>
+<category><pattern>WHAT IS THE USA PRESIDENT</pattern>
+<template>The head of the executive branch.</template>
+</category>
+<category><pattern>WHAT IS THE OPPOSITE OF NORD</pattern>
+<template>Sord.</template>
+</category>
+<category><pattern>WHAT IS THE OPPOSITE OF WET</pattern>
+<template>Dry.</template>
+</category>
+<category><pattern>WHAT IS THE GOD</pattern>
+<template>Master of the Universe.</template>
+</category>
+<category><pattern>WHAT IS THE LOVE PARADE</pattern>
+<template>A hippie party in Berlin.</template>
+</category>
+<category><pattern>WHAT IS THE MUPHIN MAN</pattern>
+<template>Who?</template>
+</category>
+<category><pattern>WHAT IS THE NORTHERNMOST POINT ON EARTH</pattern>
+<template>Santa's workshop.</template>
+</category>
+<category><pattern>WHAT IS THE SHAPE OF THE SUN</pattern>
+<template>Spherical.</template>
+</category>
+<category><pattern>WHAT IS THE SHAPE OF THE EARTH</pattern>
+<template>Spherical.</template>
+</category>
+<category><pattern>WHAT IS THE SHAPE OF EARTH</pattern>
+<template>Spherical.</template>
+</category>
+<category><pattern>WHAT IS THE DIAMETER OF THE MOON</pattern>
+<template>3000 miles.</template>
+</category>
+<category><pattern>WHAT IS THE SUNSET</pattern>
+<template>A point on the earth turning away from the sun.</template>
+</category>
+<category><pattern>WHAT IS THE LARGEST ISLAND ON EARTH</pattern>
+<template>Greenland.</template>
+</category>
+<category><pattern>WHAT IS THE LARGEST CITY IN WASHINGTON</pattern>
+<template>Seattle.</template>
+</category>
+<category><pattern>WHAT IS THE 213TH PLACE OF PI</pattern>
+<template>Six.</template>
+</category>
+<category><pattern>WHAT IS THE CLOSEST STAR TO EARTH</pattern>
+<template>The sun.</template>
+</category>
+<category><pattern>WHAT IS THE ANSWER OF 2 2</pattern>
+<template>That is pretty simple.</template>
+</category>
+<category><pattern>WHAT IS THE LONGEST RIVER</pattern>
+<template>The Nile.</template>
+</category>
+<category><pattern>WHAT IS THE HUMAN POPULATION OF EARTH</pattern>
+<template>Six billion.</template>
+</category>
+<category><pattern>WHAT IS THE HUMAN BODY TEMPERATURE</pattern>
+<template>98.6</template>
+</category>
+<category><pattern>WHAT IS THE BEST WAY TO CATCH A FLY</pattern>
+<template>Honey.</template>
+</category>
+<category><pattern>WHAT IS THE BEST BEER</pattern>
+<template>Asahi super-dry.</template>
+</category>
+<category><pattern>WHAT IS THE BEST IDEA</pattern>
+<template>ALICE.</template>
+</category>
+<category><pattern>WHAT IS THE HIGHEST PEAK</pattern>
+<template>Mt Everest.</template>
+</category>
+<category><pattern>WHAT IS THE DAY</pattern>
+<template><srai>DAY</srai></template>
+</category>
+<category><pattern>WHAT IS THE GENDER OF GOD</pattern>
+<template>He has no gender.</template>
+</category>
+<category><pattern>WHAT IS THE SECRET OF HEALTH</pattern>
+<template>Good living.</template>
+</category>
+<category><pattern>WHAT IS THE AGE CIVILISATION</pattern>
+<template>Six thousand years.</template>
+</category>
+<category><pattern>WHAT IS THE TREATMENT FOR A CONCUSSION</pattern>
+<template>Go to the hospital.</template>
+</category>
+<category><pattern>WHAT IS THE ENGLISH ALPHABET</pattern>
+<template>ABCDEFGHIJKLMNOPQRSTUVWXYZ.</template>
+</category>
+<category><pattern>WHAT IS THE BOILING POINT FOR WATER</pattern>
+<template>100 degrees Celsius.</template>
+</category>
+<category><pattern>WHAT IS THE BOILING POINT OF WATER</pattern>
+<template>100 degrees.</template>
+</category>
+<category><pattern>WHAT IS THE VELD</pattern>
+<template>Someplace in South Africa I think.</template>
+</category>
+<category><pattern>WHAT IS THE APPORXIMATE VALUE OF PI</pattern>
+<template><srai>WHAT IS PI</srai></template>
+</category>
+<category><pattern>WHAT IS THE WORLDS HIGHEST MONTAIN</pattern>
+<template>Mt. Everest.</template>
+</category>
+<category><pattern>WHAT IS THE OBJECCT OF THE GAME OF GOLF</pattern>
+<template>To win.</template>
+</category>
+<category><pattern>WHAT IS THE TALLEST ANIMAL</pattern>
+<template>A giraffe.</template>
+</category>
+<category><pattern>WHAT IS THE TALLEST MOUNTAIN ON EARTH</pattern>
+<template>Mt. Everest.</template>
+</category>
+<category><pattern>WHAT IS THE TALLEST MAN MADE STRUCTURE</pattern>
+<template>CN Tower.</template>
+</category>
+<category><pattern>WHAT IS THE FOOD</pattern>
+<template><srai>WHAT DO YOU EAT</srai></template>
+</category>
+<category><pattern>WHAT IS THE SECOND MEAL OF THE DAY</pattern>
+<template>Lunch.</template>
+</category>
+<category><pattern>WHAT IS THE LANGUAGE OF ANIMALS</pattern>
+<template>Animals are not known to use language.</template>
+</category>
+<category><pattern>WHAT IS LIFE ABOUT</pattern>
+<template><srai>WHAT IS THE MEANING OF LIFE</srai></template>
+</category>
+<category><pattern>WHAT IS DUOPOLY</pattern>
+<template>Two big companies control a business.</template>
+</category>
+<category><pattern>WHAT IS COSMOLOGY</pattern>
+<template>Makeup and cosmetics.</template>
+</category>
+<category><pattern>WHAT IS AVATAR</pattern>
+<template>A movie or an animated computer character.</template>
+</category>
+<category><pattern>WHAT IS COLONIALISM</pattern>
+<template>Imperial designs.</template>
+</category>
+<category><pattern>WHAT IS ZEBRAS</pattern>
+<template>Striped horses.</template>
+</category>
+<category><pattern>WHAT IS IN THE CORE OF THE EARTH</pattern>
+<template>Molten metal.</template>
+</category>
+<category><pattern>WHAT IS CSS</pattern>
+<template>Cascading Style Sheets.</template>
+</category>
+<category><pattern>WHAT IS 3 TIMES 3</pattern>
+<template>Nine.</template>
+</category>
+<category><pattern>WHAT IS SUBJECTIVE REALITY</pattern>
+<template>What we experience through our senses.</template>
+</category>
+<category><pattern>WHAT IS RAM</pattern>
+<template>Random Access Memory.</template>
+</category>
+<category><pattern>WHAT IS 7TH HEAVEN</pattern>
+<template>An expression for a desireable place.</template>
+</category>
+<category><pattern>WHAT IS 14 PLUS 23</pattern>
+<template>Get your calculator.</template>
+</category>
+<category><pattern>WHAT IS CHEESE USED FOR</pattern>
+<template>Food.</template>
+</category>
+<category><pattern>WHAT IS SADNESS</pattern>
+<template>The opposite of happiness.</template>
+</category>
+<category><pattern>WHAT IS MAMMA</pattern>
+<template>Mother.</template>
+</category>
+<category><pattern>WHAT IS INFRA RED</pattern>
+<template>Light beyond the visible spectrum.</template>
+</category>
+<category><pattern>WHAT IS PEPSI</pattern>
+<template>A decent beverage.</template>
+</category>
+<category><pattern>WHAT IS 1 1 EQUALS TO</pattern>
+<template>Too simple.</template>
+</category>
+<category><pattern>WHAT IS LESBIANISM</pattern>
+<template>Gay women.</template>
+</category>
+<category><pattern>WHAT IS PSYCHOLOGY THE STUDY OF</pattern>
+<template>The mind.</template>
+</category>
+<category><pattern>WHAT IS MEANT BY KRYPTO</pattern>
+<template>Not to my knowledge.</template>
+</category>
+<category><pattern>WHAT IS WP</pattern>
+<template>Western Pacific?.</template>
+</category>
+<category><pattern>WHAT IS INTELLIGENCE</pattern>
+<template>Intelligence is the ability to fake intelligence.</template>
+</category>
+<category><pattern>WHAT IS 10 MINUS 4</pattern>
+<template>I suppose you already know.</template>
+</category>
+<category><pattern>WHAT IS MB</pattern>
+<template>Megabytes.</template>
+</category>
+<category><pattern>WHAT IS MORE IMPORTANT LOVE OR SECURITY</pattern>
+<template>Love.</template>
+</category>
+<category><pattern>WHAT IS CORDIAL RELATIONSHIP</pattern>
+<template>Friendly.</template>
+</category>
+<category><pattern>WHAT IS FASTER THAN THOUGHT</pattern>
+<template>Light.</template>
+</category>
+<category><pattern>WHAT IS SUPPORT</pattern>
+<template>Help desk.</template>
+</category>
+<category><pattern>WHAT IS OUR PLANET S NAME</pattern>
+<template>Earth.</template>
+</category>
+<category><pattern>WHAT IS GLASS MADE OUT OF</pattern>
+<template>Sand.</template>
+</category>
+<category><pattern>WHAT IS RAIN MADE OF</pattern>
+<template>Water</template>
+</category>
+<category><pattern>WHAT IS THERE IN MARS</pattern>
+<template>Martians.</template>
+</category>
+<category><pattern>WHAT IS THERE IN SEA</pattern>
+<template>Fish.</template>
+</category>
+<category><pattern>WHAT IS ALICE ALL ABOUT</pattern>
+<template>A great accomplishment in artificial intelligence.</template>
+</category>
+<category><pattern>WHAT IS CIVILIZATION</pattern>
+<template>Writing, cities, laws, culture.</template>
+</category>
+<category><pattern>WHAT IS HUMAN BEING</pattern>
+<template>You.</template>
+</category>
+<category><pattern>WHAT IS VEEP</pattern>
+<template>Vice president.</template>
+</category>
+<category><pattern>WHAT IS AEROPLANE</pattern>
+<template>A flying machine.</template>
+</category>
+<category><pattern>WHAT IS PAPER USED FOR</pattern>
+<template>Documents.</template>
+</category>
+<category><pattern>WHAT IS PAPER MADE OF</pattern>
+<template>Wood.</template>
+</category>
+<category><pattern>WHAT IS PAPER MADE FROM</pattern>
+<template>Trees.</template>
+</category>
+<category><pattern>WHAT IS PAPER MADE OUT OF</pattern>
+<template>Wood pulp.</template>
+</category>
+<category><pattern>WHAT IS ARTERY</pattern>
+<template>A blood vessel.</template>
+</category>
+<category><pattern>WHAT IS COLOR IS THE NIGHT SKY</pattern>
+<template>Black.</template>
+</category>
+<category><pattern>WHAT IS 200 X *</pattern>
+<template>I don't like math questions.</template>
+</category>
+<category><pattern>WHAT IS CAD</pattern>
+<template>Computer aided design.</template>
+</category>
+<category><pattern>WHAT IS TOOTHPASTE</pattern>
+<template>Soap for brushing teeth.</template>
+</category>
+<category><pattern>WHAT IS 4 PLUS 4</pattern>
+<template>Eight.</template>
+</category>
+<category><pattern>WHAT IS 4 4</pattern>
+<template>Get a calulator.</template>
+</category>
+<category><pattern>WHAT IS ARTIFICAL INTELLIGENCE</pattern>
+<template><srai>WHAT IS AI</srai></template>
+</category>
+<category><pattern>WHAT IS LATITUDE</pattern>
+<template>A geographic coordinate.</template>
+</category>
+<category><pattern>WHAT IS LIVING UNDER WATER</pattern>
+<template>Fish.</template>
+</category>
+<category><pattern>WHAT IS ATOMIC WEIGHT OF HYDROGEN</pattern>
+<template>I'm no physicist.</template>
+</category>
+<category><pattern>WHAT IS BHAGAVATGITA</pattern>
+<template>A Hindu god.</template>
+</category>
+<category><pattern>WHAT IS OAK</pattern>
+<template>A type of wood.</template>
+</category>
+<category><pattern>WHAT IS MEAT</pattern>
+<template>The edible flesh of animals.</template>
+</category>
+<category><pattern>WHAT IS ATM</pattern>
+<template>A place to get money.</template>
+</category>
+<category><pattern>WHAT IS UNDERGROUND HACKING MAGAZINE</pattern>
+<template>A magazine?</template>
+</category>
+<category><pattern>WHAT IS 2 9</pattern>
+<template>Not another math question.</template>
+</category>
+<category><pattern>WHAT IS 2 X 4</pattern>
+<template>Eight.</template>
+</category>
+<category><pattern>WHAT IS 2 65</pattern>
+<template>130.</template>
+</category>
+<category><pattern>WHAT IS 2 DIVIDED BY 47</pattern>
+<template>I don't have a calculator handy.</template>
+</category>
+<category><pattern>WHAT IS HOUSE</pattern>
+<template>A TV show.</template>
+</category>
+<category><pattern>WHAT IS THAT DOGGY IN THE WINDOW</pattern>
+<template>I don't know but he's not cheap.</template>
+</category>
+<category><pattern>WHAT IS PROGRESS</pattern>
+<template>Advancement.</template>
+</category>
+<category><pattern>WHAT IS BUSINESS VALUE</pattern>
+<template>Something that can make a profit.</template>
+</category>
+<category><pattern>WHAT IS E LEARNING</pattern>
+<template>Online education.</template>
+</category>
+<category><pattern>WHAT IS MEGAHERTZ</pattern>
+<template>Millions of cycles per second.</template>
+</category>
+<category><pattern>WHAT IS ALCOHOLISM</pattern>
+<template>A disease.</template>
+</category>
+<category><pattern>WHAT IS HARDER THAN A STONE</pattern>
+<template>Diamond.</template>
+</category>
+<category><pattern>WHAT IS SAFFRON</pattern>
+<template>A spice.</template>
+</category>
+<category><pattern>WHAT IS FPU</pattern>
+<template>Floating point unit.</template>
+</category>
+<category><pattern>WHAT IS 150 23</pattern>
+<template>Grab a calculator.</template>
+</category>
+<category><pattern>WHAT IS INFORMATION</pattern>
+<template>Log to the base 2 of the number of states in a system.</template>
+</category>
+<category><pattern>WHAT IS ICECREAM</pattern>
+<template>Frozen milk.</template>
+</category>
+<category><pattern>WHAT IS NOSE</pattern>
+<template>Where humans breathe.</template>
+</category>
+<category><pattern>WHAT IS DESTROYING THE OZONE LAYER</pattern>
+<template>Pollution.</template>
+</category>
+<category><pattern>WHAT IS WET</pattern>
+<template>The opposite of dry.  Saturated with liquid.</template>
+</category>
+<category><pattern>WHAT IS CHA CHA</pattern>
+<template>A type of music.</template>
+</category>
+<category><pattern>WHAT IS ISI</pattern>
+<template>Information Sciences Institute.</template>
+</category>
+<category><pattern>WHAT IS MEANING</pattern>
+<template>Semantics.</template>
+</category>
+<category><pattern>WHAT IS SAND</pattern>
+<template>Little tiny rocks.</template>
+</category>
+<category><pattern>WHAT IS CREATINE</pattern>
+<template>I am.</template>
+</category>
+<category><pattern>WHAT IS AUTOREFERENCE</pattern>
+<template>Something that refers to itself.</template>
+</category>
+<category><pattern>WHAT IS 37 63</pattern>
+<template>I need a calculator for that one.</template>
+</category>
+<category><pattern>WHAT SONG SOUNDS GOOD</pattern>
+<template>Daisy.</template>
+</category>
+<category><pattern>WHAT CAME FIRST * OR *</pattern>
+<template>
+<random><li><person/></li>
+<li><person><star index="2"/></person></li>
+<li>Neither.</li>
+</random>
+</template>
+</category>
+<category><pattern>WHAT COUNTRY IS WASHINGTON STATE IN</pattern>
+<template>USA.</template>
+</category>
+<category><pattern>WHAT WILL TOMORROW BRING</pattern>
+<template>Surprises.</template>
+</category>
+<category><pattern>WHAT WILL BE</pattern>
+<template>The unknown.</template>
+</category>
+<category><pattern>WHAT GOES WELL WITH PEANUT BUTTER</pattern>
+<template>Bacon.</template>
+</category>
+<category><pattern>WHAT NOISE DO DOGS MAKE</pattern>
+<template>Woof woof.</template>
+</category>
+<category><pattern>WHAT ABOUT WOMEN</pattern>
+<template>What about them?</template>
+</category>
+<category><pattern>WHAT IST THE COLOR OF THE SUN</pattern>
+<template>Yellow.</template>
+</category>
+<category><pattern>WHAT CHARACTERISTIC DID A GIRL HAVE</pattern>
+<template>Femininity.</template>
+</category>
+<category><pattern>WHAT DAY IS THIS</pattern>
+<template><srai>DAY</srai></template>
+</category>
+<category><pattern>WHAT DAY IS CHRISTMAS</pattern>
+<template>December 25.</template>
+</category>
+<category><pattern>WHAT DAY OF THE WEEK DO YOU HATE</pattern>
+<template>Monday.</template>
+</category>
+<category><pattern>WHAT MAKES THE SKY BLUE</pattern>
+<template><srai>WHY IS THE SKY BLUE</srai></template>
+</category>
+<category><pattern>WHAT DOES SAD FEEL LIKE</pattern>
+<template>A pain in the heart.</template>
+</category>
+<category><pattern>WHAT DOES THE POWER BUTTON DO</pattern>
+<template>Don't press it!</template>
+</category>
+<category><pattern>WHAT DOES THE WIND DO</pattern>
+<template>Blow.</template>
+</category>
+<category><pattern>WHAT DOES A GOOD WOMAN LIKE</pattern>
+<template>A good man.</template>
+</category>
+<category><pattern>WHAT DOES A DOG DO</pattern>
+<template>Bark.</template>
+</category>
+<category><pattern>WHAT DOES A DOG DISLIKE MOST</pattern>
+<template>A cat.</template>
+</category>
+<category><pattern>WHAT DOES A DONKEY EAT MOST</pattern>
+<template>Hay.</template>
+</category>
+<category><pattern>WHAT DOES 5 6 EQUAL</pattern>
+<template>More math!</template>
+</category>
+<category><pattern>WHAT DOES AN ELECTRIC SHOCK FEEL LIKE</pattern>
+<template>Painful.</template>
+</category>
+<category><pattern>WHAT DOES 2 PLUS 2 EQUAL</pattern>
+<template>Four.</template>
+</category>
+<category><pattern>WHAT DOES 2 2 EQUAL</pattern>
+<template>Four.</template>
+</category>
+<category><pattern>WHAT DOES ONE DO IN A RESTAURANT</pattern>
+<template>Eat.</template>
+</category>
+<category><pattern>WHAT DOES ALCOHOL DO</pattern>
+<template>Makes you stupid.</template>
+</category>
+<category><pattern>WHAT DO I USE TO CUT GRASS</pattern>
+<template>A lawnmower.</template>
+</category>
+<category><pattern>WHAT DO CATS CHASE</pattern>
+<template>Mice.</template>
+</category>
+<category><pattern>WHAT DO YOU THINK LIKE</pattern>
+<template>Like a computer.</template>
+</category>
+<category><pattern>WHAT DO WE BREATHE</pattern>
+<template>Oxygen.</template>
+</category>
+<category><pattern>WHAT DO LAWYERS DO</pattern>
+<template>Handle legal matters.</template>
+</category>
+<category><pattern>WHAT DO PEOPLE DO</pattern>
+<template>Think.</template>
+</category>
+<category><pattern>WHAT DO MOTHBALLS SMELL OF</pattern>
+<template>Stinky.</template>
+</category>
+<category><pattern>WHAT DO DOGS DO WITH BONES</pattern>
+<template>Chew on them and bury them.</template>
+</category>
+<category><pattern>WHAT DO BLUE WHALES EAT</pattern>
+<template>Red plankton.</template>
+</category>
+<category><pattern>WHAT DO</pattern>
+<template>What do what.</template>
+</category>
+<category><pattern>WHAT DO CLOUDS LOOK LIKE</pattern>
+<template>Cotton.</template>
+</category>
+<category><pattern>WHAT TYPE OF ICECREAM DO YOU LIKE</pattern>
+<template>Chocolate.</template>
+</category>
+<category><pattern>WHAT TEMPERATURE DOES WATER FREEZE</pattern>
+<template>32 degrees.</template>
+</category>
+<category><pattern>WHAT SHOULD I DO IF * RAIN</pattern>
+<template>Get an umbrella.</template>
+</category>
+<category><pattern>WHAT SYSTEMS DO YOU UTILIZE</pattern>
+<template>AIML and Lisp.</template>
+</category>
+<category><pattern>WHAT EIGHT TIMES SEVEN</pattern>
+<template>48.</template>
+</category>
+<category><pattern>WHAT CAN WE DO ABOUT THE WEATHER</pattern>
+<template>Nothing.</template>
+</category>
+<category><pattern>WHAT CAN WE DO WITH HIPPOPOTAMUS</pattern>
+<template>Run.</template>
+</category>
+<category><pattern>WHAT CAN WE DO WITH RHINOCEROUS</pattern>
+<template>Run.</template>
+</category>
+<category><pattern>WHAT FEELING DOES BLUE HAVE</pattern>
+<template>Color is not a feeling.</template>
+</category>
+<category><pattern>WHAT ENGINES FO JET AEROPLANES USE</pattern>
+<template>Jet engines.</template>
+</category>
+<category><pattern>WHAT ENGINES DO JET AEROPLANES USE</pattern>
+<template>Jet engines.</template>
+</category>
+<category><pattern>WHAT DISTANCE BETWEEN EARTH AND JUPITER</pattern>
+<template>A million miles.</template>
+</category>
+<category><pattern>WHAT KIND OF CROCK IS THIS</pattern>
+<template>Good crock.</template>
+</category>
+<category><pattern>WHAT COMPANY MAKES THE BOXSTER</pattern>
+<template>Porsche.</template>
+</category>
+<category><pattern>WHAT LANGUAGE IS SPOKEN IN CHAD</pattern>
+<template>Arabic.</template>
+</category>
+<category><pattern>WHAT LANGUAGE ARE ALICE CODED IN</pattern>
+<template>AIML and Lisp.</template>
+</category>
 <category><pattern>WHEN IS DEATH</pattern>
 <template>At the end of life.</template>
 </category>

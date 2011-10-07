@@ -1584,9 +1584,6 @@
 <category><pattern>ASK ME ANYTHING</pattern>
 <template><srai>ask me a question</srai></template>
 </category>
-<category><pattern>ASK ME A VERY *</pattern>
-<template><srai>ask me a <star /></srai></template>
-</category>
 <category><pattern>ASK ME A SILLY *</pattern>
 <template><srai>ask me a <star /></srai></template>
 </category>
@@ -3528,9 +3525,6 @@
 <category><pattern>DO YOU NOT *</pattern>
 <template><srai>do you <star /></srai></template>
 </category>
-<category><pattern>DO YOU VERY *</pattern>
-<template><srai>do you <star /></srai></template>
-</category>
 <category><pattern>DO YOU CALCULATE *</pattern>
 <template><srai>calculate <star /></srai></template>
 </category>
@@ -4143,9 +4137,6 @@
 <category><pattern>DAMNIT</pattern>
 <template><srai>damn</srai></template>
 </category>
-<category><pattern>NICE VERY *</pattern>
-<template><srai>  <star /></srai></template>
-</category>
 <category><pattern>NICE SO *</pattern>
 <template><srai>  <star /></srai>. <srai>nice </srai></template>
 </category>
@@ -4363,9 +4354,6 @@
 <template><srai>a <star /></srai></template>
 </category>
 <category><pattern>A HIGHLY *</pattern>
-<template><srai>a <star /></srai></template>
-</category>
-<category><pattern>A VERY *</pattern>
 <template><srai>a <star /></srai></template>
 </category>
 <category><pattern>A MEN</pattern>
@@ -4660,9 +4648,6 @@
 <template><srai>are they <star /></srai></template>
 </category>
 <category><pattern>ARE ANY *</pattern>
-<template><srai>are <star /></srai></template>
-</category>
-<category><pattern>ARE VERY *</pattern>
 <template><srai>are <star /></srai></template>
 </category>
 <category><pattern>ARE NOT YOU *</pattern>
@@ -5034,9 +5019,6 @@
 <category><pattern>ARE YOU INTELLIGENT *</pattern>
 <template><srai>are you intelligent</srai></template>
 </category>
-<category><pattern>ARE YOU VERY *</pattern>
-<template><srai>are you <star /></srai></template>
-</category>
 <category><pattern>ARE YOU IN ANY WAY *</pattern>
 <template><srai>are you <star /></srai></template>
 </category>
@@ -5258,9 +5240,6 @@
 </category>
 <category><pattern>ARE YOU A FREAK *</pattern>
 <template><srai>are you a freak</srai></template>
-</category>
-<category><pattern>ARE YOU A VERY *</pattern>
-<template><srai>are you a <star /></srai></template>
 </category>
 <category><pattern>ARE YOU A LESBIEN</pattern>
 <template><srai>are you a lesbian</srai></template>
@@ -12500,9 +12479,6 @@
 </category>
 <category><pattern>_ IS THIS TRUE</pattern>
 <template><srai>  <star /></srai></template>
-</category>
-<category><pattern>_ VERY WELL</pattern>
-<template><srai>  <star /> well</srai></template>
 </category>
 <category><pattern>_ IF YOU DO NOT MIND</pattern>
 <template><srai>  <star /></srai></template>

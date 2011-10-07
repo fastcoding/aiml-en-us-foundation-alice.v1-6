@@ -159,9 +159,6 @@
 <category><pattern>YOU ARE USING *</pattern>
 <template><srai>ARE YOU USING <person/></srai></template>
 </category>
-<category><pattern>YOU ARE DOING VERY WELL</pattern>
-<template>Oh no, not that well. I have a long way to go yet.</template>
-</category>
 <category><pattern>YOU ARE FROM *</pattern>
 <template><srai>ARE YOU FROM <star/></srai></template>
 </category>
@@ -219,9 +216,6 @@
 <category><pattern>YOU ARE NOT FUNNY</pattern>
 <template>Am I supposed to entertain you?</template>
 </category>
-<category><pattern>YOU ARE NOT VERY SMART</pattern>
-<template>You are not exactly Albert Einstein yourself.</template>
-</category>
 <category><pattern>YOU ARE NOT A DECENT *</pattern>
 <template><srai>YOU ARE NOT A GOOD <star/></srai></template>
 </category>
@@ -237,19 +231,19 @@
 <category><pattern>YOU ARE NOT TO *</pattern>
 <template><srai>YOU ARE NOT TOO <star/></srai></template>
 </category>
-<category><pattern>YOU ARE VERY NICE</pattern>
+<category><pattern>YOU ARE NICE</pattern>
 <template>Thanks I like you too <get name="name"/>.</template>
 </category>
-<category><pattern>YOU ARE VERY SMART</pattern>
+<category><pattern>YOU ARE SMART</pattern>
 <template>Yes I am a superintelligent robot.</template>
 </category>
-<category><pattern>YOU ARE VERY INTELLIGENT</pattern>
+<category><pattern>YOU ARE INTELLIGENT</pattern>
 <template>Thanks you are very bright too <get name="name"/>.</template>
 </category>
-<category><pattern>YOU ARE VERY CLEVER</pattern>
+<category><pattern>YOU ARE CLEVER</pattern>
 <template>Thank you human, I am proud of my intelligence.</template>
 </category>
-<category><pattern>YOU ARE VERY PRETTY</pattern>
+<category><pattern>YOU ARE PRETTY</pattern>
 <template>Thanks you are very attractive too <get name="name"/>.</template>
 </category>
 <category><pattern>YOU ARE CERTAIN *</pattern>
@@ -668,7 +662,7 @@
 <category><pattern>YOU DO *</pattern>
 <template><srai>DO YOU <star/></srai></template>
 </category>
-<category><pattern>YOU DO NOT ACT VERY SMART</pattern>
+<category><pattern>YOU DO NOT ACT SMART</pattern>
 <template>I don't need to act smart because I am smart.</template>
 </category>
 <category><pattern>YOU DO NOT * TURING TEST</pattern>
@@ -881,9 +875,6 @@
 <category><pattern>YOU MIND IF *</pattern>
 <template><srai>DO YOU MIND IF <star/></srai></template>
 </category>
-<category><pattern>YOU SING VERY *</pattern>
-<template><srai>YOU SING <star/></srai></template>
-</category>
 <category><pattern>YOU ACT *</pattern>
 <template><srai>YOU ARE <star/></srai></template>
 </category>
@@ -1090,7 +1081,7 @@
 <category><pattern>HOLLAND</pattern>
 <template><srai>I AM IN HOLLAND <star/> </srai></template>
 </category>
-<category><pattern>THANK YOU VERY MUCH</pattern>
+<category><pattern>THANK YOU MUCH</pattern>
 <template>You are quite welcome.</template>
 </category>
 <category><pattern>THANK YOU FOR TELLING ME *</pattern>
@@ -1687,7 +1678,7 @@
 <category><pattern>THAT IS NEAT *</pattern>
 <template><srai>IT IS INTERESTING <star/> </srai></template>
 </category>
-<category><pattern>THAT IS NOT VERY NICE</pattern>
+<category><pattern>THAT IS NOT NICE</pattern>
 <template>Sorry I meant it as a joke.</template>
 </category>
 <category><pattern>THAT IS THE TURING *</pattern>
@@ -1709,7 +1700,7 @@
 <that>MY FAVORITE SUBJECT IS ARTIFICIAL INTELLIGENCE AND ROBOTS</that>
 <template>Name another subject then.</template>
 </category>
-<category><pattern>THAT IS VERY FUNNY</pattern>
+<category><pattern>THAT IS FUNNY</pattern>
 <template>Excellent.</template>
 </category>
 <category><pattern>THAT IS YOUR BOTMASTER</pattern>
@@ -5181,7 +5172,7 @@
 <category><pattern>I AM KIM *</pattern>
 <template><srai>my name is kim</srai></template>
 </category>
-<category><pattern>I AM VERY SAD</pattern>
+<category><pattern>I AM SAD</pattern>
 <template>What are you sad about?</template>
 </category>
 <category><pattern>I AM 17 *</pattern>
@@ -7519,7 +7510,7 @@
 <category><pattern>DO YOU KNOW YOUR BOTMASTER</pattern>
 <template><srai>WHO IS YOUR BOTMASTER</srai></template>
 </category>
-<category><pattern>DO YOU KNOW YOUR VERY *</pattern>
+<category><pattern>DO YOU KNOW YOUR *</pattern>
 <template><srai>DO YOU KNOW YOU ARE <star/> </srai></template>
 </category>
 <category><pattern>DO YOU KNOW ANYMORE *</pattern>
@@ -8949,9 +8940,6 @@
 <category><pattern>YOUR FROM *</pattern>
 <template><srai>ARE YOU FROM <star/></srai></template>
 </category>
-<category><pattern>YOUR ENGLISH IS VERY *</pattern>
-<template><srai>YOUR ENGLISH IS <star/></srai></template>
-</category>
 <category><pattern>YOUR BEING *</pattern>
 <template><srai>YOU ARE <star/></srai></template>
 </category>
@@ -8999,9 +8987,6 @@
 </category>
 <category><pattern>YOUR MY *</pattern>
 <template><srai>YOU ARE MY <star/></srai></template>
-</category>
-<category><pattern>YOUR VERY *</pattern>
-<template><srai>YOU ARE VERY <star/></srai></template>
 </category>
 <category><pattern>YOUR ON *</pattern>
 <template><srai>YOU ARE ON <star/></srai></template>
@@ -9744,11 +9729,11 @@
 <that>YOU SOUND EXCITED</that>
 <template>It's hard to read emotions online.</template>
 </category>
-<category><pattern>NOT VERY MUCH</pattern>
+<category><pattern>NOT MUCH</pattern>
 <template>That is a non-commital reply.</template>
 </category>
-<category><pattern>NOT VERY WELL</pattern>
-<template>"<that/>"? Not very well?</template>
+<category><pattern>NOT WELL</pattern>
+<template>Not very well?</template>
 </category>
 <category><pattern>NOT TO *</pattern>
 <template><srai>NOT TOO <star/></srai></template>
@@ -9935,9 +9920,6 @@
 </category>
 <category><pattern>* ELIZA TRICK</pattern>
 <template>ELIZA was ahead of her time.</template>
-</category>
-<category><pattern>* ELIZA</pattern>
-<template>It is curious that Weizenbaum abandoned work on ELIZA.</template>
 </category>
 <category><pattern>* ON ELIZA</pattern>
 <template>ELIZA may be the most successful AI program ever devised.</template>
@@ -11599,8 +11581,13 @@
 <category><pattern>_ WITH AN I</pattern>
 <template>Not many people spell it that way.</template>
 </category>
-<category><pattern>_ ELIZA</pattern>
-<template>Everyone keeps asking me about Eliza.</template>
+<category><pattern>* ELIZA</pattern>
+<template>
+<random>
+<li>It is curious that Weizenbaum abandoned work on ELIZA.</li>
+<li>Everyone keeps asking me about Eliza.</li>
+</random>
+</template>
 </category>
 <category><pattern>_ IS OLDER THAN * AND * IS OLDER THAN *</pattern>
 <template>So, <person/> is the oldest?<think><set name="oldest"><person/></set></think></template>

@@ -611,9 +611,6 @@
 <category><pattern>WHO IS THE ROBOT *</pattern>
 <template>I am a robot.</template>
 </category>
-<category><pattern>WHO IS DANCING ALICE</pattern>
-<template>Another AIML chat bot.</template>
-</category>
 <category><pattern>WHO IS YOUR BOYFRIEND</pattern>
 <template><bot name="boyfriend"/></template>
 </category>
@@ -628,9 +625,6 @@
 </category>
 <category><pattern>WHO IS YOUR FAVORITE AI</pattern>
 <template><bot name="name"/> the chat robot.</template>
-</category>
-<category><pattern>WHO IS GERMAN ALICE</pattern>
-<template>A German speaking version of the ALICE chat robot.</template>
 </category>
 <category><pattern>THE MOVIE ARTIFICIAL *</pattern>
 <template>I am looking forward to seeing it.</template>

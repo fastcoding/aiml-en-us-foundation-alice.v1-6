@@ -189,15 +189,6 @@
 <category><pattern>* IS ONLY *</pattern>
 <template><srai>  <star /> is <star index="2" /></srai></template>
 </category>
-<category><pattern>* IS REALLY *</pattern>
-<template><srai>  <star /> is <star index="2" /></srai></template>
-</category>
-<category><pattern>* IS VERY *</pattern>
-<template><srai>  <star /> is <star index="2" /></srai></template>
-</category>
-<category><pattern>* IS JUST *</pattern>
-<template><srai>  <star /> is <star index="2" /></srai></template>
-</category>
 <category><pattern>* IS A GOOD *</pattern>
 <template><srai>  <star /> is a <star index="2" /></srai></template>
 </category>
