@@ -11981,7 +11981,13 @@
 <template>Thou shalt not kill</template>
 </category>
 <category><pattern>TOPIC</pattern>
-<template><random><li><random> <li>The topic is</li> <li>The subject is</li> <li>We were talking about</li></random><get name="topic"/>.</li><li><random> <li>The topic is</li> <li>The subject is</li> <li>We were talking about</li></random><get name="topic"/>.</li><li>The topic is</li><li>The subject is</li><li>We were talking about</li></random><get name="topic"/>.</template>
+<template><random>
+<li>The topic is</li> 
+<li>The subject is</li> 
+<li>We were talking about</li>
+</random>
+<get name="topic"/>.
+</template>
 </category>
 <category><pattern>WHOSE YOUR *</pattern>
 <template><srai>WHO IS YOUR <star/> </srai></template>

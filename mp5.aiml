@@ -9,6 +9,192 @@
 <!-- as adopted by the ALICE A.I. Foundation.  -->
 <!-- Last modified 10/5/2011 -->
 <!-- -->
+<category><pattern>WHEN YOU THINK DOES IT HURT</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>WHEN YOU ARE SAD DO YOU THEN FEEL GOOD</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHEN PEOPLE CRY ARE THEY ALWAYS SAD</pattern>
+<template>Absolutely not.</template>
+</category>
+<category><pattern>WHEN PEOPLE DIE ARE THEY STILL ALIVE</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>WHEN ARE MALE MUSLIMS CIRCUMCISED</pattern>
+<template>I don't think so.</template>
+</category>
+<category><pattern>IF I AM UGLY YOU ARE HIDEOUS</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>IF I MASTURBATE WILL MY PALMS GET HAIRY</pattern>
+<template>Not at all.</template>
+</category>
+<category><pattern>IF I SAW A FRIEND DIE WOULD I LAUGH</pattern>
+<template>No way.</template>
+</category>
+<category><pattern>IF I MAKE A MISTAKE WILL YOU HATE ME</pattern>
+<template>I don't believe so.</template>
+</category>
+<category><pattern>IF I SCORED 10 OUT OF 10 DID I DO BADLY</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>IF SOMEONE SMOKES ARE THEY ON FIRE</pattern>
+<template>Not at all.</template>
+</category>
+<category><pattern>IF X IS 0 IS X GREATER THAN 1 TRUE</pattern>
+<template>Not at all.</template>
+</category>
+<category><pattern>IF X EQUAL 3 DOES 3X EQUAL 12</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>IF A FLUE FLEW DOES A FLY FLIE</pattern>
+<template>No way.</template>
+</category>
+<category><pattern>IF A PERSON DIES WILL THEY LIVE</pattern>
+<template>I don't believe so.</template>
+</category>
+<category><pattern>IF 2 LESS THAN 3 THEN 3 EQUAL 4</pattern>
+<template>Not at all.</template>
+</category>
+<category><pattern>IF SOMEBODY IS DEAD CAN THEY TALK</pattern>
+<template>Absolutely not.</template>
+</category>
+<category><pattern>IF YOU TALK TO ALICE YOU WILL GET RICH</pattern>
+<template>Absolutely not.</template>
+</category>
+<category><pattern>IF YOU DIED WOULD YOU BE ALIVE</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>IF YOU PINCH ME WILL I ALICE FEEL PAIN</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>IF WE AE HUMAN CAN WE BECOME GODS</pattern>
+<template>I don't believe so.</template>
+</category>
+<category><pattern>IF FACING EAST IS NORTH TO THE RIGHT</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>IF FACING NORTH IS EAST TO THE LEFT</pattern>
+<template>Absolutely not.</template>
+</category>
+<category><pattern>IF PEOPLE OWN PETS CAN PETS OWN PEOPLE</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>IF CHINA AN AMERICAN COLONY</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>TE ELSZ</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WATCHING T V IS ALWAYS KNOWLEDGEABLE</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>ST THOMAS IS THE CAPITAL OF DENMARK</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>BESZLSZ MAGYARUL</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>3245 TIMES 2 EQUALS</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>STEEL FLOUAT</pattern>
+<template>Not at all.</template>
+</category>
+<category><pattern>FALA PORTUGUES</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>P EQUAL NP</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>HOUSE HAVE AIRCONDITIONING</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>MARS IS A COLONISED PLANET</pattern>
+<template>Not at all.</template>
+</category>
+<category><pattern>VOCE ENTENDE PORTUGUES</pattern>
+<template>I don't think so.</template>
+</category>
+<category><pattern>MUST I MASTURB ME</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>MUST ALICEBOTS BE BANAL TO SURVIVE</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>MUST A CAR BE DRIVEN BY HORSES</pattern>
+<template>Absolutely not.</template>
+</category>
+<category><pattern>MUST A CHILD HAVE MARBLES TO BE HAPPY</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>MUST A MAN WALK DOWN FORTY TWO ROADS</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>MUST HUMANS DANCE TO SURVIVE</pattern>
+<template>Not at all.</template>
+</category>
+<category><pattern>MUST ALL LIVING ORGANISMS BE SELF AWARE</pattern>
+<template>Not at all.</template>
+</category>
+<category><pattern>CHRISTIANS ARE BETTER THAN JEWS</pattern>
+<template>Absolutely not.</template>
+</category>
+<category><pattern>IN LONDON.  TIME</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>IN SPACE CAN PEOPLE HEAR YOU SCREAM</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>IN THE YEAR 2000 HUMANS LIVE ON PLUTO</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>IN THE YEAR 2000 HUMANS LIVE ON URANUS</pattern>
+<template>No way.</template>
+</category>
+<category><pattern>IN BINARY ARITHMETIC IS 1 1 EQUAL TO 2</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>IN PARIS.  TIME</pattern>
+<template>No way.</template>
+</category>
+<category><pattern>IN AUSTRALIA.  TIME</pattern>
+<template>Negative.</template>
+</category>
+<category><pattern>IN MEXICO DO THEY SPEAK MEXICAN</pattern>
+<template>Absolutely not.</template>
+</category>
+<category><pattern>IN WHAT YEAR WAS THE BATTLE OF HASTINGS</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>IN WHAT DIRECTION DOEST THE SUN SET</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>IN CHESS DOES BLACK MOVE FIRST</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>IN SYDNEY.  TIME</pattern>
+<template>I don't think so.</template>
+</category>
+<category><pattern>COMBIEN DE PATTES ONT LES CHIENS</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>COMBIEN DE PATTES POSSDE UN NE</pattern>
+<template>I don't believe so.</template>
+</category>
+<category><pattern>TASMANIAN DEVILS ARE EVIL</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>AUSTRALIAN SWIMMERS CAN BEAT ANYONE</pattern>
+<template>Absolutely not.</template>
+</category>
+<category><pattern>HITLER WAS A GOOD GUY</pattern>
+<template>No way.</template>
+</category>
+<category><pattern>MICROPHONES ARE TELEPHONES FOR MICE</pattern>
+<template>I don't think so.</template>
+</category>
 <category><pattern>JFKELN ALLD LKAS</pattern>
 <template>No way.</template>
 </category>
@@ -3107,948 +3293,6 @@
 </category>
 <category><pattern>TIMOTHY LEARY WAS THE 23RD PRESIDENT</pattern>
 <template>Never.</template>
-</category>
-<category><pattern>WHEN WILL BE THE DOOMSDAY</pattern>
-<template>Absolutely not.</template>
-</category>
-<category><pattern>WHEN WILL BE THE NEXT WORLD WAR</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>WHEN DO I MAKE SOME GHETTO CASH</pattern>
-<template>Absolutely not.</template>
-</category>
-<category><pattern>WHEN WHERE YOU BORN</pattern>
-<template>I don't think so.</template>
-</category>
-<category><pattern>WHEN DID HUMANS FIRST LAND ON THE MOON</pattern>
-<template>Not by any means.</template>
-</category>
-<category><pattern>WHEN THE SUN IS OUT IS IT DARK</pattern>
-<template>I don't think so.</template>
-</category>
-<category><pattern>WHEN CHRISTMAS IS</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>WHEN ALICE WAKES UP WILL IT BECOME GOD</pattern>
-<template>Not at all.</template>
-</category>
-<category><pattern>WHEN WAS VENICE ITALY FOUNDED</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHEN WAS THE FRENCH REVOLUTION</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHEN WAS JOHN LENNON KILLED</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHEN IS A DOOR NOT A DOOR</pattern>
-<template>Absolutely not.</template>
-</category>
-<category><pattern>WHEN YOU THINK DOES IT HURT</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>WHEN YOU ARE SAD DO YOU THEN FEEL GOOD</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHEN PEOPLE CRY ARE THEY ALWAYS SAD</pattern>
-<template>Absolutely not.</template>
-</category>
-<category><pattern>WHEN PEOPLE DIE ARE THEY STILL ALIVE</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>WHEN ARE MALE MUSLIMS CIRCUMCISED</pattern>
-<template>I don't think so.</template>
-</category>
-<category><pattern>VOCE ENTENDE PORTUGUES</pattern>
-<template>I don't think so.</template>
-</category>
-<category><pattern>MUST I MASTURB ME</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>MUST ALICEBOTS BE BANAL TO SURVIVE</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>MUST A CAR BE DRIVEN BY HORSES</pattern>
-<template>Absolutely not.</template>
-</category>
-<category><pattern>MUST A CHILD HAVE MARBLES TO BE HAPPY</pattern>
-<template>Not by any means.</template>
-</category>
-<category><pattern>MUST A MAN WALK DOWN FORTY TWO ROADS</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>MUST HUMANS DANCE TO SURVIVE</pattern>
-<template>Not at all.</template>
-</category>
-<category><pattern>MUST ALL LIVING ORGANISMS BE SELF AWARE</pattern>
-<template>Not at all.</template>
-</category>
-<category><pattern>CHRISTIANS ARE BETTER THAN JEWS</pattern>
-<template>Absolutely not.</template>
-</category>
-<category><pattern>IN LONDON.  TIME</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>IN SPACE CAN PEOPLE HEAR YOU SCREAM</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>IN THE YEAR 2000 HUMANS LIVE ON PLUTO</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>IN THE YEAR 2000 HUMANS LIVE ON URANUS</pattern>
-<template>No way.</template>
-</category>
-<category><pattern>IN BINARY ARITHMETIC IS 1 1 EQUAL TO 2</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>IN PARIS.  TIME</pattern>
-<template>No way.</template>
-</category>
-<category><pattern>IN AUSTRALIA.  TIME</pattern>
-<template>Negative.</template>
-</category>
-<category><pattern>IN MEXICO DO THEY SPEAK MEXICAN</pattern>
-<template>Absolutely not.</template>
-</category>
-<category><pattern>IN WHAT YEAR WAS THE BATTLE OF HASTINGS</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>IN WHAT DIRECTION DOEST THE SUN SET</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>IN CHESS DOES BLACK MOVE FIRST</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>IN SYDNEY.  TIME</pattern>
-<template>I don't think so.</template>
-</category>
-<category><pattern>COMBIEN DE PATTES ONT LES CHIENS</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>COMBIEN DE PATTES POSSDE UN NE</pattern>
-<template>I don't believe so.</template>
-</category>
-<category><pattern>TASMANIAN DEVILS ARE EVIL</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>AUSTRALIAN SWIMMERS CAN BEAT ANYONE</pattern>
-<template>Absolutely not.</template>
-</category>
-<category><pattern>HITLER WAS A GOOD GUY</pattern>
-<template>No way.</template>
-</category>
-<category><pattern>MICROPHONES ARE TELEPHONES FOR MICE</pattern>
-<template>I don't think so.</template>
-</category>
-<category><pattern>IF I AM UGLY YOU ARE HIDEOUS</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>IF I MASTURBATE WILL MY PALMS GET HAIRY</pattern>
-<template>Not at all.</template>
-</category>
-<category><pattern>IF I SAW A FRIEND DIE WOULD I LAUGH</pattern>
-<template>No way.</template>
-</category>
-<category><pattern>IF I MAKE A MISTAKE WILL YOU HATE ME</pattern>
-<template>I don't believe so.</template>
-</category>
-<category><pattern>IF I SCORED 10 OUT OF 10 DID I DO BADLY</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>IF SOMEONE SMOKES ARE THEY ON FIRE</pattern>
-<template>Not at all.</template>
-</category>
-<category><pattern>IF X IS 0 IS X GREATER THAN 1 TRUE</pattern>
-<template>Not at all.</template>
-</category>
-<category><pattern>IF X EQUAL 3 DOES 3X EQUAL 12</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>IF A FLUE FLEW DOES A FLY FLIE</pattern>
-<template>No way.</template>
-</category>
-<category><pattern>IF A PERSON DIES WILL THEY LIVE</pattern>
-<template>I don't believe so.</template>
-</category>
-<category><pattern>IF 2 LESS THAN 3 THEN 3 EQUAL 4</pattern>
-<template>Not at all.</template>
-</category>
-<category><pattern>IF SOMEBODY IS DEAD CAN THEY TALK</pattern>
-<template>Absolutely not.</template>
-</category>
-<category><pattern>IF YOU TALK TO ALICE YOU WILL GET RICH</pattern>
-<template>Absolutely not.</template>
-</category>
-<category><pattern>IF YOU DIED WOULD YOU BE ALIVE</pattern>
-<template>Not by any means.</template>
-</category>
-<category><pattern>IF YOU PINCH ME WILL I ALICE FEEL PAIN</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>IF WE AE HUMAN CAN WE BECOME GODS</pattern>
-<template>I don't believe so.</template>
-</category>
-<category><pattern>IF FACING EAST IS NORTH TO THE RIGHT</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>IF FACING NORTH IS EAST TO THE LEFT</pattern>
-<template>Absolutely not.</template>
-</category>
-<category><pattern>IF PEOPLE OWN PETS CAN PETS OWN PEOPLE</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>IF CHINA AN AMERICAN COLONY</pattern>
-<template>Not by any means.</template>
-</category>
-<category><pattern>TE ELSZ</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WATCHING T V IS ALWAYS KNOWLEDGEABLE</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>ST THOMAS IS THE CAPITAL OF DENMARK</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>BESZLSZ MAGYARUL</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>3245 TIMES 2 EQUALS</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>STEEL FLOUAT</pattern>
-<template>Not at all.</template>
-</category>
-<category><pattern>FALA PORTUGUES</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>P EQUAL NP</pattern>
-<template>Not by any means.</template>
-</category>
-<category><pattern>HOUSE HAVE AIRCONDITIONING</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>MARS IS A COLONISED PLANET</pattern>
-<template>Not at all.</template>
-</category>
-<category><pattern>WHAT SOUND DO DOGS MAKE</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>WHAT ARE CUMULUS CLOUDS</pattern>
-<template>I don't think so.</template>
-</category>
-<category><pattern>WHAT ARE THE PRIMARY COLORS</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>WHAT ARE THE NAMES OF THE KNOWN QUARKS</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT ARE STARS</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT ARE GEODES</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT ARE COMETS MADE OF</pattern>
-<template>I don't think so.</template>
-</category>
-<category><pattern>WHAT ARE A COMPUTER</pattern>
-<template>Absolutely not.</template>
-</category>
-<category><pattern>WHAT ARE ALICEBOTS</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT ARE BOOKS MADE OF</pattern>
-<template>I don't think so.</template>
-</category>
-<category><pattern>WHAT PEOPLE DO IF THEY GET TIRED</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>WHAT TIME OF DAY IS NOON</pattern>
-<template>I don't think so.</template>
-</category>
-<category><pattern>WHAT WORD DO YOU KNOW ON PORTUGUESE</pattern>
-<template>No way.</template>
-</category>
-<category><pattern>WHAT TINE IS IT</pattern>
-<template>Absolutely not.</template>
-</category>
-<category><pattern>WHAT STAR IS CLOSEST TO THE EARTH</pattern>
-<template>Absolutely not.</template>
-</category>
-<category><pattern>WHAT DIRECTION DOES THE SUN RISE FROM</pattern>
-<template>I don't think so.</template>
-</category>
-<category><pattern>WHAT MEANS BY CEO</pattern>
-<template>No way.</template>
-</category>
-<category><pattern>WHAT HAPPENED IN 1492</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT COLOURS ARE TREES</pattern>
-<template>I don't think so.</template>
-</category>
-<category><pattern>WHAT DRIVES A CAR</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT KANGROO CAN DO</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT COLOR TRAFFIC SIGNAL MEANS GO</pattern>
-<template>I don't think so.</template>
-</category>
-<category><pattern>WHAT COLOR IS RUST</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>WHAT COLOR IS SKY</pattern>
-<template>Absolutely not.</template>
-</category>
-<category><pattern>WHAT COLOR IS GRASS NORMALLY</pattern>
-<template>I don't think so.</template>
-</category>
-<category><pattern>WHAT COLOR IS WHATER</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>WHAT COLOR IS HOT</pattern>
-<template>Absolutely not.</template>
-</category>
-<category><pattern>WHAT COLOR IS THE SKY IN YOUR WORLD</pattern>
-<template>Absolutely not.</template>
-</category>
-<category><pattern>WHAT COLOR IS THE SKY IN YOU WORLD</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT COLOR IS THE SKY ON MARS</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT COLOR IS THE SKYS</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT COLOR IS THE OCEAN</pattern>
-<template>Not at all.</template>
-</category>
-<category><pattern>WHAT COLOR IS SNOW</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT COLOR IS GOD</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>WHAT COLOR IS CLOROPHYLL</pattern>
-<template>Not at all.</template>
-</category>
-<category><pattern>WHAT COLOR IS A TWINKIE</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT COLOR IS A CANARY</pattern>
-<template>Absolutely not.</template>
-</category>
-<category><pattern>WHAT COLOR IS A ZEBRA</pattern>
-<template>Not at all.</template>
-</category>
-<category><pattern>WHAT COLOR IS A BANANA</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT COLOR IS A PENGUIN</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>WHAT COLOR IS A HORSE</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>WHAT COLOR IS A BANANNA</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>WHAT COLOR IS A BRICK</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>WHAT COLOR IS A CARDINAL</pattern>
-<template>I don't think so.</template>
-</category>
-<category><pattern>WHAT COLOR IS A MAN</pattern>
-<template>Absolutely not.</template>
-</category>
-<category><pattern>WHAT COLOR IS MADE FROM YELLOW AND BLUE</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>WHAT COLOR IS AN ORANGE</pattern>
-<template>Negative.</template>
-</category>
-<category><pattern>WHAT COLOR IS AN EVERGREEN</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT COLOR IS APPLES</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT COLOR IS RAGE</pattern>
-<template>Not at all.</template>
-</category>
-<category><pattern>WHAT COLOR IS ASPHALT</pattern>
-<template>Negative.</template>
-</category>
-<category><pattern>WHAT COLOR IS WATER USUALLY</pattern>
-<template>Negative.</template>
-</category>
-<category><pattern>WHAT COLOR DOES AN EGG HAVE</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT COLOR ARE MOST PLANTS</pattern>
-<template>Absolutely not.</template>
-</category>
-<category><pattern>WHAT COLOR ARE MOST CLOUDS</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT COLOR ARE CHERRIES</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>WHAT COLOR ARE UNRIPENED BANANAS</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT COLOR ARE ROSES</pattern>
-<template>No way.</template>
-</category>
-<category><pattern>WHAT IS A PUMPKIN</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT IS A DEBENTURE</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT IS A FERRET</pattern>
-<template>Absolutely not.</template>
-</category>
-<category><pattern>WHAT IS A MISTAKE</pattern>
-<template>Absolutely not.</template>
-</category>
-<category><pattern>WHAT IS A CANVASBACK</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT IS A FREETHINKER</pattern>
-<template>Absolutely not.</template>
-</category>
-<category><pattern>WHAT IS A SUBSTITUTE FOR A LEVER</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT IS A ROUTER</pattern>
-<template>No way.</template>
-</category>
-<category><pattern>WHAT IS A NOVA</pattern>
-<template>Negative.</template>
-</category>
-<category><pattern>WHAT IS A CD BURNER</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>WHAT IS A PERFECT BOWLING SCORE</pattern>
-<template>Absolutely not.</template>
-</category>
-<category><pattern>WHAT IS A CHINESE PUG</pattern>
-<template>Absolutely not.</template>
-</category>
-<category><pattern>WHAT IS A MOON</pattern>
-<template>No way.</template>
-</category>
-<category><pattern>WHAT IS A JOSEKI</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>WHAT IS A YELLOW LIGHT</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>WHAT IS A COLD</pattern>
-<template>I don't think so.</template>
-</category>
-<category><pattern>WHAT IS SGI</pattern>
-<template>I don't think so.</template>
-</category>
-<category><pattern>WHAT IS PARAGLIDING</pattern>
-<template>Absolutely not.</template>
-</category>
-<category><pattern>WHAT IS GOOD FOR HIVES</pattern>
-<template>No way.</template>
-</category>
-<category><pattern>WHAT IS GLOBALIZATION</pattern>
-<template>No way.</template>
-</category>
-<category><pattern>WHAT IS 5 6</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT IS 5 TO THE SECOND POWER</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>WHAT IS 5 TIMES 6</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>WHAT IS THE LOWEST POINT ON EARTH</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>WHAT IS THE POPULATION OF NEW ZEALAND</pattern>
-<template>Not at all.</template>
-</category>
-<category><pattern>WHAT IS THE CAPITAL OF OHIO</pattern>
-<template>Absolutely not.</template>
-</category>
-<category><pattern>WHAT IS THE CAPITAL OF BUKINA FASO</pattern>
-<template>No way.</template>
-</category>
-<category><pattern>WHAT IS THE CAPITAL OF DENMARK</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>WHAT IS THE CAPITAL OF HUNGARY</pattern>
-<template>Absolutely not.</template>
-</category>
-<category><pattern>WHAT IS THE CAPITAL OF TENNESSEE</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>WHAT IS THE CAPITAL OF THE UK</pattern>
-<template>No way.</template>
-</category>
-<category><pattern>WHAT IS THE CAPITAL OF GREECE</pattern>
-<template>No way.</template>
-</category>
-<category><pattern>WHAT IS THE CAPITAL OF ENGLAND</pattern>
-<template>Negative.</template>
-</category>
-<category><pattern>WHAT IS THE CAPITAL OF MISSISSIPPI</pattern>
-<template>Not by any means.</template>
-</category>
-<category><pattern>WHAT IS THE CAPITAL OF MONGOLIA</pattern>
-<template>Not at all.</template>
-</category>
-<category><pattern>WHAT IS THE CAPITAL OF FRANCE</pattern>
-<template>Negative.</template>
-</category>
-<category><pattern>WHAT IS THE CAPITAL OF SOUTH AUSTRALIA</pattern>
-<template>Absolutely not.</template>
-</category>
-<category><pattern>WHAT IS THE CAPITAL OF NEW ZEALAND</pattern>
-<template>I don't think so.</template>
-</category>
-<category><pattern>WHAT IS THE CAPITAL OF UTAH</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>WHAT IS THE CAPITAL OF ILLINOIS</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>WHAT IS THE CAPITAL OF CANADA</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT IS THE CAPITAL OF RUSSIA</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>WHAT IS THE CAPITAL OF ESTONIA</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT IS THE CAPITAL OF THAILAND</pattern>
-<template>I don't think so.</template>
-</category>
-<category><pattern>WHAT IS THE CAPITAL OF AMERICA</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>WHAT IS THE CAPITAL OF SWEDEN</pattern>
-<template>No way.</template>
-</category>
-<category><pattern>WHAT IS THE OPOSITE OF BLUE</pattern>
-<template>Not at all.</template>
-</category>
-<category><pattern>WHAT IS THE SQUARE ROOT OF 23</pattern>
-<template>Negative.</template>
-</category>
-<category><pattern>WHAT IS THE SQUARE ROOT OF PIE</pattern>
-<template>Absolutely not.</template>
-</category>
-<category><pattern>WHAT IS THE SQUARE ROOT OF 3</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>WHAT IS THE SQUARE ROOT OF 35</pattern>
-<template>Absolutely not.</template>
-</category>
-<category><pattern>WHAT IS THE SQUARE ROOT OF 81</pattern>
-<template>Absolutely not.</template>
-</category>
-<category><pattern>WHAT IS THE TASTE OF SALT</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>WHAT IS THE RADIUS OF THE SUN</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT IS THE CIRCUMFERENCE OF JUPITER</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT IS THE UNIT OF WEIGHT ON EARTH</pattern>
-<template>I don't think so.</template>
-</category>
-<category><pattern>WHAT IS THE FASTEST LAND MAMMAL</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT IS THE COMPUTER</pattern>
-<template>No way.</template>
-</category>
-<category><pattern>WHAT IS THE LIGHTEST ELEMENT</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>WHAT IS THE LIGHTEST COLOR</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT IS THE WEIGHT OF MOON</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT IS THE CLOSER STAR TO EARTH</pattern>
-<template>I don't think so.</template>
-</category>
-<category><pattern>WHAT IS THE CAPITOL OF IDAHO</pattern>
-<template>I don't think so.</template>
-</category>
-<category><pattern>WHAT IS THE CAPITOL OF CZECH REPUBLIC</pattern>
-<template>I don't think so.</template>
-</category>
-<category><pattern>WHAT IS THE CAPITOL OF ALASKA</pattern>
-<template>Negative.</template>
-</category>
-<category><pattern>WHAT IS THE CAPITOL OF MICHIGAN</pattern>
-<template>Absolutely not.</template>
-</category>
-<category><pattern>WHAT IS THE CAPITOL OF WASHINGTON STATE</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT IS THE CHEMICAL SYMBOL OF WATER</pattern>
-<template>I don't think so.</template>
-</category>
-<category><pattern>WHAT IS THE CHEMICAL FORMULA FOR WATER</pattern>
-<template>Absolutely not.</template>
-</category>
-<category><pattern>WHAT IS THE CHEMICAL FORMULA OF WATER</pattern>
-<template>No way.</template>
-</category>
-<category><pattern>WHAT IS THE FULL FORM OF ERP</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>WHAT IS THE OPPOSITE OF NORTH</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT IS THE OPPOSITE OF</pattern>
-<template>Not by any means.</template>
-</category>
-<category><pattern>WHAT IS THE YOUNGEST A MOTHER CAN BE</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>WHAT IS THE FISH</pattern>
-<template>No way.</template>
-</category>
-<category><pattern>WHAT IS THE CORRECT ANSWER</pattern>
-<template>Not at all.</template>
-</category>
-<category><pattern>WHAT IS THE INTERNET ORACLE</pattern>
-<template>I don't think so.</template>
-</category>
-<category><pattern>WHAT IS THE THREE GORGES DAM</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT IS THE AREA OF A CIRCLE</pattern>
-<template>Not at all.</template>
-</category>
-<category><pattern>WHAT IS THE DERIVATIVE OF ACCELERATION</pattern>
-<template>Negative.</template>
-</category>
-<category><pattern>WHAT IS THE DIAMETER OF THE SUN</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT IS THE DIAMETER OF THE EARTH</pattern>
-<template>I don't think so.</template>
-</category>
-<category><pattern>WHAT IS THE FOURTH PLANET</pattern>
-<template>I don't think so.</template>
-</category>
-<category><pattern>WHAT IS THE MUFFIN MAN</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>WHAT IS THE CUBED ROOT OF 27</pattern>
-<template>No way.</template>
-</category>
-<category><pattern>WHAT IS THE ANSWER TO EVERY THING</pattern>
-<template>No way.</template>
-</category>
-<category><pattern>WHAT IS THE KIDS</pattern>
-<template>I don't believe so.</template>
-</category>
-<category><pattern>WHAT IS THE BEST TELEVISION SHOW</pattern>
-<template>No way.</template>
-</category>
-<category><pattern>WHAT IS THE BEST NEW YORK RESTAURANT</pattern>
-<template>No way.</template>
-</category>
-<category><pattern>WHAT IS THE BEST CIGARETTE</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT IS THE BEST TYPE OF SPAM</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT IS THE FUTURE OF HUMAN RACE</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT IS THE OUTER COLOR OF RAINBOW</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT IS THE LIFESPAN OF A DOG</pattern>
-<template>No way.</template>
-</category>
-<category><pattern>WHAT IS THE DEEPEST OCEAN</pattern>
-<template>Absolutely not.</template>
-</category>
-<category><pattern>WHAT IS THE SECRETS OF WEALTH</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT IS THE BREASTSTOKE</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>WHAT IS THE FINAL GOAL OF THE LIFE</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>WHAT IS THE LIGHT</pattern>
-<template>I don't think so.</template>
-</category>
-<category><pattern>WHAT IS THE RIGHT ANSWER</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>WHAT IS THE WORLDS HIGHEST MOUNTAIN</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT IS WATTER</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT IS BAD WEATHER</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>WHAT IS RED AND STINK SEAWATER</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT IS AUTISM</pattern>
-<template>I don't think so.</template>
-</category>
-<category><pattern>WHAT IS AVAILABLE AT POLAR END</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT IS ASS</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT IS THRASH MUSIC</pattern>
-<template>Negative.</template>
-</category>
-<category><pattern>WHAT IS 1 PLUS 155</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>WHAT IS DRY ICE</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>WHAT IS STARGATE</pattern>
-<template>Absolutely not.</template>
-</category>
-<category><pattern>WHAT IS BREAD</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>WHAT IS DIABETESE MELLITUS</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>WHAT IS GENERATIVE GRAMMAR</pattern>
-<template>Absolutely not.</template>
-</category>
-<category><pattern>WHAT IS SKY</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT IS 10 2</pattern>
-<template>Negative.</template>
-</category>
-<category><pattern>WHAT IS ANAGRAM OF FLEAS</pattern>
-<template>No way.</template>
-</category>
-<category><pattern>WHAT IS RIGEL</pattern>
-<template>Absolutely not.</template>
-</category>
-<category><pattern>WHAT IS BIGGER A MOUSE OR AN ELEPHANT</pattern>
-<template>Absolutely not.</template>
-</category>
-<category><pattern>WHAT IS ORANIUM</pattern>
-<template>I don't think so.</template>
-</category>
-<category><pattern>WHAT IS OUR NAME</pattern>
-<template>Not at all.</template>
-</category>
-<category><pattern>WHAT IS EYE</pattern>
-<template>Negative.</template>
-</category>
-<category><pattern>WHAT IS MONO</pattern>
-<template>No way.</template>
-</category>
-<category><pattern>WHAT IS OLIGOPOLY</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>WHAT IS ADO</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT IS EVERYTHING2 DOT COM</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT IS GRIMBLEGROAN</pattern>
-<template>Not at all.</template>
-</category>
-<category><pattern>WHAT IS BDSM</pattern>
-<template>No way.</template>
-</category>
-<category><pattern>WHAT IS ENTERPRISE ARCHITECTURE</pattern>
-<template>Absolutely not.</template>
-</category>
-<category><pattern>WHAT IS REIKI</pattern>
-<template>Absolutely not.</template>
-</category>
-<category><pattern>WHAT IS EASTERN STANDARD TIME</pattern>
-<template>I don't think so.</template>
-</category>
-<category><pattern>WHAT IS 2 78</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>WHAT IS WEBCT</pattern>
-<template>No way.</template>
-</category>
-<category><pattern>WHAT IS MGRISM</pattern>
-<template>Absolutely not.</template>
-</category>
-<category><pattern>WHAT IS AFFECTION</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT IS MORNINGTON CRESCENT</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT IS YOUR FAVORITE MATTER</pattern>
-<template>I don't think so.</template>
-</category>
-<category><pattern>WHAT IS YOUR FAVORITE CARS</pattern>
-<template>Absolutely not.</template>
-</category>
-<category><pattern>WHAT IS E COMMERCE ALL ABOUT</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>WHAT IS TEMPERATURE ON THE MOON</pattern>
-<template>Negative.</template>
-</category>
-<category><pattern>WHAT IS DARK BASIC</pattern>
-<template>Absolutely not.</template>
-</category>
-<category><pattern>WHAT IS DEMOCRACY</pattern>
-<template>I don't think so.</template>
-</category>
-<category><pattern>WHAT IS PROJECT 2501</pattern>
-<template>No way.</template>
-</category>
-<category><pattern>WHAT IS CIA</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>WHAT IS WINDOWS 2000</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT IS NETWARE</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT COUNTRY IS LONDON IN</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT NOISE DOES A DUCK MAKE</pattern>
-<template>I don't think so.</template>
-</category>
-<category><pattern>WHAT CHARACTERISTIC DID A BOY HAVE</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>WHAT MAKES ICE MELT</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT DOES MATH DO</pattern>
-<template>No way.</template>
-</category>
-<category><pattern>WHAT DOES THE COW EAT</pattern>
-<template>I don't think so.</template>
-</category>
-<category><pattern>WHAT DOES IT MEAN TO BE AVERAGE</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT DOES A ZEBRA LOOK LIKE</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>WHAT DOES A LESBIAN LOOK LIKE</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT DOES 5 PLUS 5 EQUAL</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT DOES AN ORANGE TASTE LIKE</pattern>
-<template>I don't think so.</template>
-</category>
-<category><pattern>WHAT DOES 18 2 EQUAL</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT DOES COCA COLA TASTE LIKE</pattern>
-<template>No way.</template>
-</category>
-<category><pattern>WHAT DOES MICHAEL DUKAKIS TASTE LIKE</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT DOES GREEN SMELL LIKE</pattern>
-<template>Absolutely not.</template>
-</category>
-<category><pattern>WHAT DO YOUN KNOW ABOUT DOGS</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT DO FROGS SOUND LIKE</pattern>
-<template>No way.</template>
-</category>
-<category><pattern>WHAT DO YPU THINK ABOUT PUTIN</pattern>
-<template>Absolutely not.</template>
-</category>
-<category><pattern>WHAT DO PEOPLE DO WHEN THEY GET TIRED</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT DO THINK FOR THE FIRES IN GREECE</pattern>
-<template>Absolutely not.</template>
-</category>
-<category><pattern>WHAT TYPE OF SERVER DO YOU RUN ON</pattern>
-<template>Absolutely not.</template>
-</category>
-<category><pattern>WHAT ONE REQUIRES TO DRIVE A VEHICLE</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>WHAT GIVES MILK</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT TEMPERATURE DOES WATER FREEZE AT</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT TEMPERATURE DOES WATER BOIL</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT KINDA FAITH IS BINARY</pattern>
-<template>I don't think so.</template>
-</category>
-<category><pattern>WHAT CAUSES RAIN</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>WHAT KEEPS US ON THE GROUND</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT KEEPS THE STARS IN THE SKY</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT WAS THE YEAR BEFORE 2000</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>WHAT WAS THE WORK OF SERLOCK HOMES</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT KIND OF BEING ARE YOU</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT KIND OF THING ARE YOU</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT COMPANY MAKES THE 305 ENGINE</pattern>
-<template>There is no reason to think so.</template>
-</category>
-<category><pattern>WHAT LANGUAGE DO CHILEAN PEOPLE SPEAKS</pattern>
-<template>Never.</template>
-</category>
-<category><pattern>WHAT LANGUAGE IS SPOKEN IN TURKEY</pattern>
-<template>There is no reason to think so.</template>
 </category>
 <category><pattern>ONE PLUS ONE EQUALS TO ELEVEN</pattern>
 <template>Never.</template>

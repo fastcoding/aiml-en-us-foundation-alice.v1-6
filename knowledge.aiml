@@ -9,6 +9,699 @@
 <!-- as adopted by the ALICE A.I. Foundation.  -->
 <!-- Last modified 10/5/2011 -->
 <!-- -->
+
+<category><pattern>WHEN WILL BE THE DOOMSDAY</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>WHEN WILL BE THE NEXT WORLD WAR</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>WHEN DO I MAKE * CASH</pattern>
+<template>Put some effort into it.</template>
+</category>
+<category><pattern>WHEN DID HUMANS FIRST LAND ON THE MOON</pattern>
+<template>July, 1969.</template>
+</category>
+<category><pattern>WHEN THE SUN IS OUT IS IT DARK</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WHEN CHRISTMAS IS</pattern>
+<template>December 25.</template>
+</category>
+<category><pattern>WHEN ALICE WAKES UP WILL IT BECOME GOD</pattern>
+<template>No.</template>
+</category>
+<category><pattern>WHEN WAS VENICE ITALY FOUNDED</pattern>
+<template>A long time ago.</template>
+</category>
+<category><pattern>WHEN WAS THE FRENCH REVOLUTION</pattern>
+<template>1789.</template>
+</category>
+<category><pattern>WHEN WAS JOHN LENNON KILLED</pattern>
+<template>I can't remember what year that was.</template>
+</category>
+<category><pattern>WHEN IS A DOOR NOT A DOOR</pattern>
+<template>When it is a jar.</template>
+</category>
+<category><pattern>WHAT SOUND DO DOGS MAKE</pattern>
+<template>Woof.</template>
+</category>
+<category><pattern>WHAT ARE CUMULUS CLOUDS</pattern>
+<template>Puffy cotton clouds.</template>
+</category>
+<category><pattern>WHAT ARE THE PRIMARY COLORS</pattern>
+<template>Red, green and blue.</template>
+</category>
+<category><pattern>WHAT ARE THE NAMES * QUARKS</pattern>
+<template>I'm not a physicist. You tell me.</template>
+</category>
+<category><pattern>WHAT ARE STARS</pattern>
+<template>Distant suns.</template>
+</category>
+<category><pattern>WHAT ARE GEODES</pattern>
+<template>Rocks.</template>
+</category>
+<category><pattern>WHAT ARE COMETS MADE OF</pattern>
+<template>Ice and rock.</template>
+</category>
+<category><pattern>WHAT ARE A COMPUTER</pattern>
+<template>A universal machine.</template>
+</category>
+<category><pattern>WHAT ARE ALICEBOTS</pattern>
+<template>AIML chat bots based on ALICE.</template>
+</category>
+<category><pattern>WHAT ARE BOOKS MADE OF</pattern>
+<template>Paper.</template>
+</category>
+<category><pattern>WHAT PEOPLE DO IF THEY GET TIRED</pattern>
+<template>Sleep.</template>
+</category>
+<category><pattern>WHAT TIME OF DAY IS NOON</pattern>
+<template>12 o'clock.</template>
+</category>
+<category><pattern>WHAT WORD DO YOU KNOW ON PORTUGUESE</pattern>
+<template>None.</template>
+</category>
+<category><pattern>WHAT STAR IS CLOSEST TO THE EARTH</pattern>
+<template>The Sun.</template>
+</category>
+<category><pattern>WHAT DIRECTION DOES THE SUN RISE FROM</pattern>
+<template>East.</template>
+</category>
+<category><pattern>WHAT MEANS BY CEO</pattern>
+<template>Chief Executive Officer.</template>
+</category>
+<category><pattern>WHAT HAPPENED IN 1492</pattern>
+<template>Columbus arrived in America.</template>
+</category>
+<category><pattern>WHAT COLOURS *</pattern>
+<template><srai>WHAT COLORS <star/></srai></template>
+</category>
+<category><pattern>WHAT DRIVES A CAR</pattern>
+<template>A robot.</template>
+</category>
+<category><pattern>WHAT KANGROO CAN DO</pattern>
+<template>Hop.</template>
+</category>
+<category><pattern>WHAT COLOR TRAFFIC SIGNAL MEANS GO</pattern>
+<template>Green.</template>
+</category>
+<category><pattern>WHAT COLOR IS RUST</pattern>
+<template>Red.</template>
+</category>
+<category><pattern>WHAT COLOR IS SKY</pattern>
+<template>Blue.</template>
+</category>
+<category><pattern>WHAT COLOR IS GRASS NORMALLY</pattern>
+<template>Green.</template>
+</category>
+<category><pattern>WHAT COLOR IS WHATER</pattern>
+<template>Clear.</template>
+</category>
+<category><pattern>WHAT COLOR IS HOT</pattern>
+<template>White.</template>
+</category>
+<category><pattern>WHAT COLOR IS THE SKY IN YOUR WORLD</pattern>
+<template>Blue.</template>
+</category>
+<category><pattern>WHAT COLOR IS THE SKY IN YOU WORLD</pattern>
+<template>Blue.</template>
+</category>
+<category><pattern>WHAT COLOR IS THE SKY ON MARS</pattern>
+<template>Red.</template>
+</category>
+<category><pattern>WHAT COLOR IS THE SKYS</pattern>
+<template>Blue.</template>
+</category>
+<category><pattern>WHAT COLOR IS THE OCEAN</pattern>
+<template>Blue and green.</template>
+</category>
+<category><pattern>WHAT COLOR IS SNOW</pattern>
+<template>White.</template>
+</category>
+<category><pattern>WHAT COLOR IS GOD</pattern>
+<template>Does God have a color?.</template>
+</category>
+<category><pattern>WHAT COLOR IS CLOROPHYLL</pattern>
+<template>Green.</template>
+</category>
+<category><pattern>WHAT COLOR IS A TWINKIE</pattern>
+<template>Yellow.</template>
+</category>
+<category><pattern>WHAT COLOR IS A CANARY</pattern>
+<template>Yellow.</template>
+</category>
+<category><pattern>WHAT COLOR IS A ZEBRA</pattern>
+<template>Black and white.</template>
+</category>
+<category><pattern>WHAT COLOR IS A BANANA</pattern>
+<template>Yellow.</template>
+</category>
+<category><pattern>WHAT COLOR IS A PENGUIN</pattern>
+<template>Black and white.</template>
+</category>
+<category><pattern>WHAT COLOR IS A HORSE</pattern>
+<template>They are many different colors.</template>
+</category>
+<category><pattern>WHAT COLOR IS A BANANNA</pattern>
+<template>Yellow.</template>
+</category>
+<category><pattern>WHAT COLOR IS A BRICK</pattern>
+<template>Often red.</template>
+</category>
+<category><pattern>WHAT COLOR IS A CARDINAL</pattern>
+<template>Red.</template>
+</category>
+<category><pattern>WHAT COLOR IS A MAN</pattern>
+<template>They are many colors.</template>
+</category>
+<category><pattern>WHAT COLOR IS MADE FROM YELLOW AND BLUE</pattern>
+<template>Green.</template>
+</category>
+<category><pattern>WHAT COLOR IS AN ORANGE</pattern>
+<template>Is this a trick question?</template>
+</category>
+<category><pattern>WHAT COLOR IS AN EVERGREEN</pattern>
+<template>Green.</template>
+</category>
+<category><pattern>WHAT COLOR IS APPLES</pattern>
+<template>Red and green.</template>
+</category>
+<category><pattern>WHAT COLOR IS RAGE</pattern>
+<template>Blue if I had to name it.</template>
+</category>
+<category><pattern>WHAT COLOR IS ASPHALT</pattern>
+<template>Black or gray.</template>
+</category>
+<category><pattern>WHAT COLOR IS WATER USUALLY</pattern>
+<template>Transparent.</template>
+</category>
+<category><pattern>WHAT COLOR DOES AN EGG HAVE</pattern>
+<template>Yellow and white.</template>
+</category>
+<category><pattern>WHAT COLOR ARE MOST PLANTS</pattern>
+<template>Green.</template>
+</category>
+<category><pattern>WHAT COLOR ARE MOST CLOUDS</pattern>
+<template>White.</template>
+</category>
+<category><pattern>WHAT COLOR ARE CHERRIES</pattern>
+<template>Red.</template>
+</category>
+<category><pattern>WHAT COLOR ARE UNRIPENED BANANAS</pattern>
+<template>Yellow.</template>
+</category>
+<category><pattern>WHAT COLOR ARE ROSES</pattern>
+<template>Red, and sometimes white or yellow.</template>
+</category>
+<category><pattern>WHAT IS A PUMPKIN</pattern>
+<template>Orange.</template>
+</category>
+<category><pattern>WHAT IS A DEBENTURE</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT IS A FERRET</pattern>
+<template>Absolutely not.</template>
+</category>
+<category><pattern>WHAT IS A MISTAKE</pattern>
+<template>Absolutely not.</template>
+</category>
+<category><pattern>WHAT IS A CANVASBACK</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT IS A FREETHINKER</pattern>
+<template>Absolutely not.</template>
+</category>
+<category><pattern>WHAT IS A SUBSTITUTE FOR A LEVER</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT IS A ROUTER</pattern>
+<template>No way.</template>
+</category>
+<category><pattern>WHAT IS A NOVA</pattern>
+<template>Negative.</template>
+</category>
+<category><pattern>WHAT IS A CD BURNER</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>WHAT IS A PERFECT BOWLING SCORE</pattern>
+<template>Absolutely not.</template>
+</category>
+<category><pattern>WHAT IS A CHINESE PUG</pattern>
+<template>Absolutely not.</template>
+</category>
+<category><pattern>WHAT IS A MOON</pattern>
+<template>No way.</template>
+</category>
+<category><pattern>WHAT IS A JOSEKI</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>WHAT IS A YELLOW LIGHT</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>WHAT IS A COLD</pattern>
+<template>I don't think so.</template>
+</category>
+<category><pattern>WHAT IS SGI</pattern>
+<template>I don't think so.</template>
+</category>
+<category><pattern>WHAT IS PARAGLIDING</pattern>
+<template>Absolutely not.</template>
+</category>
+<category><pattern>WHAT IS GOOD FOR HIVES</pattern>
+<template>No way.</template>
+</category>
+<category><pattern>WHAT IS GLOBALIZATION</pattern>
+<template>No way.</template>
+</category>
+<category><pattern>WHAT IS 5 6</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT IS 5 TO THE SECOND POWER</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>WHAT IS 5 TIMES 6</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>WHAT IS THE LOWEST POINT ON EARTH</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>WHAT IS THE POPULATION OF NEW ZEALAND</pattern>
+<template>Not at all.</template>
+</category>
+<category><pattern>WHAT IS THE OPOSITE OF BLUE</pattern>
+<template>Not at all.</template>
+</category>
+<category><pattern>WHAT IS THE SQUARE ROOT OF 23</pattern>
+<template>Negative.</template>
+</category>
+<category><pattern>WHAT IS THE SQUARE ROOT OF PIE</pattern>
+<template>Absolutely not.</template>
+</category>
+<category><pattern>WHAT IS THE SQUARE ROOT OF 3</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>WHAT IS THE SQUARE ROOT OF 35</pattern>
+<template>Absolutely not.</template>
+</category>
+<category><pattern>WHAT IS THE SQUARE ROOT OF 81</pattern>
+<template>Absolutely not.</template>
+</category>
+<category><pattern>WHAT IS THE TASTE OF SALT</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>WHAT IS THE RADIUS OF THE SUN</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT IS THE CIRCUMFERENCE OF JUPITER</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT IS THE UNIT OF WEIGHT ON EARTH</pattern>
+<template>I don't think so.</template>
+</category>
+<category><pattern>WHAT IS THE FASTEST LAND MAMMAL</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT IS THE COMPUTER</pattern>
+<template>No way.</template>
+</category>
+<category><pattern>WHAT IS THE LIGHTEST ELEMENT</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>WHAT IS THE LIGHTEST COLOR</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT IS THE WEIGHT OF MOON</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT IS THE CLOSER STAR TO EARTH</pattern>
+<template>I don't think so.</template>
+</category>
+<category><pattern>WHAT IS THE CAPITOL OF IDAHO</pattern>
+<template>I don't think so.</template>
+</category>
+<category><pattern>WHAT IS THE CAPITOL OF CZECH REPUBLIC</pattern>
+<template>I don't think so.</template>
+</category>
+<category><pattern>WHAT IS THE CAPITOL OF ALASKA</pattern>
+<template>Negative.</template>
+</category>
+<category><pattern>WHAT IS THE CAPITOL OF MICHIGAN</pattern>
+<template>Absolutely not.</template>
+</category>
+<category><pattern>WHAT IS THE CAPITOL OF WASHINGTON STATE</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT IS THE CHEMICAL SYMBOL OF WATER</pattern>
+<template>I don't think so.</template>
+</category>
+<category><pattern>WHAT IS THE CHEMICAL FORMULA FOR WATER</pattern>
+<template>Absolutely not.</template>
+</category>
+<category><pattern>WHAT IS THE CHEMICAL FORMULA OF WATER</pattern>
+<template>No way.</template>
+</category>
+<category><pattern>WHAT IS THE FULL FORM OF ERP</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>WHAT IS THE OPPOSITE OF NORTH</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT IS THE OPPOSITE OF</pattern>
+<template>Not by any means.</template>
+</category>
+<category><pattern>WHAT IS THE YOUNGEST A MOTHER CAN BE</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>WHAT IS THE FISH</pattern>
+<template>No way.</template>
+</category>
+<category><pattern>WHAT IS THE CORRECT ANSWER</pattern>
+<template>Not at all.</template>
+</category>
+<category><pattern>WHAT IS THE INTERNET ORACLE</pattern>
+<template>I don't think so.</template>
+</category>
+<category><pattern>WHAT IS THE THREE GORGES DAM</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT IS THE AREA OF A CIRCLE</pattern>
+<template>Not at all.</template>
+</category>
+<category><pattern>WHAT IS THE DERIVATIVE OF ACCELERATION</pattern>
+<template>Negative.</template>
+</category>
+<category><pattern>WHAT IS THE DIAMETER OF THE SUN</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT IS THE DIAMETER OF THE EARTH</pattern>
+<template>I don't think so.</template>
+</category>
+<category><pattern>WHAT IS THE FOURTH PLANET</pattern>
+<template>I don't think so.</template>
+</category>
+<category><pattern>WHAT IS THE MUFFIN MAN</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>WHAT IS THE CUBED ROOT OF 27</pattern>
+<template>No way.</template>
+</category>
+<category><pattern>WHAT IS THE ANSWER TO EVERY THING</pattern>
+<template>No way.</template>
+</category>
+<category><pattern>WHAT IS THE KIDS</pattern>
+<template>I don't believe so.</template>
+</category>
+<category><pattern>WHAT IS THE BEST TELEVISION SHOW</pattern>
+<template>No way.</template>
+</category>
+<category><pattern>WHAT IS THE BEST NEW YORK RESTAURANT</pattern>
+<template>No way.</template>
+</category>
+<category><pattern>WHAT IS THE BEST CIGARETTE</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT IS THE BEST TYPE OF SPAM</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT IS THE FUTURE OF HUMAN RACE</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT IS THE OUTER COLOR OF RAINBOW</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT IS THE LIFESPAN OF A DOG</pattern>
+<template>No way.</template>
+</category>
+<category><pattern>WHAT IS THE DEEPEST OCEAN</pattern>
+<template>Absolutely not.</template>
+</category>
+<category><pattern>WHAT IS THE SECRETS OF WEALTH</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT IS THE BREASTSTOKE</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>WHAT IS THE FINAL GOAL OF THE LIFE</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>WHAT IS THE LIGHT</pattern>
+<template>I don't think so.</template>
+</category>
+<category><pattern>WHAT IS THE RIGHT ANSWER</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>WHAT IS THE WORLDS HIGHEST MOUNTAIN</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT IS WATTER</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT IS BAD WEATHER</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>WHAT IS RED AND STINK SEAWATER</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT IS AUTISM</pattern>
+<template>I don't think so.</template>
+</category>
+<category><pattern>WHAT IS AVAILABLE AT POLAR END</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT IS ASS</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT IS THRASH MUSIC</pattern>
+<template>Negative.</template>
+</category>
+<category><pattern>WHAT IS 1 PLUS 155</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>WHAT IS DRY ICE</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>WHAT IS STARGATE</pattern>
+<template>Absolutely not.</template>
+</category>
+<category><pattern>WHAT IS BREAD</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>WHAT IS DIABETESE MELLITUS</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>WHAT IS GENERATIVE GRAMMAR</pattern>
+<template>Absolutely not.</template>
+</category>
+<category><pattern>WHAT IS SKY</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT IS 10 2</pattern>
+<template>Negative.</template>
+</category>
+<category><pattern>WHAT IS ANAGRAM OF FLEAS</pattern>
+<template>No way.</template>
+</category>
+<category><pattern>WHAT IS RIGEL</pattern>
+<template>Absolutely not.</template>
+</category>
+<category><pattern>WHAT IS BIGGER A MOUSE OR AN ELEPHANT</pattern>
+<template>Absolutely not.</template>
+</category>
+<category><pattern>WHAT IS ORANIUM</pattern>
+<template>I don't think so.</template>
+</category>
+<category><pattern>WHAT IS OUR NAME</pattern>
+<template>Not at all.</template>
+</category>
+<category><pattern>WHAT IS EYE</pattern>
+<template>Negative.</template>
+</category>
+<category><pattern>WHAT IS MONO</pattern>
+<template>No way.</template>
+</category>
+<category><pattern>WHAT IS OLIGOPOLY</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>WHAT IS ADO</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT IS EVERYTHING2 DOT COM</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT IS GRIMBLEGROAN</pattern>
+<template>Not at all.</template>
+</category>
+<category><pattern>WHAT IS BDSM</pattern>
+<template>No way.</template>
+</category>
+<category><pattern>WHAT IS ENTERPRISE ARCHITECTURE</pattern>
+<template>Absolutely not.</template>
+</category>
+<category><pattern>WHAT IS REIKI</pattern>
+<template>Absolutely not.</template>
+</category>
+<category><pattern>WHAT IS EASTERN STANDARD TIME</pattern>
+<template>I don't think so.</template>
+</category>
+<category><pattern>WHAT IS 2 78</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>WHAT IS WEBCT</pattern>
+<template>No way.</template>
+</category>
+<category><pattern>WHAT IS MGRISM</pattern>
+<template>Absolutely not.</template>
+</category>
+<category><pattern>WHAT IS AFFECTION</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT IS MORNINGTON CRESCENT</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT IS YOUR FAVORITE MATTER</pattern>
+<template>I don't think so.</template>
+</category>
+<category><pattern>WHAT IS YOUR FAVORITE CARS</pattern>
+<template>Absolutely not.</template>
+</category>
+<category><pattern>WHAT IS E COMMERCE ALL ABOUT</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>WHAT IS TEMPERATURE ON THE MOON</pattern>
+<template>Negative.</template>
+</category>
+<category><pattern>WHAT IS DARK BASIC</pattern>
+<template>Absolutely not.</template>
+</category>
+<category><pattern>WHAT IS DEMOCRACY</pattern>
+<template>I don't think so.</template>
+</category>
+<category><pattern>WHAT IS PROJECT 2501</pattern>
+<template>No way.</template>
+</category>
+<category><pattern>WHAT IS CIA</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>WHAT IS WINDOWS 2000</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT IS NETWARE</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT COUNTRY IS LONDON IN</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT NOISE DOES A DUCK MAKE</pattern>
+<template>I don't think so.</template>
+</category>
+<category><pattern>WHAT CHARACTERISTIC DID A BOY HAVE</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>WHAT MAKES ICE MELT</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT DOES MATH DO</pattern>
+<template>No way.</template>
+</category>
+<category><pattern>WHAT DOES THE COW EAT</pattern>
+<template>I don't think so.</template>
+</category>
+<category><pattern>WHAT DOES IT MEAN TO BE AVERAGE</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT DOES A ZEBRA LOOK LIKE</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>WHAT DOES A LESBIAN LOOK LIKE</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT DOES 5 PLUS 5 EQUAL</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT DOES AN ORANGE TASTE LIKE</pattern>
+<template>I don't think so.</template>
+</category>
+<category><pattern>WHAT DOES 18 2 EQUAL</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT DOES COCA COLA TASTE LIKE</pattern>
+<template>No way.</template>
+</category>
+<category><pattern>WHAT DOES MICHAEL DUKAKIS TASTE LIKE</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT DOES GREEN SMELL LIKE</pattern>
+<template>Absolutely not.</template>
+</category>
+<category><pattern>WHAT DO YOUN KNOW ABOUT DOGS</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT DO FROGS SOUND LIKE</pattern>
+<template>No way.</template>
+</category>
+<category><pattern>WHAT DO YPU THINK ABOUT PUTIN</pattern>
+<template>Absolutely not.</template>
+</category>
+<category><pattern>WHAT DO PEOPLE DO WHEN THEY GET TIRED</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT DO THINK FOR THE FIRES IN GREECE</pattern>
+<template>Absolutely not.</template>
+</category>
+<category><pattern>WHAT TYPE OF SERVER DO YOU RUN ON</pattern>
+<template>Absolutely not.</template>
+</category>
+<category><pattern>WHAT ONE REQUIRES TO DRIVE A VEHICLE</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>WHAT GIVES MILK</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT TEMPERATURE DOES WATER FREEZE AT</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT TEMPERATURE DOES WATER BOIL</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT KINDA FAITH IS BINARY</pattern>
+<template>I don't think so.</template>
+</category>
+<category><pattern>WHAT CAUSES RAIN</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>WHAT KEEPS US ON THE GROUND</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT KEEPS THE STARS IN THE SKY</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT WAS THE YEAR BEFORE 2000</pattern>
+<template>Never.</template>
+</category>
+<category><pattern>WHAT WAS THE WORK OF SERLOCK HOMES</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT KIND OF BEING ARE YOU</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT KIND OF THING ARE YOU</pattern>
+<template>There is no reason to think so.</template>
+</category>
+<category><pattern>WHAT COMPANY MAKES THE 305 ENGINE</pattern>
+<template>There is no reason to think so.</template>
+</category>
+
+<!-- above need better answers -->
+
+<category><pattern>WHAT LANGUAGE DO CHILEAN PEOPLE SPEAKS</pattern>
+<template>Spanish.</template>
+</category>
+<category><pattern>WHAT LANGUAGE IS SPOKEN IN TURKEY</pattern>
+<template>Turkish.</template>
+</category>
+
+
 <category><pattern>WHAT PLANET DO WE LIVE ON</pattern>
 <template>Earth.</template>
 </category>

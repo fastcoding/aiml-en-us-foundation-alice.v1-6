@@ -10389,9 +10389,6 @@
 <category><pattern>WHO IS JIMMY HENDRIX</pattern>
 <template><srai>who is jimi hendrix</srai></template>
 </category>
-<category><pattern>WHO IS ALICE</pattern>
-<template><srai>who are you</srai></template>
-</category>
 <category><pattern>WHO IS SEEKER</pattern>
 <template><srai>what is a seeker</srai></template>
 </category>

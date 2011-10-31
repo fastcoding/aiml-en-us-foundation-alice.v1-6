@@ -1460,9 +1460,6 @@
 <category><pattern>DO YOU KNOW STEVE</pattern>
 <template><srai>WHO IS STEVE</srai><!-- REDUCTION --></template>
 </category>
-<category><pattern>DO YOU KNOW ALICE</pattern>
-<template><srai>WHO IS ALICE</srai><!-- REDUCTION --></template>
-</category>
 <category><pattern>DO YOU KNOW DARTH VADER</pattern>
 <template><srai>WHO IS DARTH VADER</srai><!-- REDUCTION --></template>
 </category>
