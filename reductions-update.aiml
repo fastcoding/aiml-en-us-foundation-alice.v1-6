@@ -7,8 +7,91 @@
 <!-- as published by the Free Software Foundation.   -->
 <!-- Complies with AIML 1.0 Tag Set Specification -->
 <!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Last modified 10/5/2011 -->
+<!-- Last modified 11/8/2011 -->
 <!-- -->
+
+<category>
+<pattern>I REQUEST *</pattern>
+<template><srai>I WANT <star/></srai></template>
+</category>
+
+<category>
+<pattern>IT WOULD SEEM THAT  *</pattern>
+<template><srai><star/></srai></template>
+</category>
+
+
+<category>
+<pattern>IT WOULD SEEM *</pattern>
+<template><srai><star/></srai></template>
+</category>
+
+<category>
+<pattern>THERE IS NO WAY * CAN *</pattern>
+<template><srai><star/> CAN NOT <star index="2"/></srai></template>
+</category>
+
+
+<category>
+<pattern>THE LOGICAL ASSUMPTION IS THAT *</pattern>
+<template><srai><star/></srai></template>
+</category>
+
+<category>
+<pattern>THE LOGICAL ASSUMPTION IS *</pattern>
+<template><srai><star/></srai></template>
+</category>
+
+
+<category>
+<pattern>THE ASSUMPTION IS THAT *</pattern>
+<template><srai><star/></srai></template>
+</category>
+
+<category>
+<pattern>THE ASSUMPTION IS *</pattern>
+<template><srai><star/></srai></template>
+</category>
+
+
+
+
+<category>
+<pattern>I SUBMIT THAT *</pattern>
+<template><srai><star/></srai></template>
+</category>
+
+
+<category>
+<pattern>GET MARRIED TO ME</pattern>
+
+<template><srai>MARRY ME</srai></template>
+</category>
+
+ 
+
+<category>
+<pattern>BE MARRIED TO ME</pattern>
+
+<template><srai>MARRY ME</srai></template>
+</category>
+
+ 
+
+<category>
+<pattern>I WANT TO BE MARRIED TO YOU</pattern>
+
+<template><srai>MARRY ME</srai></template>
+</category>
+
+ 
+
+<category>
+<pattern>COULD YOU * ME</pattern>
+
+<template><srai><star/> ME</srai></template>
+</category>
+
 <category><pattern>NEED TO *</pattern>
 <template><srai>DO YOU NEED TO <star/></srai>  <!-- REDUCTION --></template>
 </category>
@@ -43,6 +126,9 @@
 <template><srai>  <star /></srai></template>
 </category>
 <category><pattern>STATE YOUR NAME *</pattern>
+<template><srai>NAME</srai></template>
+</category>
+<category><pattern>STATE YOUR NAME</pattern>
 <template><srai>NAME</srai></template>
 </category>
 <category><pattern>YOU ARE TECHNICALLY *</pattern>

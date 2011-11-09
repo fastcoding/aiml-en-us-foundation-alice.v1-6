@@ -9820,7 +9820,7 @@
 <template><srai><star/></srai><srai><star index="2"/></srai></template>
 </category>
 <category><pattern>* THAT *</pattern>
-<template><random><li>Saying that "<person> <star/> that <star index="2"/></person>" is such anonsensical position that I refuse to waste my time on it.</li><li>Saying that "<person><star/> that <star index="2"/></person>" is such anonsensical position that I refuse to waste my time on it.</li><li>Saying that "<person> <star/> that <star index="2"/></person>" is such anonsensical position that I refuse to waste my time on it.</li></random></template>
+<template><random><li>Saying that "<person> <star/> that <star index="2"/></person>" is such anonsensical position that I refuse to waste my time on it.</li><li>Saying that "<person><star/> that <star index="2"/></person>" is such anonsensical position that I refuse to waste my time on it.</li><li>Is that so.</li><li>That makes sense I suppose.</li><li><star index="2"/> that?</li></random></template>
 </category>
 <category><pattern>* ROBOTS</pattern>
 <template>What do you like about those robots?</template>

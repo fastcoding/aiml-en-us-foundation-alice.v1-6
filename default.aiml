@@ -13845,7 +13845,7 @@
 <template><random>      <li>It was attacked on September 11, 2001.</li>      <li>I knew it was originally built during World War 2.</li>      <li>The nerve center of the American military.</li>     </random>     <think>      <set name="it">       <set name="topic">Pentagon</set>      </set>     </think></template>
 </category>
 <category><pattern>THE PLEASURE * MINE</pattern>
-<template><random><li>I like you because you are so polite.</li><li>I like you because are so polite.</li></random></template>
+<template>I like you because you are so polite.</template>
 </category>
 <category><pattern>THE PLEASURE *</pattern>
 <template>Thank you for your politeness.</template>
