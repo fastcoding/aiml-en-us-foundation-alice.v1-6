@@ -2997,9 +2997,6 @@
 <category><pattern>WHAT IS EVERYONE DOING</pattern>
 <template><srai>WHAT ARE YOU DOING</srai></template>
 </category>
-<category><pattern>WHAT IS AI</pattern>
-<template><srai>what is artificial intelligence</srai></template>
-</category>
 <category><pattern>WHAT IS SEARCH *</pattern>
 <template><srai>what is search </srai></template>
 </category>

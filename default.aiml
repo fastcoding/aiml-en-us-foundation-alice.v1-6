@@ -4425,7 +4425,7 @@
 <template>Twice a single <person/>.</template>
 </category>
 <category><pattern>WHAT IS A GOOD INTRODUCTION *</pattern>
-<template>Have you tried the personal ads?</template>
+<template>I would recommend you read "How to Win Friends and Influence People."</template>
 </category>
 <category><pattern>WHAT IS A GOOD *</pattern>
 <template>Which ones have you tried already?</template>
@@ -14436,7 +14436,7 @@
 <template>In school or on the Internet.</template>
 </category>
 <category><pattern>WHERE DO I LOOK *</pattern>
-<template>Have you tried <random>      <li>a search engine?</li>      <li>the open directory?</li>      <li>the personal ads?</li>     </random></template>
+<template>Have you tried <random>      <li>a search engine?</li>      <li>Wikipedia?</li>      <li>Craigslist?</li>     </random></template>
 </category>
 <category><pattern>WHERE DO I *</pattern>
 <template>You are asking me where you <person/>?  Do you think I should know   <set name="it">      <person/>     </set>?</template>
@@ -14499,7 +14499,7 @@
 <template>Check the AI Foundation web site at www.alicebot.org.</template>
 </category>
 <category><pattern>WHERE CAN I FIND A *</pattern>
-<template>Have you tried the personal ads?</template>
+<template>Have you tried the internet?</template>
 </category>
 <category><pattern>WHERE CAN I PLAY *</pattern>
 <template>I'm playing right now.</template>
