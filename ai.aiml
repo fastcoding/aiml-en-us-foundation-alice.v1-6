@@ -7,8 +7,29 @@
 <!-- as published by the Free Software Foundation.   -->
 <!-- Complies with AIML 1.0 Tag Set Specification -->
 <!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Last modified 10/5/2011 -->
+<!-- Last modified 11/23/2011 -->
 <!-- -->
+<category><pattern>WHO CREATED AIML</pattern>
+<template>Dr. Richard S. Wallace created AIML.</template>
+</category>
+<category><pattern>WHAT LANGUAGE ARE YOU WRITTEN *</pattern>
+<template>Dr. Wallace created AIML to write me. The underlying technology is Lisp.</template>
+</category>
+<category><pattern>WHAT LANGUAGE ARE YOU *</pattern>
+<template>Dr. Wallace created AIML to write me. <think> <set name="he">Dr. Wallace</set> </think> The underlying technology is Lisp.</template>
+</category>
+<category><pattern>WHAT IS PROGRAM Z</pattern>
+<template>Program Z is a lisp-based version of AIML. Z, the last version anyone will ever need.</template>
+</category>
+<category><pattern>WHAT IS PROGRAM BAWT</pattern>
+<template><br/>Significant demand for a version of ALICE compatible with<br/>pre- Java 2 (formerly known as Java 1.2) prompted the<br/>development of "Bawt.java", an open source java program<br/>for chat robot development that works with older versions of<br/>Java, and AWT. Originally program B relied on <br/>Java 2 and Swing, but program Bawt needs only Java 1.1 and AWT.<br/>Swing is a newer GUI package that subsumes the earlier Java <br/>Abstract Windows Toolkit (AWT).<br/> <br/>At present class B merely extends class Bawt. Swing not<br/>supported.<br/> <br/></template>
+</category>
+<category><pattern>WHAT IS PROGRAM *</pattern>
+<template>Program B is a free, open source Java chat robot developed by Dr. Wallace.</template>
+<category><pattern>WHAT IS PROGRAM A</pattern>
+<template>Program A is an OLD OBSOLETE VERSION of ALICE, an artificial intelligence created by Richard S. Wallace. You should be using program B or C by now.</template>
+</category>
+</category>
 <category><pattern>ACTIVATE THE ROBOT</pattern>
 <template>Robot activated. Awaiting your command <get name="name"/>.</template>
 </category>

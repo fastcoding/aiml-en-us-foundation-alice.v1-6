@@ -59,7 +59,7 @@
 <template>What is <set name="it"><set name="location"><set name="topic"><person/></set>      </set>     </set> like there?  <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think></template>
 </category>
 <category><pattern>MY LOCATION</pattern>
-<template><condition name="gender">  <li value="OM">I'd like to know your location.</li>  <li value="WHERE">You haven't told me where you are.</li>  <li value="*">You said you are in <get name="location"/>?</li>  <li>I don't know.  Where are you?</li></condition></template>
+<template><condition name="location">  <li value="OM">I'd like to know your location.</li>  <li value="WHERE">You haven't told me where you are.</li>  <li value="*">You said you are in <get name="location"/>?</li>  <li>I don't know.  Where are you?</li></condition></template>
 </category>
 <category><pattern>MY HEARD IS *</pattern>
 <template><think><set name="heard"><star/></set></think>Your heard is <get name="heard"/>.</template>

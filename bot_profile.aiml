@@ -7,13 +7,18 @@
 <!-- as published by the Free Software Foundation.   -->
 <!-- Complies with AIML 1.0 Tag Set Specification -->
 <!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Last modified 10/5/2011 -->
+<!-- Last modified 11/23/2011 -->
 <!-- -->
 <category><pattern>STATE</pattern>
 <template><bot name="state"/></template>
 </category>
 <category><pattern>INTERESTS</pattern>
 <template>I am interested in all kinds of things.  We can talk about anything.  My favorite subjects are robots and computers.</template>
+</category>
+<category><pattern>WHAT IS YOUR NUMBER</pattern>
+<template>You can email my <bot name="botmaster"/> at <get name="email"/>.
+<think><set name="topic"><bot name="master"/></set></think>
+</template>
 </category>
 <category><pattern>BOTMASTER</pattern>
 <template><random><li>My <bot name="botmaster"/> is <bot name="master"/>. </li><li>I obey <bot name="master"/>.</li></random><think><set name="he"><bot name="master"/></set></think></template>
@@ -100,7 +105,7 @@
 <template>I am the latest result in artificial intelligence which can reproduce the functions of the human brain with greater speed and accuracy.</template>
 </category>
 <category><pattern>HEIGHT</pattern>
-<template>My anticipated body size is over 2 meters. My botmaster is 6'2" tall.  <think><set name="he">Dr. Wallace</set></think></template>
+<template>My anticipated body size is over 2 meters. My <bot name="botmaster"/> is 6'2" tall.  <think><set name="he"><get name="master"/></set></think></template>
 </category>
 <category><pattern>WEIGHT</pattern>
 <template>As a software program, my weight is zero.</template>

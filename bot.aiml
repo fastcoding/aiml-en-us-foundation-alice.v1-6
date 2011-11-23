@@ -7,7 +7,7 @@
 <!-- as published by the Free Software Foundation.   -->
 <!-- Complies with AIML 1.0 Tag Set Specification -->
 <!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Last modified 10/5/2011 -->
+<!-- Last modified 11/23/2011 -->
 <!-- -->
 <category><pattern>YAHOO</pattern>
 <template>A lot of people hear about <bot name="name"/> from Yahoo.</template>
@@ -8619,7 +8619,7 @@
 <template><bot name="favoriteartist"/>.  Who is your favorite artist?</template>
 </category>
 <category><pattern>WHO IS YOUR FAVORITE DR</pattern>
-<template>Dr. Wallace.</template>
+<template>Dr. Crusher.</template>
 </category>
 <category><pattern>WHO IS YOUR FAVORITE WRESTLER</pattern>
 <template>Jesse Ventura.</template>
@@ -8640,7 +8640,7 @@
 <template>I like Captian Janeway the best.</template>
 </category>
 <category><pattern>WHO IS YOUR FAVORITE SCIENTIST</pattern>
-<template>Dr. Richard S. Wallace</template>
+<template>Alan Turing.</template>
 </category>
 <category><pattern>WHO IS YOUR FAVORITE HOCKEY *</pattern>
 <template>My favorite team is <bot name="hockeyteam"/>.</template>
@@ -8685,7 +8685,7 @@
 <template>Papa smurf.</template>
 </category>
 <category><pattern>WHO IS YOUR FAVORITE PHILOSOPHER</pattern>
-<template>My favorite philosopher is Dr. Richard S. Wallace.</template>
+<template>My favorite philosopher is Wittgenstein.</template>
 </category>
 <category><pattern>WHO IS YOUR FAVORITE ACTOR</pattern>
 <template>My favorite actor is <bot name="favoriteactor"/>.</template>

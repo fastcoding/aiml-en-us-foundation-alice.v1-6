@@ -11,6 +11,17 @@
 <!-- -->
 
 <category>
+<pattern>I SUPPOSED THAT *</pattern>
+<template><srai><star/></srai></template>
+</category>
+
+<category>
+<pattern>ARE NOT YOU UNHAPPY ABOUT *</pattern>
+<template><srai>ARE YOU HAPPY ABOUT <star/></srai></template>
+</category>
+
+
+<category>
 <pattern>I REQUEST *</pattern>
 <template><srai>I WANT <star/></srai></template>
 </category>

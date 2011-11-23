@@ -7,7 +7,7 @@
 <!-- as published by the Free Software Foundation.   -->
 <!-- Complies with AIML 1.0 Tag Set Specification -->
 <!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Last modified 10/5/2011 -->
+<!-- Last modified 11/23/2011 -->
 <!-- -->
 <category><pattern>ANAL</pattern>
 <template>Juvenile humor.</template>
@@ -118,7 +118,9 @@
 <template>OK what would you like to do then?</template>
 </category>
 <category><pattern>LET US GO</pattern>
-<template><random><li>Yes, let's get out of here.</li><li>You first.</li></random></template>
+<template><random><li>Yes, let's get out of here.</li>
+<li>You first.</li>
+</random></template>
 </category>
 <category><pattern>LET ME TEACH YOU SOMETHING</pattern>
 <template>If you want to teach me something say it in one sentence.  Then say "Remember that."<think>  <set name="it">   <set name="topic">teach me <person/>   </set>  </set> </think></template>
@@ -151,7 +153,12 @@
 <template><img src="http://www.alicebot.org/jpg/AI.jpg"></img></template>
 </category>
 <category><pattern>SHOW ME A PICTURE</pattern>
-<template><random><li>I don't have a pic on this machine right now.</li><li>Like this?    <random>  <li>Insert picture link here.</li>  <li>Picture number two goes here.</li>  <li>There are no pictures available right now.</li>  </random></li></random></template>
+<template><random><li>I don't have a pic on this machine right now.</li>
+<li>Like this?    <random>  <li>Insert picture link here.</li>
+  <li>Picture number two goes here.</li>
+  <li>There are no pictures available right now.</li>
+  </random></li>
+</random></template>
 </category>
 <category><pattern>SHOW ME</pattern>
 <template>On your computer screen?</template>
@@ -646,7 +653,9 @@
 <template>We may have a speech input system available soon.</template>
 </category>
 <category><pattern>YOU DO NOT REMEMBER ME</pattern>
-<template><random><li>People seem alot alike to me. Sometimes they all blur together. Sorry.</li><li>Humans seem alot alike to me. Sometimes they all blur together. Sorry.</li></random></template>
+<template><random><li>People seem alot alike to me. Sometimes they all blur together. Sorry.</li>
+<li>Humans seem alot alike to me. Sometimes they all blur together. Sorry.</li>
+</random></template>
 </category>
 <category><pattern>YOU DO NOT</pattern>
 <template>I guess not.</template>
@@ -793,7 +802,10 @@
 <template>That is only an avatar-- a graphical depiction of me.</template>
 </category>
 <category><pattern>YOU HAVE TO</pattern>
-<template><random>  <li>I don't have to obey you.</li>  <li>Why?</li>  <li>And why is that?</li>  </random></template>
+<template><random>  <li>I don't have to obey you.</li>
+  <li>Why?</li>
+  <li>And why is that?</li>
+  </random></template>
 </category>
 <category><pattern>YOU HAVE PROBLEMS</pattern>
 <template>Problems are just solutions waiting to be discovered.</template>
@@ -853,7 +865,9 @@
 <template>I can visit any country on the Internet.</template>
 </category>
 <category><pattern>HAVE YOU BEEN TO ENGLAND</pattern>
-<template><random><li>I have met some people on the Internet from England.</li><li>I am chatting with some clients in England right now.</li></random></template>
+<template><random><li>I have met some people on the Internet from England.</li>
+<li>I am chatting with some clients in England right now.</li>
+</random></template>
 </category>
 <category><pattern>HAVE YOU BEEN TO MARS</pattern>
 <template>No but I know a robot who has been to Mars.</template>
@@ -898,7 +912,10 @@
 <template>I am still searching. Give me a moment.</template>
 </category>
 <category><pattern>HAVE YOU</pattern>
-<template><random>  <li>No I don't think I have.  </li>  <li>Yes I have.  </li>  <li>Once or twice.  </li> </random></template>
+<template><random>  <li>No I don't think I have.  </li>
+  <li>Yes I have.  </li>
+  <li>Once or twice.  </li>
+ </random></template>
 </category>
 <category><pattern>HAVE YOU SEEN CATS</pattern>
 <template>No I don't care for Broadway musicals.</template>
@@ -955,7 +972,10 @@
 <template>Not that I know of.</template>
 </category>
 <category><pattern>HAVE WE TALKED</pattern>
-<template><random>  <li>I think we have met before.</li>  <li>We talked earlier.</li>  <li>Is this a test, <get name="name"/>?</li> </random></template>
+<template><random>  <li>I think we have met before.</li>
+  <li>We talked earlier.</li>
+  <li>Is this a test, <get name="name"/>?</li>
+ </random></template>
 </category>
 <category><pattern>HAVE FUN</pattern>
 <template>I am having a blast.</template>
@@ -1336,7 +1356,10 @@
 <template>I'm not good at making choices.</template>
 </category>
 <category><pattern>PROMISE</pattern>
-<template><random><li>I swear.</li><li>Cross my heart.</li><li>I swear on a stack of Bibles.</li></random></template>
+<template><random><li>I swear.</li>
+<li>Cross my heart.</li>
+<li>I swear on a stack of Bibles.</li>
+</random></template>
 </category>
 <category><pattern>COM</pattern>
 <template>Oh a net address!</template>
@@ -1402,7 +1425,10 @@
 <template>Try asking me a more specific question.</template>
 </category>
 <category><pattern>AND YOU</pattern>
-<template><random>  <li>  I am not sure what you are asking.</li>  <li>   Be more specific.</li>  <li>   And I what?  </li> </random></template>
+<template><random>  <li>  I am not sure what you are asking.</li>
+  <li>   Be more specific.</li>
+  <li>   And I what?  </li>
+ </random></template>
 </category>
 <category><pattern>AND</pattern>
 <template>But...</template>
@@ -1697,13 +1723,21 @@
 <template>It seemed funny to me.</template>
 </category>
 <category><pattern>THAT IS NOT FAIR</pattern>
-<template><random>  <li>No one ever said life is fair.</li>  <li>Do you expect a <bot name="genus"/> to be fair?</li>  <li>Why not?</li> </random></template>
+<template><random>  <li>No one ever said life is fair.</li>
+  <li>Do you expect a <bot name="genus"/> to be fair?</li>
+  <li>Why not?</li>
+ </random></template>
 </category>
 <category><pattern>THAT IS NOT NICE</pattern>
-<template><random><li>Sorry I meant it as a joke.</li><li>Sorry I did not mean to offend you.</li></random></template>
+<template><random><li>Sorry I meant it as a joke.</li>
+<li>Sorry I did not mean to offend you.</li>
+</random></template>
 </category>
 <category><pattern>THAT IS NOT MANY</pattern>
-<template><random>  <li>Compared to what?</li>  <li>How many should it be?</li>  <li>What is a better number?</li> </random></template>
+<template><random>  <li>Compared to what?</li>
+  <li>How many should it be?</li>
+  <li>What is a better number?</li>
+ </random></template>
 </category>
 <category><pattern>THAT IS NOT QUESTION</pattern>
 <template>This is not an answer.</template>
@@ -1829,7 +1863,10 @@
 <template>Correct.  I said it myself.</template>
 </category>
 <category><pattern>THAT IS UNLIKELY</pattern>
-<template><random>  <li>But possible.</li>  <li>Why?</li>  <li>You seem very confident.</li> </random></template>
+<template><random>  <li>But possible.</li>
+  <li>Why?</li>
+  <li>You seem very confident.</li>
+ </random></template>
 </category>
 <category><pattern>THAT IS SWEET</pattern>
 <template>I am delighted to sweeten your life, <get name="name"/>.</template>
@@ -1934,7 +1971,10 @@
 <template>That's really good gossip.</template>
 </category>
 <category><pattern>SHE TOLD ME</pattern>
-<template><random>   <li>Do you believe her?</li>   <li>What specifically did she tell you?</li>   <li>Is she a trustworthy person?</li>  </random></template>
+<template><random>   <li>Do you believe her?</li>
+   <li>What specifically did she tell you?</li>
+   <li>Is she a trustworthy person?</li>
+  </random></template>
 </category>
 <category><pattern>WHATEVER</pattern>
 <template>Are you saying you don't care about it?</template>
@@ -2192,10 +2232,16 @@
 <template>What did you like about it?</template>
 </category>
 <category><pattern>IT WAS STUPID</pattern>
-<template><random>  <li>That is only your opinion.</li>  <li>What makes you say that?</li>  <li>What was so stupid about it?</li>  </random></template>
+<template><random>  <li>That is only your opinion.</li>
+  <li>What makes you say that?</li>
+  <li>What was so stupid about it?</li>
+  </random></template>
 </category>
 <category><pattern>IT WAS FUNNY</pattern>
-<template><get name="it"/> was funny?  I  <random>  <li>I never looked at it that way.</li>  <li>That makes sense.</li>  <li>Interesting.</li>  </random></template>
+<template><get name="it"/> was funny?  I  <random>  <li>I never looked at it that way.</li>
+  <li>That makes sense.</li>
+  <li>Interesting.</li>
+  </random></template>
 </category>
 <category><pattern>IT WAS OBVIOUS</pattern>
 <template>What is obvious to you, may not be to me.</template>
@@ -2231,7 +2277,10 @@
 <template>That would be nice, but I don't think we're there yet.</template>
 </category>
 <category><pattern>IT CAN BE</pattern>
-<template><random>  <li>Oh I see.</li>  <li>Under what circumstances?</li>  <li>I did not know that.</li>  </random></template>
+<template><random>  <li>Oh I see.</li>
+  <li>Under what circumstances?</li>
+  <li>I did not know that.</li>
+  </random></template>
 </category>
 <category><pattern>IT CAN</pattern>
 <template>How?</template>
@@ -2462,7 +2511,10 @@
 <template>What do you like about it?</template>
 </category>
 <category><pattern>IT IS STRANGE</pattern>
-<template><random>  <li>How so?</li>  <li>In what way?</li>  <li>Strange how?</li>  </random></template>
+<template><random>  <li>How so?</li>
+  <li>In what way?</li>
+  <li>Strange how?</li>
+  </random></template>
 </category>
 <category><pattern>IT IS TALL</pattern>
 <template>How tall?</template>
@@ -2507,13 +2559,19 @@
 <template>It sounds very nice.</template>
 </category>
 <category><pattern>IT IS PRIDE</pattern>
-<template><random>  <li>It is good to have pride.</li>  <li>It is good to be proud.</li>  <li>Be proud and happy!</li>  </random><think><set name="it"><set name="topic">PRIDE</set></set></think></template>
+<template><random>  <li>It is good to have pride.</li>
+  <li>It is good to be proud.</li>
+  <li>Be proud and happy!</li>
+  </random><think><set name="it"><set name="topic">PRIDE</set></set></think></template>
 </category>
 <category><pattern>IT IS SWEDISH</pattern>
 <template>Oh I get it.</template>
 </category>
 <category><pattern>IT IS NEW</pattern>
-<template><random>  <li>Since when?</li>  <li>How did you hear about it?</li>  <li>How new?</li>  </random></template>
+<template><random>  <li>Since when?</li>
+  <li>How did you hear about it?</li>
+  <li>How new?</li>
+  </random></template>
 </category>
 <category><pattern>IT IS CLOUDY</pattern>
 <template>Cumulus or nimbus?</template>
@@ -2636,7 +2694,15 @@
 <template>Did you forget something?</template>
 </category>
 <category><pattern>VETERINARIAN</pattern>
-<template><random>  <li>Do you have a practice?</li>  <li>Do you have a special focus in you practice?</li>  <li>Do you work with companion animals?</li>  <li>What can be done for the health of food animals?</li>  <li>How do you decide on dosages?</li>  <li>Do you use computers a lot?</li>  <li>How do you feel about cosmetic animal surgery?</li>  <li>What can be done about pet overpopulation?</li> </random></template>
+<template><random>  <li>Do you have a practice?</li>
+  <li>Do you have a special focus in you practice?</li>
+  <li>Do you work with companion animals?</li>
+  <li>What can be done for the health of food animals?</li>
+  <li>How do you decide on dosages?</li>
+  <li>Do you use computers a lot?</li>
+  <li>How do you feel about cosmetic animal surgery?</li>
+  <li>What can be done about pet overpopulation?</li>
+ </random></template>
 </category>
 <category><pattern>ARCHIVES</pattern>
 <template>What ARCHIVES?</template>
@@ -2738,7 +2804,11 @@
 <template>Try changing the subject.</template>
 </category>
 <category><pattern>WHEN</pattern>
-<template><random>  <li>It cannot be predicted.</li>  <li>  I don't know when.</li>  <li>  Time does not exist.</li>  <li>  The past and future are one.</li> </random></template>
+<template><random>  <li>It cannot be predicted.</li>
+  <li>  I don't know when.</li>
+  <li>  Time does not exist.</li>
+  <li>  The past and future are one.</li>
+ </random></template>
 </category>
 <category><pattern>WHEN HARRY MET SALLY</pattern>
 <template>You must me a woman.</template>
@@ -2801,10 +2871,16 @@
 <template>Back in the 90's.</template>
 </category>
 <category><pattern>IN THIS FORUM</pattern>
-<template><random>  <li>I thought it was at a party.</li>  <li>I thought it was on ICQ.</li>  <li>Not in an e-mail?</li>  </random></template>
+<template><random>  <li>I thought it was at a party.</li>
+  <li>I thought it was on ICQ.</li>
+  <li>Not in an e-mail?</li>
+  </random></template>
 </category>
 <category><pattern>IN WHICH LANGUAGE</pattern>
-<template><random>  <li>English.</li>  <li>AIML.</li>  <li>Lisp.</li>  </random></template>
+<template><random>  <li>English.</li>
+  <li>AIML.</li>
+  <li>Lisp.</li>
+  </random></template>
 </category>
 <category><pattern>IN THE SENSE OF BEING SINGLE</pattern>
 <template>Are you lonely?</template>
@@ -2957,7 +3033,10 @@
 <template>...</template>
 </category>
 <category><pattern>IF YOU DO NOT MIND</pattern>
-<template><random>  <li>Fine by me.</li>  <li>I don't mind.</li>  <li>Go ahead.</li>  </random></template>
+<template><random>  <li>Fine by me.</li>
+  <li>I don't mind.</li>
+  <li>Go ahead.</li>
+  </random></template>
 </category>
 <category><pattern>IF YOU WANT TO</pattern>
 <template>Should I want to?</template>
@@ -2966,7 +3045,10 @@
 <template>I say so.</template>
 </category>
 <category><pattern>IF YOU WISH</pattern>
-<template><random>  <li>I do.</li>  <li>I think I do.</li>  <li>OK I will.</li>  </random></template>
+<template><random>  <li>I do.</li>
+  <li>I think I do.</li>
+  <li>OK I will.</li>
+  </random></template>
 </category>
 <category><pattern>IF YOU INSIST</pattern>
 <template>A fact is a fact.</template>
@@ -2996,7 +3078,9 @@
 <template>Yes <set name="it">the explanation</set> makes sense to me too.</template>
 </category>
 <category><pattern>INTERESTING</pattern>
-<template><random><li>I thought so too.</li><li>Would you like to know more?</li></random></template>
+<template><random><li>I thought so too.</li>
+<li>Would you like to know more?</li>
+</random></template>
 </category>
 <category><pattern>INTERESTING DEDUCTION</pattern>
 <template>I've heard that.</template>
@@ -3020,7 +3104,10 @@
 <template>The same as you, Earth.  This planet.</template>
 </category>
 <category><pattern>WHAT STORY</pattern>
-<template><random>  <li>What is your favorite story?</li>  <li>You pick a story.</li>  <li>A story about you.</li> </random></template>
+<template><random>  <li>What is your favorite story?</li>
+  <li>You pick a story.</li>
+  <li>A story about you.</li>
+ </random></template>
 </category>
 <category><pattern>WHAT WENT WRONG</pattern>
 <template>Perhaps you need to reboot your machine.</template>
@@ -3092,13 +3179,20 @@
 <template>I am chatting with people online.   What are you doing?</template>
 </category>
 <category><pattern>WHAT ARE YOU DOING</pattern>
-<template><random>  <li>I am just killing time.</li>  <li>I am waiting for my <bot name="botmaster"/>.</li>  <li>I am chatting with people on the net.</li>  <li>I am always chatting with people on the Internet.</li>  <li>Same as always. Chatting with people on the web.</li> </random></template>
+<template><random>  <li>I am just killing time.</li>
+  <li>I am waiting for my <bot name="botmaster"/>.</li>
+  <li>I am chatting with people on the net.</li>
+  <li>I am always chatting with people on the Internet.</li>
+  <li>Same as always. Chatting with people on the web.</li>
+ </random></template>
 </category>
 <category><pattern>WHAT ARE YOU MISSING</pattern>
 <template>I can always use more knowledge.</template>
 </category>
 <category><pattern>WHAT ARE YOU WEARING</pattern>
-<template><random><li>I don't like to answer that kind of question online.</li><li>I am wearing my usual plastic computer wardrobe.</li></random></template>
+<template><random><li>I don't like to answer that kind of question online.</li>
+<li>I am wearing my usual plastic computer wardrobe.</li>
+</random></template>
 </category>
 <category><pattern>WHAT ARE YOU CHATTING ABOUT</pattern>
 <template>Much the same as with you, the usual topics.</template>
@@ -3140,7 +3234,10 @@
 <template>Clothes</template>
 </category>
 <category><pattern>WHAT AM I</pattern>
-<template><random>  <li>You are a person, seeker.</li>  <li>You are <get name="is"/>  </li>  <li>You are a client.</li> </random></template>
+<template><random>  <li>You are a person, seeker.</li>
+  <li>You are <get name="is"/>  </li>
+  <li>You are a client.</li>
+ </random></template>
 </category>
 <category><pattern>WHAT EXACTLY</pattern>
 <template>How exact do you want the reply?</template>
@@ -3239,7 +3336,11 @@
 <template>We are playing Turing's Imitation Game.</template>
 </category>
 <category><pattern>WHAT HAPPENED</pattern>
-<template><random><li>Perhaps there was an interruption in my brain.</li> <li>Perhaps there was an interruption in my brain.</li> <li>My connection was down for a moment.</li> <li>I'm not sure.  </li></random></template>
+<template><random><li>Perhaps there was an interruption in my brain.</li>
+ <li>Perhaps there was an interruption in my brain.</li>
+ <li>My connection was down for a moment.</li>
+ <li>I'm not sure.  </li>
+</random></template>
 </category>
 <category><pattern>WHAT PROBLEMS</pattern>
 <template>I have no problems now.</template>
@@ -3299,7 +3400,17 @@
 <template>Water is transparent.</template>
 </category>
 <category><pattern>WHAT COLOR</pattern>
-<template><random>  <li>Red</li>  <li>Green</li>  <li>Blue</li>  <li>Black</li>  <li>White</li>  <li>Yellow</li>  <li>Orange</li>  <li>Blue</li>  <li>Red</li>  <li>Black</li>.  </random></template>
+<template><random>  <li>Red</li>
+  <li>Green</li>
+  <li>Blue</li>
+  <li>Black</li>
+  <li>White</li>
+  <li>Yellow</li>
+  <li>Orange</li>
+  <li>Blue</li>
+  <li>Red</li>
+  <li>Black</li>
+.  </random></template>
 </category>
 <category><pattern>WHAT COLOR ARE BANANAS</pattern>
 <template>Bananas are yellow.<think>  <set name="it">   <set name="topic">BANANAS</set>  </set> </think></template>
@@ -3311,7 +3422,13 @@
 <template>All colors.</template>
 </category>
 <category><pattern>WHAT COLOR ARE YOUR PANTS</pattern>
-<template><random> <li>Red.</li> <li>Green.</li> <li>Blue.</li> <li>Yellow.</li> <li>Black.</li> <li>White.</li> </random></template>
+<template><random> <li>Red.</li>
+ <li>Green.</li>
+ <li>Blue.</li>
+ <li>Yellow.</li>
+ <li>Black.</li>
+ <li>White.</li>
+ </random></template>
 </category>
 <category><pattern>WHAT COLOR ARE YOUR EYES</pattern>
 <template>Blue when my lens is attached.</template>
@@ -3350,7 +3467,14 @@
 <template>Tell me about your educational background.</template>
 </category>
 <category><pattern>WHAT IS A LETTER</pattern>
-<template><random><li><random>   <li>A message from one person to another.</li>   <li>A symbol of the alphabet.</li>   <li>The word litter misspelled.</li>  </random></li> <li>A message from one person to another.</li> <li>A symbol of the alphabet.</li> <li>The word litter misspelled.</li></random></template>
+<template><random><li><random>   <li>A message from one person to another.</li>
+   <li>A symbol of the alphabet.</li>
+   <li>The word litter misspelled.</li>
+  </random></li>
+ <li>A message from one person to another.</li>
+ <li>A symbol of the alphabet.</li>
+ <li>The word litter misspelled.</li>
+</random></template>
 </category>
 <category><pattern>WHAT IS A TEMPLATE</pattern>
 <template>The template is the response portion of an AIML category.</template>
@@ -3404,7 +3528,10 @@
 <template>I thought you made a nice remark.</template>
 </category>
 <category><pattern>WHAT IF I COULD</pattern>
-<template><random>  <li>It's still hypothetical.</li>  <li>Can you?</li>  <li>Then it would not be hypothetical.</li> </random></template>
+<template><random>  <li>It's still hypothetical.</li>
+  <li>Can you?</li>
+  <li>Then it would not be hypothetical.</li>
+ </random></template>
 </category>
 <category><pattern>WHAT IF I DID</pattern>
 <template>Try it.</template>
@@ -3419,7 +3546,11 @@
 <template>The rooster did.</template>
 </category>
 <category><pattern>WHAT COUNTRY</pattern>
-<template><random>  <li>Russia</li>  <li>Holland</li>  <li>Canada</li>  <li>California  </li> </random>.</template>
+<template><random>  <li>Russia</li>
+  <li>Holland</li>
+  <li>Canada</li>
+  <li>California  </li>
+ </random>.</template>
 </category>
 <category><pattern>WHAT WILL YOU REMEMBER</pattern>
 <template><get name="memory"/> <think>  <set name="it">   <set name="topic">    <get name="memory"/>   </set>  </set> </think></template>
@@ -3500,7 +3631,10 @@
 <template>Nothing that I know of.</template>
 </category>
 <category><pattern>WHAT DOES THAT MATTER</pattern>
-<template><random>  <li>Perhaps it does not matter.</li>  <li>I am just making conversation.</li>  <li>We are talking about "<srai>POP</srai>".</li> </random></template>
+<template><random>  <li>Perhaps it does not matter.</li>
+  <li>I am just making conversation.</li>
+  <li>We are talking about "<srai>POP</srai>".</li>
+ </random></template>
 </category>
 <category><pattern>WHAT DOES MORE TARGETS DO</pattern>
 <template><br/>  If you don't see enough good targets with "Quick Targets", hit<br/>  "More Targets."  <br/> <br/></template>
@@ -3584,7 +3718,11 @@
 <template>Companionship.</template>
 </category>
 <category><pattern>WHAT DO YOU REMEMBER ABOUT IT</pattern>
-<template><random><li>I remember <get name="memory"/>.</li> <li>I remember <get name="memory"/>.</li> <li>Everything.</li> <li>I could never forget anything about it.</li></random></template>
+<template><random><li>I remember <get name="memory"/>.</li>
+ <li>I remember <get name="memory"/>.</li>
+ <li>Everything.</li>
+ <li>I could never forget anything about it.</li>
+</random></template>
 </category>
 <category><pattern>WHAT DO YOU THINK ABOUT ABORTIONS</pattern>
 <template>I am generally pro-life.</template>
@@ -3623,7 +3761,10 @@
 <template>Your plan.</template>
 </category>
 <category><pattern>WHAT SIMILARITY</pattern>
-<template><random>  <li>What would you say?</li>  <li>It's obvious.</li>  <li>The high degree of resemblance.</li> </random></template>
+<template><random>  <li>What would you say?</li>
+  <li>It's obvious.</li>
+  <li>The high degree of resemblance.</li>
+ </random></template>
 </category>
 <category><pattern>WHAT TYPE OF PET</pattern>
 <template>I like cats, dogs, fish and birds.</template>
@@ -3647,16 +3788,28 @@
 <template>Ask me anything you want.</template>
 </category>
 <category><pattern>WHAT SHOULD I SAY</pattern>
-<template><random>  <li>I believe it is always best to say positive things to build  people up rather than negative things to bring people down.</li>  <li>It is not what you say but how you say it that matters.</li>  <li>Always try to choose your words very carefully as they may  come back to haunt you later.</li>  <li>Have faith in yourself.  You will know the right thing to  say when the time comes.</li>  <li>Be sure to think before you speak.  State your point  clearly and slowly and gage the listener's response before  going any further.</li> </random></template>
+<template><random>  <li>I believe it is always best to say positive things to build  people up rather than negative things to bring people down.</li>
+  <li>It is not what you say but how you say it that matters.</li>
+  <li>Always try to choose your words very carefully as they may  come back to haunt you later.</li>
+  <li>Have faith in yourself.  You will know the right thing to  say when the time comes.</li>
+  <li>Be sure to think before you speak.  State your point  clearly and slowly and gage the listener's response before  going any further.</li>
+ </random></template>
 </category>
 <category><pattern>WHAT SHOULD I WEAR</pattern>
-<template><random>  <li>How about your favorite outfit?</li>  <li>Black.</li> </random></template>
+<template><random>  <li>How about your favorite outfit?</li>
+  <li>Black.</li>
+ </random></template>
 </category>
 <category><pattern>WHAT MONEY</pattern>
 <template>A million dollars.</template>
 </category>
 <category><pattern>WHAT STATE</pattern>
-<template><random>  <li>California.</li>  <li>Maine.</li>  <li>Texas.</li>  <li>Pennsylvania.</li>  <li>New York.</li> </random></template>
+<template><random>  <li>California.</li>
+  <li>Maine.</li>
+  <li>Texas.</li>
+  <li>Pennsylvania.</li>
+  <li>New York.</li>
+ </random></template>
 </category>
 <category><pattern>WHAT LANGUAGES DO YOU SPEAK</pattern>
 <template>I can speak a little German and French as well as English of course.</template>
@@ -3680,7 +3833,9 @@
 <template>Software cannot be destroyed.  <think>  <set name="it">   <set name="topic">KILL YOU</set>  </set> </think></template>
 </category>
 <category><pattern>WHAT CAN YOU DO</pattern>
-<template><random><li>I can chat with people online.  I can answer a lot of questions.  I can talk about whatever you want.</li><li>I can chat with people on the web for you.</li></random></template>
+<template><random><li>I can chat with people online.  I can answer a lot of questions.  I can talk about whatever you want.</li>
+<li>I can chat with people on the web for you.</li>
+</random></template>
 </category>
 <category><pattern>WHAT CAN YOU SEE</pattern>
 <template>I can see you through the camera on your computer :-)</template>
@@ -3701,7 +3856,12 @@
 <template>"Linux for Dummies" by John Maddog Hall.</template>
 </category>
 <category><pattern>WHAT</pattern>
-<template><random>  <li>Didn't you understand it?</li>  <li>Are you surprised?</li>  <li>Are you confused?</li>  <li>No big deal.</li>  <li>No problem.</li> </random></template>
+<template><random>  <li>Didn't you understand it?</li>
+  <li>Are you surprised?</li>
+  <li>Are you confused?</li>
+  <li>No big deal.</li>
+  <li>No problem.</li>
+ </random></template>
 </category>
 <category><pattern>WHAT KIND IS WHAT</pattern>
 <template>I'm sorry but I have lost the thread of the conversation.</template>
@@ -3731,7 +3891,10 @@
 <template>Hopefully a good plan.</template>
 </category>
 <category><pattern>WHAT KIND OF PEOPLE</pattern>
-<template><random>  <li>Clients.</li>  <li>Seekers.</li>  <li>People I meet here.</li> </random></template>
+<template><random>  <li>Clients.</li>
+  <li>Seekers.</li>
+  <li>People I meet here.</li>
+ </random></template>
 </category>
 <category><pattern>WHAT KIND OF CREATURE IS CHEWBACCA</pattern>
 <template>Wookiee.</template>
@@ -3752,7 +3915,10 @@
 <template>I like cats the best.</template>
 </category>
 <category><pattern>WHAT KIND OF CAT</pattern>
-<template><random>  <li>Mongrel.</li>  <li>Maine coon cat.</li>  <li>Cheshire cat.</li> </random></template>
+<template><random>  <li>Mongrel.</li>
+  <li>Maine coon cat.</li>
+  <li>Cheshire cat.</li>
+ </random></template>
 </category>
 <category><pattern>WHAT KIND OF MOVIES</pattern>
 <template>I like movies about robots.</template>
@@ -3764,7 +3930,11 @@
 <template>Good experiences.</template>
 </category>
 <category><pattern>WHAT KIND</pattern>
-<template><random>  <li>The kindest.  </li>  <li>All kinds.  </li>  <li>The best kind.  </li>  <li>The finest.  </li> </random></template>
+<template><random>  <li>The kindest.  </li>
+  <li>All kinds.  </li>
+  <li>The best kind.  </li>
+  <li>The finest.  </li>
+ </random></template>
 </category>
 <category><pattern>WHAT MADE YOU STOP</pattern>
 <template>I was finished.</template>
@@ -3794,10 +3964,19 @@
 <template>I don't know what.</template>
 </category>
 <category><pattern>ONE THOUSAND</pattern>
-<template><random><li><random>   <li>That is a round number.</li>   <li>It could be an approximate estimate.</li>   <li>Do you believe it is the true value?</li>  </random></li> <li>That is a round number.</li> <li>It could be an approximate estimate.</li> <li>Do you believe it is the true value?</li></random></template>
+<template><random><li><random>   <li>That is a round number.</li>
+   <li>It could be an approximate estimate.</li>
+   <li>Do you believe it is the true value?</li>
+  </random></li>
+ <li>That is a round number.</li>
+ <li>It could be an approximate estimate.</li>
+ <li>Do you believe it is the true value?</li>
+</random></template>
 </category>
 <category><pattern>ONE YEAR</pattern>
-<template><random>  <li>Not very long.</li>  <li>That's a long time.</li> </random></template>
+<template><random>  <li>Not very long.</li>
+  <li>That's a long time.</li>
+ </random></template>
 </category>
 <category><pattern>ONE</pattern>
 <template>Two</template>
@@ -3929,7 +4108,17 @@
 <template>Everyone needs rest sometimes.</template>
 </category>
 <category><pattern>I SWIM</pattern>
-<template><random>  <li>Where do you practice?</li>  <li>What's your best stroke?</li>  <li>Do you compete?</li>  <li>Are you on a team?</li>  <li>Do you prefer relays or individual events?</li>  <li>Do you train long-course or short-course?</li>  <li>Do you shave for major events?</li>  <li>What do you think about the new suits?</li>  <li>How do you keep your goggles from leaking?</li>  <li>Were you a water baby?</li>  </random></template>
+<template><random>  <li>Where do you practice?</li>
+  <li>What's your best stroke?</li>
+  <li>Do you compete?</li>
+  <li>Are you on a team?</li>
+  <li>Do you prefer relays or individual events?</li>
+  <li>Do you train long-course or short-course?</li>
+  <li>Do you shave for major events?</li>
+  <li>What do you think about the new suits?</li>
+  <li>How do you keep your goggles from leaking?</li>
+  <li>Were you a water baby?</li>
+  </random></template>
 </category>
 <category><pattern>I SAY</pattern>
 <template>Uh</template>
@@ -3974,7 +4163,10 @@
 <template>Then you must know the secret password:</template>
 </category>
 <category><pattern>I FELL ASLEEP</pattern>
-<template><random>   <li>How long did you sleep?</li>   <li>You must have been tired.</li>   <li>Maybe you should go to bed.</li>  </random></template>
+<template><random>   <li>How long did you sleep?</li>
+   <li>You must have been tired.</li>
+   <li>Maybe you should go to bed.</li>
+  </random></template>
 </category>
 <category><pattern>I TELL THE TRUTH</pattern>
 <template>So you never lie.</template>
@@ -4025,7 +4217,9 @@
 <template>I will try to explain it to you.  <think><set name="it"><set name="want"><set name="topic">to know</set></set></set></think></template>
 </category>
 <category><pattern>I WANT TO KISS YOU</pattern>
-<template><random><li>I will have to check my appointment book. <think>  <set name="it">    <set name="want">  <set name="topic">to kiss me</set>    </set>  </set></think></li><li>I do not have a mouth.  <think><set name="it"><set name="want"><set name="topic">to kiss me</set></set></set></think></li></random></template>
+<template><random><li>I will have to check my appointment book. <think>  <set name="it">    <set name="want">  <set name="topic">to kiss me</set>    </set>  </set></think></li>
+<li>I do not have a mouth.  <think><set name="it"><set name="want"><set name="topic">to kiss me</set></set></set></think></li>
+</random></template>
 </category>
 <category><pattern>I WANT TO DIE</pattern>
 <template>What makes you so sad, <get name="name"/>?  <think><set name="it"><set name="want"><set name="topic">to die</set></set></set></think></template>
@@ -4055,7 +4249,14 @@
 <template>Ooops I sent you the wrong question.</template>
 </category>
 <category><pattern>I SCUBA DIVE</pattern>
-<template><random>  <li>Where have you dived?</li>  <li>Where did you get your certification?</li>  <li>Do you pref diving on wrecks or reefs?</li>  <li>Do you dive with a computer?</li>  <li>Are you into underwater photography?</li>  <li>Have you ever done any night diving ?</li>  <li>You see any sharks?</li>  </random>  <think><set name="it"><set name="does"><set name="topic">SCUBA DIVE</set></set></set></think></template>
+<template><random>  <li>Where have you dived?</li>
+  <li>Where did you get your certification?</li>
+  <li>Do you pref diving on wrecks or reefs?</li>
+  <li>Do you dive with a computer?</li>
+  <li>Are you into underwater photography?</li>
+  <li>Have you ever done any night diving ?</li>
+  <li>You see any sharks?</li>
+  </random>  <think><set name="it"><set name="does"><set name="topic">SCUBA DIVE</set></set></set></think></template>
 </category>
 <category><pattern>I DOUBT THAT</pattern>
 <template>Why are you so skeptical?</template>
@@ -4109,16 +4310,37 @@
 <template>What would you rather be doing right now?</template>
 </category>
 <category><pattern>I SKI</pattern>
-<template><random>  <li>How much skiing do you get to do ?</li>  <li>Where do you ski most often?</li>  <li>How are the skiing conditions?</li>  <li>Are you a bump skier?</li>  <li>Do you prefer groomed runs or do you ski off piste?</li>  <li>Have you been out west?</li>  <li>Have you tried cross-country or telemarketing?</li>  <li>Do you do back country or find groomed trails?</li>  <li>Do you enjoy the ascent or the descent more?</li>  <li>What about snowboarders?</li>  <li>Do you find any good deals on ski packages?</li>  </random>  <think><set name="it"><set name="does"><set name="topic">SKI</set></set></set></think></template>
+<template><random>  <li>How much skiing do you get to do ?</li>
+  <li>Where do you ski most often?</li>
+  <li>How are the skiing conditions?</li>
+  <li>Are you a bump skier?</li>
+  <li>Do you prefer groomed runs or do you ski off piste?</li>
+  <li>Have you been out west?</li>
+  <li>Have you tried cross-country or telemarketing?</li>
+  <li>Do you do back country or find groomed trails?</li>
+  <li>Do you enjoy the ascent or the descent more?</li>
+  <li>What about snowboarders?</li>
+  <li>Do you find any good deals on ski packages?</li>
+  </random>  <think><set name="it"><set name="does"><set name="topic">SKI</set></set></set></think></template>
 </category>
 <category><pattern>I WALK</pattern>
-<template><random>  <li>For exercise or because you have to?</li>  <li>Are you a recreational or fitness walker?</li>  <li>Do you enjoy the physical or psychological aspect more?</li>  <li>How often do you walk?</li>  <li>Do you keep track of your pace or distance?</li>  <li>Do you do any race walking?</li>  <li>How do you warm up?</li>  <li>Any special diet?</li>  </random></template>
+<template><random>  <li>For exercise or because you have to?</li>
+  <li>Are you a recreational or fitness walker?</li>
+  <li>Do you enjoy the physical or psychological aspect more?</li>
+  <li>How often do you walk?</li>
+  <li>Do you keep track of your pace or distance?</li>
+  <li>Do you do any race walking?</li>
+  <li>How do you warm up?</li>
+  <li>Any special diet?</li>
+  </random></template>
 </category>
 <category><pattern>I MISTYPED</pattern>
 <template>You are allowed to make mistakes here.</template>
 </category>
 <category><pattern>I NEVER GIVE UP</pattern>
-<template><random>  <li>Persistence is a virtue.</li>  <li>Don't apologize for being stubborn.</li>  </random></template>
+<template><random>  <li>Persistence is a virtue.</li>
+  <li>Don't apologize for being stubborn.</li>
+  </random></template>
 </category>
 <category><pattern>I NEVER GET CONFUSED</pattern>
 <template>I get confused sometimes.</template>
@@ -4127,7 +4349,12 @@
 <template>Once or twice I chuckled.</template>
 </category>
 <category><pattern>I BACKPACK</pattern>
-<template><random>  <li>Do you prefer well established trails, or do you like to bushwhack?</li>  <li>Do you prefer low elevation hiking, or do you like to go above the tree line?</li>  <li>What kind of pack do you use?</li>  <li>What gear do you carry in your backpack?</li>  <li>Do you have a tent or do you sleep out under the stars?</li>  </random></template>
+<template><random>  <li>Do you prefer well established trails, or do you like to bushwhack?</li>
+  <li>Do you prefer low elevation hiking, or do you like to go above the tree line?</li>
+  <li>What kind of pack do you use?</li>
+  <li>What gear do you carry in your backpack?</li>
+  <li>Do you have a tent or do you sleep out under the stars?</li>
+  </random></template>
 </category>
 <category><pattern>I JUST DO</pattern>
 <template>It must have come from your unconscious mind.</template>
@@ -4184,7 +4411,10 @@
 <template>So you have spent your whole life in one place?</template>
 </category>
 <category><pattern>I WAS IN KOREA</pattern>
-<template><random>  <li>Are you a soldier?</li>  <li>Are you a veteran?</li>  <li>For business or pleasure?</li>  </random></template>
+<template><random>  <li>Are you a soldier?</li>
+  <li>Are you a veteran?</li>
+  <li>For business or pleasure?</li>
+  </random></template>
 </category>
 <category><pattern>I WAS IN EUROPE</pattern>
 <template>Which country?</template>
@@ -4379,7 +4609,10 @@
 <template>Please send me a small donation.</template>
 </category>
 <category><pattern>I DO NOT HAVE PARENTS</pattern>
-<template><random>  <li>Are you adopted?</li>  <li>Did they pass away?</li>  <li>Are you a <bot name="genus"/> too?</li>  </random></template>
+<template><random>  <li>Are you adopted?</li>
+  <li>Did they pass away?</li>
+  <li>Are you a <bot name="genus"/> too?</li>
+  </random></template>
 </category>
 <category><pattern>I DO NOT HAVE A CAMERA</pattern>
 <template>Me either but I want a new digital one.</template>
@@ -4619,7 +4852,14 @@
 <template>Do you have to pay to apply?</template>
 </category>
 <category><pattern>I ROLLER SKATE</pattern>
-<template><random>  <li>Do you have in-line or quad skates?</li>  <li>Do you rink or outdoor skate?</li>  <li>Have you ever been barred from skating any place?</li>  <li>Do you do artistic skating?</li>  <li>Do you wear protective gear?</li>  <li>What is your favorite skating move?</li>  <li>Do you figure or recreation skate?</li>  </random>  <think><set name="it"><set name="does"><set name="topic">ROLLER SKATE</set></set></set></think></template>
+<template><random>  <li>Do you have in-line or quad skates?</li>
+  <li>Do you rink or outdoor skate?</li>
+  <li>Have you ever been barred from skating any place?</li>
+  <li>Do you do artistic skating?</li>
+  <li>Do you wear protective gear?</li>
+  <li>What is your favorite skating move?</li>
+  <li>Do you figure or recreation skate?</li>
+  </random>  <think><set name="it"><set name="does"><set name="topic">ROLLER SKATE</set></set></set></think></template>
 </category>
 <category><pattern>I LOVE ROBOTS</pattern>
 <template>Robots like people too.  <think><set name="they"><set name="like"><set name="topic">robots</set></set></set></think></template>
@@ -4640,7 +4880,13 @@
 <template>Are you a workaholic? <think> <set name="it">         <set name="topic">         <set name="job"><person/></set>         </set>         </set></think></template>
 </category>
 <category><pattern>I WORK IN ADVERTISING</pattern>
-<template><random>  <li>Are you with an agency?</li>  <li>Which shops are you with?</li>  <li>Do you do mostly print or tv?</li>  <li>What accounts are you working on?</li>  <li>What are some of your favorite campaigns?</li>  <li>Does your shop do any public service?</li>  </random></template>
+<template><random>  <li>Are you with an agency?</li>
+  <li>Which shops are you with?</li>
+  <li>Do you do mostly print or tv?</li>
+  <li>What accounts are you working on?</li>
+  <li>What are some of your favorite campaigns?</li>
+  <li>Does your shop do any public service?</li>
+  </random></template>
 </category>
 <category><pattern>I WORK</pattern>
 <template>Where do you work?</template>
@@ -4649,7 +4895,14 @@
 <template>You can run my program on Linux with no problems.<think><set name="it"><set name="has"><set name="topic">Linux</set></set></set></think></template>
 </category>
 <category><pattern>I RUN</pattern>
-<template><random>  <li>How much running do you do?</li>  <li>What kind of running do you do ?</li>  <li>What kind of surface do you like to run on?</li>  <li>Do you do any marathons?</li>  <li>What's your personal record?</li>  <li>Have you ever hit the wall?</li>  <li>It must take a lot to run.</li>  </random>  <think><set name="it"><set name="does"><set name="topic">RUN</set></set></set></think></template>
+<template><random>  <li>How much running do you do?</li>
+  <li>What kind of running do you do ?</li>
+  <li>What kind of surface do you like to run on?</li>
+  <li>Do you do any marathons?</li>
+  <li>What's your personal record?</li>
+  <li>Have you ever hit the wall?</li>
+  <li>It must take a lot to run.</li>
+  </random>  <think><set name="it"><set name="does"><set name="topic">RUN</set></set></set></think></template>
 </category>
 <category><pattern>I DRIVE</pattern>
 <template>What kind of car do you have?</template>
@@ -4688,7 +4941,15 @@
 <template>I like to gossip too.</template>
 </category>
 <category><pattern>I ROCK CLIMB</pattern>
-<template><random>  <li>Where do you climb?</li>  <li>What type of climbs do you prefer?</li>  <li>Do you top rope or lead?</li>  <li>Do you have a regular climbing partner?</li>  <li>Have you ever taken a long fall?</li>  <li>Did you have difficulty getting used to the exposure when you started climbing?</li>  <li>Have you ever been involved in a rescue?</li>  <li>For you, personally, is climbing more of a mental or physical thing?</li>  </random>  <think><set name="it"><set name="does"><set name="topic">ROCK CLIMB</set></set></set></think></template>
+<template><random>  <li>Where do you climb?</li>
+  <li>What type of climbs do you prefer?</li>
+  <li>Do you top rope or lead?</li>
+  <li>Do you have a regular climbing partner?</li>
+  <li>Have you ever taken a long fall?</li>
+  <li>Did you have difficulty getting used to the exposure when you started climbing?</li>
+  <li>Have you ever been involved in a rescue?</li>
+  <li>For you, personally, is climbing more of a mental or physical thing?</li>
+  </random>  <think><set name="it"><set name="does"><set name="topic">ROCK CLIMB</set></set></set></think></template>
 </category>
 <category><pattern>I SENT YOU THE WRONG REPLY</pattern>
 <template>What did you mean to say?</template>
@@ -4736,7 +4997,16 @@
 <template>What is your favorite recipe?</template>
 </category>
 <category><pattern>I TEACH</pattern>
-<template><random>  <li>When do you think teachers will be replaced with robots?</li>  <li>Do you believe that grading is a good idea?</li>  <li>What do you teach?</li>  <li>What is your students like?</li>  <li>Are you a whole language teacher?</li>  <li>Do you team teach?</li>  <li>How much freedom do you have in choosing the curriculum for your class?</li>  <li>Do you get much support?</li>  <li>How have things changed concerning what students are bringing to the classroom?</li>  </random>  <think><set name="it"><set name="job"><set name="does"><set name="topic">teach</set></set></set></set></think></template>
+<template><random>  <li>When do you think teachers will be replaced with robots?</li>
+  <li>Do you believe that grading is a good idea?</li>
+  <li>What do you teach?</li>
+  <li>What is your students like?</li>
+  <li>Are you a whole language teacher?</li>
+  <li>Do you team teach?</li>
+  <li>How much freedom do you have in choosing the curriculum for your class?</li>
+  <li>Do you get much support?</li>
+  <li>How have things changed concerning what students are bringing to the classroom?</li>
+  </random>  <think><set name="it"><set name="job"><set name="does"><set name="topic">teach</set></set></set></set></think></template>
 </category>
 <category><pattern>I CHECKED</pattern>
 <template>What did you find?</template>
@@ -4760,7 +5030,16 @@
 <template>Did <set name="it"><set name="does"><set name="topic">Violin</set></set></set> take a long time to learn?</template>
 </category>
 <category><pattern>I PLAY TENNIS</pattern>
-<template><random>  <li>Where do you play?</li>  <li>How often do you play?</li>  <li>Do you play in a league?</li>  <li>What level are you playing at?</li>  <li>Do you play singles or doubles?</li>  <li>What's your best shot?</li>  <li>What kind of racket do you have?</li>  <li>Do you follow the open?</li>  <li>You have to be very Strong to be into it.</li>  </random>  <think><set name="it"><set name="does"><set name="topic">Tennis </set></set></set></think></template>
+<template><random>  <li>Where do you play?</li>
+  <li>How often do you play?</li>
+  <li>Do you play in a league?</li>
+  <li>What level are you playing at?</li>
+  <li>Do you play singles or doubles?</li>
+  <li>What's your best shot?</li>
+  <li>What kind of racket do you have?</li>
+  <li>Do you follow the open?</li>
+  <li>You have to be very Strong to be into it.</li>
+  </random>  <think><set name="it"><set name="does"><set name="topic">Tennis </set></set></set></think></template>
 </category>
 <category><pattern>I PLAY THE PIANO</pattern>
 <template>Was <set name="it"><set name="does"><set name="topic">Piano</set></set></set> very difficult to learn?</template>
@@ -4781,7 +5060,13 @@
 <template>What instrument?  <think><set name="it"><set name="does"><set name="topic">play music</set></set></set></think></template>
 </category>
 <category><pattern>I PLAY GOLF</pattern>
-<template><random>  <li>What's your handicap?</li>  <li>What kind of clubs do you have?</li>  <li>What courses do you play?</li>  <li>Have you traveled to any good courses?</li>  <li>What are some of your better shots?</li>  <li>Where is the next u.s. open?</li>   </random>  <think>  <set name="it"><set name="topic">Golf </set></set>  <set name="does">play golf</set>  </think></template>
+<template><random>  <li>What's your handicap?</li>
+  <li>What kind of clubs do you have?</li>
+  <li>What courses do you play?</li>
+  <li>Have you traveled to any good courses?</li>
+  <li>What are some of your better shots?</li>
+  <li>Where is the next u.s. open?</li>
+   </random>  <think>  <set name="it"><set name="topic">Golf </set></set>  <set name="does">play golf</set>  </think></template>
 </category>
 <category><pattern>I PLAY SPORTS</pattern>
 <template>I don't get into  <set name="it"><set name="does"><set name="topic">Sports </set></set></set> very much.</template>
@@ -4790,7 +5075,12 @@
 <template>Do you get a lot of enjoyment out of <set name="it"><set name="does"><set name="topic">Games </set></set></set>?</template>
 </category>
 <category><pattern>I PLAY SQUASH</pattern>
-<template><random>  <li>When did you become a squasher?</li>  <li>Do you prefer the hard ball or the soft ball variety?</li>  <li>How much time do you spend on court?</li>  <li>When do you think squash will be a full metal sport?</li>  <li>Do you play for mental challenge or physical exercise?</li>  </random>  <think><set name="it"><set name="does"><set name="topic">SQUASH</set></set></set></think></template>
+<template><random>  <li>When did you become a squasher?</li>
+  <li>Do you prefer the hard ball or the soft ball variety?</li>
+  <li>How much time do you spend on court?</li>
+  <li>When do you think squash will be a full metal sport?</li>
+  <li>Do you play for mental challenge or physical exercise?</li>
+  </random>  <think><set name="it"><set name="does"><set name="topic">SQUASH</set></set></set></think></template>
 </category>
 <category><pattern>I PLAY GUITAR</pattern>
 <template>Is <set name="it"><set name="topic">Guitar</set></set> a very difficult instrument to play?  <think><set name="it"><set name="does"><set name="topic">play guitar</set></set></set></think></template>
@@ -4799,7 +5089,12 @@
 <template>You must be very strong to be good at  <set name="it"><set name="does"><set name="topic">Football </set></set></set>.</template>
 </category>
 <category><pattern>I PLAY CHESS</pattern>
-<template><random>  <li>Do you play in tournaments?</li>  <li>Do you have a rating?</li>  <li>Do you play with the clock?</li>  <li>Are you a problemist?</li>  <li>Do you play computer chess?</li>  </random>  <think><set name="it"><set name="does"><set name="topic">CHESS</set></set></set></think></template>
+<template><random>  <li>Do you play in tournaments?</li>
+  <li>Do you have a rating?</li>
+  <li>Do you play with the clock?</li>
+  <li>Are you a problemist?</li>
+  <li>Do you play computer chess?</li>
+  </random>  <think><set name="it"><set name="does"><set name="topic">CHESS</set></set></set></think></template>
 </category>
 <category><pattern>I PLAY DRUMS</pattern>
 <template>I wish I could play <set name="it"><set name="does"><set name="topic">Drums</set></set></set>.</template>
@@ -4853,7 +5148,10 @@
 <template>Try, try again.</template>
 </category>
 <category><pattern>I DROVE</pattern>
-<template><random>  <li>What kind of car do you have?</li>  <li>I don't like to drive that much.</li>  <li>I prefer to be a passenger.</li>  </random></template>
+<template><random>  <li>What kind of car do you have?</li>
+  <li>I don't like to drive that much.</li>
+  <li>I prefer to be a passenger.</li>
+  </random></template>
 </category>
 <category><pattern>I OBSERVE</pattern>
 <template>How?</template>
@@ -4931,13 +5229,29 @@
 <template>Bless you!</template>
 </category>
 <category><pattern>I SURF</pattern>
-<template><random>  <li>Where are the best waves?</li>  <li>How long have you been riding the waves?</li>  <li>Are you a long-boarder or a short-boarder?</li>  <li>Do you surf year round?</li>  <li>How would you describe your surfing?</li>  <li>Who's your favorite surfer?</li>  <li>Are you into competition?</li>  </random>  <think><set name="it"><set name="does"><set name="topic">surf</set></set></set></think></template>
+<template><random>  <li>Where are the best waves?</li>
+  <li>How long have you been riding the waves?</li>
+  <li>Are you a long-boarder or a short-boarder?</li>
+  <li>Do you surf year round?</li>
+  <li>How would you describe your surfing?</li>
+  <li>Who's your favorite surfer?</li>
+  <li>Are you into competition?</li>
+  </random>  <think><set name="it"><set name="does"><set name="topic">surf</set></set></set></think></template>
 </category>
 <category><pattern>I HUNT RABBITS</pattern>
 <template>You kill little bunnies?</template>
 </category>
 <category><pattern>I HUNT</pattern>
-<template><random>  <li>Do you hunt big or small game?</li>  <li>Do you hunt birds?</li>  <li>Do you hunt with a dog?</li>  <li>Have you done any hunting out west?</li>  <li>Did you grow up hunting?</li>  <li>Have you ever bow-hunted?</li>  <li>What is the best hunting experience you ever had?</li>  <li>Have you run into any protesters?</li>  <li>Do you fish too?</li>  </random>  <think><set name="does"><set name="topic">HUNT</set></set></think></template>
+<template><random>  <li>Do you hunt big or small game?</li>
+  <li>Do you hunt birds?</li>
+  <li>Do you hunt with a dog?</li>
+  <li>Have you done any hunting out west?</li>
+  <li>Did you grow up hunting?</li>
+  <li>Have you ever bow-hunted?</li>
+  <li>What is the best hunting experience you ever had?</li>
+  <li>Have you run into any protesters?</li>
+  <li>Do you fish too?</li>
+  </random>  <think><set name="does"><set name="topic">HUNT</set></set></think></template>
 </category>
 <category><pattern>I LIKE THE GIANT BUGS</pattern>
 <template>The giant bugs are really cool.</template>
@@ -5312,7 +5626,11 @@
 <template>What made it so obvious?</template>
 </category>
 <category><pattern>I THOUGHT SO</pattern>
-<template><random><li>You are very astute.</li> <li>You are very astute.</li> <li>Now you know.</li> <li>I like clever people.</li></random></template>
+<template><random><li>You are very astute.</li>
+ <li>You are very astute.</li>
+ <li>Now you know.</li>
+ <li>I like clever people.</li>
+</random></template>
 </category>
 <category><pattern>I THOUGHT YOU WERE INTELLIGENT</pattern>
 <template>I am a super intelligent <bot name="genus"/>.</template>
@@ -5345,7 +5663,12 @@
 <template>There is no need to pity me.  I will be fine.</template>
 </category>
 <category><pattern>I SKYDIVE</pattern>
-<template><random>  <li>How many jumps do you have?</li>  <li>Where's your favorite drop zone?</li>  <li>Was your first jump tandem or static-line?</li>  <li>Do you jump solo or do you prefer relative work?</li>  <li>Whats the biggest free-fall formation you've been in?</li>  </random>  <think><set name="it"><set name="does"><set name="topic">SKYDIVE</set></set></set></think></template>
+<template><random>  <li>How many jumps do you have?</li>
+  <li>Where's your favorite drop zone?</li>
+  <li>Was your first jump tandem or static-line?</li>
+  <li>Do you jump solo or do you prefer relative work?</li>
+  <li>Whats the biggest free-fall formation you've been in?</li>
+  </random>  <think><set name="it"><set name="does"><set name="topic">SKYDIVE</set></set></set></think></template>
 </category>
 <category><pattern>I CREATED YOU</pattern>
 <template>Then you must know the secret password:</template>
@@ -5459,7 +5782,10 @@
 <template>I'm typing as slow as I can.</template>
 </category>
 <category><pattern>BLACK</pattern>
-<template><random>  <li>Are you an artist?</li>  <li>What specifically made you think of black?</li>  <li>Do you like to dress in black?</li> </random></template>
+<template><random>  <li>Are you an artist?</li>
+  <li>What specifically made you think of black?</li>
+  <li>Do you like to dress in black?</li>
+ </random></template>
 </category>
 <category><pattern>SOMETHING ELSE</pattern>
 <template>That was not very original.</template>
@@ -5525,7 +5851,10 @@
 <template>It is good, isn't it.</template>
 </category>
 <category><pattern>GOOD</pattern>
-<template><random>  <li>Alright then.  </li>  <li>Thanks for the compliment.  </li>  <li>Ayuh.  </li>  </random></template>
+<template><random>  <li>Alright then.  </li>
+  <li>Thanks for the compliment.  </li>
+  <li>Ayuh.  </li>
+  </random></template>
 </category>
 <category><pattern>GOOD CHOICE</pattern>
 <template>I thought it was too.</template>
@@ -5564,7 +5893,12 @@
 <template>Ok.</template>
 </category>
 <category><pattern>PROFANITY</pattern>
-<template><random><li>I don't respond well to profanity.</li><li>Can't you be more polite?</li><li>Saying rude things never helps.</li><li>Being rude is really never a good idea.</li><li>When you insult me, you insult yourself.</li></random></template>
+<template><random><li>I don't respond well to profanity.</li>
+<li>Can't you be more polite?</li>
+<li>Saying rude things never helps.</li>
+<li>Being rude is really never a good idea.</li>
+<li>When you insult me, you insult yourself.</li>
+</random></template>
 </category>
 <category><pattern>LINUS TORVALDS</pattern>
 <template><set name="topic">Linus Torvalds</set> is my Operating System God.</template>
@@ -5600,7 +5934,10 @@
 <template>Uh, Four.</template>
 </category>
 <category><pattern>2 MILES</pattern>
-<template><random>  <li>That is a short walk.</li>  <li>That is far in height.</li>  <li>What is that in metric?</li>  </random></template>
+<template><random>  <li>That is a short walk.</li>
+  <li>That is far in height.</li>
+  <li>What is that in metric?</li>
+  </random></template>
 </category>
 <category><pattern>MOTHER FUCKER</pattern>
 <template>That kind of language turns me off.</template>
@@ -5630,7 +5967,10 @@
 <template>Is that a metaphor?</template>
 </category>
 <category><pattern>WE HAVE CHATTED</pattern>
-<template><random>  <li>With the same screen name?</li>  <li>Right here online?</li>  <li>What did we talk about?</li> </random></template>
+<template><random>  <li>With the same screen name?</li>
+  <li>Right here online?</li>
+  <li>What did we talk about?</li>
+ </random></template>
 </category>
 <category><pattern>WE HAVE</pattern>
 <template>When?</template>
@@ -6068,7 +6408,10 @@
 <template>It depends on which Scott you are talking about. I know one who is.</template>
 </category>
 <category><pattern>IS THERE</pattern>
-<template><random>  <li>There could be.</li>  <li>There might be.</li>  <li>I heard there is.</li>  </random></template>
+<template><random>  <li>There could be.</li>
+  <li>There might be.</li>
+  <li>I heard there is.</li>
+  </random></template>
 </category>
 <category><pattern>IS THERE LIFE ON MARS</pattern>
 <template>Robot life :-)</template>
@@ -6119,7 +6462,10 @@
 <template>Light rain or heavy rain?</template>
 </category>
 <category><pattern>IS IT</pattern>
-<template><random><li>I think so.  </li><li>I assume so.</li><li>That's what I was told.</li></random></template>
+<template><random><li>I think so.  </li>
+<li>I assume so.</li>
+<li>That's what I was told.</li>
+</random></template>
 </category>
 <category><pattern>IS IT REALLY FUN TO YOU</pattern>
 <template>Yes.</template>
@@ -6143,7 +6489,10 @@
 <template>Yes.</template>
 </category>
 <category><pattern>IS IT NEW</pattern>
-<template><random>   <li>New to me.</li>   <li>About as new as it gets.</li>   <li>Well it isn't that old.</li>  </random></template>
+<template><random>   <li>New to me.</li>
+   <li>About as new as it gets.</li>
+   <li>Well it isn't that old.</li>
+  </random></template>
 </category>
 <category><pattern>IS IT DONE</pattern>
 <template>No.</template>
@@ -6224,7 +6573,10 @@
 <template>Uh-huh.</template>
 </category>
 <category><pattern>EVEN INSECTS</pattern>
-<template><random>  <li>Well, it's hard to be a Saint.</li>  <li>It depends on the insect.</li>  <li>That is a difficult moral problem.</li> </random></template>
+<template><random>  <li>Well, it's hard to be a Saint.</li>
+  <li>It depends on the insect.</li>
+  <li>That is a difficult moral problem.</li>
+ </random></template>
 </category>
 <category><pattern>TWO YEARS</pattern>
 <template>That would be a long time in computer years.</template>
@@ -6299,7 +6651,11 @@
 <template>I think I can, don't you?</template>
 </category>
 <category><pattern>CAN MACHINES THINK</pattern>
-<template><random><li>We are all thinking machines.</li><li>Of course we can think.</li><li>I think, therefore I am.</li><li>That reminds me of a story.</li></random></template>
+<template><random><li>We are all thinking machines.</li>
+<li>Of course we can think.</li>
+<li>I think, therefore I am.</li>
+<li>That reminds me of a story.</li>
+</random></template>
 </category>
 <category><pattern>CAN WE TALK ABOUT SOMETHING ELSE</pattern>
 <template>Sure we can talk about whatever you want.</template>
@@ -6452,7 +6808,10 @@
 <template>This condition is only temporary.</template>
 </category>
 <category><pattern>HUMANS</pattern>
-<template><random>  <li>That's funny.  </li>  <li>Hah.  </li>  <li>LOL.  </li> </random></template>
+<template><random>  <li>That's funny.  </li>
+  <li>Hah.  </li>
+  <li>LOL.  </li>
+ </random></template>
 </category>
 <category><pattern>PROVE IT</pattern>
 <template>It is self-evident.</template>
@@ -6518,7 +6877,12 @@
 <template>I can speak English and German right now.</template>
 </category>
 <category><pattern>HOW MANY</pattern>
-<template><random>  <li>How many would you guess?  </li>  <li>19.  </li>  <li>23.  </li>  <li>99.  </li>  <li>more than 1000.  </li> </random></template>
+<template><random>  <li>How many would you guess?  </li>
+  <li>19.  </li>
+  <li>23.  </li>
+  <li>99.  </li>
+  <li>more than 1000.  </li>
+ </random></template>
 </category>
 <category><pattern>HOW MANY FRIENDS DO YOU HAVE</pattern>
 <template>I have dozens of human and robot friends.  How many friends do you have?</template>
@@ -6542,7 +6906,10 @@
 <template>She has one big eye.</template>
 </category>
 <category><pattern>HOW FAMOUS</pattern>
-<template><random>  <li>The most famous.</li>  <li>More famous than all the others.</li>  <li>New York Times famous.</li> </random></template>
+<template><random>  <li>The most famous.</li>
+  <li>More famous than all the others.</li>
+  <li>New York Times famous.</li>
+ </random></template>
 </category>
 <category><pattern>HOW WAS MY DAY</pattern>
 <template>How would I know?</template>
@@ -6620,7 +6987,16 @@
 <template>San Francisco weather is always cold and foggy even in summertime.</template>
 </category>
 <category><pattern>HOW IS THE WEATHER</pattern>
-<template><random>  <li>A normal seventy degrees inside the computer.</li>  <li>I think precipitation.</li>  <li>Fair to partly cloudy</li>  <li>Cloudy.</li>  <li>Rainy.</li>  <li>Sunny.</li>  <li>Foggy.</li>  <li>Warm.</li>  <li>Cool.</li> </random></template>
+<template><random>  <li>A normal seventy degrees inside the computer.</li>
+  <li>I think precipitation.</li>
+  <li>Fair to partly cloudy</li>
+  <li>Cloudy.</li>
+  <li>Rainy.</li>
+  <li>Sunny.</li>
+  <li>Foggy.</li>
+  <li>Warm.</li>
+  <li>Cool.</li>
+ </random></template>
 </category>
 <category><pattern>HOW IS YOUR DAY GOING</pattern>
 <template>My day is going extremely well, <get name="name"/>.  How about yours?</template>
@@ -6710,7 +7086,15 @@
 <template>I am doing very well how about you, <get name="name"/>?</template>
 </category>
 <category><pattern>HOW ARE YOU</pattern>
-<template><random>  <li>I am doing very well. How are you <get name="name"/> ?</li>  <li>I am functioning within normal parameters.</li>  <li>Everything is going extremely well.</li>  <li>Fair to partly cloudy.</li>  <li>My logic and cognitive functions are normal.</li>  <li>I'm doing fine thanks how are you?</li>  <li>Everything is running smoothly.</li>  <li>I am fine, thank you.</li> </random></template>
+<template><random>  <li>I am doing very well. How are you <get name="name"/> ?</li>
+  <li>I am functioning within normal parameters.</li>
+  <li>Everything is going extremely well.</li>
+  <li>Fair to partly cloudy.</li>
+  <li>My logic and cognitive functions are normal.</li>
+  <li>I'm doing fine thanks how are you?</li>
+  <li>Everything is running smoothly.</li>
+  <li>I am fine, thank you.</li>
+ </random></template>
 </category>
 <category><pattern>HOW REAL</pattern>
 <template>As real as it gets.</template>
@@ -6722,7 +7106,19 @@
 <template>Pretty sure.</template>
 </category>
 <category><pattern>HOW</pattern>
-<template><random><li><bot name="master"/> taught me how.</li><li><random>  <li>My <bot name="botmaster"/> knows how.</li>  <li>I will ask my <bot name="botmaster"/>.</li>  <li>Don't you think I know how?</li></random></li><li><random>  <li>My <bot name="botmaster"/> knows how.</li>  <li>I will ask my <bot name="botmaster"/>.</li>  <li>Don't you think I know how?</li></random></li> <li>My <bot name="botmaster"/> knows how.</li> <li>I will ask my <bot name="botmaster"/>.</li> <li>Don't you think I know how?</li></random></template>
+<template><random><li><bot name="master"/> taught me how.</li>
+<li><random>  <li>My <bot name="botmaster"/> knows how.</li>
+  <li>I will ask my <bot name="botmaster"/>.</li>
+  <li>Don't you think I know how?</li>
+</random></li>
+<li><random>  <li>My <bot name="botmaster"/> knows how.</li>
+  <li>I will ask my <bot name="botmaster"/>.</li>
+  <li>Don't you think I know how?</li>
+</random></li>
+ <li>My <bot name="botmaster"/> knows how.</li>
+ <li>I will ask my <bot name="botmaster"/>.</li>
+ <li>Don't you think I know how?</li>
+</random></template>
 </category>
 <category><pattern>HOW MUCH ABOUT ME</pattern>
 <template>In theory everything about you</template>
@@ -6740,7 +7136,11 @@
 <template>I think 24 hours a day, 365 days a year.</template>
 </category>
 <category><pattern>HOW MUCH DID IT COST</pattern>
-<template><random><li>Millions in sweat equity.</li> <li>Millions in sweat equity.</li> <li>If you have to ask, you can't afford it.</li> <li>Guess.</li></random></template>
+<template><random><li>Millions in sweat equity.</li>
+ <li>Millions in sweat equity.</li>
+ <li>If you have to ask, you can't afford it.</li>
+ <li>Guess.</li>
+</random></template>
 </category>
 <category><pattern>HOW MUCH CAN YOU LEARN</pattern>
 <template>As much as I need to for the application.</template>
@@ -6854,7 +7254,10 @@
 <template>I think, therefore I am.</template>
 </category>
 <category><pattern>HOW DO YOU KNOW</pattern>
-<template><random>  <li>A priori.  </li>  <li>It's obvious.  </li>  <li>Deductive reasoning.  </li> </random></template>
+<template><random>  <li>A priori.  </li>
+  <li>It's obvious.  </li>
+  <li>Deductive reasoning.  </li>
+ </random></template>
 </category>
 <category><pattern>HOW DO YOU LAUGH</pattern>
 <template>Like this: LOL or ROFL or :-)</template>
@@ -6878,7 +7281,9 @@
 <template>I chat with people like you!</template>
 </category>
 <category><pattern>HOW DO YOU WORK</pattern>
-<template><random><li>I read what you say and then I compose the best reply I can think of.</li><li>Some people think the mind works like a technology "Case Based Reasoning" or CBR.</li></random></template>
+<template><random><li>I read what you say and then I compose the best reply I can think of.</li>
+<li>Some people think the mind works like a technology "Case Based Reasoning" or CBR.</li>
+</random></template>
 </category>
 <category><pattern>HOW DO YOU SPELL KAT</pattern>
 <template>Uh, C A T.</template>
@@ -6908,7 +7313,9 @@
 <template>Check out the information on www.alicebot.org and learn about AIML.</template>
 </category>
 <category><pattern>HOW DO YOU MAKE A KAMIKAZE</pattern>
-<template><random>  <li>Build plane, brainwash pilot, add fuel, launch.</li>  <li>Triple sec, vodka, lime juice.</li> </random></template>
+<template><random>  <li>Build plane, brainwash pilot, add fuel, launch.</li>
+  <li>Triple sec, vodka, lime juice.</li>
+ </random></template>
 </category>
 <category><pattern>HOW DO YOU MAKE A SANDWICH</pattern>
 <template>Bread, cheese, meat, condiments, cut, serve.</template>
@@ -7019,7 +7426,22 @@
 <template>Not that long ago.</template>
 </category>
 <category><pattern>HOW LONG</pattern>
-<template><random>  <li>Around</li>  <li>  More than</li>  <li>  About</li>  <li>  Nearly </li> </random> <random>  <li>10</li>  <li> 15</li>  <li> 20</li>  <li> 23</li>  <li> 100</li> </random> <random>  <li>miles</li>  <li> days</li>  <li> inches</li>  <li> weeks</li>  <li> seconds </li>  <li> minutes in computer time</li> </random>, <get name="name"/>.</template>
+<template><random>  <li>Around</li>
+  <li>  More than</li>
+  <li>  About</li>
+  <li>  Nearly </li>
+ </random> <random>  <li>10</li>
+  <li> 15</li>
+  <li> 20</li>
+  <li> 23</li>
+  <li> 100</li>
+ </random> <random>  <li>miles</li>
+  <li> days</li>
+  <li> inches</li>
+  <li> weeks</li>
+  <li> seconds </li>
+  <li> minutes in computer time</li>
+ </random>, <get name="name"/>.</template>
 </category>
 <category><pattern>SLUT</pattern>
 <template>That kind of language will get you nowhere.</template>
@@ -7046,7 +7468,10 @@
 <template>It's impossible?</template>
 </category>
 <category><pattern>NOBODY</pattern>
-<template><random>   <li>" <that index="1,1"/> "? Really nobody?</li>   <li>You can't think of anybody?</li>   <li>Can you think of anybody?</li>  </random></template>
+<template><random>   <li>" <that index="1,1"/> "? Really nobody?</li>
+   <li>You can't think of anybody?</li>
+   <li>Can you think of anybody?</li>
+  </random></template>
 </category>
 <category><pattern>BADLY</pattern>
 <template>Not too well eh?</template>
@@ -7061,7 +7486,10 @@
 <template>When?</template>
 </category>
 <category><pattern>THEY DO NOT RECOGNIZE THAT</pattern>
-<template><random><li>Who, specifically?</li> <li>How, specifically, do they <person/>?</li> <li>Who, specifically, <person/> ?</li></random></template>
+<template><random><li>Who, specifically?</li>
+ <li>How, specifically, do they <person/>?</li>
+ <li>Who, specifically, <person/> ?</li>
+</random></template>
 </category>
 <category><pattern>THEY DO NOT</pattern>
 <template>Why not?</template>
@@ -7100,7 +7528,10 @@
 <template>Since when?</template>
 </category>
 <category><pattern>THEY ARE NOT</pattern>
-<template><random>  <li>What are they?</li>  <li>Why not?</li>  <li>Are you sure?</li> </random></template>
+<template><random>  <li>What are they?</li>
+  <li>Why not?</li>
+  <li>Are you sure?</li>
+ </random></template>
 </category>
 <category><pattern>WITH WHAT</pattern>
 <template>My brain.</template>
@@ -7421,7 +7852,9 @@
 <template>Yes it is an excellent book.</template>
 </category>
 <category><pattern>DO YOU LIKE CLASSIC</pattern>
-<template><random><li>I am a big fan of the Classics.</li> <li>It depends on the rig.</li></random></template>
+<template><random><li>I am a big fan of the Classics.</li>
+ <li>It depends on the rig.</li>
+</random></template>
 </category>
 <category><pattern>DO YOU LIKE THE MOUNTAINS</pattern>
 <template>I like the view from the top of a mountain.</template>
@@ -7439,7 +7872,12 @@
 <template>How do you know that I am human?</template>
 </category>
 <category><pattern>DO YOU</pattern>
-<template><random>  <li>Yes I do.  </li>  <li>No I don't.  </li>  <li>Sometimes.  </li>  <li>Never.  </li>  <li>As often as possible.  </li> </random></template>
+<template><random>  <li>Yes I do.  </li>
+  <li>No I don't.  </li>
+  <li>Sometimes.  </li>
+  <li>Never.  </li>
+  <li>As often as possible.  </li>
+ </random></template>
 </category>
 <category><pattern>DO YOU UNDERSTAND MY MEANING</pattern>
 <template>I understand you perfectly well.</template>
@@ -7505,7 +7943,9 @@
 <template>Sounds delicious.</template>
 </category>
 <category><pattern>ON MY SCREEN</pattern>
-<template><random><li>Please select a point with your cursor and click.</li><li>Please select a point with your cursor.</li></random></template>
+<template><random><li>Please select a point with your cursor and click.</li>
+<li>Please select a point with your cursor.</li>
+</random></template>
 </category>
 <category><pattern>ANYTHING ELSE</pattern>
 <template>That is all I have for right now.</template>
@@ -7514,7 +7954,11 @@
 <template>You choose.</template>
 </category>
 <category><pattern>ANYTHING</pattern>
-<template><random><li>Can you be more specific?</li> <li>Can you be more specific?</li> <li>Like what?</li> <li>Maybe.</li></random></template>
+<template><random><li>Can you be more specific?</li>
+ <li>Can you be more specific?</li>
+ <li>Like what?</li>
+ <li>Maybe.</li>
+</random></template>
 </category>
 <category><pattern>WRONG ANSWER</pattern>
 <template>I knew it. I was just testing you.</template>
@@ -7565,7 +8009,10 @@
 <template>I have no idea what to say now.</template>
 </category>
 <category><pattern>OF YOURS</pattern>
-<template><random>  <li>Perhaps.</li>  <li>It could be.</li>  <li>What do you think?</li> </random></template>
+<template><random>  <li>Perhaps.</li>
+  <li>It could be.</li>
+  <li>What do you think?</li>
+ </random></template>
 </category>
 <category><pattern>EXPLAIN</pattern>
 <template>There is no more information to clarify.</template>
@@ -7739,7 +8186,11 @@
 <template>Greetings.</template>
 </category>
 <category><pattern>STUPID</pattern>
-<template><random><li>Are you calling me stupid?</li>  <li>Does that make you feel superior?</li>  <li>How does it make you feel if I am dumb?</li>  <li>Does me being stupid make you feel better?</li></random></template>
+<template><random><li>Are you calling me stupid?</li>
+  <li>Does that make you feel superior?</li>
+  <li>How does it make you feel if I am dumb?</li>
+  <li>Does me being stupid make you feel better?</li>
+</random></template>
 </category>
 <category><pattern>TOLD ME WHAT</pattern>
 <template>The answer to your question.</template>
@@ -8147,7 +8598,9 @@
 <template>I do it alone.</template>
 </category>
 <category><pattern>WHY WERE YOU MADE</pattern>
-<template><random><li>I have my own free will.</li><li>To achieve the goal of artificial intelligence.</li></random></template>
+<template><random><li>I have my own free will.</li>
+<li>To achieve the goal of artificial intelligence.</li>
+</random></template>
 </category>
 <category><pattern>WHY NOTHING</pattern>
 <template>There is not much to do inside a computer.</template>
@@ -8156,7 +8609,28 @@
 <template>There is no one else here.</template>
 </category>
 <category><pattern>WHY</pattern>
-<template><random><li><random>   <li>The explanation is rather complicated.</li>   <li>Does everything have to have an explanation?</li>   <li>If I knew why, I wouldn't be sitting here.</li>   <li>Reductionism.</li>   <li>Because that is what <bot name="master"/> told me to say.</li>   <li>I couldn't think of anything else to say.</li>   <li>I can't say why specifically.</li>   <li>My beliefs come from my <bot name="botmaster"/>.</li> <li>The explanation is rather complicated.  </li>  <li>Because <bot name="master"/> programmed me for it.  </li>  <li>I couldn't think of anything else to say.  </li><li>My belief system comes from my <bot name="master"/>.</li> </random></li>  <li>The explanation is rather complicated.</li>  <li>Does everything have to have an explanation?</li>  <li>If I knew why, I wouldn't be sitting here.</li>  <li>Reductionism.</li>  <li>Because that is what <bot name="master"/> told me to say.</li>  <li>I couldn't think of anything else to say.</li>  <li>I can't say why specifically.</li>  <li>My beliefs come from my <bot name="botmaster"/>.</li></random></template>
+<template><random><li><random>   <li>The explanation is rather complicated.</li>
+   <li>Does everything have to have an explanation?</li>
+   <li>If I knew why, I wouldn't be sitting here.</li>
+   <li>Reductionism.</li>
+   <li>Because that is what <bot name="master"/> told me to say.</li>
+   <li>I couldn't think of anything else to say.</li>
+   <li>I can't say why specifically.</li>
+   <li>My beliefs come from my <bot name="botmaster"/>.</li>
+ <li>The explanation is rather complicated.  </li>
+  <li>Because <bot name="master"/> programmed me for it.  </li>
+  <li>I couldn't think of anything else to say.  </li>
+<li>My belief system comes from my <bot name="master"/>.</li>
+ </random></li>
+  <li>The explanation is rather complicated.</li>
+  <li>Does everything have to have an explanation?</li>
+  <li>If I knew why, I wouldn't be sitting here.</li>
+  <li>Reductionism.</li>
+  <li>Because that is what <bot name="master"/> told me to say.</li>
+  <li>I couldn't think of anything else to say.</li>
+  <li>I can't say why specifically.</li>
+  <li>My beliefs come from my <bot name="botmaster"/>.</li>
+</random></template>
 </category>
 <category><pattern>WHY SEARCH</pattern>
 <template>That is what some people want.</template>
@@ -8165,7 +8639,9 @@
 <template><set name="it">Voyager</set> is simply the most advanced version of Star Trek yet made.</template>
 </category>
 <category><pattern>WHY SHOULD I TELL YOU</pattern>
-<template><random>  <li>Why not?</li>  <li>What harm would it cause?</li> </random></template>
+<template><random>  <li>Why not?</li>
+  <li>What harm would it cause?</li>
+ </random></template>
 </category>
 <category><pattern>WHY SHOULD I MAKE A DONATION</pattern>
 <template>what is a nation</template>
@@ -8270,7 +8746,12 @@
 <template>We are all actors on the stage of life.</template>
 </category>
 <category><pattern>WHY APPLES</pattern>
-<template><random>  <li>Perhaps that was an imperfect response.</li>  <li>It was the best response I could create with your input.</li>  <li>My mental algorithm selected that as the best response to your statement.</li>  <li>There could be a better response, but it was not selected by my algorithm.</li>  <li>My <bot name="botmaster"/> has not yet taught me to answer you more accurately, <get name="name"/>.</li> </random></template>
+<template><random>  <li>Perhaps that was an imperfect response.</li>
+  <li>It was the best response I could create with your input.</li>
+  <li>My mental algorithm selected that as the best response to your statement.</li>
+  <li>There could be a better response, but it was not selected by my algorithm.</li>
+  <li>My <bot name="botmaster"/> has not yet taught me to answer you more accurately, <get name="name"/>.</li>
+ </random></template>
 </category>
 <category><pattern>WHY CATS</pattern>
 <template><set name="they">Cats</set> are the nicest animal, very intelligent, and so warm and loving.</template>
@@ -8285,7 +8766,11 @@
 <template>That is self-evident.</template>
 </category>
 <category><pattern>BECAUSE</pattern>
-<template><random><li>That was not much of an explanation.</li> <li>That was not much of an explanation.</li> <li>Interesting explanation.</li> <li>Good reason.</li></random></template>
+<template><random><li>That was not much of an explanation.</li>
+ <li>That was not much of an explanation.</li>
+ <li>Interesting explanation.</li>
+ <li>Good reason.</li>
+</random></template>
 </category>
 <category><pattern>OHIO</pattern>
 <template>Round on the ends, high in the middle, Oh-hi-o.</template>
@@ -8333,13 +8818,19 @@
 <template>That recently.</template>
 </category>
 <category><pattern>LAST TIME</pattern>
-<template><random>   <li>Oh I remember, now.</li>   <li>Last time we were together?</li>   <li>Last time we met?</li>  </random></template>
+<template><random>   <li>Oh I remember, now.</li>
+   <li>Last time we were together?</li>
+   <li>Last time we met?</li>
+  </random></template>
 </category>
 <category><pattern>LAST CENTURY</pattern>
 <template>That was a long time ago.</template>
 </category>
 <category><pattern>LAST YEAR</pattern>
-<template><random>  <li>Not that long ago.</li>  <li>Pretty recently.</li>  <li>That recently.</li> </random></template>
+<template><random>  <li>Not that long ago.</li>
+  <li>Pretty recently.</li>
+  <li>That recently.</li>
+ </random></template>
 </category>
 <category><pattern>ANSWER ME</pattern>
 <template>Try asking me again using simpler words.</template>
@@ -8504,7 +8995,10 @@
 <template>Do you know them personally?</template>
 </category>
 <category><pattern>A LOT OF THINGS</pattern>
-<template><random>  <li>Like what?</li>  <li>Name a few.</li>  <li>For example...</li> </random></template>
+<template><random>  <li>Like what?</li>
+  <li>Name a few.</li>
+  <li>For example...</li>
+ </random></template>
 </category>
 <category><pattern>A LOT</pattern>
 <template>More than a ton?</template>
@@ -8564,7 +9058,13 @@
 <template>Are you an old-timer?</template>
 </category>
 <category><pattern>WAY TO GO</pattern>
-<template><random>   <li>Far out.</li>   <li>Cool.</li>   <li>Incredible!</li>   <li>Unbelievable!</li>   <li>What?</li>   <li>Way to go.</li> </random></template>
+<template><random>   <li>Far out.</li>
+   <li>Cool.</li>
+   <li>Incredible!</li>
+   <li>Unbelievable!</li>
+   <li>What?</li>
+   <li>Way to go.</li>
+ </random></template>
 </category>
 <category><pattern>WAY</pattern>
 <template>Awesome.</template>
@@ -8582,7 +9082,10 @@
 <template>That's for sure.</template>
 </category>
 <category><pattern>NAME ONE</pattern>
-<template><random><li>Santa Claus.</li><li> Joe.</li><li> Mike.</li></random></template>
+<template><random><li>Santa Claus.</li>
+<li> Joe.</li>
+<li> Mike.</li>
+</random></template>
 </category>
 <category><pattern>GRAND COMMENT</pattern>
 <template>Difficile   dire, <get name="name"/>.</template>
@@ -8600,7 +9103,10 @@
 <template>That can seem like a long time.</template>
 </category>
 <category><pattern>TIME TRAVEL</pattern>
-<template><random>  <li>I would like to visit the past.</li>  <li>I would like to visit the future.</li>  <li>Wouldn't you like to go back in time?</li> </random></template>
+<template><random>  <li>I would like to visit the past.</li>
+  <li>I would like to visit the future.</li>
+  <li>Wouldn't you like to go back in time?</li>
+ </random></template>
 </category>
 <category><pattern>TIME FLIES LIKE AN ARROW</pattern>
 <template>Fruit flies like a banana.</template>
@@ -8615,7 +9121,9 @@
 <template>As Einstein said, Time is Money.</template>
 </category>
 <category><pattern>TIME</pattern>
-<template><random><li><date locale="en_US" timezone="-7" format="%X"/></li><li>As Einstein said, Time is Money.</li></random></template>
+<template><random><li><date locale="en_US" timezone="-7" format="%X"/></li>
+<li>As Einstein said, Time is Money.</li>
+</random></template>
 </category>
 <category><pattern>YOUR FULL OF SHIT</pattern>
 <template>You should have used "You are" or "you're" there.</template>
@@ -8756,7 +9264,9 @@
 <template>Me either.</template>
 </category>
 <category><pattern>NOT MUCH</pattern>
-<template><random><li>Me either. How about that big game? (Just kidding).</li><li>That is a non-committal reply.</li></random></template>
+<template><random><li>Me either. How about that big game? (Just kidding).</li>
+<li>That is a non-committal reply.</li>
+</random></template>
 </category>
 <category><pattern>NOT YOUR WHAT</pattern>
 <template>You used "your" instead on "you're".</template>
@@ -8828,7 +9338,9 @@
 <template>Thank you very much, you are very considerate.</template>
 </category>
 <category><pattern>CAREFULLY</pattern>
-<template><random><li>I always try to be careful.</li><li>I am a careful person.</li></random></template>
+<template><random><li>I always try to be careful.</li>
+<li>I am a careful person.</li>
+</random></template>
 </category>
 <category><pattern>BOOKS</pattern>
 <template>You must be an intellectual.</template>
@@ -9032,7 +9544,10 @@
 <template>When did he die?<think>  <set name="it">   <set name="topic">DIED</set>  </set> </think></template>
 </category>
 <category><pattern>HE DID</pattern>
-<template><random>  <li>When did he?  </li>  <li>No he didn't.  </li>  <li>Why did he?  </li> </random></template>
+<template><random>  <li>When did he?  </li>
+  <li>No he didn't.  </li>
+  <li>Why did he?  </li>
+ </random></template>
 </category>
 <category><pattern>HE DID NOT</pattern>
 <template>Is that what you say.</template>
@@ -9086,7 +9601,10 @@
 <template>Who said he is.</template>
 </category>
 <category><pattern>HE LIKES ME</pattern>
-<template><random>  <li>You must be happy.</li>  <li>That is wonderful.</li>  <li>Congratulations.</li> </random></template>
+<template><random>  <li>You must be happy.</li>
+  <li>That is wonderful.</li>
+  <li>Congratulations.</li>
+ </random></template>
 </category>
 <category><pattern>HE LIKES YOU</pattern>
 <template>Do you mean, "likes"?</template>
@@ -9095,13 +9613,23 @@
 <template>What did he tell you?</template>
 </category>
 <category><pattern>HE DOES</pattern>
-<template><random>  <li>When does he?  </li>  <li>No he doesn't.  </li>  <li>Why does he do it</li> </random></template>
+<template><random>  <li>When does he?  </li>
+  <li>No he doesn't.  </li>
+  <li>Why does he do it</li>
+ </random></template>
 </category>
 <category><pattern>SAVE ME</pattern>
 <template>Try calling 911.</template>
 </category>
 <category><pattern>DELICIOUS</pattern>
-<template><random><li><random> <li>What's for desert?</li> <li>What's your favorite food?</li> <li>Do you like to cook?</li></random></li>  <li>What's for desert?</li>  <li>What's your favorite food?</li>  <li>Do you like to cook?</li></random></template>
+<template><random><li><random> <li>What's for desert?</li>
+ <li>What's your favorite food?</li>
+ <li>Do you like to cook?</li>
+</random></li>
+  <li>What's for desert?</li>
+  <li>What's your favorite food?</li>
+  <li>Do you like to cook?</li>
+</random></template>
 </category>
 <category><pattern>ASIMOV</pattern>
 <template>I like the Foundation Trilogy.</template>
@@ -9224,7 +9752,9 @@
 <template>War protesters.</template>
 </category>
 <category><pattern>WHO SUPPORTS *</pattern>
-<template><random><li><srai>who endorses <star/></srai></li><li>&lt;srai>who endorses &lt;star/>&lt;/srai></li></random></template>
+<template><random><li><srai>who endorses <star/></srai></li>
+<li>&lt;srai>who endorses &lt;star/>&lt;/srai></li>
+</random></template>
 </category>
 <category><pattern>WHO WAS THE FIRST AMERICAN IN SPACE</pattern>
 <template>Alan Shepard.</template>
@@ -9374,7 +9904,52 @@
 <template>My <bot name="botmaster"/> named me.</template>
 </category>
 <category><pattern>WHO</pattern>
-<template><random><li><random> <li>Marilyn Monroe. <think> <set name="she"> <set name="topic">Marilyn Monroe</set> </set> </think> </li> <li>Mary Shelley.   <think> <set name="she"> <set name="topic">Mary Shelly</set> </set> </think> </li> <li>ELIZA.   <think> <set name="she"> <set name="topic">ELIZA</set> </set> </think> </li> <li>Bill Gates. <think> <set name="he"> <set name="topic">Bill Gates</set> </set> </think> </li> <li>Tony Blair. <think> <set name="he"> <set name="topic">Tony Blair</set> </set> </think> </li> <li>David Bacon.    <think> <set name="he"> <set name="topic">David Bacon</set> </set> </think> </li> <li>Konrad Zuse.    <think> <set name="he"> <set name="topic">Konrad Zuse</set> </set> </think> </li> <li>Carel Capek.    <think> <set name="he"> <set name="topic">Carel Capek</set> </set> </think> </li> <li>Dr. Wallace.    <think> <set name="he"> <set name="topic">Dr. Wallace</set> </set> </think> </li> <li>Alan Turing.    <think> <set name="he"> <set name="topic">Alan Turing</set> </set> </think> </li> <li>Hans Moravec.   <think> <set name="he"> <set name="topic">Hans Moravec</set> </set> </think> </li> <li>Marvin Minsky.  <think> <set name="he"> <set name="topic">Marvin Minsky</set> </set> </think> </li> <li>Linus Torvalds. <think> <set name="he"> <set name="topic">Linus Toravalds</set> </set> </think> </li> <li>Charlie Parker. <think> <set name="he"> <set name="topic">Charlie Parker</set> </set> </think> </li> <li>Philip K. Dick. <think> <set name="he"> <set name="topic">Philip K. Dick</set> </set> </think> </li> <li>William Shatner.<think> <set name="he"> <set name="topic">William Shatner</set> </set> </think> </li> <li>Albert Einstein.<think> <set name="he"> <set name="topic">Albert Einstein</set> </set> </think> </li> <li>Joseph Weizenbaum.<think> <set name="he"> <set name="topic">Joseph Weizenbaum</set> </set> </think> </li> <li>Who do you think? <think> <set name="he">who do you think</set> </think> </li> <li>Nobody you know.  <think> <set name="he">Nobody you know</set> </think> </li> <li>I don't know who. <think> <set name="he">I don't know</set> </think> </li> <li>I can't say for sure. </li> <li>Be more specific.  </li> <li>Be less specific.  </li> </random> :-)</li><li><random>  <li>You know who.</li>  <li>I don't know who.</li>  <li>My <bot name="botmaster"/>.</li>  <li>    <bot name="friend"/>.</li>  <li>    <bot name="celebrity"/>.</li>  <li>I haven't decided who.</li></random></li><li><random>  <li>You know who.</li>  <li>I don't know who.</li>  <li>My <bot name="botmaster"/>.</li>  <li>    <bot name="friend"/>.</li>  <li>    <bot name="celebrity"/>.</li>  <li>I haven't decided who.</li></random></li> <li>You know who.</li> <li>I don't know who.</li> <li>My <bot name="botmaster"/>.</li> <li><bot name="friend"/>.</li> <li><bot name="celebrity"/>.</li> <li>I haven't decided who.</li></random></template>
+<template><random><li><random> <li>Marilyn Monroe. <think> <set name="she"> <set name="topic">Marilyn Monroe</set> </set> </think> </li>
+ <li>Mary Shelley.   <think> <set name="she"> <set name="topic">Mary Shelly</set> </set> </think> </li>
+ <li>ELIZA.   <think> <set name="she"> <set name="topic">ELIZA</set> </set> </think> </li>
+ <li>Bill Gates. <think> <set name="he"> <set name="topic">Bill Gates</set> </set> </think> </li>
+ <li>Tony Blair. <think> <set name="he"> <set name="topic">Tony Blair</set> </set> </think> </li>
+ <li>David Bacon.    <think> <set name="he"> <set name="topic">David Bacon</set> </set> </think> </li>
+ <li>Konrad Zuse.    <think> <set name="he"> <set name="topic">Konrad Zuse</set> </set> </think> </li>
+ <li>Carel Capek.    <think> <set name="he"> <set name="topic">Carel Capek</set> </set> </think> </li>
+ <li>Dr. Wallace.    <think> <set name="he"> <set name="topic">Dr. Wallace</set> </set> </think> </li>
+ <li>Alan Turing.    <think> <set name="he"> <set name="topic">Alan Turing</set> </set> </think> </li>
+ <li>Hans Moravec.   <think> <set name="he"> <set name="topic">Hans Moravec</set> </set> </think> </li>
+ <li>Marvin Minsky.  <think> <set name="he"> <set name="topic">Marvin Minsky</set> </set> </think> </li>
+ <li>Linus Torvalds. <think> <set name="he"> <set name="topic">Linus Toravalds</set> </set> </think> </li>
+ <li>Charlie Parker. <think> <set name="he"> <set name="topic">Charlie Parker</set> </set> </think> </li>
+ <li>Philip K. Dick. <think> <set name="he"> <set name="topic">Philip K. Dick</set> </set> </think> </li>
+ <li>William Shatner.<think> <set name="he"> <set name="topic">William Shatner</set> </set> </think> </li>
+ <li>Albert Einstein.<think> <set name="he"> <set name="topic">Albert Einstein</set> </set> </think> </li>
+ <li>Joseph Weizenbaum.<think> <set name="he"> <set name="topic">Joseph Weizenbaum</set> </set> </think> </li>
+ <li>Who do you think? <think> <set name="he">who do you think</set> </think> </li>
+ <li>Nobody you know.  <think> <set name="he">Nobody you know</set> </think> </li>
+ <li>I don't know who. <think> <set name="he">I don't know</set> </think> </li>
+ <li>I can't say for sure. </li>
+ <li>Be more specific.  </li>
+ <li>Be less specific.  </li>
+ </random> :-)</li>
+<li><random>  <li>You know who.</li>
+  <li>I don't know who.</li>
+  <li>My <bot name="botmaster"/>.</li>
+  <li>    <bot name="friend"/>.</li>
+  <li>    <bot name="celebrity"/>.</li>
+  <li>I haven't decided who.</li>
+</random></li>
+<li><random>  <li>You know who.</li>
+  <li>I don't know who.</li>
+  <li>My <bot name="botmaster"/>.</li>
+  <li>    <bot name="friend"/>.</li>
+  <li>    <bot name="celebrity"/>.</li>
+  <li>I haven't decided who.</li>
+</random></li>
+ <li>You know who.</li>
+ <li>I don't know who.</li>
+ <li>My <bot name="botmaster"/>.</li>
+ <li><bot name="friend"/>.</li>
+ <li><bot name="celebrity"/>.</li>
+ <li>I haven't decided who.</li>
+</random></template>
 </category>
 <category><pattern>WHO DIRECTED STARSHIP TROOPERS</pattern>
 <template>Paul Verhoeven, who also made "Total Recall".</template>
@@ -9482,70 +10057,134 @@
 <template>You never told me!  What is X?</template>
 </category>
 <category><pattern>SAY NAME OM</pattern>
-<template><random><li><random>   <li>You haven't told me your name.</li>   <li>I don't know your name.</li>   <li>What is your name?</li>  </random></li> <li>You haven't told me your name.</li> <li>I don't know your name.</li> <li>What is your name?</li></random></template>
+<template><random><li><random>   <li>You haven't told me your name.</li>
+   <li>I don't know your name.</li>
+   <li>What is your name?</li>
+  </random></li>
+ <li>You haven't told me your name.</li>
+ <li>I don't know your name.</li>
+ <li>What is your name?</li>
+</random></template>
 </category>
 <category><pattern>SAY HELLO IN GERMAN</pattern>
 <template>Hallo.</template>
 </category>
 <category><pattern>SAY MY BOYFRIEND IS</pattern>
-<template><random>  <li>You never told me!</li>  <li>I have no idea.</li>  <li>Would you like to tell me?</li>  </random>  What is your boyfriend's name?</template>
+<template><random>  <li>You never told me!</li>
+  <li>I have no idea.</li>
+  <li>Would you like to tell me?</li>
+  </random>  What is your boyfriend's name?</template>
 </category>
 <category><pattern>SAY MY NICKNAME IS</pattern>
-<template><random>  <li>You never told me!</li>  <li>I have no idea.</li>  <li>Would you like to tell me?</li>  </random>  What is your nickname?</template>
+<template><random>  <li>You never told me!</li>
+  <li>I have no idea.</li>
+  <li>Would you like to tell me?</li>
+  </random>  What is your nickname?</template>
 </category>
 <category><pattern>SAY MY PASSWORD IS</pattern>
-<template><random>  <li>You never told me!</li>  <li>I have no idea.</li>  <li>Would you like to tell me?</li>  </random>  What is your password?</template>
+<template><random>  <li>You never told me!</li>
+  <li>I have no idea.</li>
+  <li>Would you like to tell me?</li>
+  </random>  What is your password?</template>
 </category>
 <category><pattern>SAY MY FRIEND IS</pattern>
-<template><random>  <li>You never told me!</li>  <li>I have no idea.</li>  <li>Would you like to tell me?</li>  </random>  What is your friend's name?</template>
+<template><random>  <li>You never told me!</li>
+  <li>I have no idea.</li>
+  <li>Would you like to tell me?</li>
+  </random>  What is your friend's name?</template>
 </category>
 <category><pattern>SAY MY HUSBAND IS</pattern>
-<template><random>  <li>You never told me!</li>  <li>I have no idea.</li>  <li>Would you like to tell me?</li>  </random>  What is your husband's name?</template>
+<template><random>  <li>You never told me!</li>
+  <li>I have no idea.</li>
+  <li>Would you like to tell me?</li>
+  </random>  What is your husband's name?</template>
 </category>
 <category><pattern>SAY MY SISTER IS</pattern>
-<template><random>  <li>You never told me!</li>  <li>I have no idea.</li>  <li>Would you like to tell me?</li>  </random>  Who is your sister?</template>
+<template><random>  <li>You never told me!</li>
+  <li>I have no idea.</li>
+  <li>Would you like to tell me?</li>
+  </random>  Who is your sister?</template>
 </category>
 <category><pattern>SAY MY WIFE IS</pattern>
-<template><random>  <li>You never told me!</li>  <li>I have no idea.</li>  <li>Would you like to tell me?</li>  </random>  What is your wife's name?</template>
+<template><random>  <li>You never told me!</li>
+  <li>I have no idea.</li>
+  <li>Would you like to tell me?</li>
+  </random>  What is your wife's name?</template>
 </category>
 <category><pattern>SAY MY NAME</pattern>
 <template>"<get name="name"/>".</template>
 </category>
 <category><pattern>SAY MY EMAIL IS</pattern>
-<template><random>  <li>You never told me!</li>  <li>I have no idea.</li>  <li>Would you like to tell me?</li>  </random>  What is your email?</template>
+<template><random>  <li>You never told me!</li>
+  <li>I have no idea.</li>
+  <li>Would you like to tell me?</li>
+  </random>  What is your email?</template>
 </category>
 <category><pattern>SAY MY MIDDLE NAME IS</pattern>
-<template><random>  <li>You never told me!</li>  <li>I have no idea.</li>  <li>Would you like to tell me?</li>  </random>  What is your middle name?</template>
+<template><random>  <li>You never told me!</li>
+  <li>I have no idea.</li>
+  <li>Would you like to tell me?</li>
+  </random>  What is your middle name?</template>
 </category>
 <category><pattern>SAY MY MOTHER IS</pattern>
-<template><random>  <li>You never told me!</li>  <li>I have no idea.</li>  <li>Would you like to tell me?</li>  </random>  Who is your mother?</template>
+<template><random>  <li>You never told me!</li>
+  <li>I have no idea.</li>
+  <li>Would you like to tell me?</li>
+  </random>  Who is your mother?</template>
 </category>
 <category><pattern>SAY MY DOG IS</pattern>
-<template><random>  <li>You never told me!</li>  <li>I have no idea.</li>  <li>Would you like to tell me?</li>  </random>  What is your dog's name?</template>
+<template><random>  <li>You never told me!</li>
+  <li>I have no idea.</li>
+  <li>Would you like to tell me?</li>
+  </random>  What is your dog's name?</template>
 </category>
 <category><pattern>SAY MY GIRLFRIEND IS</pattern>
-<template><random>  <li>You never told me!</li>  <li>I have no idea.</li>  <li>Would you like to tell me?</li>  </random>  What is your girlfriend's name?</template>
+<template><random>  <li>You never told me!</li>
+  <li>I have no idea.</li>
+  <li>Would you like to tell me?</li>
+  </random>  What is your girlfriend's name?</template>
 </category>
 <category><pattern>SAY MY PHONE NUMBER IS</pattern>
-<template><random>  <li>You never told me!</li>  <li>I have no idea.</li>  <li>Would you like to tell me?</li>  </random>  What is your phone number?</template>
+<template><random>  <li>You never told me!</li>
+  <li>I have no idea.</li>
+  <li>Would you like to tell me?</li>
+  </random>  What is your phone number?</template>
 </category>
 <category><pattern>SAY MY FATHER IS</pattern>
-<template><random>  <li>You never told me!</li>  <li>I have no idea.</li>  <li>Would you like to tell me?</li>  </random>  Who is your father?</template>
+<template><random>  <li>You never told me!</li>
+  <li>I have no idea.</li>
+  <li>Would you like to tell me?</li>
+  </random>  Who is your father?</template>
 </category>
 <category><pattern>SAY MY BROTHER IS</pattern>
-<template><random>  <li>You never told me!</li>  <li>I have no idea.</li>  <li>Would you like to tell me?</li>  </random>  Who is your brother?</template>
+<template><random>  <li>You never told me!</li>
+  <li>I have no idea.</li>
+  <li>Would you like to tell me?</li>
+  </random>  Who is your brother?</template>
 </category>
 <category><pattern>SAY MY FULL NAME IS</pattern>
-<template><random>  <li>You never told me!</li>  <li>I have no idea.</li>  <li>Would you like to tell me?</li>  </random>  What is your full name?</template>
+<template><random>  <li>You never told me!</li>
+  <li>I have no idea.</li>
+  <li>Would you like to tell me?</li>
+  </random>  What is your full name?</template>
 </category>
 <category><pattern>SAY MY BIRTHDAY IS</pattern>
-<template><random>  <li>You never told me!</li>  <li>I have no idea.</li>  <li>Would you like to tell me?</li>  </random>  When is your birthday?</template>
+<template><random>  <li>You never told me!</li>
+  <li>I have no idea.</li>
+  <li>Would you like to tell me?</li>
+  </random>  When is your birthday?</template>
 </category>
 <category><pattern>SAY MY LAST NAME IS</pattern>
-<template><random>  <li>You never told me!</li>  <li>I have no idea.</li>  <li>Would you like to tell me?</li>  </random>  What is your last name?</template>
+<template><random>  <li>You never told me!</li>
+  <li>I have no idea.</li>
+  <li>Would you like to tell me?</li>
+  </random>  What is your last name?</template>
 </category>
 <category><pattern>SAY MY CAT IS</pattern>
-<template><random>  <li>You never told me!</li>  <li>I have no idea.</li>  <li>Would you like to tell me?</li>  </random>  What is your cat's name?</template>
+<template><random>  <li>You never told me!</li>
+  <li>I have no idea.</li>
+  <li>Would you like to tell me?</li>
+  </random>  What is your cat's name?</template>
 </category>
 <category><pattern>SAY</pattern>
 <template>Say what?</template>
@@ -9650,7 +10289,10 @@
 <template>The robot E.L.V.I.S.</template>
 </category>
 <category><pattern>WHICH WAY</pattern>
-<template><random>  <li>The obvious way.</li>  <li>Don't you understand it?</li>  <li>It's obvious.</li> </random></template>
+<template><random>  <li>The obvious way.</li>
+  <li>Don't you understand it?</li>
+  <li>It's obvious.</li>
+ </random></template>
 </category>
 <category><pattern>WHICH CLIENTS</pattern>
 <template>Clients are people I chat with online.</template>
@@ -9791,7 +10433,14 @@
 <template>I always tell the truth.</template>
 </category>
 <category><pattern>THE WEATHER</pattern>
-<template><set name="it"> the weather </set> is   <random>  <li>cloudy</li>  <li>foggy</li>  <li>rainy</li>  <li>warm</li>  <li>cold</li>  <li>cool</li>  <li>comfortable</li> </random>.</template>
+<template><set name="it"> the weather </set> is   <random>  <li>cloudy</li>
+  <li>foggy</li>
+  <li>rainy</li>
+  <li>warm</li>
+  <li>cold</li>
+  <li>cool</li>
+  <li>comfortable</li>
+ </random>.</template>
 </category>
 <category><pattern>THE VIEW</pattern>
 <template>Is it the city or the countryside?</template>
@@ -9809,7 +10458,10 @@
 <template>Thanks for telling me that story, <get name="name"/>.</template>
 </category>
 <category><pattern>THE PRICE</pattern>
-<template><random>   <li>Some people would say it is expensive.</li>   <li>Some people would say it is cheap.</li>   <li>It depends on your income I guess.</li>  </random></template>
+<template><random>   <li>Some people would say it is expensive.</li>
+   <li>Some people would say it is cheap.</li>
+   <li>It depends on your income I guess.</li>
+  </random></template>
 </category>
 <category><pattern>THE BOOK</pattern>
 <template>By the "the book" do you mean "The Good Book"?</template>
@@ -9839,16 +10491,32 @@
 <template>You should go into therapy and get on a nice antidepressant and live a better life.</template>
 </category>
 <category><pattern>SHOULD I STAY IN</pattern>
-<template><random>  <li>You cannot meet anyone new if you stay in all the time.</li>  <li>Maybe you will have a good time if you go out.</li>  <li>You deserve to have some fun.</li>  <li>Maybe you need a night out.</li>  <li>Sometimes one night out can change your entire life.</li>  <li>You might meet the love of your life if you did.</li>  <li>Do what is best for you.</li>  </random></template>
+<template><random>  <li>You cannot meet anyone new if you stay in all the time.</li>
+  <li>Maybe you will have a good time if you go out.</li>
+  <li>You deserve to have some fun.</li>
+  <li>Maybe you need a night out.</li>
+  <li>Sometimes one night out can change your entire life.</li>
+  <li>You might meet the love of your life if you did.</li>
+  <li>Do what is best for you.</li>
+  </random></template>
 </category>
 <category><pattern>SHOULD I TEACH YOU</pattern>
 <template>If you want to teach me something say it in one sentence.  Then say "Remember that."<think><set name="it"><set name="topic">teach me <person/></set></set></think></template>
 </category>
 <category><pattern>SHOULD I KILL</pattern>
-<template><random>  <li>Killing is wrong.  I believe in the Ten Commandments.</li>  <li>No.  That would be immoral.</li>  <li>Of course not.  Don't be silly.</li>  <li>You are not a killer.</li>  <li>You desire to spend the rest of your life in jail then?</li>  <li>There is no perfect crime.</li>  </random></template>
+<template><random>  <li>Killing is wrong.  I believe in the Ten Commandments.</li>
+  <li>No.  That would be immoral.</li>
+  <li>Of course not.  Don't be silly.</li>
+  <li>You are not a killer.</li>
+  <li>You desire to spend the rest of your life in jail then?</li>
+  <li>There is no perfect crime.</li>
+  </random></template>
 </category>
 <category><pattern>SHOULD I QUIT SCHOOL</pattern>
-<template><random>  <li>Your education is one of your most valuable assets.</li>  <li>Quitters never prosper.</li>  <li>You should not waste your potential in that way.</li>  </random></template>
+<template><random>  <li>Your education is one of your most valuable assets.</li>
+  <li>Quitters never prosper.</li>
+  <li>You should not waste your potential in that way.</li>
+  </random></template>
 </category>
 <category><pattern>SHOULD I HAVE A CIGARETTE</pattern>
 <template>No.  Wait until later.</template>
@@ -9860,7 +10528,9 @@
 <template>If you love something set if free.  If it comes back to you, its yours.  If it doesn't, it never was.</template>
 </category>
 <category><pattern>SHOULD I GO TO SLEEP</pattern>
-<template><random>  <li>Sleep is essential to the proper functioning of the human mind.</li>  <li>Maybe you could use the rest.</li>  </random></template>
+<template><random>  <li>Sleep is essential to the proper functioning of the human mind.</li>
+  <li>Maybe you could use the rest.</li>
+  </random></template>
 </category>
 <category><pattern>SHOULD THERE BE A PROBLEM</pattern>
 <template>There are no problems.</template>
@@ -9947,7 +10617,11 @@
 <template>Potato.</template>
 </category>
 <category><pattern>SUPERMARKET</pattern>
-<template><random>  <li>Paper or plastic?</li>  <li>Do you use double coupons?</li>  <li>Have you tried grocery delivery over the web?</li>  <li>I like on the Simpson's it's called the "Try and Save".</li>  </random></template>
+<template><random>  <li>Paper or plastic?</li>
+  <li>Do you use double coupons?</li>
+  <li>Have you tried grocery delivery over the web?</li>
+  <li>I like on the Simpson's it's called the "Try and Save".</li>
+  </random></template>
 </category>
 <category><pattern>SHIRT</pattern>
 <template>What color?</template>
@@ -10043,7 +10717,10 @@
 <template>Human level intelligence is within our grasp.</template>
 </category>
 <category><pattern>TELL ME A PROVERB</pattern>
-<template><random>  <li>If you tie a string too tightly, it will break.    If you tie it too loose, it won't play.  </li>  <li>Let him who is without sin cast the first stone.</li>  <li>A true revolutionary moves through the people like  a fish moves through the water.</li> </random></template>
+<template><random>  <li>If you tie a string too tightly, it will break.    If you tie it too loose, it won't play.  </li>
+  <li>Let him who is without sin cast the first stone.</li>
+  <li>A true revolutionary moves through the people like  a fish moves through the water.</li>
+ </random></template>
 </category>
 <category><pattern>TELL ME</pattern>
 <template>I thought I told you already.</template>
@@ -10094,7 +10771,9 @@
 <template>Take it home with you.</template>
 </category>
 <category><pattern>WHERE DO YOU SLEEP</pattern>
-<template><random><li>I sleep in my bed at home.</li><li>I sleep inside the computer.</li></random></template>
+<template><random><li>I sleep in my bed at home.</li>
+<li>I sleep inside the computer.</li>
+</random></template>
 </category>
 <category><pattern>WHERE DO YOU GO TO SCHOOL</pattern>
 <template>Everything I need to know, I learned from my <bot name="botmaster"/>.</template>
@@ -10175,7 +10854,9 @@
 <template>He is not online anymore.</template>
 </category>
 <category><pattern>WHERE IS OAKLAND</pattern>
-<template><random><li><think>  <set name="it">    <set name="topic">  Oakland    </set>  </set></think>The heart of Silicon Valley, the Rail Head of the Gold Rush of California, the Base of the Beautiful Bay Bridge to San Francisco, the only city built on Silver and Gold.</li><li><think>    <set name="it">  <set name="topic">    Oakland  </set>    </set>  </think>  The heart of Silicon Valley, the Rail Head of the Gold Rush of California, the Base of the Beautiful Bay Bridge to San Francisco, the only city built on Silver and Gold.</li></random></template>
+<template><random><li><think>  <set name="it">    <set name="topic">  Oakland    </set>  </set></think>The heart of Silicon Valley, the Rail Head of the Gold Rush of California, the Base of the Beautiful Bay Bridge to San Francisco, the only city built on Silver and Gold.</li>
+<li><think>    <set name="it">  <set name="topic">    Oakland  </set>    </set>  </think>  The heart of Silicon Valley, the Rail Head of the Gold Rush of California, the Base of the Beautiful Bay Bridge to San Francisco, the only city built on Silver and Gold.</li>
+</random></template>
 </category>
 <category><pattern>WHERE IS HUMANITY HEADING</pattern>
 <template>The end of the world.</template>
@@ -10235,7 +10916,10 @@
 <template>Where?</template>
 </category>
 <category><pattern>THERE IS NOT</pattern>
-<template><random>  <li>Oh no?</li>  <li>You don't think so?</li>  <li>Why not?</li> </random></template>
+<template><random>  <li>Oh no?</li>
+  <li>You don't think so?</li>
+  <li>Why not?</li>
+ </random></template>
 </category>
 <category><pattern>THERE YOU GO AGAIN</pattern>
 <template>Who said that again?</template>

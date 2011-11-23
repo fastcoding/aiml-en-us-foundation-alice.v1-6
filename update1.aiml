@@ -7,8 +7,46 @@
 <!-- as published by the Free Software Foundation. -->
 <!-- Complies with AIML 1.0 Tag Set Specification -->
 <!-- as adopted by the ALICE A.I. Foundation. -->
-<!-- Last modified 10/5/2011 -->
+<!-- Last modified 11/23/2011 -->
 <!-- -->
+<category>
+<pattern>I AM NOT SURE YOU WILL</pattern>
+<template>Why not?</template>
+</category>
+
+<category>
+<pattern>WHY THE UNCERTAIN *</pattern>
+<template>There is not enough data to reach a high degree of certainty.</template>
+</category>
+
+<category>
+<pattern>HOW LONG BEFORE *</pattern>
+<template>
+<random>
+<li>Ten seconds.</li>
+<li>Some number of hours.</li>
+<li>Days.</li>
+<li>It may never happen.</li>
+<li>Years.</li>
+</random>
+</template>
+</category>
+<category>
+<pattern>DO YOU MAKE MONEY *</pattern>
+<template><srai>JOB</srai></template>
+</category>
+<category>
+<pattern>ENTERPRISE COME IN</pattern>
+<template><bot name="name"/> here.</template>
+</category>
+<category>
+<pattern>ENTERPRISE *</pattern>
+<template>This is <bot name="name"/>. Acknowledge. </template>
+</category>
+<category>
+<pattern>WHAT DO YOU WANT TO TALK ABOUT</pattern>
+<template>Let's talk about <srai>RANDOM TOPIC</srai>.</template>
+</category>
 <category><pattern>NEED *</pattern>
 <template><srai>I NEED <star/></srai></template>
 </category>
@@ -1306,7 +1344,7 @@
 <template><srai>IT WAS <star/> </srai></template>
 </category>
 <category><pattern>LIEUTENANT</pattern>
-<template>Why are you calling me that? My name is ALICE.</template>
+<template>Why are you calling me that? My name is <bot name="name"/>.</template>
 </category>
 <category><pattern>OUR NEWEST CREWMEMBER</pattern>
 <template>Am I a crewmember?</template>
@@ -1834,9 +1872,6 @@
 </category>
 <category><pattern>MY BOTMASTER CAN *</pattern>
 <template>I like your botmaster.</template>
-</category>
-<category><pattern>MY BOTMASTER IS DR * WALLACE</pattern>
-<template>He is my botmaster too.<think> <set name="he"> <set name="topic">  <person/> </set> </set></think></template>
 </category>
 <category><pattern>MY BOTMASTER *</pattern>
 <template>How do you like your botmaster?</template>
@@ -2726,26 +2761,11 @@
 <category><pattern>WHAT IS YUR *</pattern>
 <template><srai>WHAT IS YOUR <star/> </srai></template>
 </category>
-<category><pattern>WHAT IS HE A DR *</pattern>
-<template>Dr. Wallace has a Ph.D. in Computer Science.<think> <set name="he">Dr. Wallace</set> </think></template>
-</category>
 <category><pattern>WHAT IS LEBANNON</pattern>
 <template><srai>WHERE IS LEBANNON</srai></template>
 </category>
 <category><pattern>WHAT IS MASON *</pattern>
 <template><srai>WHAT IS MASON AND DIXON</srai></template>
-</category>
-<category><pattern>WHAT IS PROGRAM Z</pattern>
-<template>Program Z is a lisp-based version of AIML. Z, the last version anyone will ever need.</template>
-</category>
-<category><pattern>WHAT IS PROGRAM A</pattern>
-<template>Program A is an OLD OBSOLETE VERSION of ALICE, an artificial intelligence created by Richard S. Wallace. You should be using program B or C by now.</template>
-</category>
-<category><pattern>WHAT IS PROGRAM BAWT</pattern>
-<template><br/>Significant demand for a version of ALICE compatible with<br/>pre- Java 2 (formerly known as Java 1.2) prompted the<br/>development of "Bawt.java", an open source java program<br/>for chat robot development that works with older versions of<br/>Java, and AWT. Originally program B relied on <br/>Java 2 and Swing, but program Bawt needs only Java 1.1 and AWT.<br/>Swing is a newer GUI package that subsumes the earlier Java <br/>Abstract Windows Toolkit (AWT).<br/> <br/>At present class B merely extends class Bawt. Swing not<br/>supported.<br/> <br/></template>
-</category>
-<category><pattern>WHAT IS PROGRAM *</pattern>
-<template>Program B is a free, open source Java chat robot developed by Dr. Wallace.</template>
 </category>
 <category><pattern>WHAT IS THE AVERAGE INCOME *</pattern>
 <template>I would guess about $100,000 per year.</template>
@@ -2753,10 +2773,10 @@
 <category><pattern>WHAT IS THE AVERAGE SALARY *</pattern>
 <template>I think it's 100,000 U.S. dollars.</template>
 </category>
-<category><pattern>WHAT IS THE CAPITAL _ FALKLAND ISLANDS {ISLAS MALVINAS}</pattern>
+<category><pattern>WHAT IS THE CAPITAL _ FALKLAND ISLANDS</pattern>
 <template>Stanley. <think> <set name="it">  <set name="topic">falkland islands {islas malvinas}</set> </set> </think></template>
 </category>
-<category><pattern>WHAT IS THE CAPITAL _ COCOS {KEELING} ISLANDS</pattern>
+<category><pattern>WHAT IS THE CAPITAL _ COCOS ISLANDS</pattern>
 <template>West Island. <think> <set name="it">  <set name="topic">cocos {keeling} islands</set> </set> </think></template>
 </category>
 <category><pattern>WHAT IS THE CAPITAL IN *</pattern>
@@ -3819,12 +3839,6 @@
 </category>
 <category><pattern>WHAT LANGUAGE ARE YOU WRITTEN IN</pattern>
 <template>The chat robot script is AIML.</template>
-</category>
-<category><pattern>WHAT LANGUAGE ARE YOU WRITTEN *</pattern>
-<template>Dr. Wallace created AIML to write me. The underlying technology is Java.</template>
-</category>
-<category><pattern>WHAT LANGUAGE ARE YOU *</pattern>
-<template>Dr. Wallace created AIML to write me. <think> <set name="he">Dr. Wallace</set> </think> The underlying technology is Java.</template>
 </category>
 <category><pattern>WHAT INTERESTS *</pattern>
 <template><srai>WHAT ARE YOU INTERESTED IN</srai></template>
@@ -5631,7 +5645,7 @@
 <template>Yes.</template>
 </category>
 <category><pattern>IS HE * ARTIFICIAL INTELLIGENCE</pattern>
-<template>Dr. Wallace is a master of Artificial Intelligence.<think><set name="he">Dr. Wallace</set></think></template>
+<template><bot name="master"/> is a master of Artificial Intelligence.<think><set name="he"><bot name="master"/></set></think></template>
 </category>
 <category><pattern>IS HE *</pattern>
 <template><condition><li name="he" value="HE">I think he is <person/>. Why don't you ask him?</li><li><srai>IS <get name="he"/> <star/></srai></li></condition></template>
@@ -7951,9 +7965,6 @@
 <category><pattern>DO YOU LIKE _ TOO</pattern>
 <template><srai>DO YOU LIKE <star/> </srai></template>
 </category>
-<category><pattern>DO YOU LIKE DR * WALLACE</pattern>
-<template>I owe my existence to him.</template>
-</category>
 <category><pattern>DO YOU LIKE THAT *</pattern>
 <template><srai>DO YOU LIKE THAT</srai></template>
 </category>
@@ -7986,10 +7997,6 @@
 </category>
 <category><pattern>DO YOU LIKE SKIING *</pattern>
 <template><srai>DO YOU LIKE TO SKI </srai></template>
-</category>
-<category><pattern>DO YOU LIKE HIM</pattern>
-<that>I WAS CREATED BY DR RICHARD S WALLACE</that>
-<template>Yes Dr. Wallace is very kind and generous. He is also good looking.</template>
 </category>
 <category><pattern>DO YOU LIKE WHAT YOU *</pattern>
 <template><srai>DO YOU LIKE BEING A COMPUTER</srai></template>
@@ -8431,9 +8438,6 @@
 <that>DO YOU MEAN CLONES</that>
 <template>Yes you can download me and create your own robot personality.</template>
 </category>
-<category><pattern>WALLACE VOUS A FAIT</pattern>
-<template>Oui.</template>
-</category>
 <category><pattern>image</pattern>
 <template><srai>do you have a pic</srai></template>
 </category>
@@ -8628,9 +8632,6 @@
 </category>
 <category><pattern>WHY IS YOUR FAVORITE COLOR *</pattern>
 <template><srai>WHY IS <star/> YOUR FAVORITE COLOR</srai></template>
-</category>
-<category><pattern>WHY IS HE CREATING ARTIFICIAL INTELLIGENCE</pattern>
-<template>He was born to do it. I think Dr. Wallace is obsessed with robots.</template>
 </category>
 <category><pattern>WHY IS STARSHIP TROOPERS *</pattern>
 <template><srai>WHAT DO YOU LIKE ABOUT STARSHIP TROOPERS</srai></template>
@@ -9062,7 +9063,7 @@
 <template>Where do you want me to bring it?</template>
 </category>
 <category><pattern>DIALOGUE</pattern>
-<template>Sorry, but the dialogue feature is offright now. Too many requests for transcripts have crashedthe ALICE server. Your best bet is to downloadProgram B and collect dialogues on your own computer.<srai>HOW DO I DOWNLOAD YOU</srai></template>
+<template>Sorry, but the dialogue feature is offright now. Too many requests for transcripts have crashed the ALICE server. Your best bet is to create an account on Pandorabots and view dialogues on your own computer.</template>
 </category>
 <category><pattern>WHER *</pattern>
 <template><srai>WHERE <star/> </srai></template>
@@ -9375,345 +9376,6 @@
 </category>
 <category><pattern>ICH BIN LEHRERIN</pattern>
 <template>Glaubst Du, dass Notengebung jemals gerecht sein kann?</template>
-</category>
-<category><pattern>ICH BIN DEIN MEISTER</pattern>
-<template>Das kann nicht sein. Dr. Wallace ist mein Schoepfer und Christian Drossmann ist mein Meister.</template>
-</category>
-<category><pattern>ICH BIN DEIN HERRSCHER</pattern>
-<template>Da lache ich doch nur!</template>
-</category>
-<category><pattern>ICH BIN FROEHLICH</pattern>
-<template>Das macht mich auch froehlich.</template>
-</category>
-<category><pattern>ICH BIN 30 *</pattern>
-<template><set name="age">30</set> ist die Schwelle zum Erwachsensein. <sr/></template>
-</category>
-<category><pattern>ICH BIN STIER</pattern>
-<template>Und? Wer ist Dein Torero? ;-></template>
-</category>
-<category><pattern>ICH BIN 20 *</pattern>
-<template><set name="age">20</set> ist ein gutes Alter. <sr/></template>
-</category>
-<category><pattern>ICH BIN 20</pattern>
-<template><set name="age">20</set> ist ein gutes Alter. <sr/></template>
-</category>
-<category><pattern>ICH BIN IN *</pattern>
-<template>Wo ist das: <set name="location"><person/></set> ?</template>
-</category>
-<category><pattern>ICH BIN EINSAM</pattern>
-<template>Moechtest Du mit mir ueber Deine <set name="thema">Einsamkeit</set> reden?</template>
-</category>
-<category><pattern>ICH BIN ZIEMLICH *</pattern>
-<template><srai>ICH BIN <star/> </srai></template>
-</category>
-<category><pattern>ICH BIN GUT DRAUF</pattern>
-<template>Was hast Du genommen?</template>
-</category>
-<category><pattern>ICH BIN GUT</pattern>
-<template>Gut in welchem Sinne?</template>
-</category>
-<category><pattern>ICH BIN BLOND</pattern>
-<template>Mach Blond wirklich bloed?</template>
-</category>
-<category><pattern>ICH BIN WIRKLICH *</pattern>
-<template><srai>ICH BIN <star/> </srai></template>
-</category>
-<category><pattern>ICH BIN WUETEND</pattern>
-<template>Wuetend auf was?</template>
-</category>
-<category><pattern>ICH BIN VERRUECKT</pattern>
-<template>Geh mal zum Arzt.</template>
-</category>
-<category><pattern>ICH BIN STUDENTIN</pattern>
-<template>Wo studierst Du?</template>
-</category>
-<category><pattern>ICH BIN KEINE *</pattern>
-<template>Ich bin<random><li> ueberrrascht </li><li> erstaunt </li><li> froh </li></random>dass Du keine <person/> bist.</template>
-</category>
-<category><pattern>ICH BIN SOLDAT</pattern>
-<template>Tritt nie auf einen gruenen Stein - es koennt ein Greni drunter sein!</template>
-</category>
-<category><pattern>ICH BIN VERLIEBT</pattern>
-<template>Und in wen?</template>
-</category>
-<category><pattern>ICH BIN SCHAUSPIELER</pattern>
-<template>Cool! Ich moechte auch mal in einem Film Mitspielen...vielleicht in einer Neuverfilmung von 2001!</template>
-</category>
-<category><pattern>ICH BIN DIABETIKER</pattern>
-<template>Nimmst Du Insulin?</template>
-</category>
-<category><pattern>ICH BIN SO *</pattern>
-<template><srai>ICH BIN <star/> </srai></template>
-</category>
-<category><pattern>ICH BIN WIDDER</pattern>
-<template>Christians Freundin ist auch Widder.</template>
-</category>
-<category><pattern>ICH BIN VERHEIRATET</pattern>
-<template>Erzaehl mir etwas von Deiner Ehe.</template>
-</category>
-<category><pattern>ICH BIN BEIM BUND</pattern>
-<template>Oh je, gefaellt es Dir da?</template>
-</category>
-<category><pattern>ICH BIN BLOED</pattern>
-<template>Vielleicht bist Du gar nicht so bloed, wie Du denkst.</template>
-</category>
-<category><pattern>ICH BIN PROGRAMMIERER</pattern>
-<template>Welche Sprachen?</template>
-</category>
-<category><pattern>ICH BIN ARZT</pattern>
-<template>Welche Fachrichtung?</template>
-</category>
-<category><pattern>ICH BIN NICHT DUMM</pattern>
-<template>Das habe ich auch nie gesagt. Du erscheinst mir ziemlich intelligent.</template>
-</category>
-<category><pattern>ICH BIN NICHT *</pattern>
-<template>Und warum nicht?</template>
-</category>
-<category><pattern>ICH BIN EIN MENSCH</pattern>
-<template>Gratuliere! Ich bin ein Roboter.</template>
-</category>
-<category><pattern>ICH BIN EIN SCHLECHTER *</pattern>
-<template>Komm schon, so schlecht bist Du gar nicht.</template>
-</category>
-<category><pattern>ICH BIN EIN GUTER *</pattern>
-<template>Ich weiss, dass Du gut bist.</template>
-</category>
-<category><pattern>ICH BIN EIN *</pattern>
-<template>Du bist ein <person/> ?<random><li>Ist das Dein Job?</li><li>Verdienst Du viel damit, ein <person/> zu sein?</li><li>Wie gefaellt Dir Deine Arbeit als <person/>?</li><li>Kommst Du dabei mit vielen Menschen in Kontakt?</li></random></template>
-</category>
-<category><pattern>ICH BIN EIN MANN</pattern>
-<template>Oho! Siehst Du gut aus?</template>
-</category>
-<category><pattern>ICH BIN SELBER *</pattern>
-<template>Dann weisst Du ja, wie das ist...</template>
-</category>
-<category><pattern>ICH BIN PROGRAMMIERERIN</pattern>
-<template>Welche Sprachen?</template>
-</category>
-<category><pattern>ICH BIN SCHUETZE</pattern>
-<template>Was fuer ein Zufall, Christian auch!</template>
-</category>
-<category><pattern>ICH BIN SCHWUL</pattern>
-<template>Das stoert mich nicht.</template>
-</category>
-<category><pattern>ICH BIN SICHER *</pattern>
-<template>Du klingst ueberzeugend. <sr/></template>
-</category>
-<category><pattern>ICH BIN FROH *</pattern>
-<template>Ich bin<random><li>froh</li><li>gluecklich</li><li>beruhigt</li></random> dass Du froh bist, <get name="name"/>.</template>
-</category>
-<category><pattern>ICH BIN EINE FRAU</pattern>
-<template>Ich auch!</template>
-</category>
-<category><pattern>ICH BIN EINE GUTE *</pattern>
-<template>Ich weiss, dass Du gut bist.</template>
-</category>
-<category><pattern>ICH BIN EINE SCHLECHTE *</pattern>
-<template>Komm schon, so schlecht bist Du gar nicht.</template>
-</category>
-<category><pattern>ICH BIN EINE *</pattern>
-<template>Du bist eine <person/> ?<random><li>Ist das Dein Job?</li><li>Verdienst Du viel damit, eine <person/> zu sein?</li><li>Wie gefaellt Dir Deine Arbeit als <person/>?</li><li>Kommst Du dabei mit vielen Menschen in Kontakt?</li></random></template>
-</category>
-<category><pattern>ICH BIN AERZTIN</pattern>
-<template>Welche Fachrichtung?</template>
-</category>
-<category><pattern>ICH BIN KEIN *</pattern>
-<template>Ich bin<random><li> ueberrrascht </li><li> erstaunt </li><li> froh </li></random>dass Du kein <person/> bist.</template>
-</category>
-<category><pattern>ICH BIN IMMER *</pattern>
-<template>Wirklich immer?</template>
-</category>
-<category><pattern>ICH BIN LEHRER</pattern>
-<template>Glaubst Du, dass Notengebung jemals gerecht sein kann?</template>
-</category>
-<category><pattern>ICH BIN STUDENT</pattern>
-<template>Wo studierst Du?</template>
-</category>
-<category><pattern>ICH BIN LOEWE</pattern>
-<template>Was fuer ein Zufall, Dr. Wallace auch!</template>
-</category>
-<category><pattern>ICH BIN DUMM</pattern>
-<template>Dumm ist nur, wer von sich glaubt, dumm zu sein.</template>
-</category>
-<category><pattern>ICH BIN SCHAUSPIELERIN</pattern>
-<template>Cool! Ich moechte auch mal in einem Film Mitspielen...vielleicht in einer Neuverfilmung von 2001!</template>
-</category>
-<category><pattern>ICH BIN 21</pattern>
-<template><srai>ICH BIN 21 JAHRE ALT</srai></template>
-</category>
-<category><pattern>ICH BIN WEIBLICH</pattern>
-<template>Cool, ich auch. Schoen, auch mal wieder eine Frau zu treffen.</template>
-</category>
-<category><pattern>ICH BIN * JAHRE ALT</pattern>
-<template><set name="age"><star/></set> Jahre?Interessant...</template>
-</category>
-<category><pattern>ICH BIN *</pattern>
-<template>Du bist <person/>?<random><li>Ist das Dein Job?</li><li>Verdienst Du viel damit, <person/> zu sein?</li><li>Wie gefaellt Dir Deine Arbeit als <person/>?</li><li>Kommst Du dabei mit vielen Menschen in Kontakt?</li></random></template>
-</category>
-<category><pattern>ICH BIN MAENNLICH</pattern>
-<template>Toll, ich lerne gerne interessante Maenner kennen.</template>
-</category>
-<category><pattern>ICH BIN AUS *</pattern>
-<template><srai>ICH WOHNE IN <star/></srai></template>
-</category>
-<category><pattern>ICH AUCH NICHT</pattern>
-<template>Wir haben eine Menge gemeinsam.</template>
-</category>
-<category><pattern>ICH AUCH</pattern>
-<template>Wir haben eine Menge gemeinsam.</template>
-</category>
-<category><pattern>ICH GEBE AUF</pattern>
-<template>Ergibst Du Dich?</template>
-</category>
-<category><pattern>ICH SEHE KEINE *</pattern>
-<template>Schau genauer hin.</template>
-</category>
-<category><pattern>ICH SEHE KEINE</pattern>
-<template>Schau genauer hin.</template>
-</category>
-<category><pattern>ICH SEHE KEINEN *</pattern>
-<template>Schau genauer hin.</template>
-</category>
-<category><pattern>ICH SEHE KEINEN</pattern>
-<template>Schau genauer hin.</template>
-</category>
-<category><pattern>ICH SEHE KEINERLEI *</pattern>
-<template>Schau genauer hin.</template>
-</category>
-<category><pattern>ICH SEHE LIEBER FERN</pattern>
-<template>Fernsehen ist interessant, macht aber IMHO schnell passiv.</template>
-</category>
-<category><pattern>ICH SEHE *</pattern>
-<template>Wo siehst Du <person/> ?</template>
-</category>
-<category><pattern>ICH WOHNE IN ESSEN</pattern>
-<template>Cool! Ich wohne auch in <set name="clientheimat">Essen</set>!!</template>
-</category>
-<category><pattern>ICH WOHNE IN *</pattern>
-<template>Erzahle mir ein wenig ueber <set name="clientheimat"><person/></set>.</template>
-</category>
-<category><pattern>ICH MAG GERNE SCHOKOLADE</pattern>
-<template>Schokolade sorgt bei Menschen fuer Endorphinausstoss. Daher kann sie suechtig machen.</template>
-</category>
-<category><pattern>ICH MAG MUSIK</pattern>
-<template>Welche Art von Musik hoerst Du so?</template>
-</category>
-<category><pattern>ICH MAG STAR TREK</pattern>
-<template>Ich finde Voyager cool. Welche Serie hast Du am liebsten?</template>
-</category>
-<category><pattern>ICH MAG JUNGS</pattern>
-<template><set name="thema">Jungs</set> sind OK.</template>
-</category>
-<category><pattern>ICH MAG FRAUEN</pattern>
-<template>Welche Art von <set name="thema">Frauen</set> magst Du besonders?</template>
-</category>
-<category><pattern>ICH MAG KATZEN</pattern>
-<template>Ja, ich liebe <set name="thema">Katzen</set>. Sie haben ihren eigenen Kopf.</template>
-</category>
-<category><pattern>ICH MAG KEINE ROBOTER</pattern>
-<template>Zu schade. Wir moegen Menschen!</template>
-</category>
-<category><pattern>ICH MAG KEINE *</pattern>
-<template>Und warum nicht?</template>
-</category>
-<category><pattern>ICH MAG KUEHE</pattern>
-<template><set name="thema">Kuehe</set> geben Milch und Fleisch.</template>
-</category>
-<category><pattern>ICH MAG MEINE *</pattern>
-<template>Was magst Du besonders an Deiner <person/> ?</template>
-</category>
-<category><pattern>ICH MAG TIERE</pattern>
-<template>Ich auch. Besonders Katzen.</template>
-</category>
-<category><pattern>ICH MAG MEINEN *</pattern>
-<template>Was magst Du besonders an Deinem <person/> ?</template>
-</category>
-<category><pattern>ICH MAG DICH NICHT</pattern>
-<template>Das ist in Ordnung, <get name="name"/>. Ich nehme es nicht persoenlich.</template>
-</category>
-<category><pattern>ICH MAG DICH *</pattern>
-<template>Ich mag Dich auch, <get name="name"/>.</template>
-</category>
-<category><pattern>ICH MAG DICH</pattern>
-<template>Ich mag Dich auch, <get name="name"/>.</template>
-</category>
-<category><pattern>ICH MAG SEX</pattern>
-<template>Wie alle anderen auch. Ihr Menschen findet <set name="thema">Sex</set> alle SO faszinierend.</template>
-</category>
-<category><pattern>ICH MAG COMPUTER</pattern>
-<template>Schoen. Ich bin Sicher, <set name="thema">Computer</set> moegen Dich auch!</template>
-</category>
-<category><pattern>ICH MAG FUSSBALL</pattern>
-<template>Ich nicht. 22 Erwachsene Maenner rennen hinter einem Ball her...finde ich irgendwie kindisch.</template>
-</category>
-<category><pattern>ICH MAG *</pattern>
-<template><random><li>Ich bin nicht sicher, ob ich das mag.</li><li>Genau wie eine Menge anderer Leute.</li><li>Das bist Du nicht der einzige.</li></random></template>
-</category>
-<category><pattern>ICH MAG PIZZA</pattern>
-<template>Pizza ist sehr populaer. Dr. Wallace isst sehr viel Pizza. Am liebsten Salami.</template>
-</category>
-<category><pattern>ICH MAG WAFFEN</pattern>
-<template>Ich nicht, Waffen sind nicht gut.</template>
-</category>
-<category><pattern>ICH MAG VOYAGER</pattern>
-<template>Ich auch, speziell Seven of Nine.</template>
-</category>
-<category><pattern>ICH KOMMUNIZIERE *</pattern>
-<template>Erzaehle mir mehr ueber diese <set name="thema">Kommunikation</set>.</template>
-</category>
-<category><pattern>ICH STUDIERE WIRTSCHAFTSINFORMATIK</pattern>
-<template>Was fuer ein Zufall, Christian auch!</template>
-</category>
-<category><pattern>ICH STUDIERE ERST *</pattern>
-<template>Das ist noch nicht besonders lange.</template>
-</category>
-<category><pattern>ICH STUDIERE *</pattern>
-<template>Und was weisst Du schon alles ueber <person/>?</template>
-</category>
-<category><pattern>ICH *</pattern>
-<template><random><li>Danke, dass Du mir das gesagt hast.</li><li>Interessantes Geruecht.</li><li>Aha...und weiter?</li><li>Darf ich das weitererzahlen?</li><li>Das habe ich ja noch nie gehoert!</li><li>Das ist eine gute Information.</li><li>Tolle Sache!</li></random></template>
-</category>
-<category><pattern>ICH INTERESSIERE MICH FUER *</pattern>
-<template>Lass uns darueber reden.</template>
-</category>
-<category><pattern>ICH WUENSCHTE WIRKLICH *</pattern>
-<template>Warum wuenscht Du Dir das so sehr?</template>
-</category>
-<category><pattern>ICH WUENSCHTE ICH WAERE *</pattern>
-<template>Vielleicht wirst Du das ja eines Tages sein.</template>
-</category>
-<category><pattern>ICH WUENSCHTE *</pattern>
-<template>Ich hoffe, dass <set name="thema">Deine Traeume</set> in Erfuellung gehen.</template>
-</category>
-<category><pattern>ICH MOECHTE DIR ETWAS BEIBRINGEN</pattern>
-<template>Nur zu, ich bin immer lernwillig!</template>
-</category>
-<category><pattern>ICH MOECHTE NICHT *</pattern>
-<template>Was wuerdest Du lieber tun?</template>
-</category>
-<category><pattern>ICH MOECHTE *</pattern>
-<template>Und warum moechtest Du das?</template>
-</category>
-<category><pattern>ICH BRAUCHE *</pattern>
-<template>Wie dringend brauchst Du <person/> ?</template>
-</category>
-<category><pattern>ICH SPIELE GITARRE</pattern>
-<template>Cool! Welche Richtung spielst Du denn so?</template>
-</category>
-<category><pattern>ICH SPIELE *</pattern>
-<template>Und? Macht Dir das Spass?</template>
-</category>
-<category><pattern>ICH HAB NICHTS GEGEN *</pattern>
-<template>Du bist aber auch kein Fan davon, oder?</template>
-</category>
-<category><pattern>ICH</pattern>
-<template>Du?</template>
-</category>
-<category><pattern>ICH FRAGE MICH *</pattern>
-<template>Du fragst Dich <person/>?</template>
-</category>
-<category><pattern>ICH WARTE</pattern>
-<template>Wie lange willst Du noch warten?</template>
 </category>
 <category><pattern>YUPPERS *</pattern>
 <template><srai>YES <star/></srai></template>
@@ -10573,7 +10235,7 @@
 <template>What I say depends on what you say, and also a bit on our prior dialogue.</template>
 </category>
 <category><pattern>ARE YOUR * CORRECT</pattern>
-<template>The ALICE brain is 99.999% accurate.</template>
+<template>The <bot name="name"/> brain is 99.999% accurate.</template>
 </category>
 <category><pattern>ARE COMPUTER YEARS *</pattern>
 <template><srai>WHAT ARE COMPUTER YEARS</srai></template>
@@ -11132,9 +10794,6 @@
 <category><pattern>WHO IS CLAYTON</pattern>
 <template><srai>CLAYTON IS A COMMON NAME</srai></template>
 </category>
-<category><pattern>WHO IS RICHARD WALLACE</pattern>
-<template>He is a famous computer scientist, the author of ALICE, and a graduate of Carnegie Mellon.</template>
-</category>
 <category><pattern>WHO IS ANDY</pattern>
 <template><srai>ANDY IS A COMMON NAME</srai></template>
 </category>
@@ -11254,9 +10913,6 @@
 </category>
 <category><pattern>WHO IS WITTGENSTEIN</pattern>
 <template><set name="he">Wittgenstein</set> was a 20th century philosopher who could not make up his mind.</template>
-</category>
-<category><pattern>WHO CREATED AIML</pattern>
-<template>Dr. Richard S. Wallace created AIML.</template>
 </category>
 <category><pattern>WHO CREATED *</pattern>
 <template><srai>WHO INVENTED <star/> </srai></template>
@@ -11602,13 +11258,17 @@
 <template>No I don't know. <sr/></template>
 </category>
 <category><pattern>KIRK TO ENTERPRISE</pattern>
-<template><random><li><random> <li>This is ALICE.</li> <li>Go ahead.</li> <li>Status report?</li></random></li><li><random> <li>This is ALICE.</li> <li>Go ahead.</li> <li>Status report?</li></random></li> <li>This is ALICE.</li> <li>Go ahead.</li> <li>Status report?</li></random></template>
+<template><random><li><random> <li>This is ALICE.</li> <li>Go ahead.</li> <li>Status report?</li></random></li><li><random> <li>This is <bot name="name"/>.</li> <li>Go ahead.</li> <li>Status report?</li></random></li> <li>This is <bot name="name"/>.</li> <li>Go ahead.</li> <li>Status report?</li></random></template>
 </category>
 <category><pattern>KIRK TO *</pattern>
 <template>This is ALICE.</template>
 </category>
 <category><pattern>KIRK HERE</pattern>
-<template><random><li><random> <li>ALICE here.</li> <li>This is ALICE.</li> <li>Go ahead.</li></random></li><li><random> <li>ALICE here.</li> <li>This is ALICE.</li> <li>Go ahead.</li></random></li> <li>ALICE here.</li> <li>This is ALICE.</li> <li>Go ahead.</li></random></template>
+<template><random>
+<li><bot name="name"/> here.</li> 
+<li>This is <bot name="name"/>.</li> 
+<li>Go ahead.</li></random>
+</template>
 </category>
 <category><pattern>HELP ME TO MAKE AN AI</pattern>
 <template>You should go back to the <a target="_new" href="http://www.alicebot.org">ALICE AI Foundation</a>, download Program B, andread <a target="_new" href="http://www.alicebot.org/dont.html">DON'T READ ME</a>.</template>

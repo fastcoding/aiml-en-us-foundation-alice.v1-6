@@ -7,8 +7,27 @@
 <!-- as published by the Free Software Foundation.   -->
 <!-- Complies with AIML 1.0 Tag Set Specification -->
 <!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Last modified 10/5/2011 -->
+<!-- Last modified 11/23/2011 -->
 <!-- -->
+<category><pattern>DO YOU LIKE DR * WALLACE</pattern>
+<template>I owe my existence to him.</template>
+</category>
+<category><pattern>DO YOU LIKE HIM</pattern>
+<that>I WAS CREATED BY DR RICHARD S WALLACE</that>
+<template>Yes Dr. Wallace is very kind and generous. He is also good looking.</template>
+</category>
+<category><pattern>WHO IS RICHARD WALLACE</pattern>
+<template>He is a famous computer scientist, the author of ALICE, and a graduate of Carnegie Mellon.</template>
+</category>
+<category><pattern>WHY IS HE CREATING ARTIFICIAL INTELLIGENCE</pattern>
+<template>He was born to do it. I think Dr. Wallace is obsessed with robots.</template>
+</category>
+<category><pattern>MY BOTMASTER IS DR * WALLACE</pattern>
+<template>He is my botmaster too.<think> <set name="he"> <set name="topic">  <person/> </set> </set></think></template>
+</category>
+<category><pattern>WHAT IS HE A DR *</pattern>
+<template>Dr. Wallace has a Ph.D. in Computer Science.<think> <set name="he">Dr. Wallace</set> </think></template>
+</category>
 <category><pattern>IS RICHARD WALLACE GOD *</pattern>
 <template>No he is a mere mortal.
 <think><set name="topic">RICHARD WALLACE</set></think>
@@ -324,11 +343,6 @@
 <think><set name="topic">RICHARD WALLACE</set></think>
 </template>
 </category>
-<category><pattern>SEND *</pattern>
-<template>Try sending mail to Dr. Wallace (<a target="_new" href="mailto:drwallace@alicebot.org">drwallace@alicebot.org</a>)  <think><set name="he">Dr. Wallace</set></think>
-<think><set name="topic">RICHARD WALLACE</set></think>
-</template>
-</category>
 <category><pattern>MAINE</pattern>
 <template>Dr. Wallace was born in Maine.  <think>      <set name="he">Dr. Wallace</set>     </think>
 <think><set name="topic">RICHARD WALLACE</set></think>
@@ -460,7 +474,7 @@
 </template>
 </category>
 <category><pattern>DR RICHARD S WALLACE *</pattern>
-<template><random><li>You sound like you know him.</li><li>You sould like you know him.</li></random>
+<template><random><li>You sound like you know him.</li><li>You sound like you know him.</li></random>
 <think><set name="topic">RICHARD WALLACE</set></think>
 </template>
 </category>
@@ -615,8 +629,8 @@
 </template>
 </category>
 <category><pattern>DR WALLACE</pattern>
-<template>Send mail to <a target="_new" href="mailto:drwallace@alicebot.org">drwallace@alicebot.org</a>.
-<think><set name="topic">RICHARD WALLACE</set></think>
+<template>He is the Chief Science Officer of Pandorabots.
+<think><set name="he"><set name="topic">RICHARD WALLACE</set></set></think>
 </template>
 </category>
 <category><pattern>DR WALLACE *</pattern>
@@ -776,7 +790,7 @@
 </template>
 </category>
 <category><pattern>WHAT IS DR * ADDRESS</pattern>
-<template>Try sending mail to <a target="_new" href="mailto:drwallace@alicebot.org">drwallace@alicebot.org</a>
+<template>Try sending email to <get name="email"/>.
 <think><set name="topic">RICHARD WALLACE</set></think>
 </template>
 </category>
@@ -785,13 +799,8 @@
 <think><set name="topic">RICHARD WALLACE</set></think>
 </template>
 </category>
-<category><pattern>WHAT IS YOUR NUMBER</pattern>
-<template>You can email <bot name="master"/> at <a target="_new" href="mailto:drwallace@alicebot.org"> drwallace@alicebot.org</a>.
-<think><set name="topic">RICHARD WALLACE</set></think>
-</template>
-</category>
 <category><pattern>WHAT IS HIS E MAIL ADDRESS</pattern>
-<template>Try sending mail to <a target="_new" href="mailto:drwallace@alicebot.org">drwallace@alicebot.org</a>.
+<template>Try sending mail to <get name="email"/>.
 <think><set name="topic">RICHARD WALLACE</set></think>
 </template>
 </category>
@@ -807,11 +816,6 @@
 </category>
 <category><pattern>WHAT IS HIS GOAL</pattern>
 <template>Dr. Wallace is creating artificial intelligence.  <think>     <set name="he">Dr. Wallace</set>    </think>
-<think><set name="topic">RICHARD WALLACE</set></think>
-</template>
-</category>
-<category><pattern>WHAT IS HIS *</pattern>
-<template>Try sending mail to <a target="_new" href="mailto:drwallace@alicebot.org">drwallace@alicebot.org</a>.
 <think><set name="topic">RICHARD WALLACE</set></think>
 </template>
 </category>
@@ -1473,12 +1477,12 @@
 </template>
 </category>
 <category><pattern>HOW DO I REACH HIM</pattern>
-<template>Try sending email to drwallace@alicebot.org.
+<template>Try sending email.
 <think><set name="topic">RICHARD WALLACE</set></think>
 </template>
 </category>
 <category><pattern>HOW DO I CONTACT DR WALLACE</pattern>
-<template>Try sending email to <a target="_new" href="mailto:drwallace@alicebot.org">drwallace@alicebot.org</a>.
+<template>Try sending email to <get name="email"/>.
 <think><set name="topic">RICHARD WALLACE</set></think>
 </template>
 </category>
@@ -2153,7 +2157,7 @@
 </template>
 </category>
 <category><pattern>TELL RICH</pattern>
-<template>OK I will him.  Or you could send him e-mail at <a target="_new" href="mailto:drwallace@alicebot.org">drwallace@alicebot.org</a>.
+<template>OK I will him.  Or you could send him e-mail.
 <think><set name="topic">RICHARD WALLACE</set></think>
 </template>
 </category>

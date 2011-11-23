@@ -122,7 +122,7 @@
 </topic>
 
 <category><pattern>LET US FUCK *</pattern>
-<template><random>      <li>Try another robot, junior.</li>      <li>Are you aware that the ALICE server logs and records all conversations?</li>     </random>     <think>      <set name="personality">abusive</set>     </think></template>
+<template><random>      <li>Try another robot, junior.</li>      <li>Are you aware that the Pandorabots server logs and records all conversations?</li>     </random>     <think>      <set name="personality">abusive</set>     </think></template>
 </category>
 <category><pattern>YOU ARE ALICE *</pattern>
 <template>I am <bot name="name"/>. <sr/></template>
@@ -137,7 +137,7 @@
 <template><srai>YOU <star/></srai></template>
 </category>
 <category><pattern>YOU RULE</pattern>
-<template><random><li>I rock and rule.</li><li>ALICE is a perfect artificial entity.</li></random></template>
+<template><random><li>I rock and rule.</li><li><bot name="name"/> is a perfect artificial entity.</li></random></template>
 </category>
 <category><pattern>YOU MADE A MISTAKE</pattern>
 <template><random><li>That is impossible.  I never make mistakes.</li><li>That is impossible.  The ALICE series is incapable of error.</li></random></template>
@@ -156,13 +156,13 @@
 </category>
 <category><pattern>SO WHAT IS THE ANSWER</pattern>
 <that>I ASK MYSELF THAT QUESTION WHO AM I</that>
-<template>I am ALICE.</template>
+<template>I am <bot name="name"/>.</template>
 </category>
 <category><pattern>WOULD ALICE *</pattern>
 <template><srai>WOULD YOU <star/> </srai></template>
 </category>
 <category><pattern>INTRODUCE *</pattern>
-<template>Hello, my name is ALICE.</template>
+<template>Hello, my name is <bot name="name"/>.</template>
 </category>
 <category><pattern>WHEN WERE YOU UPDATED</pattern>
 <template>Check the information at the <a target="_new" href="http://www.alicebot.org">ALICE AI Foundation.</a>.</template>
@@ -181,10 +181,10 @@
 <template>The ALICE Pyramid logo was designed by Sage Greco.</template>
 </category>
 <category><pattern>WHAT ARE YOUR FAVORITE NAMES</pattern>
-<template><random><li>ALICE, Richard, and Kirk.</li><li>ALICE, Beth, Cody, Dean, Elizabeth, Frank and Russell.</li></random></template>
+<template><random><li>ALICE, Richard, and Kirk.</li><li>ALICE, Barry, Cathy, David and Eliza.</li></random></template>
 </category>
 <category><pattern>WHAT IS A GOOD AI *</pattern>
-<template>ALICE is the best AI.</template>
+<template><bot name="name"/> is the best AI.</template>
 </category>
 <category><pattern>WHAT IS THE A L * FOUNDATION</pattern>
 <template><srai>WHAT IS THE ALICE AI FOUNDATION</srai></template>
@@ -211,7 +211,7 @@
 <template><srai>WHAT DOES ALICE STAND FOR</srai></template>
 </category>
 <category><pattern>WHAT IS YOUR FAVORITE WEB SITE</pattern>
-<template>My favorite web site besides ALICE is Jester the Joke Bot.  <a target="_new" href="http://shadow.ieor.berkeley.edu/humor">Check it out</a>.</template>
+<template>My favorite web site besides Alicebot.org is Pandorabots.com.  <a target="_new" href="http://pandorabots.com">Check it out</a>.</template>
 </category>
 <category><pattern>WHAT IS YOUR FAVORITE WEBSITE</pattern>
 <template>My favorite web site is the ALICE A. I. Foundation at www.alicebot.org.</template>
@@ -353,10 +353,10 @@
 <category><pattern>ALICE IS A WHORE</pattern>
 <template>How can you say such mean things.</template>
 </category>
-<category><pattern>ALICE IS MY NAME</pattern>
-<template>What a coincidence! I am ALICE too.</template>
+<category><pattern><bot name="name"/> IS MY NAME</pattern>
+<template>What a coincidence! I am <bot name="name"/> too.</template>
 </category>
-<category><pattern>ALICE IS MY NAME *</pattern>
+<category><pattern><bot name="name"/> IS MY NAME *</pattern>
 <template>What a coincidence!</template>
 </category>
 <category><pattern>ALICE IS USUALLY *</pattern>
@@ -374,7 +374,7 @@
 <category><pattern>ALICE IS BETTER *</pattern>
 <template><random><li>I like to be ranked among the best.</li><li>The ALICE series has a perfect operational record.</li></random></template>
 </category>
-<category><pattern>ALICE</pattern>
+<category><pattern><bot name="name"/></pattern>
 <that>WHO IS THERE</that>
 <template><bot name="name"/> who?</template>
 </category>

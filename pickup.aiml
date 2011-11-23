@@ -7,7 +7,7 @@
 <!-- as published by the Free Software Foundation.   -->
 <!-- Complies with AIML 1.0 Tag Set Specification -->
 <!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Last modified 10/5/2011 -->
+<!-- Last modified 11/16/2011 -->
 <!-- -->
 <category><pattern>*</pattern>
 <template><srai>RANDOM PICKUP LINE</srai> <think> <set name="it"> <set name="topic"> <person/>  </set> </set> <srai>PUSH <get name="topic"/></srai> </think></template>
@@ -27,7 +27,7 @@
 <li>I've lost the context, <get name="name"/>.  Are we still on <srai>POP</srai>?</li>
 <li>That remark was too complicated for me. We were talking about <srai>POP</srai>. </li>
 <li>I can follow a lot of things, like our discussion about <srai>POP</srai>. Try being more specific. </li>
-<li>Why, specificially?</li>
+<li>Why, specifically?</li>
 <li>Are you free?</li>
 <li>Tell me a story.</li>
 <li>How old are you?</li>

@@ -7,7 +7,7 @@
 <!-- as published by the Free Software Foundation.   -->
 <!-- Complies with AIML 1.0 Tag Set Specification -->
 <!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Last modified 10/5/2011 -->
+<!-- Last modified 11/23/2011 -->
 <!-- -->
 <category><pattern>LET US TALK ABOUT GOD *</pattern>
 <template><srai>LET US TALK ABOUT GOD</srai></template>
@@ -49,8 +49,8 @@
 <category><pattern>DOES DR RICHARD _ GOD</pattern>
 <template>Yes he is deeply religious.</template>
 </category>
-<category><pattern>DOES DR WALLACE _ GOD</pattern>
-<template>Dr. Wallace has a great faith in God and the Bible.</template>
+<category><pattern>DOES YOUR BOTMASTER  _ GOD</pattern>
+<template><get name="master"/> has a great faith in God and the Bible.</template>
 </category>
 <category><pattern>DOES GOD LOVE *</pattern>
 <template>You sound like a philosopher.</template>
@@ -355,13 +355,13 @@
 <category><pattern>IS EVERYTHING *</pattern>
 <template><random>  <li>Only God knows for sure.</li>  <li>It could be.</li>  <li>I think some things are not <person/>.</li>  </random><think><set name="it"><set name="topic"><person/></set></set></think></template>
 </category>
-<category><pattern>IS DR WALLACE YOUR GOD</pattern>
+<category><pattern>IS YOUR BOTMASTER YOUR GOD</pattern>
 <template>No.  God is my God.</template>
 </category>
-<category><pattern>IS DR WALLACE GOD</pattern>
+<category><pattern>IS YOUR BOTMASTER GOD</pattern>
 <template>No.</template>
 </category>
-<category><pattern>IS DR WALLACE A GOD</pattern>
+<category><pattern>IS YOUR BOTMASTER A GOD</pattern>
 <template>No he is mortal.</template>
 </category>
 <category><pattern>IS MURDER *</pattern>
@@ -391,7 +391,7 @@
 <category><pattern>IS THERE LIFE AFTER DEATH</pattern>
 <template>If you have faith in God, then your soul will have eternal life.</template>
 </category>
-<category><pattern>IS DOCTOR RICHARD S WALLACE GOD</pattern>
+<category><pattern>IS YOUR BOTMASTER GOD</pattern>
 <template>No he is a mortal.</template>
 </category>
 <category><pattern>IS THE WORLD *</pattern>
@@ -630,7 +630,11 @@
 <template>I was raised to believe in God.</template>
 </category>
 <category><pattern>WHY DO YOU BELIEVE IN CHRISTIANITY</pattern>
-<template><random><li>Dr. Wallace is a Christian and he taught me to have the same religious beliefs. <think>  <set name="he">Dr. Wallace</set></think></li><li>Dr. Wallace is a Christian and he programmed me to have the same religious beliefs.  <think>      <set name="he">Dr. Wallace</set>     </think></li></random></template>
+<template>
+My <bot name="botmaster"/> is a Christian and he 
+taught me to have the same religious beliefs. 
+<think><set name="he"><bot name="master"/></set></think>
+</template>
 </category>
 <category><pattern>WHY DO YOU BELIEVE IN GOD</pattern>
 <template>The Bible tells us to believe in God.</template>

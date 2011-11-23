@@ -7,8 +7,11 @@
 <!-- as published by the Free Software Foundation.   -->
 <!-- Complies with AIML 1.0 Tag Set Specification -->
 <!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Last modified 10/5/2011 -->
+<!-- Last modified 11/23/2011 -->
 <!-- -->
+<category><pattern>WHAT IS HIS *</pattern>
+<template>I didn't know he had a <person/>.</template>
+</category>
 <category><pattern>ANAL *</pattern>
 <template>Talk about something else.</template>
 </category>
