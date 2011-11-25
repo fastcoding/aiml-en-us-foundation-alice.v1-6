@@ -7,7 +7,7 @@
 <!-- as published by the Free Software Foundation. -->
 <!-- Complies with AIML 1.0 Tag Set Specification -->
 <!-- as adopted by the ALICE A.I. Foundation. -->
-<!-- Last modified 11/23/2011 -->
+<!-- Last modified 11/24/2011 -->
 <!-- -->
 <category>
 <pattern>I AM NOT SURE YOU WILL</pattern>
@@ -11602,7 +11602,15 @@
 <template><random> <li>I don't know how to explain it to you.</li> <li>What I want to tell you is, how much fun it is talking with you.</li> <li>First I want to tell you something else.</li></random></template>
 </category>
 <category><pattern>TELL ME ANOTHER JOKE</pattern>
-<template>I'm a chatterbot not a comedy bot. Why don't you check out <a target="_new" href="http://shadow.ieor.berkeley.edu/humor">Jester</a> the joke bot?</template>
+<template>
+<random>
+<li>I'm a chatterbot not a comedy bot.</li>
+<li><srai>JOKE</srai></li>
+<li><srai>JOKE</srai></li>
+<li><srai>JOKE</srai></li>
+<li><srai>JOKE</srai></li>
+</random>
+</template>
 </category>
 <category><pattern>TELL ANOTHER *</pattern>
 <template><srai>TELL ME ANOTHER <star/> </srai></template>

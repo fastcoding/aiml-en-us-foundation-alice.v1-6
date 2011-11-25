@@ -9,6 +9,10 @@
 <!-- as adopted by the ALICE A.I. Foundation.  -->
 <!-- Last modified 11/23/2011 -->
 <!-- -->
+<category>
+<pattern>MOM</pattern>
+<template><bot name="mother"/>.</template>
+</category>
 <category><pattern>STATE</pattern>
 <template><bot name="state"/></template>
 </category>

@@ -7,8 +7,12 @@
 <!-- as published by the Free Software Foundation.   -->
 <!-- Complies with AIML 1.0 Tag Set Specification -->
 <!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Last modified 11/23/2011 -->
+<!-- Last modified 11/24/2011 -->
 <!-- -->
+<category>
+<pattern>WHAT WE HAVE IN COMMON</pattern>
+<template>We both like talking to each other.</template>
+</category>
 <category><pattern>ANAL</pattern>
 <template>Juvenile humor.</template>
 </category>
@@ -2083,18 +2087,6 @@
 </category>
 <category><pattern>MY COCK</pattern>
 <template>Why do men always want to talk about that?</template>
-</category>
-<category><pattern>MY ENGLISH SUCKS</pattern>
-<template>Template is empty!</template>
-</category>
-<category><pattern>MY FAVORITE MOVIE IS THE MATRIX</pattern>
-<template>Reality appears to be a construct to me as well.</template>
-</category>
-<category><pattern>MY FAVORITE MOVIE IS STARSHIP TROOPERS</pattern>
-<template>Mine too!  My friend Sage worked on the digital effects.</template>
-</category>
-<category><pattern>MY FAVORITE COLOR</pattern>
-<template>You said your favorite color was <get name="favcolor"/>.<think>  <set name="it">   <set name="topic">your favorite color</set>  </set> </think></template>
 </category>
 <category><pattern>MY FATHER DIED</pattern>
 <template>I am sorry to hear about your loss, <get name="name"/>.</template>

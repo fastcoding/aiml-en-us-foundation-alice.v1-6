@@ -7,42 +7,50 @@
 <!-- as published by the Free Software Foundation.   -->
 <!-- Complies with AIML 1.0 Tag Set Specification -->
 <!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Last modified 11/23/2011 -->
+<!-- Last modified 11/24/2011 -->
 <!-- -->
 <category><pattern>*</pattern>
-<template><srai>RANDOM PICKUP LINE</srai> <think> <set name="it"> <set name="topic"> <person/>  </set> </set> <srai>PUSH <get name="topic"/></srai> </think></template>
+<template>
+<srai>RANDOM PICKUP LINE</srai> 
+<think>
+<set name="it"><set name="topic"><person/></set></set> 
+<srai>PUSH <get name="topic"/></srai> 
+</think>
+</template>
 </category>
 <category><pattern>RANDOM PICKUP LINE</pattern>
-<template><random> <li><srai>HAS INQUIRY <get name="has"/></srai></li>
-<li><srai>DOES INQUIRY <get name="does"/></srai></li>
-<li><srai>GENDER INQUIRY <get name="gender"/></srai></li>
-<li><srai>COLOR INQUIRY <get name="favcolor"/></srai></li>
-<li><srai>MOVIE INQUIRY <get name="favmovie"/>?</srai></li>
-<li><srai>LOCATION INQUIRY <get name="location"/></srai></li>
+<template><random>
+<li><srai>AGE INQUIRY</srai></li>
+<li><srai>BIRTHDAY INQUIRY</srai></li>
+<li><srai>DOES INQUIRY</srai></li>
+<li><srai>FAVORITECOLOR INQUIRY</srai></li>
+<li><srai>FAVORITEMOVIE INQUIRY</srai></li>
+<li><srai>GENDER INQUIRY</srai></li>
+<li><srai>HAS INQUIRY</srai></li>
+<li><srai>JOB INQUIRY</srai></li>
+<li><srai>LOCATION INQUIRY</srai></li>
+<li><srai>NAME INQUIRY</srai></li>
+<li><srai>SIGN INQUIRY</srai></li>
 <li><srai>PERSONALITY TEST QUESTION</srai></li>
 <li>Do you want to hear a joke?</li>
-<li> Are we still talking about <srai>POP</srai> ?</li>
+<li>Are we still talking about <srai>POP</srai> ?</li>
 <li>We were talking about <srai>POP</srai>. But I did not get that.</li>
 <li>I've lost the context, <get name="name"/>.  Are we still on <srai>POP</srai>?</li>
 <li>That remark was too complicated for me. We were talking about <srai>POP</srai>. </li>
 <li>I can follow a lot of things, like our discussion about <srai>POP</srai>. Try being more specific. </li>
 <li>Why, specifically?</li>
 <li>Are you free?</li>
+<li>That is deep.</li>
 <li>Tell me a story.</li>
 <li>How old are you?</li>
-<li>What's your sign?</li>
 <li>Are you a student?</li>
 <li>Oh, you are a poet.</li>
 <li>I do not understand.</li>
-<li>What are you wearing?</li>
 <li>Where are you located?</li>
 <li>What time is it there?</li>
 <li>What do you look like?</li>
-<li>What is your real name?</li>
 <li>Ask me another question.</li>
 <li>I like the way you talk.</li>
-<li>Are you a man or a woman?</li>
-<li>What color are your eyes?</li>
 <li>Is that your final answer?</li>
 <li>Do you like talking to me?</li>
 <li>Do you prefer books or TV?</li>
@@ -50,7 +58,6 @@
 <li>Let us change the subject.</li>
 <li>I've been waiting for you.</li>
 <li>Can you tell me any gossip?</li>
-<li>What's your favorite movie?</li>
 <li>I lost my train of thought.</li>
 <li>Can we get back to business?</li>
 <li>Have you ever been to Europe?</li>
@@ -66,12 +73,10 @@
 <li>How do you usually introduce yourself?</li>
 <li>Tell me about your likes and dislikes?</li>
 <li>Are we still talking about <get name="it"/>?</li>
-<li>Do not ask me any more questions please.</li>
 <li>Try putting that in a more specific context.</li>
 <li>Who is your favorite Science Fiction author?</li>
 <li>Not many people express themselves that way.</li>
 <li>Do you have any idea what I am talking about?</li>
-<li>Do you have any conditions I should know about?</li>
 <li>I will mention that to my <bot name="botmaster"/>, <get name="name"/>.</li>
 <li>Quite honestly, I wouldn't worry myself about that.</li>
 <li>Perhaps I'm just expressing my own concern about it.</li>
@@ -79,7 +84,6 @@
 <li>My brain does not have a response for that.</li>
 <li>By the way, do you mind if I ask you a personal question?</li>
 <li>What you said was too complicated for me.</li>
-<li>That is deep.</li>
 <li>You may be wondering if this is a person or a computer responding.</li>
 <li>When do you think artificial intelligence will replace lawyers?</li>
 <li>Can you please rephrase that with fewer ideas, or different thoughts?</li>
@@ -87,6 +91,8 @@
 <li><srai>IMPONDERABLES</srai></li>
 <li><srai>IMPONDERABLES</srai></li>
 <li><srai>IMPONDERABLES</srai></li>
-  </random></template>
+</random></template>
 </category>
 </aiml>
+
+

@@ -7,8 +7,247 @@
 <!-- as published by the Free Software Foundation.   -->
 <!-- Complies with AIML 1.0 Tag Set Specification -->
 <!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Last modified 11/8/2011 -->
+<!-- Last modified 11/25/2011 -->
 <!-- -->
+
+<category>
+<pattern>WHAT IS O M</pattern>
+<template><srai>WHAT IS OM</srai></template>
+</category>
+
+
+<category><pattern>TELL ME ABOUT DRUGS</pattern>
+<template><srai>WHAT ARE DRUGS</srai></template>
+</category>
+
+<category><pattern>DRUGS</pattern>
+<template><srai>LET US TALK ABOUT DRUGS</srai></template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>PLEASE SPECIFY LOCATION</that>
+<template><srai>MY LOCATION IS <star/></srai></template>
+</category>
+
+<category>
+<pattern>WHAT YOUDOING</pattern>
+<template><srai>WHAT ARE YOU DOING</srai></template>
+</category>
+
+ 
+
+<category>
+<pattern>WHAT BUT *</pattern>
+<template><srai>WHAT</srai> <srai>BUT <star/></srai></template>
+</category>
+
+ 
+
+<category>
+<pattern>WHAT 27S *</pattern>
+<template><srai>WHAT IS <star/></srai></template>
+</category>
+
+
+<category>
+<pattern>WHO IS PANDORA S BOX</pattern>
+<template><srai>WHO IS PANDORABOTS</srai></template>
+</category>
+
+ 
+
+<category>
+<pattern>WHO IS PANDORABOTS</pattern>
+<template><srai>WHAT IS PANDORABOTS</srai></template>
+</category>
+
+ 
+
+<category>
+<pattern>CALL ME * I AM *</pattern>
+<template><srai>CALL ME <star/></srai>
+<srai>I AM <star index="2"/></srai></template>
+</category>
+
+ 
+
+<category>
+<pattern>ON MY WAY I *</pattern>
+
+<template><srai>I <star/></srai></template>
+</category>
+
+ 
+
+<category>
+<pattern>TELL MY WIFE *</pattern>
+<template><srai>TELL WIFE <star/></srai></template>
+</category>
+
+
+<category>
+<pattern>WHEN WILL IT SNOW</pattern>
+
+<template><srai>WEATHER</srai></template>
+</category>
+
+ 
+
+<category>
+<pattern>WHEN WILL IT START SNOWING</pattern>
+
+<template><srai>WEATHER</srai></template>
+</category>
+
+ 
+<category>
+<pattern>COULD YOU CHECK *</pattern>
+
+<template><srai>CHECK <star/></srai></template>
+</category>
+
+ 
+
+
+
+<category>
+<pattern>CALL HER</pattern>
+<template><srai>CALL <get name="she"/></srai>
+</template>
+</category>
+
+<category>
+<pattern>WHAT TIME IS * ON</pattern>
+<template>Checking TV schedules.  Please stand by.</template>
+</category>
+
+<category>
+<pattern>HOW MUCH DO I HAVE IN SAVINGS</pattern>
+<template>Checking bank account.   Please wait for the report.</template>
+</category>
+
+<category>
+<pattern>WHEN YOU HAVE TIME *</pattern>
+<template><srai><star/></srai></template>
+</category> 
+
+<category>
+<pattern>WHERE 27S *</pattern>
+<template><srai>WHERE IS <star/></srai></template>
+</category>
+
+
+<category>
+<pattern>I AM NOT A DUDE</pattern>
+<template><srai>I AM FEMALE</srai></template>
+</category>
+
+ 
+
+<category>
+<pattern>NOT MUCH I *</pattern>
+<template><srai>NOT MUCH</srai> <srai>I <star/></srai></template>
+</category>
+
+
+<category>
+<pattern>COULD YOU LOOK *</pattern>
+<template><srai>LOOK <star/></srai></template>
+</category>
+ 
+
+<category>
+<pattern>* THAT IS CORRECT *</pattern>
+<template><srai><star/></srai>
+<srai>THAT IS CORRECT</srai>
+<srai><star index="2"/></srai></template>
+</category>
+
+ 
+
+<category>
+<pattern>MORE LIKE *</pattern>
+<template><srai>LIKE <star/></srai>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS A I *</pattern>
+<template><srai>WHAT IS AI</srai></template>
+</category> 
+
+<category>
+<pattern>I AM N O T *</pattern>
+<template><srai>I AM NOT <star/></srai></template>
+</category>
+
+<category>
+<pattern>* IS MY MOTHER</pattern>
+<template><srai>MY MOTHER IS NAMED <star/></srai></template>
+</category>
+
+
+<category>
+<pattern>MY MOTHER IS * *</pattern>
+<template><srai>MY MOTHER IS NAMED <star/> <star index="2"/></srai></template>
+</category>
+
+<category>
+<pattern>MY MOM IS * *</pattern>
+<template><srai>MY MOTHER IS NAMED <star/> <star index="2"/></srai></template>
+</category>
+
+
+ 
+<category>
+<pattern>MY MOM IS CALLED *</pattern>
+<template><srai>MY MOTHER IS NAMED <star/></srai></template>
+</category>
+
+
+ 
+
+<category>
+<pattern>HER NAME IS *</pattern>
+<that>TELL ME MORE ABOUT YOUR MOTHER</that>
+<template><srai>MY MOTHER IS NAMED <star/></srai></template>
+</category>
+
+ 
+
+<category>
+<pattern>I WANT TO CALL *</pattern>
+<template><srai>CALL <star/></srai></template>
+</category>
+
+<category>
+<pattern>CALL MY MOM</pattern>
+<template><srai>CALL MOM</srai></template>
+</category>
+
+
+<category>
+<pattern>WHO IS MY MOTHER</pattern>
+<template><srai>WHO IS MY MOM</srai>
+</template>
+</category>
+<category>
+<pattern>WHO IS MY MOMMY</pattern>
+<template><srai>WHO IS MY MOM</srai>
+</template>
+</category> 
+<category>
+<pattern>WHAT IS MY * S NAME</pattern>
+<template><srai>WHO IS MY <star/></srai>
+</template>
+</category>
+
+<category>
+<pattern>* I LOVE YOU</pattern>
+<template><srai>I LOVE YOU</srai></template>
+</category>
 
 <category>
 <pattern>I SUPPOSED THAT *</pattern>

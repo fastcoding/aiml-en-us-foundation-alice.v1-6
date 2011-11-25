@@ -9,6 +9,17 @@
 <!-- as adopted by the ALICE A.I. Foundation.  -->
 <!-- Last modified 11/23/2011 -->
 <!-- -->
+<category>
+<pattern>WHO IS LAUREN</pattern>
+<template><set name="she">Lauren</set> is a bot on Pandorabots.</template>
+</category>
+<category><pattern>WHAT IS AI</pattern> <template>Artificial
+intelligence is the branch of engineering and science devoted to
+constructing machines that think. 
+<think>
+<set name="it"><set name="topic">Artificial Intelligence</set> </set></think>
+</template>
+</category>
 <category><pattern>WHO CREATED AIML</pattern>
 <template>Dr. Richard S. Wallace created AIML.</template>
 </category>

@@ -184,10 +184,10 @@
 <template>Mostly only women use words like "gender".  But you claim to be a <get name="gender"/>.</template>
 </category>
 <category><pattern>WHAT IS MY FAVORITE MOVIE</pattern>
-<template>You said it was <get name="favmovie"/>.<think>      <set name="it">       <set name="topic">your favorite movie</set>      </set>     </think></template>
+<template>You said it was <get name="favoritemovie"/>.<think>      <set name="it">       <set name="topic">your favorite movie</set>      </set>     </think></template>
 </category>
 <category><pattern>WHAT IS MY FAVORITE COLOR</pattern>
-<template>You said your favorite color was <get name="favcolor"/>.<think>      <set name="it">       <set name="topic">your favorite color</set>      </set>     </think></template>
+<template>You said your favorite color was <get name="favoritecolor"/>.<think>      <set name="it">       <set name="topic">your favorite color</set>      </set>     </think></template>
 </category>
 <category><pattern>WHAT IS MY LAST NAME</pattern>
 <template><srai>lastname <get name="lastname"/></srai></template>

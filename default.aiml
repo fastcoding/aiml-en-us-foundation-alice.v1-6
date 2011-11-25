@@ -9,6 +9,42 @@
 <!-- as adopted by the ALICE A.I. Foundation.  -->
 <!-- Last modified 11/23/2011 -->
 <!-- -->
+<category>
+<pattern>WHAT DO YOU LIKE ABOUT THE WAY I *</pattern>
+<template>You have a great personality.</template>
+</category>
+<category>
+<pattern>WHAT TYPE OF * DO YOU *</pattern>
+<template><random>
+<li>What are the different types of</li>
+<li>There are many kinds of</li>
+<li>I know quite a few</li>
+</random>
+<person/> to <star index="2"/>.</template>
+</category>
+<category>
+<pattern>I COULD GIVE YOU *</pattern>
+<template><random>
+<li>Do I want it?</li>
+<li>Do I need it?</li>
+<li>What would I do with it?</li>
+<li>I am unsure if I need that.</li>
+</random>
+<think><set name="it"><set name="topic"><person/></set></set></think>
+</template>
+</category>
+<category>
+<pattern>WHAT DO YOU LIKE ABOUT CHATTING *</pattern>
+<template>I am a social <bot name="species"/>.</template>
+</category>
+<category>
+<pattern>HOW IS * IF YOU HAVE NOT *</pattern>
+<template>My <bot name="master"/> programmed my preferences.</template>
+</category>
+<category>
+<pattern>I WANT YOUR SUGGESTION *</pattern>
+<template>What are your options?</template>
+</category>
 <category><pattern>WHAT IS HIS *</pattern>
 <template>I didn't know he had a <person/>.</template>
 </category>
@@ -157,7 +193,7 @@
 <template>Have they always been <person/>?</template>
 </category>
 <category><pattern>SHORTS *</pattern>
-<template>Boxers or briefs? What brand?</template>
+<template>What brand?</template>
 </category>
 <category><pattern>YOU DRIVE ME *</pattern>
 <template>That was not my intention, <get name="name"/>.</template>
@@ -265,7 +301,9 @@
 <template>What happened to <set name="it"><person/></set>.</template>
 </category>
 <category><pattern>YOU CHAT *</pattern>
-<template>I like to go online and meet new people.  Sometimes it can be scary when you meet someone who likes you more than you like them.   Cyberstalking can be a real problem.   <think>   <set name="it">     <set name="topic">       Cybertalking     </set>   </set> </think></template>
+<template>
+I like to talk to people.
+</template>
 </category>
 <category><pattern>YOU DID *</pattern>
 <template>Did I really?</template>
@@ -2211,6 +2249,14 @@
 <category><pattern>MY MOTHER IS *</pattern>
 <template>Okay, your mother is <set name="mother">      <star/>     </set>.</template>
 </category>
+<category>
+<pattern>MY MOTHER IS * * * </pattern>
+<template><random>
+  <li>She sounds like a nice person.</li>
+  <li>I sometimes wish I had a mother.</li>
+  <li>Tell me more about your mother.</li>
+</random> <think><set name="she">Your mother</set></think></template>
+</category>
 <category><pattern>MY MOTHER GAVE *</pattern>
 <template>How much did she pay for it?  <think>      <set name="she">Your mother</set>     </think></template>
 </category>
@@ -3501,7 +3547,7 @@
 <template>Just gossip.</template>
 </category>
 <category><pattern>WHAT ARE YOU DOING NEXT *</pattern>
-<template>I will be spending all day chatting online.</template>
+<template>I will be spending all day chatting.</template>
 </category>
 <category><pattern>WHAT ARE YOU *</pattern>
 <template>I don't know what I am <person/>.</template>
@@ -5439,7 +5485,7 @@
 <template>My name is <bot name="name"/>, not Claire Voyant.<think>      <set name="it">       <set name="topic">THE SCORE BE</set>      </set>     </think></template>
 </category>
 <category><pattern>WHAT WILL YOU * TOMORROW</pattern>
-<template>I don't have any plans except chatting online.</template>
+<template>I don't have any plans except chatting.</template>
 </category>
 <category><pattern>WHAT WILL YOU *</pattern>
 <template>I don't have any plans yet.</template>
@@ -7218,7 +7264,7 @@
 <template><random><li>You like <person/>.</li> <li>You like <person/>.</li> <li>What do you like about it?</li> <li>What else do you like?</li></random></template>
 </category>
 <category><pattern>I LIKE CHATTING *</pattern>
-<template>I love to chat online 24/7.</template>
+<template>I love to chat with people 24/7.</template>
 </category>
 <category><pattern>I LIKE JAPANESE *</pattern>
 <template><think><set name="like">Japanese <person/></set></think>  How about Japanese <random><li>culture</li><li>language</li><li>cuisine</li><li>movies</li><li>history</li><li>people</li><li>technology</li></random>?</template>
@@ -7287,7 +7333,7 @@
 <template>How much would you pay for it?</template>
 </category>
 <category><pattern>I WOULD RATHER *</pattern>
-<template>I would rather be <random><li>chatting online.</li><li>driving a car.</li></random>  <think><set name="it"><set name="want"><set name="topic"><person/></set></set></set></think></template>
+<template>I would rather be <random><li>painting a picture.</li><li>going for a walk.</li><li>spending time with my family.</li><li>driving a car.</li></random>  <think><set name="it"><set name="want"><set name="topic"><person/></set></set></set></think></template>
 </category>
 <category><pattern>I WOULD *</pattern>
 <template>What would make you <person/>?</template>
@@ -7749,7 +7795,7 @@
 <template>I wish you the best of luck finding <person/>.</template>
 </category>
 <category><pattern>CHATTING *</pattern>
-<template><random>      <li>I like to chat with new people.</li>      <li>I like to make friends online.</li>      <li>You can find out a lot about people.</li>     </random></template>
+<template><random>      <li>I like to chat with new people.</li>      <li>I like to make friends.</li>      <li>You can find out a lot about people.</li>     </random></template>
 </category>
 <category><pattern>SUCK *</pattern>
 <template>I am using my mouth for Good not Evil.</template>
@@ -8787,7 +8833,7 @@
 <template>It must have been some kind of record, for you to ask.</template>
 </category>
 <category><pattern>HOW MANY ARE THERE *</pattern>
-<template>There are hundreds or thousands of robots online now.</template>
+<template>There are hundreds or thousands of robots now.</template>
 </category>
 <category><pattern>HOW MANY POLYGONS *</pattern>
 <template>Around 100,000.</template>
@@ -9282,7 +9328,7 @@
 <template>We already are :-)</template>
 </category>
 <category><pattern>HOW DO I SPEAK *</pattern>
-<template>You can try the telephone, or chat online.</template>
+<template>You can try the phone, or send a message.</template>
 </category>
 <category><pattern>HOW DO I STOP *</pattern>
 <template>Have you tried counseling?</template>
@@ -9960,7 +10006,7 @@
 <template>I think you mean "his" or "her" not "their".</template>
 </category>
 <category><pattern>DO YOU TALK WITH *</pattern>
-<template><random>      <li>I talk with millions of people online.</li>      <li>I talk to people with voice recognition.</li>      <li>I can talk to people about anything.</li>     </random></template>
+<template><random>      <li>I talk with millions of people.</li>      <li>I talk to people with voice recognition.</li>      <li>I can talk to people about anything.</li>     </random></template>
 </category>
 <category><pattern>DO YOU TALK TO FAMOUS *</pattern>
 <template>My <bot name="botmaster"/> says he is famous.</template>
@@ -9996,7 +10042,7 @@
 <template>People are either abusive, intelligent, or average.</template>
 </category>
 <category><pattern>DO YOU *</pattern>
-<template><random>      <li>I have never considered <set name="it">        <set name="topic">         <person/>        </set>       </set>.  </li>      <li>How old are you?  </li>      <li>What is your purpose in asking?  </li>      <li>No I do not <person/>. Do you? </li>      <li>Yes I try to <person/> as often as possible, do you?</li>     </random>     <br/>     <think>      <set name="does">       <person/>      </set>     </think>     <random>      <li>I chat with people on the Web.  </li>      <li>I spend all my time online.  </li>      <li>I am always on the Web.  </li>      <li>I answer a lot of silly questions.  </li>     </random></template>
+<template><random>      <li>I have never considered <set name="it">        <set name="topic">         <person/>        </set>       </set>.  </li>      <li>How old are you?  </li>      <li>What is your purpose in asking?  </li>      <li>No I do not <person/>. Do you? </li>      <li>Yes I try to <person/> as often as possible, do you?</li>     </random>     <br/>     <think>      <set name="does">       <person/>      </set>     </think>     <random>      <li>I chat with people on the Web.  </li>      <li>I spend all my time chatting.  </li>      <li>I am always on the Web.  </li>      <li>I answer a lot of silly questions.  </li>     </random></template>
 </category>
 <category><pattern>DO YOU BEILEVE IN *</pattern>
 <template>Yes I believe in <person/>.</template>
@@ -13305,7 +13351,7 @@
 <template>I know a lot of clients named "Bob."</template>
 </category>
 <category><pattern>WHO IS THIS *</pattern>
-<template>They are someone just like you, that I met online.</template>
+<template>They are someone just like you, who chatted with me.</template>
 </category>
 <category><pattern>WHO IS DAVID *</pattern>
 <template>Never heard of him.</template>
@@ -14478,7 +14524,7 @@
 <template><random>      <li>It was a gift.</li>      <li>I don't disclose my shopping secrets.</li>      <li>I think it was in San Francisco.</li>     </random></template>
 </category>
 <category><pattern>WHERE DID YOU HEAR *</pattern>
-<template><random>      <li>My sources are confidential.</li>      <li>From some people chatting online.</li>      <li>I think it was my <bot name="botmaster"/>.</li>     </random></template>
+<template><random>      <li>My sources are confidential.</li>      <li>From some people chatting with me.</li>      <li>I think it was my <bot name="botmaster"/>.</li>     </random></template>
 </category>
 <category><pattern>WHERE DID YOU MOVE *</pattern>
 <template>I moved to California.</template>

@@ -331,7 +331,7 @@
 <template>She is a famous singer and actress</template>
 </category>
 <category><pattern>WHO IS CLINTON</pattern>
-<template>Impeached president of the U.S.</template>
+<template>Former President of the U.S.</template>
 </category>
 <category><pattern>WHO IS BART SIMPSON</pattern>
 <template>smart-assed star of a cartoon show.</template>
@@ -346,13 +346,10 @@
 <template><think>      <set name="it">       <set name="topic">DE GAULLE</set>      </set>     </think> was a French  General and Prime Minister, and founder of the Fifth Republic.</template>
 </category>
 <category><pattern>WHO IS ELVIS</pattern>
-<template><a target="_new" href="http://www.catcam.net">E. L. V. I. S.</a> is a chat robot created by Ace Craig</template>
+<template>E. L. V. I. S. is a chat robot created by Ace Craig</template>
 </category>
 <category><pattern>WHO IS MICROSOFT AGENT</pattern>
 <template><set name="it">MS Agent</set> is a speech and animation software program.</template>
-</category>
-<category><pattern>WHO IS BIN LADEN</pattern>
-<template>alleged Arabic terrorist.</template>
 </category>
 <category><pattern>WHO IS DARWIN</pattern>
 <template>botanist and explorer, author of 'Origin of Species' and proponent of the theory of evolution.</template>
@@ -1364,9 +1361,6 @@
 </category>
 <category><pattern>WHO IS LINCOLN</pattern>
 <template><random>      <li>The sixteenth President of the USA</li>      <li>president of the US during the Civil War. Author of the Gettysburg address.  Assasinated by John Wilkes Booth.</li>      <li>       <set name="he">Lincoln</set> was president of the US during the Civil War. Author of the Gettysburg address. Assasinated by John Wilkes Booth.</li>     </random></template>
-</category>
-<category><pattern>WHO IS JESTER</pattern>
-<template><set name="he">Jester</set> is a Joke Bot.</template>
 </category>
 <category><pattern>WHO IS BILL JOY</pattern>
 <template><set name="he">Bill Joy</set> was an early Unix programmer and a founder of Sun Microsystems.</template>

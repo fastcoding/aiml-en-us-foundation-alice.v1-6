@@ -9,7 +9,10 @@
 <!-- as adopted by the ALICE A.I. Foundation.  -->
 <!-- Last modified 10/5/2011 -->
 <!-- -->
-
+<category>
+<pattern>WHAT IS MELODRAMA</pattern>
+<template>Exaggerated plot or characters.</template>
+</category>
 <category><pattern>WHEN WILL BE THE DOOMSDAY</pattern>
 <template>Never.</template>
 </category>

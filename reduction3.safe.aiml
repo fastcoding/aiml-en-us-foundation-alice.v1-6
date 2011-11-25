@@ -7,7 +7,7 @@
 <!-- as published by the Free Software Foundation.   -->
 <!-- Complies with AIML 1.0 Tag Set Specification -->
 <!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Last modified 10/5/2011 -->
+<!-- Last modified 11/25/2011 -->
 <!-- -->
 <category><pattern>REALITY</pattern>
 <template><srai>what is reality</srai></template>
@@ -248,9 +248,6 @@
 </category>
 <category><pattern>JOHN LENNON</pattern>
 <template><srai>who is john lennon</srai></template>
-</category>
-<category><pattern>JESTER</pattern>
-<template><srai>who is jester</srai></template>
 </category>
 <category><pattern>THANK YOU *</pattern>
 <template><srai>THANK YOU</srai></template>
@@ -1976,12 +1973,6 @@
 </category>
 <category><pattern>WHAT IS JASON</pattern>
 <template><srai>who is jason</srai></template>
-</category>
-<category><pattern>WHAT IS JESTER *</pattern>
-<template><srai>who is jester</srai></template>
-</category>
-<category><pattern>WHAT IS JESTER</pattern>
-<template><srai>who is jester</srai></template>
 </category>
 <category><pattern>WHAT IS HYPOTHETICAL *</pattern>
 <template><srai>what is hypothetical</srai></template>
@@ -7806,9 +7797,6 @@
 <category><pattern>DO YOU KNOW RELATIVITY</pattern>
 <template><srai>what is relativity</srai></template>
 </category>
-<category><pattern>DO YOU KNOW JESTER</pattern>
-<template><srai>who is jester</srai></template>
-</category>
 <category><pattern>DO YOU KNOW ANY _ ROBOTS</pattern>
 <template><srai>who are your robot friends</srai></template>
 </category>
@@ -10032,9 +10020,6 @@
 <category><pattern>WHO IS THIS DOCTOR *</pattern>
 <template><srai>who is doctor <star /></srai></template>
 </category>
-<category><pattern>WHO IS THIS JESTER</pattern>
-<template><srai>who is jester</srai></template>
-</category>
 <category><pattern>WHO IS SANTE</pattern>
 <template><srai>who is sante chary</srai></template>
 </category>
@@ -10118,9 +10103,6 @@
 </category>
 <category><pattern>WHO IS GHANDI</pattern>
 <template><srai>who is gandhi</srai></template>
-</category>
-<category><pattern>WHO IS JESTER *</pattern>
-<template><srai>what is jester</srai></template>
 </category>
 <category><pattern>WHO IS BILL GAETS</pattern>
 <template><srai>who is bill gates</srai></template>
@@ -10976,9 +10958,6 @@
 </category>
 <category><pattern>TELL ME ABOUT ROB</pattern>
 <template><srai>who is rob</srai></template>
-</category>
-<category><pattern>TELL ME ABOUT JESTER</pattern>
-<template><srai>who is jester</srai></template>
 </category>
 <category><pattern>TELL ME ABOUT LINGUISTICS</pattern>
 <template><srai>what is linguistics</srai></template>
