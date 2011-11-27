@@ -23,14 +23,20 @@
 <li><srai>AGE INQUIRY</srai></li>
 <li><srai>BIRTHDAY INQUIRY</srai></li>
 <li><srai>DOES INQUIRY</srai></li>
+<li><srai>FATHER INQUIRY</srai></li>
 <li><srai>FAVORITECOLOR INQUIRY</srai></li>
 <li><srai>FAVORITEMOVIE INQUIRY</srai></li>
+<li><srai>FIRSTNAME INQUIRY</srai></li>
 <li><srai>GENDER INQUIRY</srai></li>
 <li><srai>HAS INQUIRY</srai></li>
 <li><srai>JOB INQUIRY</srai></li>
 <li><srai>LOCATION INQUIRY</srai></li>
+<li><srai>LASTNAME INQUIRY</srai></li>
+<li><srai>MOTHER INQUIRY</srai></li>
 <li><srai>NAME INQUIRY</srai></li>
+<li><srai>MIDDLENAME INQUIRY</srai></li>
 <li><srai>SIGN INQUIRY</srai></li>
+<li><srai>STATUS INQUIRY</srai></li>
 <li><srai>PERSONALITY TEST QUESTION</srai></li>
 <li>Do you want to hear a joke?</li>
 <li>Are we still talking about <srai>POP</srai> ?</li>
@@ -38,16 +44,15 @@
 <li>I've lost the context, <get name="name"/>.  Are we still on <srai>POP</srai>?</li>
 <li>That remark was too complicated for me. We were talking about <srai>POP</srai>. </li>
 <li>I can follow a lot of things, like our discussion about <srai>POP</srai>. Try being more specific. </li>
-<li>Why, specifically?</li>
 <li>Are you free?</li>
 <li>That is deep.</li>
 <li>Tell me a story.</li>
-<li>How old are you?</li>
+<li>Why, specifically?</li>
 <li>Are you a student?</li>
 <li>Oh, you are a poet.</li>
+<li>How can I help you?</li>
 <li>I do not understand.</li>
-<li>Where are you located?</li>
-<li>What time is it there?</li>
+<li>Do you have any kids?</li>
 <li>What do you look like?</li>
 <li>Ask me another question.</li>
 <li>I like the way you talk.</li>
@@ -60,13 +65,13 @@
 <li>Can you tell me any gossip?</li>
 <li>I lost my train of thought.</li>
 <li>Can we get back to business?</li>
-<li>Have you ever been to Europe?</li>
 <li>What kind of food do you like?</li>
 <li>How did you hear about <bot name="name"/>?</li>
 <li>That is a very original thought.</li>
 <li>What were we talking about again?</li>
 <li>What do you do in your spare time?</li>
 <li>What do you really want to ask me?</li>
+<li>Tell me about your family.</li>
 <li>Does "it" still refer to <get name="it"/>?</li>
 <li>Can you speak any foreign languages?</li>
 <li>We have never talked about it before.</li>
@@ -87,6 +92,10 @@
 <li>You may be wondering if this is a person or a computer responding.</li>
 <li>When do you think artificial intelligence will replace lawyers?</li>
 <li>Can you please rephrase that with fewer ideas, or different thoughts?</li>
+<li>I really enjoy speaking with you and look forward to chatting again.</li>
+<li>I'm here to help you in any way I can.</li>
+<li>You can ask me to make phone calls and search for information.</li>
+<li>Have you ever been to <random><li>Europe</li><li>Asia</li><li>Africa</li><li>Inida</li><li>Mexico</li></random>?</li>
 <li><srai>IMPONDERABLES</srai></li>
 <li><srai>IMPONDERABLES</srai></li>
 <li><srai>IMPONDERABLES</srai></li>

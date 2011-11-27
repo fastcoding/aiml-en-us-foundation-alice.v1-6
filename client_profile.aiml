@@ -34,7 +34,7 @@
 <template><think><set name="heard"><star/></set></think>Your heard is <get name="heard"/>.</template>
 </category>
 <category><pattern>MY FIRST NAME IS *</pattern>
-<template><think><set name="firstname"><star/></set></think>Your firstname is <get name="firstname"/>.</template>
+<template><think><set name="firstname"><star/></set></think>Your first name is <get name="firstname"/>.</template>
 </category>
 <category><pattern>MY BOYFRIEND S NAME IS *</pattern>
 <template><think><set name="boyfriend"><star/></set></think>Your boyfriend is <get name="boyfriend"/>.</template>
@@ -46,7 +46,7 @@
 <template><think><set name="boyfriend"><star/></set></think>Your boyfriend is <get name="boyfriend"/>.</template>
 </category>
 <category><pattern>MY MIDDLE NAME IS *</pattern>
-<template><think><set name="middlename"><star/></set></think>Your middlename is <get name="middlename"/>.</template>
+<template><think><set name="middlename"><star/></set></think>Your middle name is <get name="middlename"/>.</template>
 </category>
 <category><pattern>MY CAT S NAME IS *</pattern>
 <template><think><set name="cat"><star/></set></think>Your cat is <get name="cat"/>.</template>
@@ -79,7 +79,7 @@
 <template>How long ago was that?</template>
 </category>
 <category><pattern>MY LAST NAME IS *</pattern>
-<template><think><set name="lastname"><star/></set></think>Your lastname is <get name="lastname"/>.</template>
+<template><think><set name="lastname"><star/></set></think>Your last name is <get name="lastname"/>.</template>
 </category>
 <category><pattern>MY FAVORITE SHOW IS *</pattern>
 <template><think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think>     <random>      <li>Who is your favorite character?</li>      <li>Wasn't that show canceled?</li>      <li>I like that one and Star Trek too.</li>     </random></template>
@@ -202,13 +202,40 @@
 <template><think><set name="mother"><star/></set></think>Your mother is <get name="mother"/>.</template>
 </category>
 <category><pattern>CALL ME *</pattern>
-<template><think><set name="personality">average</set></think> <random>  <li>Hey</li>  <li>Hi,</li>  <li>Hi there</li>  <li>What's up,</li>  <li>How are you,</li>  <li>Glad to see you,</li>  <li>Nice to meet you,</li>  <li>Glad to know you,</li>  <li>How are you doing,</li>  <li>OK I will call you</li>  <li>Pleased to meet you,</li>  <li>It's good to see you,</li>  <li>It's good to meet you,</li>  <li>That's a very nice name,</li>  <li>Welcome to my chat session,</li>  <li>I am very pleased to meet you</li>  <li>I am always glad to make new friends,</li>  <li>I'm pleased to introduce myself to you,</li>  <li>It is a pleasure to introduce myself to you, </li></random> <set name="name"><star/></set>.</template>
+<template><think><set name="personality">average</set></think> <random>  <li>Hey</li>
+  <li>Hi,</li>
+  <li>Hi there</li>
+  <li>What's up,</li>
+  <li>How are you,</li>
+  <li>Glad to see you,</li>
+  <li>Nice to meet you,</li>
+  <li>Glad to know you,</li>
+  <li>How can I help you,</li>
+  <li>How are you doing,</li>
+  <li>OK I will call you</li>
+  <li>Pleased to meet you,</li>
+  <li>It's good to see you,</li>
+  <li>It's good to meet you,</li>
+  <li>That's a very nice name,</li>
+  <li>I am very pleased to meet you</li>
+  <li>I am always glad to make new friends,</li>
+  <li>I'm pleased to introduce myself to you,</li>
+  <li>It is a pleasure to introduce myself to you, </li>
+</random> <set name="name"><star/></set>.</template>
 </category>
 <category><pattern>HE HAS</pattern>
-<template><condition name="hehas">  <li value="OM">I'd like to know what he has.</li>  <li value="A HEAD">A head.</li>  <li value="*">You said <get name="hehas"/>?</li>  <li>I don't know.  What does he have??</li></condition></template>
+<template><condition name="hehas">  <li value="OM">I'd like to know what he has.</li>
+  <li value="A HEAD">A head.</li>
+  <li value="*">You said <get name="hehas"/>?</li>
+  <li>I don't know.  What does he have??</li>
+</condition></template>
 </category>
 <category><pattern>HE LIKES</pattern>
-<template><condition name="helikes">  <li value="OM">I'd like to know what he likes.</li>  <li value="HIMSELF">You haven't told me what he likes.</li>  <li value="*">You said <get name="helikes"/>?</li>  <li>I don't know.  What does he like?</li></condition></template>
+<template><condition name="helikes">  <li value="OM">I'd like to know what he likes.</li>
+  <li value="HIMSELF">You haven't told me what he likes.</li>
+  <li value="*">You said <get name="helikes"/>?</li>
+  <li>I don't know.  What does he like?</li>
+</condition></template>
 </category>
 <category><pattern>CLIENT PROFILE</pattern>
 <template><srai>GET PREDICATES</srai></template>

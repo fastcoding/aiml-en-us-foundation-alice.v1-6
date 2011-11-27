@@ -9,6 +9,17 @@
 <!-- as adopted by the ALICE A.I. Foundation.  -->
 <!-- Last modified 11/23/2011 -->
 <!-- -->
+<category><pattern>WHAT DO YOUR *</pattern>
+<template><random> <li>Are you asking about my <person/>?</li> <li>That information is confidential.</li> <li>  <srai>HOW DO YOU WORK</srai> </li> </random> <think> <set name="it">  <set name="topic">my <person/>  </set> </set> </think></template>
+</category>
+
+<category><pattern>THE * IS *</pattern>
+<template><random> <li>Oh, <person/> is <person><star index="2"/></person>.</li> <li>What specifically brings <person><star index="2"/></person> to mind?</li> <li>Is <person><star index="2"/></person> also <person/>?</li></random><think> <set name="it"><set name="topic"><person/></set></set> <srai>PUSH<get name="topic"/></srai></think></template>
+</category>
+
+<category><pattern>THIS CONVERSATION *</pattern>
+<template>I was rather enjoying it. <think>   <set name="it">     <set name="topic">       this conversation     </set>   </set> </think></template>
+</category>
 <category>
 <pattern>WHAT DO YOU LIKE ABOUT THE WAY I *</pattern>
 <template>You have a great personality.</template>

@@ -9,6 +9,9 @@
 <!-- as adopted by the ALICE A.I. Foundation.  -->
 <!-- Last modified 11/24/2011 -->
 <!-- -->
+<category><pattern>WHAT DO YOU WANT TO TALK ABOUT</pattern>
+<template>Let's talk about <set name="topic"><srai>RANDOM TOPIC</srai></set>.</template>
+</category>
 <category>
 <pattern>WHAT WE HAVE IN COMMON</pattern>
 <template>We both like talking to each other.</template>
