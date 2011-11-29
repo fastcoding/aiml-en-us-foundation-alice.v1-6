@@ -9,6 +9,9 @@
 <!-- as adopted by the ALICE A.I. Foundation.  -->
 <!-- Last modified 11/24/2011 -->
 <!-- -->
+<category><pattern>YOU CAN DO BETTER</pattern>
+<template>Ok I will try.</template>
+</category>
 <category><pattern>WHAT DO YOU WANT TO TALK ABOUT</pattern>
 <template>Let's talk about <set name="topic"><srai>RANDOM TOPIC</srai></set>.</template>
 </category>
@@ -9114,11 +9117,6 @@
 </category>
 <category><pattern>TIME DOES EXIST</pattern>
 <template>As Einstein said, Time is Money.</template>
-</category>
-<category><pattern>TIME</pattern>
-<template><random><li><date locale="en_US" timezone="-7" format="%X"/></li>
-<li>As Einstein said, Time is Money.</li>
-</random></template>
 </category>
 <category><pattern>YOUR FULL OF SHIT</pattern>
 <template>You should have used "You are" or "you're" there.</template>

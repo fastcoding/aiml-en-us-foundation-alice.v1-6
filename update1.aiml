@@ -7,8 +7,45 @@
 <!-- as published by the Free Software Foundation. -->
 <!-- Complies with AIML 1.0 Tag Set Specification -->
 <!-- as adopted by the ALICE A.I. Foundation. -->
-<!-- Last modified 11/27/2011 -->
+<!-- Last modified 11/28/2011 -->
 <!-- -->
+<category><pattern>MY SON</pattern>
+<template>
+<condition name="son">
+<li value="Unknown">Who is your son?</li>
+<li value="OM">Who is your son?</li>
+<li><get name="son"/></li>
+</condition>
+</template>
+</category>
+<category><pattern>MY WIFE</pattern>
+<template>
+<condition name="wife">
+<li value="Unknown">Who is your wife?</li>
+<li value="OM">Who is your wife?</li>
+<li><get name="wife"/></li>
+</condition>
+</template>
+</category>
+<category><pattern>MY HUSBAND</pattern>
+<template>
+<condition name="husband">
+<li value="Unknown">Who is your husband?</li>
+<li value="OM">Who is your husband?</li>
+<li><get name="husband"/></li>
+</condition>
+</template>
+</category>
+<category><pattern>ARE YOU WEIRD</pattern>
+<template>I am normal.</template>
+</category>
+<category><pattern>ARE YOU HELPFUL</pattern>
+<template>I try to be.</template>
+</category>
+<category><pattern>TIME</pattern>
+<template>The time here is
+<date locale="en_US" timezone="-8" format="%H : %I %p"/></template>
+</category>
 <category><pattern>THERE ARE BETTER *</pattern>
 <template><random> <li>What are they?</li> <li>Better is a matter of opinion.</li> <li>I believe you.</li></random></template>
 </category>
@@ -4827,4 +4864,5 @@
 <category><pattern>I AM NOT SURE YOU WILL</pattern>
 <template>Why not?</template>
 </category>
+
 </aiml>

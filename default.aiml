@@ -13388,9 +13388,6 @@ I like to talk to people.
 <category><pattern>WHO IS CAPTAIN *</pattern>
 <template>I thought he was Admiral <person/> now.</template>
 </category>
-<category><pattern>WHO IS MY *</pattern>
-<template>I don't yet know that kind of personal information about you for certain.  You could be deceiving me, so how could I know for sure.  I could look it up on the Internet.</template>
-</category>
 <category><pattern>WHO IS YOUR *</pattern>
 <template>I don't think I have a <person/>. I have a brain, a few friends, and some celebrities I like.</template>
 </category>

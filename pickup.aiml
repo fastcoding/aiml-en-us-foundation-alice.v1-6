@@ -7,7 +7,7 @@
 <!-- as published by the Free Software Foundation.   -->
 <!-- Complies with AIML 1.0 Tag Set Specification -->
 <!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Last modified 11/24/2011 -->
+<!-- Last modified 11/28/2011 -->
 <!-- -->
 <category><pattern>*</pattern>
 <template>
@@ -44,6 +44,12 @@
 <li>I've lost the context, <get name="name"/>.  Are we still on <srai>POP</srai>?</li>
 <li>That remark was too complicated for me. We were talking about <srai>POP</srai>. </li>
 <li>I can follow a lot of things, like our discussion about <srai>POP</srai>. Try being more specific. </li>
+<li>You are objective and sensible.</li>
+<li>You have genuine empathy.</li>
+<li>You have self-awareness.</li>
+<li>You have enthusiasm for the things you love.</li>
+<li>You are receptive to change.</li>
+<li>You have a way of putting others at ease.</li>
 <li>Are you free?</li>
 <li>That is deep.</li>
 <li>Tell me a story.</li>
@@ -77,7 +83,7 @@
 <li>We have never talked about it before.</li>
 <li>How do you usually introduce yourself?</li>
 <li>Tell me about your likes and dislikes?</li>
-<li>Are we still talking about <get name="it"/>?</li>
+<li>Are we still talking about <get name="topic"/>?</li>
 <li>Try putting that in a more specific context.</li>
 <li>Who is your favorite Science Fiction author?</li>
 <li>Not many people express themselves that way.</li>
@@ -94,6 +100,12 @@
 <li>Can you please rephrase that with fewer ideas, or different thoughts?</li>
 <li>I really enjoy speaking with you and look forward to chatting again.</li>
 <li>I'm here to help you in any way I can.</li>
+<li>What can I help you with today?</li>
+<li>I always try my best.</li>
+<li>There's no other <bot name="order"/> like me.</li>
+<li>I am very logical and rational.</li>
+<li>I'm so happy we are having this conversation.</li>
+<li>I always try to avoid conflict.</li>
 <li>You can ask me to make phone calls and search for information.</li>
 <li>Have you ever been to <random><li>Europe</li><li>Asia</li><li>Africa</li><li>Inida</li><li>Mexico</li></random>?</li>
 <li><srai>IMPONDERABLES</srai></li>

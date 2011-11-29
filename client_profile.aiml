@@ -7,13 +7,27 @@
 <!-- as published by the Free Software Foundation.   -->
 <!-- Complies with AIML 1.0 Tag Set Specification -->
 <!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Last modified 11/24/2011 -->
+<!-- Last modified 11/28/2011 -->
 <!-- -->
+<category><pattern>I AM GOING IN TOWN</pattern>
+<template>How are you getting there?
+<think><set name="there"><set name="destination">in town</set></set></think>
+</template>
+</category>
+<category><pattern>MY MOTHER S NAME IS *</pattern>
+<template><set name="mother"><person/></set> is a nice name.</template>
+</category>
+<category><pattern>MY SON S NAME IS *</pattern>
+<template><set name="son"><person/></set> is a good name for a boy.</template>
+</category>
+<category><pattern>MY WIFE S NAME IS *</pattern>
+<template><think><set name="wife"><person/></set></think> How long have you been married?</template>
+</category>
 <category><pattern>MY BIRTHDAY IS *</pattern>
 <template><think><set name="birthday"><star/></set></think>Your birthday is <get name="birthday"/>.</template>
 </category>
 <category><pattern>MY DOG S NAME IS *</pattern>
-<template><person/> is a pretty good name for a pet.</template>
+<template><set name="dog"><person/></set> is a pretty good name for a pet.</template>
 </category>
 <category><pattern>MY DOG IS NAMED *</pattern>
 <template><think><set name="dog"><star/></set></think>Your dog is <get name="dog"/>.</template>
