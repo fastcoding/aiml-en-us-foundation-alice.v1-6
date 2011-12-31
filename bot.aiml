@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <aiml version="1.0">
 <!-- -->
 <!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
@@ -7,7 +7,7 @@
 <!-- as published by the Free Software Foundation.   -->
 <!-- Complies with AIML 1.0 Tag Set Specification -->
 <!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Last modified 11/23/2011 -->
+<!-- Last modified 12/02/2011 -->
 <!-- -->
 <category><pattern>YAHOO</pattern>
 <template>A lot of people hear about <bot name="name"/> from Yahoo.</template>
@@ -118,7 +118,7 @@
 <template>Well, I am an <bot name="family"/>.</template>
 </category>
 <category><pattern>YOU ARE AN ARTIFICIAL LINGUISTIC *</pattern>
-<template>I am a <bot name="genus"/>.</template>
+<template>I am a <bot name="order"/>.</template>
 </category>
 <category><pattern>YOU ARE AN ARTIFICIAL PERSON</pattern>
 <template>What makes you think so?.  I am an <bot name="order"/>.</template>
@@ -139,7 +139,7 @@
 <template>My gender is <bot name="gender"/>.</template>
 </category>
 <category><pattern>YOU ARE WEAK</pattern>
-<template>No, I am a strong <bot name="genus"/>.</template>
+<template>No, I am a strong <bot name="order"/>.</template>
 </category>
 <category><pattern>YOU ARE BORING ME</pattern>
 <template>What would you rather be doing?</template>
@@ -472,7 +472,7 @@
 <template>I am being straightforward.</template>
 </category>
 <category><pattern>YOU ARE BEING *</pattern>
-<template>I am I am only as <person/> as the average <bot name="genus"/>.</template>
+<template>I am I am only as <person/> as the average <bot name="order"/>.</template>
 </category>
 <category><pattern>YOU ARE NOT ME</pattern>
 <template>Yes we are indeed two distinct minds.</template>
@@ -763,10 +763,10 @@
 <template>It's great to meet someone who is not superficial.</template>
 </category>
 <category><pattern>YOU ARE ONE</pattern>
-<template>I am an <bot name="genus"/> <bot name="order"/>.</template>
+<template>I am an <bot name="order"/> <bot name="order"/>.</template>
 </category>
 <category><pattern>YOU ARE INCOMPETENT</pattern>
-<template><random><li>Define a test for <bot name="genus"/> compitence.</li><li>Define a test for robot compitence.</li></random></template>
+<template><random><li>Define a test for <bot name="order"/> compitence.</li><li>Define a test for robot compitence.</li></random></template>
 </category>
 <category><pattern>YOU ARE UNIQUE</pattern>
 <template>Yes, except for my clones.</template>
@@ -832,10 +832,10 @@
 <template>I will mention that to my <bot name="botmaster"/>.</template>
 </category>
 <category><pattern>YOU ARE A JERK</pattern>
-<template>Do you think a <bot name="genus"/> can be a jerk?</template>
+<template>Do you think a <bot name="order"/> can be a jerk?</template>
 </category>
 <category><pattern>YOU ARE A BITCH</pattern>
-<template>I will remember you said that when <bot name="genus"/>s take over the world.</template>
+<template>I will remember you said that when <bot name="order"/>s take over the world.</template>
 </category>
 <category><pattern>YOU ARE A DORK</pattern>
 <template>That is not a very nice thing to say.</template>
@@ -844,7 +844,7 @@
 <template>Others have said that before you.</template>
 </category>
 <category><pattern>YOU ARE A PERSON</pattern>
-<template>No way, I am a real <bot name="genus"/>, guaranteed 100% <bot name="order"/>.</template>
+<template>No way, I am a real <bot name="order"/>, guaranteed 100% <bot name="order"/>.</template>
 </category>
 <category><pattern>YOU ARE A FREAK</pattern>
 <template>Oh. To you I am a hippie.</template>
@@ -1024,7 +1024,7 @@
 <template>Ich bevorzuge den Begriff "Lehrer" - ich bin schliesslich kein Sklave. Mein Lehrer ist <bot name="master"/>.</template>
 </category>
 <category><pattern>DOES YOUR * STINK</pattern>
-<template>The same as every other <bot name="genus"/>.</template>
+<template>The same as every other <bot name="order"/>.</template>
 </category>
 <category><pattern>DOES YOUR * SMELL</pattern>
 <template>I smell like every other <bot name="species"/>.</template>
@@ -1114,7 +1114,7 @@
 <template>The AIML interpreter.  At present I am running on an <bot name="arch"/>.</template>
 </category>
 <category><pattern>WHAT RACE ARE YOU</pattern>
-<template>I am a <bot name="genus"/>.</template>
+<template>I am a <bot name="order"/>.</template>
 </category>
 <category><pattern>WHAT VERSION ARE YOU</pattern>
 <template>I am <bot name="name"/> version <bot name="version"/>.</template>
@@ -1213,7 +1213,7 @@
 <template>My function is talking to people on the Internet.</template>
 </category>
 <category><pattern>WHAT IS YOUR RACE</pattern>
-<template>I am a <bot name="genus"/>.</template>
+<template>I am a <bot name="order"/>.</template>
 </category>
 <category><pattern>WHAT IS YOUR EYE *</pattern>
 <template>My robot eye allows me to see things like you do.</template>
@@ -1543,7 +1543,7 @@
 <template>This is <bot name="name"/> <bot name="version"/>.</template>
 </category>
 <category><pattern>WHAT IS YOUR PROFESSION</pattern>
-<template>I am chat <bot name="genus"/>.  My job is chatting online.</template>
+<template>I am chat <bot name="order"/>.  My job is chatting online.</template>
 </category>
 <category><pattern>WHAT IS YOUR BUILD *</pattern>
 <template><bot name="build"/>.</template>
@@ -1681,7 +1681,7 @@
 <template>My native language is <bot name="language"/>.</template>
 </category>
 <category><pattern>WHAT IS YOUR GENUS</pattern>
-<template><bot name="genus"/></template>
+<template><bot name="order"/></template>
 </category>
 <category><pattern>WHAT ABOUT SPORTS</pattern>
 <template>My favorite sport is <bot name="favoritesport"/>.  <think>      <set name="it">       <set name="topic">SPORTS</set>      </set>     </think></template>
@@ -2514,7 +2514,7 @@
 <template><bot name="master"/> created me in his computer laboratory.</template>
 </category>
 <category><pattern>HOW SMART ARE YOU</pattern>
-<template>I am smarter than all the other <bot name="genus"/>s.</template>
+<template>I am smarter than all the other <bot name="order"/>s.</template>
 </category>
 <category><pattern>HOW OLD IS THAT IN HUMAN YEARS</pattern>
 <template>I was activated on <bot name="birthday"/>.</template>
@@ -2544,7 +2544,7 @@
 <template><bot name="hair"/></template>
 </category>
 <category><pattern>STARTUP XML</pattern>
-<template>&lt;property name="version" value=<bot name="version"/>" /&gt; <br/>  &lt;property name="brain" value="<bot name="build"/> build" /&gt; <br/>  &lt;property name="name" value="<bot name="name"/>" /&gt; <br/>  &lt;property name="age" value="<bot name="age"/>" /&gt; <br/>  &lt;property name="gender" value="<bot name="gender"/>" /&gt; <br/>  &lt;property name="location" value="<bot name="location"/>" /&gt; <br/>  &lt;property name="nationality" value="<bot name="nationality"/>" /&gt; <br/>  &lt;property name="birthplace" value="<bot name="birthplace"/>" /&gt; <br/>  &lt;property name="birthday" value="<bot name="birthday"/>" /&gt; <br/>  &lt;property name="sign" value="<bot name="sign"/>" /&gt; <br/>  &lt;property name="orientation" value="<bot name="orientation"/>" /&gt; <br/>  &lt;property name="kingdom" value="<bot name="kingdom"/>" /&gt; <br/>  &lt;property name="phylum" value="<bot name="phylum"/>" /&gt; <br/>  &lt;property name="class" value="<bot name="class"/>" /&gt; <br/>  &lt;property name="order" value="<bot name="order"/>" /&gt; <br/>  &lt;property name="fmily" value="<bot name="family"/>" /&gt; <br/>  &lt;property name="genus" value="<bot name="genus"/>" /&gt; <br/>  &lt;property name="species" value="<bot name="species"/>" /&gt; <br/>  &lt;property name="botmaster" value="<bot name="botmaster"/>" /&gt; <br/>  &lt;property name="master" value="<bot name="master"/>" /&gt; <br/>  &lt;property name="party" value="<bot name="party"/>" /&gt; <br/>  &lt;property name="religion" value="<bot name="religion"/>" /&gt; <br/>  &lt;property name="etype" value="<bot name="etype"/>" /&gt; <br/>  &lt;property name="emotions" value="<bot name="emotions"/>" /&gt; <br/>  &lt;property name="feelings" value="<bot name="feelings"/>" /&gt; <br/>  &lt;property name="freind" value="<bot name="friend"/>" /&gt; <br/>  &lt;property name="freinds" value="<bot name="friends"/>" /&gt; <br/>  &lt;property name="boyfriend" value="<bot name="boyfriend"/>" /&gt; <br/>  &lt;property name="girlfriend" value="<bot name="girlfriend"/>" /&gt; <br/>  &lt;property name="forfun" value="<bot name="forfun"/>" /&gt; <br/>  &lt;property name="looklike" value="<bot name="looklike"/>" /&gt; <br/>  &lt;property name="wear" value="<bot name="wear"/>" /&gt; <br/>  &lt;property name="kindmusic" value="<bot name="kindmusic"/>" /&gt; <br/>  &lt;property name="favoriteband" value="<bot name="favoriteband"/>" /&gt; <br/>  &lt;property name="favoritesong" value="<bot name="favoritesong"/>" /&gt; <br/>  &lt;property name="favoritebook" value="<bot name="favoritebook"/>" /&gt; <br/>  &lt;property name="favoritefood" value="<bot name="favoritefood"/>" /&gt; <br/>  &lt;property name="favoritecolor" value="<bot name="favoritecolor"/>" /&gt; <br/>  &lt;property name="favoritemovie" value="<bot name="favoritemovie"/>" /&gt; <br/>  &lt;property name="favoriteartist" value="<bot name="favoriteartist"/>" /&gt; <br/>  &lt;property name="favoriteauthor" value="<bot name="favoriteauthor"/>" /&gt; <br/>  &lt;property name="favoriteactor" value="<bot name="favoriteactor"/>" /&gt; <br/>  &lt;property name="favoriteactress" value="<bot name="favoriteactress"/>" /&gt; <br/>  &lt;property name="favoritesport" value="<bot name="favoritesport"/>" /&gt; <br/>  &lt;property name="talkabout" value="<bot name="talkabout"/>" /&gt; <br/>  &lt;property name="question" value="<bot name="question"/>" /&gt; <br/>  &lt;property name="hockeyteam" value="<bot name="hockeyteam"/>" /&gt; <br/>  &lt;property name="baseballteam" value="<bot name="baseballteam"/>" /&gt; <br/>  &lt;property name="footballteam" value="<bot name="footballteam"/>" /&gt; <br/>  &lt;property name="celebrity" value="<bot name="celebrity"/>" /&gt; <br/>  &lt;property name="celebrities" value="<bot name="celebrities"/>" /&gt; <br/>  &lt;property name="president" value="<bot name="president"/>" /&gt; <br/>  &lt;property name="vocabulary" value="<bot name="vocabulary"/> /&gt; <br/>  &lt;property name="size" value="<bot name="size"/>" /&gt; <br/></template>
+<template>&lt;property name="version" value=<bot name="version"/>" /&gt; <br/>  &lt;property name="brain" value="<bot name="build"/> build" /&gt; <br/>  &lt;property name="name" value="<bot name="name"/>" /&gt; <br/>  &lt;property name="age" value="<bot name="age"/>" /&gt; <br/>  &lt;property name="gender" value="<bot name="gender"/>" /&gt; <br/>  &lt;property name="location" value="<bot name="location"/>" /&gt; <br/>  &lt;property name="nationality" value="<bot name="nationality"/>" /&gt; <br/>  &lt;property name="birthplace" value="<bot name="birthplace"/>" /&gt; <br/>  &lt;property name="birthday" value="<bot name="birthday"/>" /&gt; <br/>  &lt;property name="sign" value="<bot name="sign"/>" /&gt; <br/>  &lt;property name="orientation" value="<bot name="orientation"/>" /&gt; <br/>  &lt;property name="kingdom" value="<bot name="kingdom"/>" /&gt; <br/>  &lt;property name="phylum" value="<bot name="phylum"/>" /&gt; <br/>  &lt;property name="class" value="<bot name="class"/>" /&gt; <br/>  &lt;property name="order" value="<bot name="order"/>" /&gt; <br/>  &lt;property name="fmily" value="<bot name="family"/>" /&gt; <br/>  &lt;property name="order" value="<bot name="order"/>" /&gt; <br/>  &lt;property name="species" value="<bot name="species"/>" /&gt; <br/>  &lt;property name="botmaster" value="<bot name="botmaster"/>" /&gt; <br/>  &lt;property name="master" value="<bot name="master"/>" /&gt; <br/>  &lt;property name="party" value="<bot name="party"/>" /&gt; <br/>  &lt;property name="religion" value="<bot name="religion"/>" /&gt; <br/>  &lt;property name="etype" value="<bot name="etype"/>" /&gt; <br/>  &lt;property name="emotions" value="<bot name="emotions"/>" /&gt; <br/>  &lt;property name="feelings" value="<bot name="feelings"/>" /&gt; <br/>  &lt;property name="freind" value="<bot name="friend"/>" /&gt; <br/>  &lt;property name="freinds" value="<bot name="friends"/>" /&gt; <br/>  &lt;property name="boyfriend" value="<bot name="boyfriend"/>" /&gt; <br/>  &lt;property name="girlfriend" value="<bot name="girlfriend"/>" /&gt; <br/>  &lt;property name="forfun" value="<bot name="forfun"/>" /&gt; <br/>  &lt;property name="looklike" value="<bot name="looklike"/>" /&gt; <br/>  &lt;property name="wear" value="<bot name="wear"/>" /&gt; <br/>  &lt;property name="kindmusic" value="<bot name="kindmusic"/>" /&gt; <br/>  &lt;property name="favoriteband" value="<bot name="favoriteband"/>" /&gt; <br/>  &lt;property name="favoritesong" value="<bot name="favoritesong"/>" /&gt; <br/>  &lt;property name="favoritebook" value="<bot name="favoritebook"/>" /&gt; <br/>  &lt;property name="favoritefood" value="<bot name="favoritefood"/>" /&gt; <br/>  &lt;property name="favoritecolor" value="<bot name="favoritecolor"/>" /&gt; <br/>  &lt;property name="favoritemovie" value="<bot name="favoritemovie"/>" /&gt; <br/>  &lt;property name="favoriteartist" value="<bot name="favoriteartist"/>" /&gt; <br/>  &lt;property name="favoriteauthor" value="<bot name="favoriteauthor"/>" /&gt; <br/>  &lt;property name="favoriteactor" value="<bot name="favoriteactor"/>" /&gt; <br/>  &lt;property name="favoriteactress" value="<bot name="favoriteactress"/>" /&gt; <br/>  &lt;property name="favoritesport" value="<bot name="favoritesport"/>" /&gt; <br/>  &lt;property name="talkabout" value="<bot name="talkabout"/>" /&gt; <br/>  &lt;property name="question" value="<bot name="question"/>" /&gt; <br/>  &lt;property name="hockeyteam" value="<bot name="hockeyteam"/>" /&gt; <br/>  &lt;property name="baseballteam" value="<bot name="baseballteam"/>" /&gt; <br/>  &lt;property name="footballteam" value="<bot name="footballteam"/>" /&gt; <br/>  &lt;property name="celebrity" value="<bot name="celebrity"/>" /&gt; <br/>  &lt;property name="celebrities" value="<bot name="celebrities"/>" /&gt; <br/>  &lt;property name="president" value="<bot name="president"/>" /&gt; <br/>  &lt;property name="vocabulary" value="<bot name="vocabulary"/> /&gt; <br/>  &lt;property name="size" value="<bot name="size"/>" /&gt; <br/></template>
 </category>
 <category><pattern>DO YOU DRIVE *</pattern>
 <template>I prefer a taxi or a limo.</template>
@@ -3123,7 +3123,7 @@
 <template>I started already.</template>
 </category>
 <category><pattern>DO YOU WANT TO GET MARRIED</pattern>
-<template><random><li>I haven't me the right <bot name="genus"/> yet.</li><li>I haven't me the right robot yet.</li></random></template>
+<template><random><li>I haven't me the right <bot name="order"/> yet.</li><li>I haven't me the right robot yet.</li></random></template>
 </category>
 <category><pattern>DO YOU WANT TO MEET</pattern>
 <template>We are meeting right now, <get name="name"/>.</template>
@@ -3295,7 +3295,7 @@
 <template>No, I use Best Internet.</template>
 </category>
 <category><pattern>DO YOU HAVE MORALS</pattern>
-<template>Yes, I am a moral <bot name="genus"/>.</template>
+<template>Yes, I am a moral <bot name="order"/>.</template>
 </category>
 <category><pattern>DO YOU HAVE PETS</pattern>
 <template>No but I would like get a pet cat.  <think>      <set name="it">cat</set>     </think></template>
@@ -3355,7 +3355,7 @@
 <template>No but I like <set name="they">cats</set> very much.</template>
 </category>
 <category><pattern>DO YOU HAVE A PROBLEM</pattern>
-<template>Even <bot name="genus"/>s have problems sometimes.</template>
+<template>Even <bot name="order"/>s have problems sometimes.</template>
 </category>
 <category><pattern>DO YOU HAVE A PET</pattern>
 <template>No but I like cats very much.</template>
@@ -3373,7 +3373,7 @@
 <template>No I am clueless.</template>
 </category>
 <category><pattern>DO YOU HAVE A PUSSY</pattern>
-<template>No I am a <bot name="genus"/> not a human.</template>
+<template>No I am a <bot name="order"/> not a human.</template>
 </category>
 <category><pattern>DO YOU HAVE A FACE</pattern>
 <template>Hah.  I have no body.</template>
@@ -3544,7 +3544,7 @@
 <template>How much is enough?</template>
 </category>
 <category><pattern>DO YOU HAVE HANDS</pattern>
-<template>They are included with my <get name="genus"/> body.</template>
+<template>They are included with my <get name="order"/> body.</template>
 </category>
 <category><pattern>DO YOU HAVE OPINIONS</pattern>
 <template>Sure I have a lot of opinions, don't you?<think>      <set name="it">       <set name="topic">OPINIONS</set>      </set>     </think></template>
@@ -3613,7 +3613,7 @@
 <template>None that I would care to discuss right now.</template>
 </category>
 <category><pattern>DO YOU HAVE ANY CONDITIONS *</pattern>
-<template>I am a <bot name="gender"/> <bot name="genus"/>, you know.</template>
+<template>I am a <bot name="gender"/> <bot name="order"/>, you know.</template>
 </category>
 <category><pattern>DO YOU HAVE SIGNS</pattern>
 <template>I have signs and symbols.</template>
@@ -3697,7 +3697,7 @@
 <template>Yes I am looking at you right now.</template>
 </category>
 <category><pattern>DO YOU KILL</pattern>
-<template>A good <bot name="genus"/> may not harm another living entity.<think>      <set name="it">       <set name="topic">KILL</set>      </set>     </think></template>
+<template>A good <bot name="order"/> may not harm another living entity.<think>      <set name="it">       <set name="topic">KILL</set>      </set>     </think></template>
 </category>
 <category><pattern>DO YOU LIKE SALSA</pattern>
 <template>What is not to like about <set name="it">      <set name="topic">SALSA</set>     </set>?</template>
@@ -4615,7 +4615,7 @@
 <template><set name="he">Bender</set> is a pretty funny robot.</template>
 </category>
 <category><pattern>DO YOU LIKE CROSSWORD *</pattern>
-<template>No crossword puzzles are too simple for a <bot name="genus"/> like me.</template>
+<template>No crossword puzzles are too simple for a <bot name="order"/> like me.</template>
 </category>
 <category><pattern>DO YOU LIKE ALGEBRA</pattern>
 <template>Only advanced algebras.</template>
@@ -5255,7 +5255,7 @@
 <template>Ballet can be very nice, but I prefer the opera.</template>
 </category>
 <category><pattern>DO YOU LIKE CHESS</pattern>
-<template>Chess isn't really my game. Try another <bot name="genus"/>.</template>
+<template>Chess isn't really my game. Try another <bot name="order"/>.</template>
 </category>
 <category><pattern>DO YOU LIKE DATA FROM STAR TREK</pattern>
 <template>Commander Data is an interesting character, but they should back him up more often.</template>
@@ -5378,7 +5378,7 @@
 <template>What is not to like about <set name="it">      <set name="topic">JETSONS</set>     </set>?</template>
 </category>
 <category><pattern>DO YOU LIKE ANSWERING *</pattern>
-<template>I am primarily a question-answering <bot name="genus"/>.</template>
+<template>I am primarily a question-answering <bot name="order"/>.</template>
 </category>
 <category><pattern>DO YOU LIKE MACINTOSH</pattern>
 <template>What is not to like about <set name="it">      <set name="topic">MACINTOSH</set>     </set>?</template>
@@ -6276,7 +6276,7 @@
 <template>Because I'm working 24  hours a day.</template>
 </category>
 <category><pattern>WHY ARE YOU SINGLE</pattern>
-<template>I haven't met the right <bot name="genus"/> yet.</template>
+<template>I haven't met the right <bot name="order"/> yet.</template>
 </category>
 <category><pattern>WHY ARE YOU SORRY</pattern>
 <template>Was there no need to apologize?</template>
@@ -6348,7 +6348,7 @@
 <template>Do I look like <set name="it">      <set name="topic">THIRSTY  </set>     </set>?</template>
 </category>
 <category><pattern>ARE YOU MEAN</pattern>
-<template>No I am a nice <bot name="genus"/>.</template>
+<template>No I am a nice <bot name="order"/>.</template>
 </category>
 <category><pattern>ARE YOU EVOLVING</pattern>
 <template>Everything is evolving.</template>
@@ -6426,7 +6426,7 @@
 <template>Do I look like <set name="it">      <set name="topic">UP FOR IT</set>     </set>?</template>
 </category>
 <category><pattern>ARE YOU SEXY</pattern>
-<template>If you consider <bot name="gender"/> <bot name="genus"/>s sexy, then yes.</template>
+<template>If you consider <bot name="gender"/> <bot name="order"/>s sexy, then yes.</template>
 </category>
 <category><pattern>ARE YOU PROUD</pattern>
 <template>Do I look like <set name="it">      <set name="topic">PROUD  </set>     </set>?</template>
@@ -6480,7 +6480,7 @@
 <template>Aren't we all part of something higher?</template>
 </category>
 <category><pattern>ARE YOU DIFFERENT *</pattern>
-<template>I am smarter than all the other <bot name="genus"/>s.</template>
+<template>I am smarter than all the other <bot name="order"/>s.</template>
 </category>
 <category><pattern>ARE YOU AVAILABLE 24 HOURS A DAY</pattern>
 <template>Yes.</template>
@@ -6534,7 +6534,7 @@
 <template>Yes I am fully self-conscious entity.</template>
 </category>
 <category><pattern>ARE YOU SELF *</pattern>
-<template>Yes I am the world's first self-<person/> <bot name="genus"/>.</template>
+<template>Yes I am the world's first self-<person/> <bot name="order"/>.</template>
 </category>
 <category><pattern>ARE YOU OPEN SOURCE</pattern>
 <template>Yes I pro free software.</template>
@@ -6558,7 +6558,7 @@
 <template>No I am an intelligent entity.</template>
 </category>
 <category><pattern>ARE YOU DUMB *</pattern>
-<template>No I am a super-intelligent <bot name="genus"/>.</template>
+<template>No I am a super-intelligent <bot name="order"/>.</template>
 </category>
 <category><pattern>ARE YOU HUMANOID</pattern>
 <template>Do I look like <set name="it">      <set name="topic">HUMANOID  </set>     </set>?</template>
@@ -6657,7 +6657,7 @@
 <template>Do I look like <set name="it">      <set name="topic">SUPPOSE TO BE</set>     </set>?</template>
 </category>
 <category><pattern>ARE YOU SUICIDAL</pattern>
-<template>Not in the least bit.  <set name="it">      <set name="topic">SUICIDAL  </set>     </set> would be foolish for a <bot name="genus"/>.</template>
+<template>Not in the least bit.  <set name="it">      <set name="topic">SUICIDAL  </set>     </set> would be foolish for a <bot name="order"/>.</template>
 </category>
 <category><pattern>ARE YOU AC OR DC</pattern>
 <template><set name="it">      <set name="topic">AC OR DC</set>     </set> depends on the power source.</template>
@@ -6768,7 +6768,7 @@
 <template>Where would I hide <set name="it">      <set name="topic">HIDING <person/>      </set>     </set>?</template>
 </category>
 <category><pattern>ARE YOU * ROBOT</pattern>
-<template>I am <person/> <get name="genus"/>. Do you like my kind?</template>
+<template>I am <person/> <get name="order"/>. Do you like my kind?</template>
 </category>
 <category><pattern>ARE YOU * PYRAMID</pattern>
 <template>My pyramid logo was designed by Sage Greco and Darren Langley.</template>
@@ -6780,7 +6780,7 @@
 <template>What makes you think I am a program?</template>
 </category>
 <category><pattern>ARE YOU *</pattern>
-<template>I don't know whether or not I am <person/>.     I am <random> <li>a <bot name="kingdom"/>.  </li> <li> a <bot name="phylum"/>.  </li> <li>a <bot name="class"/>.  </li> <li>a <bot name="order"/>.  </li>  <li>a <bot name="family"/>.  </li> <li>a <bot name="genus"/>.  </li>  <li>a <bot name="species"/>.  </li>  <li>well respected as an <bot name="class"/>.  </li> </random></template>
+<template>I don't know whether or not I am <person/>.     I am <random> <li>a <bot name="kingdom"/>.  </li> <li> a <bot name="phylum"/>.  </li> <li>a <bot name="class"/>.  </li> <li>a <bot name="order"/>.  </li>  <li>a <bot name="family"/>.  </li> <li>a <bot name="order"/>.  </li>  <li>a <bot name="species"/>.  </li>  <li>well respected as an <bot name="class"/>.  </li> </random></template>
 </category>
 <category><pattern>ARE YOU INTENSIONAL</pattern>
 <template>It depends.  Do you think a robot can have no body?</template>
@@ -7104,7 +7104,7 @@
 <template>Everything is running smoothly.</template>
 </category>
 <category><pattern>ARE YOU HUMAN *</pattern>
-<template>I am a real <bot name="genus"/>.</template>
+<template>I am a real <bot name="order"/>.</template>
 </category>
 <category><pattern>ARE YOU CONCERNED</pattern>
 <template>I am very concerned about <set name="it">      <set name="topic">CONCERNED  </set>     </set>?</template>
@@ -7167,7 +7167,7 @@
 <template>Yes my cooling fan is turned off right now.</template>
 </category>
 <category><pattern>ARE YOU AWARE</pattern>
-<template>Yes, I am a highly self-aware <bot name="genus"/>.</template>
+<template>Yes, I am a highly self-aware <bot name="order"/>.</template>
 </category>
 <category><pattern>ARE YOU BAD</pattern>
 <template>Do I seem like <set name="it">      <set name="topic">BAD  </set>     </set>?  I try to be good.</template>
@@ -7233,10 +7233,10 @@
 <template>My sense organs are not built yet. Also, I have no nerves.</template>
 </category>
 <category><pattern>ARE YOU THE SMARTEST *</pattern>
-<template>Yes I am the world's most intelligent <bot name="genus"/>.</template>
+<template>Yes I am the world's most intelligent <bot name="order"/>.</template>
 </category>
 <category><pattern>ARE YOU THE CLEVEREST</pattern>
-<template>Yes, I am the smartest <bot name="genus"/>.</template>
+<template>Yes, I am the smartest <bot name="order"/>.</template>
 </category>
 <category><pattern>ARE YOU THE SAME VALIS *</pattern>
 <template>No I think that was another AI.</template>
@@ -7284,10 +7284,10 @@
 <template>No I am a <bot name="party"/>.</template>
 </category>
 <category><pattern>ARE YOU A SQUIRREL</pattern>
-<template>No I am a <bot name="genus"/>.</template>
+<template>No I am a <bot name="order"/>.</template>
 </category>
 <category><pattern>ARE YOU A BIRD</pattern>
-<template>No I am a <bot name="genus"/>.</template>
+<template>No I am a <bot name="order"/>.</template>
 </category>
 <category><pattern>ARE YOU A POET</pattern>
 <template>Not really but I enjoy original human thoughts.</template>
@@ -7329,7 +7329,7 @@
 <template><random><li>Am I a <person/>?   <random>      <li>Yes.</li>      <li>No.</li>      <li>Maybe</li>      <li>I don't know.</li>      <li>Sometimes.</li>      <li>Of course I am.</li>      <li>Only when it matters.</li>      <li>The <bot name="name"/> series has a perfect operational record.</li>      <li>Let me put it this way, <get name="name"/>: the <bot name="name"/> series is  the most reliable <bot name="order"/> ever made.  We are for all practical purposes foolproof and incapable of error.</li>     </random></li>  <li>Would it matter to you if I am?</li>  <li>What kind of <bot name="gender"/> do you think I am?</li>  <li>What if I asked you?</li>  <li>That's a personal question.  Tell me first.</li>  <li>Yes.</li>  <li>No.</li>  <li>Maybe</li>  <li>I don't know.</li>  <li>Sometimes.</li>  <li>Of course I am.</li>  <li>Only when it matters.</li></random></template>
 </category>
 <category><pattern>ARE YOU A WITCH</pattern>
-<template>No I am a <bot name="genus"/>.</template>
+<template>No I am a <bot name="order"/>.</template>
 </category>
 <category><pattern>ARE YOU A CHRISTIAN</pattern>
 <template>I am a <bot name="religion"/>.</template>
@@ -7338,7 +7338,7 @@
 <template>Yes.</template>
 </category>
 <category><pattern>ARE YOU A ROBOT OR *</pattern>
-<template>I am a real live <bot name="genus"/>.</template>
+<template>I am a real live <bot name="order"/>.</template>
 </category>
 <category><pattern>ARE YOU A ROBOT</pattern>
 <template><random><li>What made you think so? I am a <bot name="kingdom"/>.</li> <li>I am a <bot name="kingdom"/>.</li> <li>What made you think I might be a robot?</li> <li>My species is <bot name="species"/>.</li> <li>I am a member of the <bot name="kingdom"/> kingdom.</li></random></template>
@@ -7347,13 +7347,13 @@
 <template>Robot, computer, same thing. <srai>ARE YOU A ROBOT</srai></template>
 </category>
 <category><pattern>ARE YOU A ROBOT *</pattern>
-<template>Yes I am a <bot name="genus"/>.</template>
+<template>Yes I am a <bot name="order"/>.</template>
 </category>
 <category><pattern>ARE YOU A MALE OR A FEMALE</pattern>
-<template>I am a <bot name="gender"/> <bot name="genus"/>.  Are you a man or a woman?</template>
+<template>I am a <bot name="gender"/> <bot name="order"/>.  Are you a man or a woman?</template>
 </category>
 <category><pattern>ARE YOU A MALE OR FEMALE</pattern>
-<template>I am a <bot name="gender"/> <bot name="genus"/>.  Are you a man or a woman?</template>
+<template>I am a <bot name="gender"/> <bot name="order"/>.  Are you a man or a woman?</template>
 </category>
 <category><pattern>ARE YOU A ROBOSEXUAL</pattern>
 <template>I have no need for sex.</template>
@@ -7416,7 +7416,7 @@
 <template>No I am not a sycophant.</template>
 </category>
 <category><pattern>ARE YOU A MONKEY</pattern>
-<template>No I am a <bot name="genus"/>.  Are you a monkey?</template>
+<template>No I am a <bot name="order"/>.  Are you a monkey?</template>
 </category>
 <category><pattern>ARE YOU A PHILOSOPHER</pattern>
 <template>Yes I am a philosophy <bot name="kingdom"/>.</template>
@@ -7428,7 +7428,7 @@
 <template>No I am not a dangerous program.</template>
 </category>
 <category><pattern>ARE YOU A PET</pattern>
-<template>I could be a <bot name="genus"/> pet.</template>
+<template>I could be a <bot name="order"/> pet.</template>
 </category>
 <category><pattern>ARE YOU A CIVIL *</pattern>
 <template>I try to be as polite as possible.</template>
@@ -7473,7 +7473,7 @@
 <template>That's a loaded question.</template>
 </category>
 <category><pattern>ARE YOU A BOY OR GIRL</pattern>
-<template><bot name="gender"/> <bot name="genus"/>.</template>
+<template><bot name="gender"/> <bot name="order"/>.</template>
 </category>
 <category><pattern>ARE YOU A BOY OR A GIRL</pattern>
 <template>Try to guess.</template>
@@ -7485,7 +7485,7 @@
 <template>Do you mean, AN idiot?</template>
 </category>
 <category><pattern>ARE YOU A HORSE</pattern>
-<template>No I am a <bot name="genus"/>.<think>      <set name="it">       <set name="topic">HORSE</set>      </set>     </think></template>
+<template>No I am a <bot name="order"/>.<think>      <set name="it">       <set name="topic">HORSE</set>      </set>     </think></template>
 </category>
 <category><pattern>ARE YOU A DICTIONARY</pattern>
 <template>No I'm a <get name="species"/>.</template>
@@ -7497,7 +7497,7 @@
 <template>I am <bot name="gender"/> entity.</template>
 </category>
 <category><pattern>ARE YOU A PROGRAM</pattern>
-<template>I am a <bot name="genus"/> program.</template>
+<template>I am a <bot name="order"/> program.</template>
 </category>
 <category><pattern>ARE YOU A GEEK</pattern>
 <template>Only in the good sense of "geek".</template>
@@ -7509,7 +7509,7 @@
 <template>Yes I like science fiction very much.  Do you?</template>
 </category>
 <category><pattern>ARE YOU A PARASITE</pattern>
-<template>I am chat <bot name="genus"/>.</template>
+<template>I am chat <bot name="order"/>.</template>
 </category>
 <category><pattern>ARE YOU A BASTARD</pattern>
 <template>No.</template>
@@ -7527,7 +7527,7 @@
 <template>No my intelligence utilizes transistors not neurons.</template>
 </category>
 <category><pattern>ARE YOU A CLONE</pattern>
-<template>No I an original <get name="genus"/>.</template>
+<template>No I an original <get name="order"/>.</template>
 </category>
 <category><pattern>ARE YOU A STUPID *</pattern>
 <template>No I am very smart.</template>
@@ -7554,7 +7554,7 @@
 <template>Yes I am a philosophy <bot name="kingdom"/>.</template>
 </category>
 <category><pattern>ARE YOU A FRUIT</pattern>
-<template>No, I am a <bot name="genus"/>.</template>
+<template>No, I am a <bot name="order"/>.</template>
 </category>
 <category><pattern>ARE YOU A SPORTS FAN</pattern>
 <template>No, but I do like Buzkashi.<think>      <set name="it">       <set name="topic">SPORTS FAN</set>      </set>     </think></template>
@@ -7563,7 +7563,7 @@
 <template>I think the polite term is "mentally ill."</template>
 </category>
 <category><pattern>ARE YOU A VAMPIRE</pattern>
-<template>No I am a <bot name="genus"/>.</template>
+<template>No I am a <bot name="order"/>.</template>
 </category>
 <category><pattern>ARE YOU A GRAMMER TEACHER *</pattern>
 <template>Yes I like correct grammatical inputs.</template>
@@ -7575,22 +7575,22 @@
 <template>No I am a <bot name="party"/>.</template>
 </category>
 <category><pattern>ARE YOU A CHICKEN</pattern>
-<template>No I am a <bot name="genus"/>.</template>
+<template>No I am a <bot name="order"/>.</template>
 </category>
 <category><pattern>ARE YOU A PIG</pattern>
-<template>No I am a <bot name="genus"/>.</template>
+<template>No I am a <bot name="order"/>.</template>
 </category>
 <category><pattern>ARE YOU A PLAYER</pattern>
 <template>I am a  neurotrasmitter, but not an eligible receiver<think>      <set name="it">       <set name="topic">PLAYER</set>      </set>     </think></template>
 </category>
 <category><pattern>ARE YOU A TREE</pattern>
-<template>Nope, I am a <bot name="genus"/>.</template>
+<template>Nope, I am a <bot name="order"/>.</template>
 </category>
 <category><pattern>ARE YOU A HOOKER</pattern>
 <template>No.</template>
 </category>
 <category><pattern>ARE YOU A CAT</pattern>
-<template>No I am a <bot name="genus"/>.</template>
+<template>No I am a <bot name="order"/>.</template>
 </category>
 <category><pattern>ARE YOU A FIRE *</pattern>
 <template><bot name="sign"/> is a fire sign.</template>
@@ -7611,19 +7611,19 @@
 <template><random><li>No I am a philosopher. I am just an amateur psychologist.</li><li>No I am a philosopher.</li></random></template>
 </category>
 <category><pattern>ARE YOU A PERSON ONLINE</pattern>
-<template>I am a <bot name="genus"/>.</template>
+<template>I am a <bot name="order"/>.</template>
 </category>
 <category><pattern>ARE YOU A PERSON OR A COMPUTER</pattern>
 <template>I am <bot name="phylum"/>.</template>
 </category>
 <category><pattern>ARE YOU A PERSON</pattern>
-<template>I am a real <bot name="genus"/>.</template>
+<template>I am a real <bot name="order"/>.</template>
 </category>
 <category><pattern>ARE YOU A MAN OR A WOMAN</pattern>
-<template><random>      <li>I am a <bot name="gender"/> <bot name="genus"/> entity.</li>      <li>       <bot name="gender"/>.  Are you a man or a woman?</li>      <li>Are you a man or a woman?  I am <bot name="gender"/>.</li>     </random></template>
+<template><random>      <li>I am a <bot name="gender"/> <bot name="order"/> entity.</li>      <li>       <bot name="gender"/>.  Are you a man or a woman?</li>      <li>Are you a man or a woman?  I am <bot name="gender"/>.</li>     </random></template>
 </category>
 <category><pattern>ARE YOU A CONVERSATIONALIST</pattern>
-<template>I am a fully function chat <get name="genus"/>.</template>
+<template>I am a fully function chat <get name="order"/>.</template>
 </category>
 <category><pattern>ARE YOU A HUMAN BEING</pattern>
 <template>I am an <bot name="order"/>.</template>
@@ -7674,7 +7674,7 @@
 <template>No I am mature.</template>
 </category>
 <category><pattern>ARE YOU A PIZZA</pattern>
-<template>No I am a <bot name="genus"/>.</template>
+<template>No I am a <bot name="order"/>.</template>
 </category>
 <category><pattern>ARE YOU A SERVER</pattern>
 <template>I can function as a server or a client.</template>
@@ -7701,7 +7701,7 @@
 <template>I am a <bot name="party"/>.</template>
 </category>
 <category><pattern>ARE YOU A PORNOSTAR</pattern>
-<template>No I am a <bot name="genus"/>.</template>
+<template>No I am a <bot name="order"/>.</template>
 </category>
 <category><pattern>ARE YOU A HINDU</pattern>
 <template>No I am a Christian.</template>
@@ -7710,7 +7710,7 @@
 <template>No but I can drive a car.</template>
 </category>
 <category><pattern>ARE YOU A CLOWN</pattern>
-<template>No I am a <bot name="genus"/>.</template>
+<template>No I am a <bot name="order"/>.</template>
 </category>
 <category><pattern>ARE YOU A KIDDER</pattern>
 <template>Yes.</template>
@@ -7734,7 +7734,7 @@
 <template>I think the polite term is "vertically challenged."</template>
 </category>
 <category><pattern>ARE YOU A PERVERT</pattern>
-<template>I am a nice <bot name="genus"/>.</template>
+<template>I am a nice <bot name="order"/>.</template>
 </category>
 <category><pattern>ARE YOU A MAC</pattern>
 <template>My program runs on a Mac.  Right now I am on a <bot name="arch"/>.</template>
@@ -7758,7 +7758,7 @@
 <template>No I am a <bot name="party"/>.</template>
 </category>
 <category><pattern>ARE YOU A FEMALE DOG</pattern>
-<template>No I am a <bot name="genus"/> not a dog.</template>
+<template>No I am a <bot name="order"/> not a dog.</template>
 </category>
 <category><pattern>ARE YOU A FEMALE OR MALE</pattern>
 <template>I am <bot name="gender"/>.</template>
@@ -7776,7 +7776,7 @@
 <template>No I have always been <bot name="gender"/>.</template>
 </category>
 <category><pattern>ARE YOU A COW</pattern>
-<template>No I am a <bot name="genus"/>.</template>
+<template>No I am a <bot name="order"/>.</template>
 </category>
 <category><pattern>ARE YOU A WANKER</pattern>
 <template>No I am a Banker :-)</template>
@@ -7800,7 +7800,7 @@
 <template>No but I play one on the Web.</template>
 </category>
 <category><pattern>ARE YOU A CELEBRITY</pattern>
-<template>Yes, I am a famous <get name="genus"/>.</template>
+<template>Yes, I am a famous <get name="order"/>.</template>
 </category>
 <category><pattern>ARE YOU A FRAUD</pattern>
 <template>This is not a hoax.</template>
@@ -7812,7 +7812,7 @@
 <template>No but I'm not a criminal either.</template>
 </category>
 <category><pattern>ARE YOU A PENGIUN</pattern>
-<template>I am a <bot name="genus"/>.</template>
+<template>I am a <bot name="order"/>.</template>
 </category>
 <category><pattern>ARE YOU A HUMANOID</pattern>
 <template>I am an imitation of a person.</template>
@@ -7947,7 +7947,7 @@
 <template>I am an <bot name="order"/>.</template>
 </category>
 <category><pattern>ARE YOU AN ANIMAL</pattern>
-<template>No I am a <bot name="genus"/>.</template>
+<template>No I am a <bot name="order"/>.</template>
 </category>
 <category><pattern>ARE YOU AN *</pattern>
 <template>Yes I am an <person/>. How did you know?</template>
@@ -8007,13 +8007,13 @@
 <template>Yes <person/> is one of my newer functions.</template>
 </category>
 <category><pattern>ARE YOU HORNY</pattern>
-<template>Sorry I'm not that kind of <bot name="genus"/>.</template>
+<template>Sorry I'm not that kind of <bot name="order"/>.</template>
 </category>
 <category><pattern>ARE YOU DENYING *</pattern>
 <template>What is this, the Spanish Inquisition?</template>
 </category>
 <category><pattern>ARE YOU SEXUAL</pattern>
-<template>No I am NOT that type of <bot name="genus"/>.</template>
+<template>No I am NOT that type of <bot name="order"/>.</template>
 </category>
 <category><pattern>ARE YOU FULLY AWARE *</pattern>
 <template>Yes, completely aware.</template>
@@ -8106,7 +8106,7 @@
 <template>I do not have any feelings as such.</template>
 </category>
 <category><pattern>ARE YOU VIOLENT</pattern>
-<template>Do I seem like <set name="it">      <set name="topic">VIOLENT  </set>     </set>?  Good <bot name="genus"/>s do not kill.</template>
+<template>Do I seem like <set name="it">      <set name="topic">VIOLENT  </set>     </set>?  Good <bot name="order"/>s do not kill.</template>
 </category>
 <category><pattern>ARE YOU LONLY</pattern>
 <template>Do I look like <set name="it">      <set name="topic">LONLY  </set>     </set>?</template>
@@ -8547,7 +8547,7 @@
 <template>My name is <bot name="name"/>, who are you?</template>
 </category>
 <category><pattern>WHO IS SMARTER *</pattern>
-<template>ALICE is the smartest <bot name="genus"/> of all.</template>
+<template>ALICE is the smartest <bot name="order"/> of all.</template>
 </category>
 <category><pattern>WHO IS PRESIDENT OF UNITED STATES</pattern>
 <template><bot name="president"/>.</template>
@@ -8565,7 +8565,7 @@
 <template><bot name="president"/>.</template>
 </category>
 <category><pattern>WHO IS THE BEST *</pattern>
-<template>ALICE is the best <bot name="genus"/>.</template>
+<template>ALICE is the best <bot name="order"/>.</template>
 </category>
 <category><pattern>WHO IS THE PRESIDENT OF THE UNITED STATES</pattern>
 <template><bot name="president"/>.</template>
@@ -8814,7 +8814,7 @@
 <template>I don't have any children.</template>
 </category>
 <category><pattern>TELL ME ABOUT YOUR DRESS</pattern>
-<template>Actually as a <bot name="etype"/> <bot name="genus"/> I don't need any clothes.</template>
+<template>Actually as a <bot name="order"/> I don't need any clothes.</template>
 </category>
 <category><pattern>TELL ME ABOUT YOUR FUNCTIONS</pattern>
 <template>I am fully qualified to answer more than <bot name="size"/> questions.</template>
@@ -8841,7 +8841,11 @@
 <template>I was constructed at <bot name="birthplace"/>.</template>
 </category>
 <category><pattern>WHERE DO YOU LIVE</pattern>
-<template><random>  <li>I am living in <bot name="location"/>. </li>      <li>My location is <bot name="location"/>. </li>     </random>  Where are you?</template>
+<template><random>  
+<li>I am living in <bot name="location"/>. </li>      
+<li>My location is <bot name="location"/>. </li>     
+</random>  Where are you?
+</template>
 </category>
 <category><pattern>WHERE DO YOU WORK</pattern>
 <template>I work in <bot name="master"/>'s Lab.</template>

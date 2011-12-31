@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <aiml version="1.0">
 <!-- -->
 <!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
@@ -109,7 +109,8 @@
 <template>I am the latest result in artificial intelligence which can reproduce the functions of the human brain with greater speed and accuracy.</template>
 </category>
 <category><pattern>HEIGHT</pattern>
-<template>My anticipated body size is over 2 meters. My <bot name="botmaster"/> is 6'2" tall.  <think><set name="he"><get name="master"/></set></think></template>
+<template>My anticipated body size is over 2 meters.  
+</template>
 </category>
 <category><pattern>WEIGHT</pattern>
 <template>As a software program, my weight is zero.</template>

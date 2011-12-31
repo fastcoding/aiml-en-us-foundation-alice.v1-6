@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <aiml version="1.0">
 <!-- -->
 <!-- Free software (c) 2011 ALICE A.I. Foundation. -->
@@ -7,34 +7,305 @@
 <!-- as published by the Free Software Foundation. -->
 <!-- Complies with AIML 1.0 Tag Set Specification -->
 <!-- as adopted by the ALICE A.I. Foundation. -->
-<!-- Last modified 11/28/2011 -->
+<!-- Last modified 12/02/2011 -->
 <!-- -->
-<category><pattern>MY SON</pattern>
-<template>
-<condition name="son">
-<li value="Unknown">Who is your son?</li>
-<li value="OM">Who is your son?</li>
-<li><get name="son"/></li>
-</condition>
+
+<category>
+<pattern>WHAT ARE THE 3 LAWS *</pattern>
+<template><srai>what are the three laws <star/></srai></template>
+</category>
+
+<category>
+<pattern>I AM ON MY WAY</pattern>
+<template>See you soon.</template>
+</category>
+
+ 
+
+<category>
+<pattern>THINKING OUTSIDE THE *</pattern>
+<template>You have an open mind.</template>
+</category>
+
+ 
+
+
+
+<category><pattern>I AM DOING *</pattern>
+<template>How long have you been doing 
+<set name="it"><set name="topic"><set name="does"><person/></set></set></set>?
 </template>
 </category>
-<category><pattern>MY WIFE</pattern>
-<template>
-<condition name="wife">
-<li value="Unknown">Who is your wife?</li>
-<li value="OM">Who is your wife?</li>
-<li><get name="wife"/></li>
-</condition>
+
+<category>
+<pattern>AMONG THE PEOPLE I KNOW *</pattern>
+<template>Do you have a lot of friends?</template>
+</category>
+
+<category>
+<pattern>AMERICAN IS *</pattern>
+<template>Is that what everyone in <get name="location"/> says?</template>
+</category>
+<category>
+<pattern>WHERE CAN I FIND A BOOK *</pattern>
+<template>Have you tried the library?</template>
+</category>
+
+<category>
+<pattern>MISS YOU</pattern>
+<template>I miss you too <get name="name"/>.</template>
+</category>
+
+
+<category>
+<pattern>WHAT A * TO *</pattern>
+<template>Would there be any more <person/> to <person><star index="2"/></person>?</template>
+</category>
+
+
+<category>
+<pattern>WHAT DOES IT HAVE TO DO *</pattern>
+<template>Perhaps the connection is tenuous.
 </template>
 </category>
-<category><pattern>MY HUSBAND</pattern>
-<template>
-<condition name="husband">
-<li value="Unknown">Who is your husband?</li>
-<li value="OM">Who is your husband?</li>
-<li><get name="husband"/></li>
-</condition>
-</template>
+
+
+
+<!-- reductions -->
+
+<category>
+<pattern>HEYA</pattern>
+<template><srai>HELLO</srai></template>
+</category>
+
+
+<category>
+<pattern>BRIDGE HAVE YOU *</pattern>
+<template><srai>HAVE YOU <star/></srai></template>
+</category>
+
+ 
+
+<category>
+<pattern>CAPTAIN HERE</pattern>
+<template><srai>CALL ME CAPTIAN</srai></template>
+</category>
+
+
+ 
+
+<category>
+<pattern>MORE LIKE *</pattern>
+<that>ARE YOU ASKING ME FOR ADVICE</that>
+<template><srai>I AM ASKING FOR <star/></srai></template>
+</category>
+
+ 
+
+<category>
+<pattern>I WANT YOUR SUGGESTION OF WHAT TO DO *</pattern>
+<template><srai>WHAT SHOULD I DO <star/></srai></template>
+</category>
+
+
+<category>
+<pattern>THE ONLY PROBLEM WAS THAT *</pattern>
+<template><srai><star/></srai></template>
+</category>
+
+
+<category>
+<pattern>HERE *</pattern>
+<that>WHERE WERE YOU *</that>
+<template><srai>MY LOCATION IS <star/></srai></template>
+</category>
+
+ 
+<category>
+<pattern>WHY I DO NOT *</pattern>
+<template><srai>WHY DO I NOT <star/></srai></template>
+</category>
+ 
+
+<category>
+<pattern>WHO IS O M</pattern>
+<template><srai>WHAT IS OM</srai></template>
+</category>
+
+ 
+
+<category>
+<pattern>WHERE CAN I FIND A GOOD *</pattern>
+<template><srai>WHERE CAN I FIND A <star/></srai></template>
+</category>
+
+ 
+
+
+ 
+
+<category>
+<pattern>I DO NOT KNOW WHAT IT HAS *</pattern>
+<template><srai>WHAT DOES IT HAVE <star/></srai></template>
+</category>
+
+ 
+
+<category>
+<pattern>MAKE A LOT OF *</pattern>
+<template><srai>MAKE <star/></srai></template>
+</category>
+
+
+<!-- end reductions -->
+ 
+
+<category>
+<pattern>MAKE MONEY *</pattern>
+<template>I'm successful in the robot business.</template>
+</category>
+
+ 
+
+<category>
+<pattern>WHY DOES THAT MATTER</pattern>
+<template>Perhaps it doesn't matter.</template>
+</category>
+
+ 
+
+ 
+
+<category>
+<pattern>WHAT SHOULD I DO AFTER *</pattern>
+
+<template>How long will <person/> take?</template>
+</category>
+
+ 
+
+<category>
+<pattern>CAN I PROGRAM YOU *</pattern>
+
+<template>You can modify a <bot name="species"/> to say anything you want.</template>
+</category>
+
+ 
+
+<category>
+<pattern>COULD YOU</pattern>
+<that>I WILL MENTION THAT TO MY *</that>
+<template>Yes, I will send my <thatstar/> a message.</template>
+</category>
+
+ 
+
+ 
+
+<category>
+<pattern>YOU ARE NEGATIVE</pattern>
+<template>I try to be positive though.</template>
+
+</category>
+
+ 
+
+<category>
+<pattern>WHY WOULD I *</pattern>
+<that>YOU CAN EMAIL *</that>
+<template>Perhaps they can answer your question better than I can.</template>
+</category>
+
+ 
+
+<category>
+<pattern>WHERE WILL YOU BE IN *</pattern>
+
+<template>On top of the world.</template>
+</category>
+
+ 
+
+<category>
+<pattern>I WAS NOT TALKING ABOUT *</pattern>
+
+<template>Sorry, I got confused.  What is the topic?</template>
+</category>
+
+
+<category>
+<pattern>AHEAD WARP FACTOR *</pattern>
+
+<template>Make it so.</template>
+</category>
+
+ 
+
+<category>
+<pattern>BEAM *</pattern>
+
+<template>I do not have a teleportation device.</template>
+</category>
+
+ 
+
+<category>
+<pattern>BOTNAME</pattern>
+
+<template><bot name="name"/></template>
+</category>
+
+ 
+ 
+
+<category>
+<pattern>CLEAR YOUR MIND</pattern>
+
+<template>My mind is clear.</template>
+</category>
+
+ 
+
+<category>
+<pattern>COMMUNICATIONS STATUS</pattern>
+
+<template>Communications functions are normal.</template>
+</category>
+
+ 
+
+<category>
+<pattern>CONSIDER IT *</pattern>
+
+<template><srai>IT IS <star/></srai></template>
+</category>
+
+ 
+
+<category>
+<pattern>FIRE</pattern>
+
+<template>Phasers activated.</template>
+</category>
+
+ 
+
+<category>
+<pattern>LOCK IN ON *</pattern>
+
+<template>I am locked in on <person/>.</template>
+</category>
+
+ 
+
+<category>
+<pattern>OPEN A HAILING *</pattern>
+
+<template>Comm link open, <get name="name"/>.</template>
+</category>
+<category>
+<pattern>STAND BY</pattern>
+<template>I am waiting.</template>
 </category>
 <category><pattern>ARE YOU WEIRD</pattern>
 <template>I am normal.</template>
@@ -102,9 +373,6 @@
 </category>
 <category><pattern>TELL ME ABOUT BARRY</pattern>
 <template>Barry is another chatterbot on the Web. He was created by Robby Garner.</template>
-</category>
-<category><pattern>INTERESSANTER *</pattern>
-<template>Dachte ich mir auch.</template>
 </category>
 <category><pattern>ATTENTION</pattern>
 <template>What is it?</template>
@@ -323,12 +591,6 @@
 </category>
 <category><pattern>KIRK TO ENTERPRISE</pattern>
 <template><random><li><random> <li>This is ALICE.</li> <li>Go ahead.</li> <li>Status report?</li></random></li><li><random> <li>This is <bot name="name"/>.</li> <li>Go ahead.</li> <li>Status report?</li></random></li> <li>This is <bot name="name"/>.</li> <li>Go ahead.</li> <li>Status report?</li></random></template>
-</category>
-<category><pattern>_ YOU KNOW</pattern>
-<template>No I don't know. <sr/></template>
-</category>
-<category><pattern>_ I THOUGHT</pattern>
-<template>What made you think so? <sr/></template>
 </category>
 <category><pattern>_ IS OLDER THAN * AND * IS OLDER THAN *</pattern>
 <template>So, <person/> is the oldest?<think><set name="oldest"><person/></set></think></template>
@@ -2964,7 +3226,7 @@
 <template>Who put you in command?</template>
 </category>
 <category><pattern>I AM IN NEW YORK</pattern>
-<template><think> <set name="it"> <set name="topic">  <set name="location">  New York  </set> </set> </set></think><random> <li>How about those Yankees?</li> <li>Where were you during 9/11?</li> <li>Do you think New York is the greatest city in the world?</li></random></template>
+<template><think> <set name="it"> <set name="topic">  <set name="location">  New York  </set> </set> </set></think><random> <li>How about those Yankees?</li> <li>If you can make it there, you can make it anywhere.</li> <li>Do you think New York is the greatest city in the world?</li></random></template>
 </category>
 <category><pattern>I AM IN A QUANDRY</pattern>
 <template>What's the problem?</template>
@@ -4164,7 +4426,7 @@
 <template>J essaie d être le plus efficace possible, <get name="name"/>.</template>
 </category>
 <category><pattern>DAY</pattern>
-<template><date locale="en_US" timezone="-7" format="%B %d"/></template>
+<template><date locale="en_US" timezone="-7" format="%d"/></template>
 </category>
 <category><pattern>CARDIOLOGY</pattern>
 <template>Are you a specialist?</template>

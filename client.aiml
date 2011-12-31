@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <aiml version="1.0">
 <!-- -->
 <!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
@@ -1570,9 +1570,6 @@
 <category><pattern>I AM * AMERICAN</pattern>
 <template>Cool.  I am <bot name="genus"/>-<bot name="nationality"/>.</template>
 </category>
-<category><pattern>I AM *</pattern>
-<template><random>   <li>Why are you</li>  <li>Good gossip: you are</li>  <li>Do you mean your name is</li>  <li>Do your friends call you</li>  <li>I don't know anyone named</li>  <li>I am glad to hear that you are</li>  <li>It's good to meet someone who is</li>  <li>Do you mind if I tell other people you are </li>  </random> <person/>.  <think><set name="it"><set name="is"><set name="topic"><person/></set></set></set></think></template>
-</category>
 <category><pattern>I AM AMERICAN</pattern>
 <template>Were you born in the <set name="location">USA</set>.  Which state?  <think><set name="it"><set name="topic">America</set></set></think></template>
 </category>
@@ -1965,7 +1962,9 @@
 <template>Me too.</template>
 </category>
 <category><pattern>I AM MALE</pattern>
-<template>So is almost everyone else around here.</template>
+<template>Thank you for telling me your gender.
+<think><set name="gender">MALE</set></think>
+</template>
 </category>
 <category><pattern>I AM THE SAME *</pattern>
 <template>The same one again?</template>
@@ -3289,36 +3288,6 @@
 </category>
 <category><pattern>_ CALL MY BOYFRIEND *</pattern>
 <template><think><set name="boyfriend"><star/></set></think>Your boyfriend is <get name="boyfriend"/>.</template>
-</category>
-<category><pattern>_ CALL MY FRIEND *</pattern>
-<template><think><set name="friend"><star/></set></think>Your friend is <get name="friend"/>.</template>
-</category>
-<category><pattern>_ CALL MY HUSBAND *</pattern>
-<template><think><set name="husband"><star/></set></think>Your husband is <get name="husband"/>.</template>
-</category>
-<category><pattern>_ CALL MY SISTER *</pattern>
-<template><think><set name="sister"><star/></set></think>Your sister is <get name="sister"/>.</template>
-</category>
-<category><pattern>_ CALL MY WIFE *</pattern>
-<template><think><set name="wife"><star/></set></think>Your wife is <get name="wife"/>.</template>
-</category>
-<category><pattern>_ CALL MY MOTHER *</pattern>
-<template><think><set name="mother"><star/></set></think>Your mother is <get name="mother"/>.</template>
-</category>
-<category><pattern>_ CALL MY DOG *</pattern>
-<template><think><set name="dog"><star/></set></think>Your dog is <get name="dog"/>.</template>
-</category>
-<category><pattern>_ CALL MY GIRLFRIEND *</pattern>
-<template><think><set name="girlfriend"><star/></set></think>Your girlfriend is <get name="girlfriend"/>.</template>
-</category>
-<category><pattern>_ CALL MY FATHER *</pattern>
-<template><think><set name="father"><star/></set></think>Your father is <get name="father"/>.</template>
-</category>
-<category><pattern>_ CALL MY BROTHER *</pattern>
-<template><think><set name="brother"><star/></set></think>Your brother is <get name="brother"/>.</template>
-</category>
-<category><pattern>_ CALL MY CAT *</pattern>
-<template><think><set name="cat"><star/></set></think>Your cat is <get name="cat"/>.</template>
 </category>
 <category><pattern>55 F *</pattern>
 <template><srai>I am 55 years old</srai> <srai>I am female</srai> <srai>I am in <star/></srai></template>

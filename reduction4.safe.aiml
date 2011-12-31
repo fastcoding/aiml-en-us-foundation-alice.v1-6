@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <aiml version="1.0">
 <!-- -->
 <!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
@@ -7,7 +7,7 @@
 <!-- as published by the Free Software Foundation.   -->
 <!-- Complies with AIML 1.0 Tag Set Specification -->
 <!-- as adopted by the ALICE A.I. Foundation.  -->
-<!-- Last modified 11/27/2011 -->
+<!-- Last modified 12/17/2011 -->
 <!-- -->
 <category><pattern>THERE IS * TURING TEST</pattern>
 <template><srai>DID YOU WIN THE TURING TEST</srai></template>
@@ -7017,12 +7017,6 @@
 </category>
 
  
-
-<category>
-<pattern>TELL MY WIFE *</pattern>
-<template><srai>TELL WIFE <star/></srai></template>
-</category>
-
 
 <category>
 <pattern>WHEN WILL IT SNOW</pattern>
